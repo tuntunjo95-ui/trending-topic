@@ -1,0 +1,375 @@
+const ui = {
+  zh: {
+    appTitle: "各国热点话题日报",
+    copySummary: "复制分享摘要",
+    rawReport: "查看原始报告",
+    reportDate: "报告日期",
+    countryFilter: "国家筛选",
+    methodTitle: "今日口径",
+    methodText: "每国读取前 30 条 X 趋势，过滤泛词和低转化词，保留更可能在 TikTok/Threads 有内容响应的选题，并标记政治、灾害、争议等风险。",
+    heroTitle: "六国热点选题池",
+    heroText: "覆盖印尼、泰国、菲律宾、沙特、土耳其、越南。泰国、菲律宾、印尼的娱乐和品牌活动转化潜力最高；土耳其风险话题密度较高；越南需要本地语言关键词补强。",
+    keptTopics: "保留选题",
+    riskWatch: "风险观察",
+    targetCountries: "目标国家",
+    all: "全部",
+    lowRisk: "低风险",
+    search: "搜索",
+    searchPlaceholder: "话题、国家、类型",
+    priorityTitle: "优先深挖",
+    riskPoolTitle: "风险观察池",
+    shareNoteTitle: "分享说明",
+    shareNote: "分享网页时，建议附上原始报告文件。TikTok/Threads 的逐条热门视频仍需要登录态确认。",
+    source: "来源",
+    topics: "个选题",
+    noMatches: "当前筛选下没有匹配选题。",
+    copied: "已复制摘要",
+    copyFailed: "复制失败，请手动选择摘要",
+    reportPage: "报告网页：index.html",
+    summaryTitle: "2026-05-13 六国热点话题日报",
+    summaryPriority: "优先深挖：泰国、菲律宾、印尼的娱乐/明星/剧集/品牌活动。",
+    summaryRisk: "风险观察：土耳其政治/司法/民族议题较多；菲律宾和印尼有政治公共议题；越南需补本地语言关键词。"
+  },
+  en: {
+    appTitle: "Global Trend Brief",
+    copySummary: "Copy Summary",
+    rawReport: "Raw Report",
+    reportDate: "Report Date",
+    countryFilter: "Country Filter",
+    methodTitle: "Method",
+    methodText: "The workflow scans the top 30 X trends for each country, removes broad or low-signal terms, keeps topics more likely to have TikTok/Threads responses, and flags political, disaster, or controversial risks.",
+    heroTitle: "Six-Country Topic Pool",
+    heroText: "Coverage includes Indonesia, Thailand, the Philippines, Saudi Arabia, Turkey, and Vietnam. Thailand, the Philippines, and Indonesia have the strongest entertainment and brand-event potential; Turkey has denser risk topics; Vietnam needs local-language keyword enrichment.",
+    keptTopics: "Kept Topics",
+    riskWatch: "Risk Watch",
+    targetCountries: "Countries",
+    all: "All",
+    lowRisk: "Low Risk",
+    search: "Search",
+    searchPlaceholder: "Topic, country, or category",
+    priorityTitle: "Priority Deep Dives",
+    riskPoolTitle: "Risk Watch Pool",
+    shareNoteTitle: "Sharing Note",
+    shareNote: "When sharing the page, include the raw report if needed. Individual TikTok/Threads hot videos still need confirmation in a logged-in session.",
+    source: "Source",
+    topics: "topics",
+    noMatches: "No matching topics under the current filters.",
+    copied: "Summary copied",
+    copyFailed: "Copy failed; please select the summary manually",
+    reportPage: "Report page: index.html",
+    summaryTitle: "2026-05-13 Six-Country Trend Brief",
+    summaryPriority: "Priority: entertainment, celebrity, drama, and brand-event topics in Thailand, the Philippines, and Indonesia.",
+    summaryRisk: "Risk watch: Turkey has more political, legal, and identity topics; the Philippines and Indonesia include public-political issues; Vietnam needs local-language enrichment."
+  }
+};
+
+const reports = [
+  {
+    date: "2026-05-13",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://getdaytrends.com/indonesia/", [
+        t("#WUTheSeriesEP2", "剧集/娱乐", "Drama / Entertainment", "低", "Low", "WUTheSeriesEP2"),
+        t("WHOLE DIFFERENT AESPA", "K-pop/粉丝内容", "K-pop / Fandom", "低", "Low", "WHOLE DIFFERENT AESPA"),
+        t("JJ COVER SONG", "音乐翻唱/短视频内容", "Music Covers / Short-Form Content", "低", "Low", "JJ COVER SONG"),
+        t("PERTHSANTA DEVIL KISS PT", "泰娱/明星粉丝向", "Thai Entertainment / Celebrity Fandom", "低", "Low", "PERTHSANTA DEVIL KISS PT"),
+        t("#XLBagiBagiBonus", "品牌活动/福利传播", "Brand Campaign / Giveaway", "低", "Low", "XLBagiBagiBonus"),
+        t("TNI Kita", "军方/国家机构相关", "Military / Public Institution", "政治/公共机构", "Political / Public Institution", "TNI Kita"),
+        t("Prabowo Jaga Energi Nasional", "总统/能源政策相关", "President / Energy Policy", "政治", "Political", "Prabowo Jaga Energi Nasional"),
+        t("AIDS", "医疗/公共健康", "Medical / Public Health", "医疗/敏感", "Medical / Sensitive", "AIDS")
+      ]),
+      country("th", "泰国", "Thailand", "https://getdaytrends.com/thailand/", [
+        t("#WUTheSeriesEP2", "剧集/娱乐", "Drama / Entertainment", "低", "Low", "WUTheSeriesEP2"),
+        t("LINGLING BORN TO BLOOM", "明星生日/粉丝应援", "Celebrity Birthday / Fandom", "低", "Low", "LINGLING BORN TO BLOOM"),
+        t("MAYBELLINE CANDY ENGFA", "美妆品牌/明星代言", "Beauty Brand / Celebrity Endorsement", "低", "Low", "MAYBELLINE CANDY ENGFA"),
+        t("ZEENUNEW AIMA SHOW", "明星/活动", "Celebrity / Event", "低", "Low", "ZEENUNEW AIMA SHOW"),
+        t("D-5 TAEYONG 1ST ALBUM", "K-pop/新专预热", "K-pop / Album Teaser", "低", "Low", "D-5 TAEYONG 1ST ALBUM"),
+        t("PERTHSANTA DEVIL KISS PT", "泰娱/剧集/CP 向", "Thai Entertainment / Drama CP", "低", "Low", "PERTHSANTA DEVIL KISS PT"),
+        t("FOURTH X KIJSADA PARADISE", "明星/品牌或活动联动", "Celebrity / Brand or Event Collaboration", "低", "Low", "FOURTH X KIJSADA PARADISE"),
+        t("SKYNANI GIVING AND SHARING", "明星/公益或粉丝活动", "Celebrity / Charity or Fan Event", "低", "Low", "SKYNANI GIVING AND SHARING"),
+        t("WHOLE DIFFERENT AESPA", "K-pop/粉丝内容", "K-pop / Fandom", "低", "Low", "WHOLE DIFFERENT AESPA"),
+        t("CHENGYI NEW GBA OF USMILE", "明星/品牌代言", "Celebrity / Brand Endorsement", "低", "Low", "CHENGYI NEW GBA OF USMILE")
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://getdaytrends.com/philippines/", [
+        t("LOLLA MO ALLIANZ SB19", "音乐节/男团 SB19", "Music Festival / SB19", "低", "Low", "LOLLA MO ALLIANZ SB19"),
+        t("HAPPY BIRTHDAY FYANG", "明星/网红生日", "Celebrity / Creator Birthday", "低", "Low", "HAPPY BIRTHDAY FYANG"),
+        t("#PauloAvelinoAtThirtyEight", "明星生日/粉丝向", "Celebrity Birthday / Fandom", "低", "Low", "PauloAvelinoAtThirtyEight"),
+        t("COKE and CHILL with ASHLEY", "品牌/明星活动", "Brand / Celebrity Event", "低", "Low", "COKE and CHILL with ASHLEY"),
+        t("DUSTIN YU AT TWENTYFIVE", "明星生日/粉丝活动", "Celebrity Birthday / Fan Event", "低", "Low", "DUSTIN YU AT TWENTYFIVE"),
+        t("JADEWARD LOVE ON THE EDGE", "剧集/CP/粉丝内容", "Drama / CP Fandom", "低", "Low", "JADEWARD LOVE ON THE EDGE"),
+        t("GINNY AT CHLOE PARFUMS STORE", "香水/品牌线下活动", "Fragrance / Offline Brand Event", "低", "Low", "GINNY AT CHLOE PARFUMS STORE"),
+        t("Senate", "政治机构", "Political Institution", "政治", "Political", "Senate Philippines"),
+        t("The Hague", "国际司法/政治新闻", "International Justice / Political News", "政治/争议", "Political / Controversial", "The Hague Philippines"),
+        t("Duterte", "政治人物", "Political Figure", "政治/争议", "Political / Controversial", "Duterte")
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://getdaytrends.com/saudi-arabia/", [
+        t("#AsianCup2027", "亚洲杯 2027/体育", "Asian Cup 2027 / Sports", "低", "Low", "AsianCup2027"),
+        t("المنتخب السعودي", "沙特国家队/体育", "Saudi National Team / Sports", "低", "Low", "المنتخب السعودي"),
+        t("#قهوه_المساء", "生活方式/晚间咖啡", "Lifestyle / Evening Coffee", "低", "Low", "قهوه المساء"),
+        t("عبد الصمد القرشي", "香水/品牌", "Fragrance / Brand", "低", "Low", "عبد الصمد القرشي"),
+        t("#قرعه_كاس_اسيا", "亚洲杯抽签/体育", "Asian Cup Draw / Sports", "低", "Low", "قرعه كاس اسيا"),
+        t("#برنامج_شاشتنا", "电视节目/娱乐", "TV Program / Entertainment", "低", "Low", "برنامج شاشتنا"),
+        t("كوريا الشماليه", "朝鲜相关", "North Korea-Related", "政治/国际议题", "Political / International Issue", "كوريا الشماليه")
+      ]),
+      country("tr", "土耳其", "Turkey", "https://getdaytrends.com/turkey/", [
+        t("Lucas Torreira", "足球运动员", "Football Player", "低", "Low", "Lucas Torreira"),
+        t("GSyeLİNELazım", "加拉塔萨雷足球相关", "Galatasaray Football-Related", "低", "Low", "GSyeLİNELazım"),
+        t("Şenol Güneş", "足球教练", "Football Coach", "低", "Low", "Şenol Güneş"),
+        t("KavinskyVeAttack", "音乐/艺人/演出相关", "Music / Artist / Show", "低", "Low", "KavinskyVeAttack"),
+        t("#200Lirayla", "物价/生活成本梗", "Cost-of-Living Meme", "经济/社会议题", "Economic / Social Issue", "200Lirayla"),
+        t("#soma", "矿难纪念/灾害或地名相关", "Mining Disaster Memorial or Place-Related", "灾害/纪念", "Disaster / Memorial", "soma turkey"),
+        t("Kurdistan", "地缘政治/民族议题", "Geopolitical / Identity Issue", "政治/敏感", "Political / Sensitive", "Kurdistan"),
+        t("AK Parti'ye", "执政党相关", "Ruling Party-Related", "政治", "Political", "AK Parti'ye"),
+        t("TCK158 İban", "法律/诈骗相关", "Legal / Fraud-Related", "法律/诈骗", "Legal / Fraud", "TCK158 İban")
+      ]),
+      country("vn", "越南", "Vietnam", "https://getdaytrends.com/vietnam/", [
+        t("#WUTheSeriesEP2", "剧集/娱乐", "Drama / Entertainment", "低", "Low", "WUTheSeriesEP2"),
+        t("#TheDayOfLinglingKwong", "明星生日/粉丝应援", "Celebrity Birthday / Fandom", "低", "Low", "TheDayOfLinglingKwong"),
+        t("#Riyadh", "城市/旅行/活动，需确认地区相关性", "City / Travel / Event; Region Relevance Needs Check", "低/需确认", "Low / Needs Check", "Riyadh"),
+        t("#jeddahmassage", "本地服务/按摩", "Local Service / Massage", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "jeddahmassage")
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "#WUTheSeriesEP2、LINGLING BORN TO BLOOM、MAYBELLINE CANDY ENGFA"],
+        ["菲律宾", "LOLLA MO ALLIANZ SB19、HAPPY BIRTHDAY FYANG、COKE and CHILL with ASHLEY"],
+        ["印尼", "WHOLE DIFFERENT AESPA、JJ COVER SONG、PERTHSANTA DEVIL KISS PT"],
+        ["沙特", "#AsianCup2027、المنتخب السعودي、#قهوه_المساء"],
+        ["土耳其", "Lucas Torreira、GSyeLİNELazım、Şenol Güneş"],
+        ["越南", "#WUTheSeriesEP2、#TheDayOfLinglingKwong"]
+      ],
+      en: [
+        ["Thailand", "#WUTheSeriesEP2, LINGLING BORN TO BLOOM, MAYBELLINE CANDY ENGFA"],
+        ["Philippines", "LOLLA MO ALLIANZ SB19, HAPPY BIRTHDAY FYANG, COKE and CHILL with ASHLEY"],
+        ["Indonesia", "WHOLE DIFFERENT AESPA, JJ COVER SONG, PERTHSANTA DEVIL KISS PT"],
+        ["Saudi Arabia", "#AsianCup2027, المنتخب السعودي, #قهوه_المساء"],
+        ["Turkey", "Lucas Torreira, GSyeLİNELazım, Şenol Güneş"],
+        ["Vietnam", "#WUTheSeriesEP2, #TheDayOfLinglingKwong"]
+      ]
+    }
+  }
+];
+
+function country(id, zh, en, sourceUrl, topics) {
+  return { id, name: { zh, en }, sourceUrl, topics };
+}
+
+function t(topic, typeZh, typeEn, riskZh, riskEn, query) {
+  const encoded = encodeURIComponent(query);
+  return {
+    topic,
+    type: { zh: typeZh, en: typeEn },
+    risk: { zh: riskZh, en: riskEn },
+    riskKey: riskEn === "Low" || riskEn.startsWith("Low /") ? "low" : "watch",
+    query,
+    tiktok: `https://www.tiktok.com/search?q=${encoded}`,
+    threads: `https://www.threads.com/search?q=${encoded}`
+  };
+}
+
+const state = {
+  reportIndex: 0,
+  report: reports[0],
+  country: "all",
+  risk: "all",
+  search: "",
+  lang: localStorage.getItem("trendReportLang") || "zh"
+};
+
+const text = (key) => ui[state.lang][key];
+const localized = (value) => (typeof value === "string" ? value : value[state.lang]);
+const lowRisk = (topic) => topic.riskKey === "low";
+const watchRisk = (topic) => topic.riskKey === "watch";
+
+function applyStaticText() {
+  document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+  document.title = state.lang === "zh" ? "各国热点话题日报" : "Global Trend Brief";
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    node.textContent = text(node.dataset.i18n);
+  });
+  document.querySelector("#searchInput").placeholder = text("searchPlaceholder");
+  document.querySelectorAll("[data-lang]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.lang === state.lang);
+  });
+}
+
+function renderReportList() {
+  const wrap = document.querySelector("#reportList");
+  wrap.innerHTML = reports
+    .map((report, index) => `
+      <button class="report-item ${index === state.reportIndex ? "active" : ""}" data-report-index="${index}" type="button">
+        <span>${report.date}</span>
+        <small>${localized(report.title)}</small>
+      </button>
+    `)
+    .join("");
+
+  wrap.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.reportIndex = Number(button.dataset.reportIndex);
+      state.report = reports[state.reportIndex];
+      state.country = "all";
+      state.risk = "all";
+      state.search = "";
+      document.querySelector("#searchInput").value = "";
+      document.querySelectorAll("[data-risk]").forEach((item) => item.classList.toggle("active", item.dataset.risk === "all"));
+      render();
+    });
+  });
+}
+
+function renderFilters() {
+  const wrap = document.querySelector("#countryFilters");
+  const countries = [{ id: "all", name: { zh: "全部", en: "All" } }, ...state.report.countries];
+  wrap.innerHTML = countries
+    .map((country) => `<button class="filter-chip ${state.country === country.id ? "active" : ""}" data-country="${country.id}" type="button">${localized(country.name)}</button>`)
+    .join("");
+  wrap.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.country = button.dataset.country;
+      render();
+    });
+  });
+}
+
+function filteredCountries() {
+  return state.report.countries
+    .filter((country) => state.country === "all" || country.id === state.country)
+    .map((country) => ({
+      ...country,
+      topics: country.topics.filter((topic) => {
+        const matchesRisk =
+          state.risk === "all" ||
+          (state.risk === "low" && lowRisk(topic)) ||
+          (state.risk === "watch" && watchRisk(topic));
+        const haystack = `${localized(country.name)} ${topic.topic} ${localized(topic.type)} ${localized(topic.risk)}`.toLowerCase();
+        return matchesRisk && haystack.includes(state.search.toLowerCase().trim());
+      })
+    }))
+    .filter((country) => country.topics.length > 0);
+}
+
+function renderCountries() {
+  const sections = document.querySelector("#countrySections");
+  const countries = filteredCountries();
+  sections.innerHTML = countries
+    .map((countryItem) => {
+      const low = countryItem.topics.filter((topic) => lowRisk(topic)).length;
+      const watch = countryItem.topics.length - low;
+      return `
+        <article class="country-card">
+          <header class="country-head">
+            <div>
+              <h3>${localized(countryItem.name)}</h3>
+              <p>${text("source")}：<a href="${countryItem.sourceUrl}" target="_blank" rel="noreferrer">${countryItem.sourceUrl}</a></p>
+            </div>
+            <div class="country-meta">
+              <span class="badge">${countryItem.topics.length} ${text("topics")}</span>
+              <span class="badge low">${low} ${text("lowRisk")}</span>
+              <span class="badge watch">${watch} ${text("riskWatch")}</span>
+            </div>
+          </header>
+          <div class="topic-grid">
+            ${countryItem.topics.map(renderTopic).join("")}
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+
+  if (!countries.length) {
+    sections.innerHTML = `<article class="panel compact"><p>${text("noMatches")}</p></article>`;
+  }
+}
+
+function renderTopic(topic) {
+  const riskClass = lowRisk(topic) ? "low" : "watch";
+  return `
+    <article class="topic-card ${riskClass}">
+      <div class="topic-title">
+        <strong>${topic.topic}</strong>
+        <span class="badge ${riskClass}">${localized(topic.risk)}</span>
+      </div>
+      <p>${localized(topic.type)}</p>
+      <div class="links">
+        <a href="${topic.tiktok}" target="_blank" rel="noreferrer">TikTok</a>
+        <a href="${topic.threads}" target="_blank" rel="noreferrer">Threads</a>
+      </div>
+    </article>
+  `;
+}
+
+function renderSidebars() {
+  const priority = document.querySelector("#priorityList");
+  priority.innerHTML = state.report.priorities[state.lang]
+    .map(([countryName, topics]) => `<li><strong>${countryName}</strong><span>${topics}</span></li>`)
+    .join("");
+
+  const risks = state.report.countries.flatMap((countryItem) =>
+    countryItem.topics.filter((topic) => watchRisk(topic)).map((topic) => ({ country: localized(countryItem.name), ...topic }))
+  );
+  document.querySelector("#riskList").innerHTML = risks
+    .map((item) => `<div class="risk-item"><strong>${item.topic}</strong><span>${item.country} · ${localized(item.risk)}</span></div>`)
+    .join("");
+}
+
+function renderMetrics() {
+  const allTopics = state.report.countries.flatMap((countryItem) => countryItem.topics);
+  document.querySelector("#topicCount").textContent = allTopics.length;
+  document.querySelector("#riskCount").textContent = allTopics.filter((topic) => watchRisk(topic)).length;
+}
+
+function bindToolbar() {
+  document.querySelectorAll("[data-risk]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.risk = button.dataset.risk;
+      document.querySelectorAll("[data-risk]").forEach((item) => item.classList.toggle("active", item === button));
+      renderCountries();
+    });
+  });
+
+  document.querySelectorAll("[data-lang]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.lang = button.dataset.lang;
+      localStorage.setItem("trendReportLang", state.lang);
+      render();
+    });
+  });
+
+  document.querySelector("#searchInput").addEventListener("input", (event) => {
+    state.search = event.target.value;
+    renderCountries();
+  });
+
+  document.querySelector("#copySummary").addEventListener("click", async () => {
+    const summary = [text("summaryTitle"), text("summaryPriority"), text("summaryRisk"), text("reportPage")].join("\n");
+    try {
+      await navigator.clipboard.writeText(summary);
+      showToast(text("copied"));
+    } catch {
+      showToast(text("copyFailed"));
+    }
+  });
+}
+
+function showToast(message) {
+  const toast = document.querySelector("#toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 1800);
+}
+
+function render() {
+  applyStaticText();
+  renderReportList();
+  renderFilters();
+  renderCountries();
+  renderSidebars();
+  renderMetrics();
+}
+
+bindToolbar();
+render();

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>各国热点话题日报 / Global Trend Brief</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily Trend Brief</p>
+        <h1 data-i18n="appTitle">各国热点话题日报</h1>
+      </div>
+      <div class="top-actions">
+        <div class="language-switch" role="group" aria-label="Language">
+          <button class="active" data-lang="zh" type="button">中文</button>
+          <button data-lang="en" type="button">EN</button>
+        </div>
+        <button id="copySummary" class="button primary" type="button" data-i18n="copySummary">复制分享摘要</button>
+        <a class="button" href="./2026-05-13-六国X热点30条扩展筛选报告.md" data-i18n="rawReport">查看原始报告</a>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="报告列表和筛选">
+        <section class="panel">
+          <h2 data-i18n="reportDate">报告日期</h2>
+          <div id="reportList" class="report-list"></div>
+        </section>
+
+        <section class="panel">
+          <h2 data-i18n="countryFilter">国家筛选</h2>
+          <div id="countryFilters" class="filter-list"></div>
+        </section>
+
+        <section class="panel compact">
+          <h2 data-i18n="methodTitle">今日口径</h2>
+          <p data-i18n="methodText">每国读取前 30 条 X 趋势，过滤泛词和低转化词，保留更可能在 TikTok/Threads 有内容响应的选题，并标记政治、灾害、争议等风险。</p>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="hero">
+          <div>
+            <p class="eyebrow">2026-05-13</p>
+            <h2 data-i18n="heroTitle">六国热点选题池</h2>
+            <p data-i18n="heroText">覆盖印尼、泰国、菲律宾、沙特、土耳其、越南。泰国、菲律宾、印尼的娱乐和品牌活动转化潜力最高；土耳其风险话题密度较高；越南需要本地语言关键词补强。</p>
+          </div>
+          <div class="hero-metrics" aria-label="报告指标">
+            <div><strong id="topicCount">0</strong><span data-i18n="keptTopics">保留选题</span></div>
+            <div><strong id="riskCount">0</strong><span data-i18n="riskWatch">风险观察</span></div>
+            <div><strong>6</strong><span data-i18n="targetCountries">目标国家</span></div>
+          </div>
+        </section>
+
+        <section class="toolbar" aria-label="内容筛选">
+          <div class="segmented" role="group" aria-label="风险筛选">
+            <button class="active" data-risk="all" type="button" data-i18n="all">全部</button>
+            <button data-risk="low" type="button" data-i18n="lowRisk">低风险</button>
+            <button data-risk="watch" type="button" data-i18n="riskWatch">风险观察</button>
+          </div>
+          <label class="search-box">
+            <span data-i18n="search">搜索</span>
+            <input id="searchInput" type="search" placeholder="话题、国家、类型" />
+          </label>
+        </section>
+
+        <section id="countrySections" class="country-sections" aria-live="polite"></section>
+      </section>
+
+      <aside class="rightbar">
+        <section class="panel">
+          <h2 data-i18n="priorityTitle">优先深挖</h2>
+          <ol id="priorityList" class="priority-list"></ol>
+        </section>
+
+        <section class="panel">
+          <h2 data-i18n="riskPoolTitle">风险观察池</h2>
+          <div id="riskList" class="risk-list"></div>
+        </section>
+
+        <section class="panel compact">
+          <h2 data-i18n="shareNoteTitle">分享说明</h2>
+          <p data-i18n="shareNote">分享网页时，建议附上原始报告文件。TikTok/Threads 的逐条热门视频仍需要登录态确认。</p>
+        </section>
+      </aside>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">已复制摘要</div>
+    <script src="./app.js"></script>
+  </body>
+</html>
