@@ -29,3 +29,27 @@
 
 长期建议使用 GitHub Pages 或 Netlify Git 部署，因为它们能保留同一个网址并自动更新。
 
+## GitHub Pages 自动推送
+
+当前站点地址：
+
+```text
+https://tuntunjo95-ui.github.io/trending-topic/
+```
+
+本地仓库已连接到：
+
+```text
+git@github-trending-topic:tuntunjo95-ui/trending-topic.git
+```
+
+每日自动任务会在生成报告后执行：
+
+```text
+git pull --rebase origin main
+git add index.html app.js styles.css DAILY_UPDATE.md *.md
+git commit -m "Update trend report YYYY-MM-DD"
+git push origin main
+```
+
+要让自动推送生效，需要在 GitHub 仓库中添加本机生成的 Deploy Key，并勾选写入权限。
