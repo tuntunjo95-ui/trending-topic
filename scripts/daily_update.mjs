@@ -415,7 +415,12 @@ function renderAppJsCountry(country, kept) {
 
 function renderAppJsReport(dateStr, byCountry) {
   const countriesBlock = byCountry
-    .map((c) => renderAppJsCountry(c.meta, c.kept))
+    .map((c) =>
+      renderAppJsCountry(
+        { id: c.meta.id, zh: c.meta.zh, en: c.meta.en, sourceUrl: c.sourceUrl },
+        c.kept,
+      ),
+    )
     .join(",\n");
 
   // Keep the same title format used in existing reports.
@@ -527,7 +532,16 @@ async function updateAppJs({ dateStr, byCountry }) {
 async function updateIndexHtml(dateStr) {
   const htmlPath = path.join(ROOT, "index.html");
   let html = await fs.readFile(htmlPath, "utf8");
-  const v = yyyymmdd(dateStr);
+  const now = new Date();
+  const hhmm = now
+    .toLocaleTimeString("en-GB", {
+      timeZone: "Asia/Shanghai",
+      hour12: false,
+      hour: "2-digit",
+      minute: "2-digit",
+    })
+    .replace(":", "");
+  const v = `${yyyymmdd(dateStr)}${hhmm}`;
   html = html.replace(
     /<script\s+src="\.\/app\.js(\?v=\d+)?"><\/script>/,
     `<script src="./app.js?v=${v}"></script>`,

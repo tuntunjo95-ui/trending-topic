@@ -73,7 +73,7 @@ const reports = [
       en: "Six-Country X Trends: Top 30 Expanded Screening"
     },
     countries: [
-      country("id", "印尼", "Indonesia", undefined, [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("Gibran Majukan Wisata Daerah", "综合/待分类", "General / To Classify", "低", "Low", "Gibran Majukan Wisata Daerah"),
         t("BBTF 2026", "综合/待分类", "General / To Classify", "低", "Low", "BBTF 2026"),
         t("#KAZZAWARDS2026xPondPhuwin", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026xPondPhuwin"),
@@ -95,7 +95,7 @@ const reports = [
         t("Revan", "综合/待分类", "General / To Classify", "低", "Low", "Revan"),
         t("Pagiii", "综合/待分类", "General / To Classify", "低", "Low", "Pagiii")
       ]),
-      country("th", "泰国", "Thailand", undefined, [
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#KAZZAWARDS2026xDMD", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026xDMD"),
         t("#ตฟวมารับรางวัลด้วยกันแล้วนะ", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ตฟวมารับรางวัลด้วยกันแล้วนะ"),
         t("#PerthSantaGlowTogether", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PerthSantaGlowTogether"),
@@ -117,7 +117,7 @@ const reports = [
         t("TURNING OUR LIGHT INTO TKNUR", "综合/待分类", "General / To Classify", "低", "Low", "TURNING OUR LIGHT INTO TKNUR"),
         t("Winter Season EP1", "剧集/娱乐", "Drama / Entertainment", "低", "Low", "Winter Season EP1")
       ]),
-      country("ph", "菲律宾", "Philippines", undefined, [
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
         t("TABI OUT NOW", "综合/待分类", "General / To Classify", "低", "Low", "TABI OUT NOW"),
         t("Bato", "综合/待分类", "General / To Classify", "低", "Low", "Bato"),
         t("#Sk8erBoiYoshiDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Sk8erBoiYoshiDay"),
@@ -129,17 +129,17 @@ const reports = [
         t("#山下智久xJUNGWON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "山下智久xJUNGWON"),
         t("#ジョンウォン", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ジョンウォン"),
         t("Cayetano", "综合/待分类", "General / To Classify", "低", "Low", "Cayetano"),
-        t("Senado", "综合/待分类", "General / To Classify", "低", "Low", "Senado"),
         t("GSIS", "综合/待分类", "General / To Classify", "低", "Low", "GSIS"),
+        t("Senado", "综合/待分类", "General / To Classify", "低", "Low", "Senado"),
         t("OSAA", "综合/待分类", "General / To Classify", "低", "Low", "OSAA"),
+        t("Pananabik", "综合/待分类", "General / To Classify", "低", "Low", "Pananabik"),
         t("Pilipinas", "综合/待分类", "General / To Classify", "低", "Low", "Pilipinas"),
         t("vote wilbert for juancast", "综合/待分类", "General / To Classify", "低", "Low", "vote wilbert for juancast"),
-        t("Pananabik", "综合/待分类", "General / To Classify", "低", "Low", "Pananabik"),
         t("Robin", "综合/待分类", "General / To Classify", "低", "Low", "Robin"),
         t("BECKY X CANNES FF26", "综合/待分类", "General / To Classify", "低", "Low", "BECKY X CANNES FF26"),
-        t("Pilipino", "综合/待分类", "General / To Classify", "低", "Low", "Pilipino")
+        t("CCTV", "综合/待分类", "General / To Classify", "低", "Low", "CCTV")
       ]),
-      country("sa", "沙特", "Saudi Arabia", undefined, [
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
         t("#اوقف_مصحفا_للحجاج_يوم_عرفه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "اوقف_مصحفا_للحجاج_يوم_عرفه"),
         t("#يوم_الجمعه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "يوم_الجمعه"),
         t("#الاتحاد_الاتفاق", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "الاتحاد_الاتفاق"),
@@ -161,7 +161,7 @@ const reports = [
         t("الاسعار الجديده", "综合/待分类", "General / To Classify", "低", "Low", "الاسعار الجديده"),
         t("سلم علي", "综合/待分类", "General / To Classify", "低", "Low", "سلم علي")
       ]),
-      country("tr", "土耳其", "Turkey", undefined, [
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("#SeçimiKademeBelirler", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "SeçimiKademeBelirler"),
         t("Rasim Ozan Kütahyalı", "综合/待分类", "General / To Classify", "低", "Low", "Rasim Ozan Kütahyalı"),
         t("#perşembe", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "perşembe"),
@@ -183,7 +183,7 @@ const reports = [
         t("Muçi", "综合/待分类", "General / To Classify", "低", "Low", "Muçi"),
         t("Bir Gençlik Şöleni", "综合/待分类", "General / To Classify", "低", "Low", "Bir Gençlik Şöleni")
       ]),
-      country("vn", "越南", "Vietnam", undefined, [
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("Lụm Lúa", "综合/待分类", "General / To Classify", "低", "Low", "Lụm Lúa"),
         t("#jeddahMassage", "话题标签/待分类", "Hashtag / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "jeddahMassage"),
         t("#riyadh", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "riyadh"),
@@ -224,6 +224,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   
 
