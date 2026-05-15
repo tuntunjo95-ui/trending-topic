@@ -185,24 +185,24 @@ const reports = [
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("Lụm Lúa", "综合/待分类", "General / To Classify", "低", "Low", "Lụm Lúa"),
-        t("#jeddahMassage", "话题标签/待分类", "Hashtag / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "jeddahMassage"),
-        t("#riyadh", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "riyadh"),
+        t("LiDAR", "综合/待分类", "General / To Classify", "低", "Low", "LiDAR"),
         t("mạch", "综合/待分类", "General / To Classify", "低", "Low", "mạch"),
-        t("luận", "综合/待分类", "General / To Classify", "低", "Low", "luận"),
-        t("Thứ 6", "综合/待分类", "General / To Classify", "低", "Low", "Thứ 6"),
+        t("#jeddahMassage", "话题标签/待分类", "Hashtag / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "jeddahMassage"),
         t("#KAZZAWARDS2026xPerth", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "KAZZAWARDS2026xPerth"),
         t("PERTH DOMIIA ENGAGE IN KAZZ", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "PERTH DOMIIA ENGAGE IN KAZZ"),
-        t("Extended", "综合/待分类", "General / To Classify", "低", "Low", "Extended"),
-        t("Chào", "综合/待分类", "General / To Classify", "低", "Low", "Chào"),
+        t("#riyadh", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "riyadh"),
+        t("Thứ 6", "综合/待分类", "General / To Classify", "低", "Low", "Thứ 6"),
         t("Biased", "综合/待分类", "General / To Classify", "低", "Low", "Biased"),
-        t("Evaluating", "综合/待分类", "General / To Classify", "低", "Low", "Evaluating"),
-        t("Ngày", "综合/待分类", "General / To Classify", "低", "Low", "Ngày"),
+        t("evaluating", "综合/待分类", "General / To Classify", "低", "Low", "evaluating"),
+        t("Chào", "综合/待分类", "General / To Classify", "低", "Low", "Chào"),
         t("Obvious", "综合/待分类", "General / To Classify", "低", "Low", "Obvious"),
         t("Timely", "综合/待分类", "General / To Classify", "低", "Low", "Timely"),
         t("Lasting", "综合/待分类", "General / To Classify", "低", "Low", "Lasting"),
         t("Questioning", "综合/待分类", "General / To Classify", "低", "Low", "Questioning"),
         t("Uncertain", "综合/待分类", "General / To Classify", "低", "Low", "Uncertain"),
-        t("Minor", "综合/待分类", "General / To Classify", "低", "Low", "Minor")
+        t("Minor", "综合/待分类", "General / To Classify", "低", "Low", "Minor"),
+        t("Extended", "综合/待分类", "General / To Classify", "低", "Low", "Extended"),
+        t("Balanced", "综合/待分类", "General / To Classify", "低", "Low", "Balanced")
       ])
     ],
     priorities: {
@@ -224,6 +224,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   
 

@@ -352,6 +352,55 @@ function mdTableRow(cells) {
   return `| ${cells.map((c) => String(c).replaceAll("\n", " ")).join(" | ")} |`;
 }
 
+function parseKeptTypesFromMarkdown(markdown) {
+  // Extract kept-topic tables:
+  // | 话题 | 类型判断 | TikTok 搜索 | Threads 搜索 | 风险标签 |
+  // | --- | --- | --- | --- | --- |
+  // | topic | typeZh | ... | ... | riskZh |
+  const out = new Map();
+  const lines = markdown.split(/\r?\n/);
+  let inTable = false;
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i].trim();
+    if (line === "| 话题 | 类型判断 | TikTok 搜索 | Threads 搜索 | 风险标签 |") {
+      // skip separator line next
+      inTable = true;
+      i += 1;
+      continue;
+    }
+    if (!inTable) continue;
+    if (!line.startsWith("|") || line === "|" || line.startsWith("| 国家 |")) {
+      inTable = false;
+      continue;
+    }
+    const cells = line
+      .split("|")
+      .slice(1, -1)
+      .map((c) => c.trim());
+    if (cells.length < 5) continue;
+    const [topic, typeZh, , , riskZh] = cells;
+    if (!topic || topic === "（无）") continue;
+    out.set(topic, { typeZh, riskZh });
+  }
+  return out;
+}
+
+function applyKeptOverridesFromMarkdown(byCountry, markdown) {
+  const map = parseKeptTypesFromMarkdown(markdown);
+  byCountry.forEach((c) => {
+    c.kept = (c.kept || []).map((k) => {
+      const o = map.get(k.topic);
+      if (!o) return k;
+      const updated = { ...k };
+      if (o.typeZh) updated.typeZh = o.typeZh;
+      if (o.riskZh) updated.riskZh = o.riskZh;
+      // keep English fields from guess for now
+      updated.riskKey = updated.riskZh === "低" ? "low" : "watch";
+      return updated;
+    });
+  });
+}
+
 function renderCountryMarkdown(country, rawTop30, kept) {
   const lines = [];
   lines.push(`## ${country.index}. ${country.zh} ${country.en}`);
@@ -647,6 +696,9 @@ async function main() {
 
   const markdown = renderMarkdown(dateStr, byCountry);
   await fs.writeFile(mdPath, markdown);
+  // If the markdown is manually edited later (e.g. type judgments), rerunning the script will
+  // reflect those judgments into the website because we re-apply the table values.
+  applyKeptOverridesFromMarkdown(byCountry, markdown);
 
   const fetchedCountries = byCountry.filter((c) => Array.isArray(c.rawTop30) && c.rawTop30.length > 0);
   if (fetchedCountries.length === 0) {
