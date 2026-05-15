@@ -565,6 +565,14 @@ async function main() {
   const markdown = renderMarkdown(dateStr, byCountry);
   await fs.writeFile(mdPath, markdown);
 
+  const fetchedCountries = byCountry.filter((c) => Array.isArray(c.rawTop30) && c.rawTop30.length > 0);
+  if (fetchedCountries.length === 0) {
+    throw new Error(
+      "All countries failed to fetch trends. Report markdown was generated for auditing, but site data will not be updated. " +
+        "Re-run in a network-enabled environment or rely on GitHub Actions.",
+    );
+  }
+
   await updateIndexHtml(dateStr);
   await updateAppJs({ dateStr, byCountry });
 
