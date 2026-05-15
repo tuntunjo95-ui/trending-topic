@@ -475,6 +475,7 @@ const watchRisk = (topic) => topic.riskKey === "watch";
 
 const STATUS_URL = "./status.json";
 const ACTIONS_URL = "https://github.com/tuntunjo95-ui/trending-topic/actions/workflows/daily-trend-report.yml";
+const reportMarkdownPath = (date) => `./${date}-六国X热点30条扩展筛选报告.md`;
 
 function cacheBuster() {
   const script = document.querySelector("script[src*=\"app.js\"]");
@@ -512,6 +513,12 @@ function renderStatusBanner(status) {
   `;
 }
 
+function updateRawReportLink() {
+  const link = document.querySelector("#rawReportLink");
+  if (!link) return;
+  link.href = reportMarkdownPath(state.report?.date || reports[0]?.date);
+}
+
 function applyStaticText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
   document.title = state.lang === "zh" ? "各国热点话题日报" : "Global Trend Brief";
@@ -522,6 +529,7 @@ function applyStaticText() {
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.classList.toggle("active", button.dataset.lang === state.lang);
   });
+  updateRawReportLink();
 }
 
 function renderReportList() {
