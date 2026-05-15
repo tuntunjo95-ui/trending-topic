@@ -8,37 +8,55 @@ const TARGETS = [
     id: "id",
     zh: "印尼",
     en: "Indonesia",
-    sourceUrl: "https://trends24.in/indonesia/",
+    sources: [
+      "https://trends24.in/indonesia/",
+      "https://getdaytrends.com/indonesia/",
+    ],
   },
   {
     id: "th",
     zh: "泰国",
     en: "Thailand",
-    sourceUrl: "https://trends24.in/thailand/",
+    sources: [
+      "https://trends24.in/thailand/",
+      "https://getdaytrends.com/thailand/",
+    ],
   },
   {
     id: "ph",
     zh: "菲律宾",
     en: "Philippines",
-    sourceUrl: "https://trends24.in/philippines/",
+    sources: [
+      "https://trends24.in/philippines/",
+      "https://getdaytrends.com/philippines/",
+    ],
   },
   {
     id: "sa",
     zh: "沙特",
     en: "Saudi Arabia",
-    sourceUrl: "https://trends24.in/saudi-arabia/",
+    sources: [
+      "https://trends24.in/saudi-arabia/",
+      "https://getdaytrends.com/saudi-arabia/",
+    ],
   },
   {
     id: "tr",
     zh: "土耳其",
     en: "Turkey",
-    sourceUrl: "https://trends24.in/turkey/",
+    sources: [
+      "https://trends24.in/turkey/",
+      "https://getdaytrends.com/turkey/",
+    ],
   },
   {
     id: "vn",
     zh: "越南",
     en: "Vietnam",
-    sourceUrl: "https://trends24.in/vietnam/",
+    sources: [
+      "https://trends24.in/vietnam/",
+      "https://getdaytrends.com/vietnam/",
+    ],
   },
 ];
 
@@ -68,6 +86,21 @@ function parseTrends24Top30(html) {
   if (!olMatch) return [];
   const inner = olMatch[1];
   const re = /<a[^>]*class="?trend-link"?[^>]*>([\s\S]*?)<\/a>/gi;
+  const out = [];
+  let m;
+  while ((m = re.exec(inner)) && out.length < 30) {
+    const text = normalizeTopic(stripHtml(m[1]));
+    if (text) out.push(text);
+  }
+  return out;
+}
+
+function parseGetDayTrendsTop30(html) {
+  // getdaytrends usually exposes an ordered list of trends; keep parsing tolerant.
+  const olMatch = html.match(/<ol[^>]*>([\s\S]*?)<\/ol>/i);
+  if (!olMatch) return [];
+  const inner = olMatch[1];
+  const re = /<a[^>]*>([\s\S]*?)<\/a>/gi;
   const out = [];
   let m;
   while ((m = re.exec(inner)) && out.length < 30) {
@@ -209,11 +242,26 @@ async function fetchText(url) {
   return await res.text();
 }
 
-async function getTop30OrThrow(sourceUrl) {
-  const html = await fetchText(sourceUrl);
-  const trends = parseTrends24Top30(html);
-  if (trends.length < 10) throw new Error(`Parse too few trends from ${sourceUrl}`);
-  return trends.slice(0, 30);
+function parseTop30BySource(url, html) {
+  if (url.includes("trends24.in")) return parseTrends24Top30(html);
+  if (url.includes("getdaytrends.com")) return parseGetDayTrendsTop30(html);
+  return [];
+}
+
+async function getTop30FromSources({ sources }) {
+  const errors = [];
+  for (const url of sources) {
+    try {
+      const html = await fetchText(url);
+      const trends = parseTop30BySource(url, html);
+      if (trends.length >= 10) return { sourceUrl: url, trends: trends.slice(0, 30), errors };
+      errors.push(`Parse too few trends: ${url}`);
+    } catch (err) {
+      errors.push(`${url} -> ${err?.message || String(err)}`);
+    }
+  }
+  const last = errors[errors.length - 1] || "Unknown error";
+  throw new Error(last);
 }
 
 function mdTableRow(cells) {
@@ -224,21 +272,38 @@ function renderCountryMarkdown(country, rawTop30, kept) {
   const lines = [];
   lines.push(`## ${country.index}. ${country.zh} ${country.en}`);
   lines.push("");
-  lines.push(`来源：${country.sourceUrl}`);
+  lines.push(`来源：${country.sourceUrl || "（未获取到可用来源）"}`);
   lines.push("");
+
+  if (country.error) {
+    lines.push(`> 抓取失败：${country.error}`);
+    if (Array.isArray(country.attempted) && country.attempted.length) {
+      lines.push(`> 已尝试：${country.attempted.join("；")}`);
+    }
+    lines.push("");
+  }
+
   lines.push("### 前 30 条 X 趋势扫描");
   lines.push("");
-  rawTop30.forEach((t, i) => lines.push(`${i + 1}. ${t}`));
+  if (!rawTop30 || rawTop30.length === 0) {
+    lines.push("（本环境无法访问趋势源，未能抓取到当日前 30 条趋势）");
+  } else {
+    rawTop30.forEach((t, i) => lines.push(`${i + 1}. ${t}`));
+  }
   lines.push("");
   lines.push("### 保留选题");
   lines.push("");
   lines.push(mdTableRow(["话题", "类型判断", "TikTok 搜索", "Threads 搜索", "风险标签"]));
   lines.push(mdTableRow(["---", "---", "---", "---", "---"]));
-  kept.forEach((k) => {
-    lines.push(
-      mdTableRow([k.topic, k.typeZh, k.tiktok, k.threads, k.riskZh]),
-    );
-  });
+  if (!kept || kept.length === 0) {
+    lines.push(mdTableRow(["（无）", "—", "—", "—", "—"]));
+  } else {
+    kept.forEach((k) => {
+      lines.push(
+        mdTableRow([k.topic, k.typeZh, k.tiktok, k.threads, k.riskZh]),
+      );
+    });
+  }
   lines.push("");
   return lines.join("\n");
 }
@@ -256,6 +321,10 @@ function renderMarkdown(dateStr, byCountry) {
   lines.push("");
   lines.push(
     "> 说明：本轮是在公开网页可访问条件下的自动筛选。TikTok/Threads 的逐条热门视频或热门帖需要登录态进一步打开搜索结果页确认；本报告先输出可执行搜索入口和风险判断。",
+  );
+  lines.push("");
+  lines.push(
+    "> 访问限制：如果你看到“抓取失败/未能抓取到趋势”，通常是执行环境无法解析或访问外网域名（例如 DNS/网络策略限制）。请在可访问公网的环境重跑生成脚本，或依赖仓库内的 GitHub Actions 定时任务生成并推送。",
   );
   lines.push("");
 
@@ -380,20 +449,33 @@ async function main() {
   const byCountry = [];
   for (let i = 0; i < TARGETS.length; i += 1) {
     const meta = TARGETS[i];
-    const rawTop30 = await getTop30OrThrow(meta.sourceUrl);
-    const kept = rawTop30
-      .map(normalizeTopic)
-      .filter((t) => !shouldDrop(t))
-      .slice(0, 20) // keep a manageable number in the webpage
-      .map(buildTopic);
+    let rawTop30 = [];
+    let kept = [];
+    let sourceUrl = meta.sources?.[0];
+    let error = "";
+    let attempted = meta.sources?.slice?.() || [];
+    try {
+      const res = await getTop30FromSources(meta);
+      rawTop30 = res.trends;
+      sourceUrl = res.sourceUrl;
+      kept = rawTop30
+        .map(normalizeTopic)
+        .filter((t) => !shouldDrop(t))
+        .slice(0, 20) // keep a manageable number in the webpage
+        .map(buildTopic);
+    } catch (err) {
+      error = err?.message || String(err);
+    }
     byCountry.push({
       index: i + 1,
       meta,
       zh: meta.zh,
       en: meta.en,
-      sourceUrl: meta.sourceUrl,
+      sourceUrl,
       rawTop30,
       kept,
+      error,
+      attempted,
     });
   }
 
@@ -410,4 +492,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-

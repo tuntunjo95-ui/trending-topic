@@ -26,7 +26,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-05-14 六国热点话题日报",
+    summaryTitle: "2026-05-15 六国热点话题日报",
     summaryPriority: "优先深挖：泰国、菲律宾、印尼的娱乐/明星/剧集/品牌活动。",
     summaryRisk: "风险观察：土耳其政治/司法/民族议题较多；菲律宾和印尼有政治公共议题；越南需补本地语言关键词。"
   },
@@ -57,13 +57,59 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-05-14 Six-Country Trend Brief",
+    summaryTitle: "2026-05-15 Six-Country Trend Brief",
     summaryPriority: "Priority: entertainment, celebrity, drama, and brand-event topics in Thailand, the Philippines, and Indonesia.",
     summaryRisk: "Risk watch: Turkey has more political, legal, and identity topics; the Philippines and Indonesia include public-political issues; Vietnam needs local-language enrichment."
   }
 };
 
 const reports = [
+  {
+    date: "2026-05-15",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", undefined, [
+
+      ]),
+      country("th", "泰国", "Thailand", undefined, [
+
+      ]),
+      country("ph", "菲律宾", "Philippines", undefined, [
+
+      ]),
+      country("sa", "沙特", "Saudi Arabia", undefined, [
+
+      ]),
+      country("tr", "土耳其", "Turkey", undefined, [
+
+      ]),
+      country("vn", "越南", "Vietnam", undefined, [
+
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-05-14",
     title: {
