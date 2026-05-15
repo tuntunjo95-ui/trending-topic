@@ -16,6 +16,7 @@ const ui = {
     lowRisk: "低风险",
     search: "搜索",
     searchPlaceholder: "话题、国家、类型",
+    typeLabel: "分类",
     priorityTitle: "优先深挖",
     riskPoolTitle: "风险观察池",
     shareNoteTitle: "分享说明",
@@ -47,6 +48,7 @@ const ui = {
     lowRisk: "Low Risk",
     search: "Search",
     searchPlaceholder: "Topic, country, or category",
+    typeLabel: "Category",
     priorityTitle: "Priority Deep Dives",
     riskPoolTitle: "Risk Watch Pool",
     shareNoteTitle: "Sharing Note",
@@ -613,7 +615,7 @@ function renderTopic(topic) {
         <strong>${topic.topic}</strong>
         <span class="badge ${riskClass}">${localized(topic.risk)}</span>
       </div>
-      <p>${localized(topic.type)}</p>
+      <p>${text("typeLabel")}：${localized(topic.type)}</p>
       <div class="links">
         <a href="${topic.tiktok}" target="_blank" rel="noreferrer">TikTok</a>
         <a href="${topic.threads}" target="_blank" rel="noreferrer">Threads</a>
