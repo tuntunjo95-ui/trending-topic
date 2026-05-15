@@ -178,12 +178,27 @@ function guessType(topic) {
   return { zh: "综合/待分类", en: "General / To Classify" };
 }
 
-function shouldDrop(topic) {
+function hasVietnameseLetters(input) {
+  return /[À-ỹđĐ]/.test(input);
+}
+
+function shouldDrop(topic, countryId) {
   const t = topic.toLowerCase();
   if (!topic) return true;
   if (/^\d+$/.test(topic)) return true;
-  if (topic.length <= 2) return true;
+  if (topic.length <= 2) {
+    // Vietnam: keep short Vietnamese tags/words if they contain Vietnamese letters,
+    // because they can still map to meaningful local-language content on TikTok/Threads.
+    if (countryId === "vn" && hasVietnameseLetters(topic)) return false;
+    return true;
+  }
   if (/^(hi|hello|good morning|good night|morning|night)$/i.test(topic)) return true;
+
+  // Vietnam: keep Vietnamese hashtags/terms even if they look generic in English.
+  // We still drop clearly empty/garbage above.
+  if (countryId === "vn" && (topic.startsWith("#") || hasVietnameseLetters(topic))) {
+    return false;
+  }
 
   // Overly generic words (common across markets) – tends to be low-signal.
   const generic = [
@@ -460,7 +475,7 @@ async function main() {
       sourceUrl = res.sourceUrl;
       kept = rawTop30
         .map(normalizeTopic)
-        .filter((t) => !shouldDrop(t))
+        .filter((t) => !shouldDrop(t, meta.id))
         .slice(0, 20) // keep a manageable number in the webpage
         .map(buildTopic);
     } catch (err) {
