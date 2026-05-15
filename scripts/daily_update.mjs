@@ -129,6 +129,11 @@ function guessRisk(topic) {
     return { zh: "成人/低质广告风险", en: "Adult / Low-Quality Ad Risk", key: "watch" };
   }
 
+  // Speculative finance / shill-like trends: low conversion and higher brand-safety risk.
+  if (/\btrade\s+\$[a-z0-9]+\b/i.test(topic) || /\$[a-z0-9]{2,}\b/i.test(topic)) {
+    return { zh: "投机/币圈/广告风险", en: "Speculation / Crypto-Shill Risk", key: "watch" };
+  }
+
   const medical = ["aids", "covid", "cancer", "dementia", "demans", "virus"];
   if (medical.some((k) => t.includes(k))) {
     return { zh: "医疗/敏感", en: "Medical / Sensitive", key: "watch" };
@@ -165,24 +170,77 @@ function guessType(topic) {
   const t = topic.toLowerCase();
   const hasHashtag = topic.startsWith("#");
 
-  const music = ["album", "concert", "song", "music", "kpop", "aespa", "taeyong"];
-  if (music.some((k) => t.includes(k))) {
-    return { zh: "音乐/演出/粉丝内容", en: "Music / Show / Fandom" };
+  // Travel / tourism / local event
+  const travel = ["wisata", "travel", "tour", "festival", "fair", "expo", "bbtf", "bali"];
+  if (travel.some((k) => t.includes(k))) {
+    return { zh: "旅行/本地活动", en: "Travel / Local Event" };
   }
 
-  const sports = ["cup", "match", "fc", "league", "galatasaray", "torreira", "football"];
+  // Awards / red carpet / ceremonies
+  const awards = ["awards", "award", "kazzawards", "red carpet", "carpet", "ceremony"];
+  if (awards.some((k) => t.includes(k)) || /\bkazz\b/i.test(topic)) {
+    return { zh: "颁奖礼/红毯/盛典", en: "Awards / Red Carpet / Ceremony" };
+  }
+
+  // Music / concerts / releases
+  const music = [
+    "album",
+    "concert",
+    "song",
+    "music",
+    "k-pop",
+    "kpop",
+    "cover",
+    "out now",
+    "mv",
+    "spotify",
+    "debut",
+    "comeback",
+  ];
+  if (music.some((k) => t.includes(k)) || /\bout\s+now\b/i.test(topic)) {
+    return { zh: "音乐/演出/发布", en: "Music / Show / Release" };
+  }
+
+  // Drama / series / episodes / tv shows
+  const entertainment = ["series", "ep", "episode", "show", "drama", "season", "the wall song"];
+  if (entertainment.some((k) => t.includes(k)) || /\bep\d+\b/i.test(t)) {
+    return { zh: "剧集/综艺/娱乐", en: "Drama / Variety / Entertainment" };
+  }
+
+  // Celebrity / fandom / birthday / rankings
+  const fandom = ["hbd", "happy birthday", "born to be", "top3", "top 3", "fanboy", "fandom", "forever with"];
+  if (fandom.some((k) => t.includes(k)) || /\bhbd\b/i.test(t)) {
+    return { zh: "明星/粉丝应援", en: "Celebrity / Fandom" };
+  }
+
+  // Sports
+  const sports = ["cup", "match", "fc", "league", "football", "basketball", "volley", "f1", "ufc", "nba"];
   if (sports.some((k) => t.includes(k)) || /كاس|المنتخب/i.test(topic)) {
     return { zh: "体育/赛事", en: "Sports / Event" };
   }
 
-  const entertainment = ["series", "ep", "show", "drama", "world"];
-  if (entertainment.some((k) => t.includes(k))) {
-    return { zh: "剧集/娱乐", en: "Drama / Entertainment" };
+  // Brands / consumer campaigns / collabs
+  const brand = [
+    "maybelline",
+    "coke",
+    "nescafe",
+    "chloe",
+    "loreal",
+    "l'oréal",
+    "grabfood",
+    "grab",
+    "qned",
+    "lg",
+    "parfums",
+    "store",
+  ];
+  if (brand.some((k) => t.includes(k)) || /\bx\s+[a-z0-9]/i.test(topic)) {
+    return { zh: "品牌活动/消费", en: "Brand / Consumer" };
   }
 
-  const brand = ["maybelline", "coke", "nescafe", "chloe", "qned", "lg"];
-  if (brand.some((k) => t.includes(k))) {
-    return { zh: "品牌活动/消费", en: "Brand / Consumer" };
+  // Finance / crypto (often low conversion)
+  if (/\btrade\s+\$[a-z0-9]+\b/i.test(topic) || /\$[a-z0-9]{2,}\b/i.test(topic)) {
+    return { zh: "金融/加密（谨慎）", en: "Finance / Crypto (Watch)" };
   }
 
   if (hasHashtag) return { zh: "话题标签/待分类", en: "Hashtag / To Classify" };
