@@ -513,10 +513,12 @@ function renderStatusBanner(status) {
   `;
 }
 
-function updateRawReportLink() {
+function updateRawReportLink(dateOverride) {
   const link = document.querySelector("#rawReportLink");
   if (!link) return;
-  link.href = reportMarkdownPath(state.report?.date || reports[0]?.date);
+  const date = dateOverride || state.report?.date || reports[0]?.date;
+  link.href = reportMarkdownPath(date);
+  link.title = `Raw report: ${date}`;
 }
 
 function applyStaticText() {
@@ -547,6 +549,7 @@ function renderReportList() {
     button.addEventListener("click", () => {
       state.reportIndex = Number(button.dataset.reportIndex);
       state.report = reports[state.reportIndex];
+      updateRawReportLink(state.report?.date);
       state.country = "all";
       state.risk = "all";
       state.search = "";
@@ -700,6 +703,7 @@ function showToast(message) {
 
 function render() {
   applyStaticText();
+  updateRawReportLink(state.report?.date);
   renderReportList();
   renderFilters();
   renderCountries();
