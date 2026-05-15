@@ -225,6 +225,8 @@ const reports = [
 
   
 
+  
+
 
 
 
@@ -463,6 +465,45 @@ const localized = (value) => (typeof value === "string" ? value : value[state.la
 const lowRisk = (topic) => topic.riskKey === "low";
 const watchRisk = (topic) => topic.riskKey === "watch";
 
+const STATUS_URL = "./status.json";
+const ACTIONS_URL = "https://github.com/tuntunjo95-ui/trending-topic/actions/workflows/daily-trend-report.yml";
+
+function cacheBuster() {
+  const script = document.querySelector("script[src*=\"app.js\"]");
+  const m = script?.src?.match(/[?&]v=(\d+)/);
+  return m ? m[1] : String(Date.now());
+}
+
+async function loadStatus() {
+  try {
+    const res = await fetch(`${STATUS_URL}?v=${cacheBuster()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`status.json ${res.status}`);
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
+function renderStatusBanner(status) {
+  const banner = document.querySelector("#statusBanner");
+  if (!banner) return;
+
+  if (!status) {
+    banner.hidden = true;
+    return;
+  }
+
+  const isOk = Boolean(status.ok);
+  const date = status.date || state.report?.date || "";
+  const msg = status.message || (isOk ? "OK" : "FAILED");
+  banner.classList.toggle("warn", !isOk);
+  banner.hidden = false;
+  banner.innerHTML = `
+    <div><strong>${isOk ? "Status" : "Warning"}</strong> ${date} · ${msg}</div>
+    <div class="status-actions"><a href="${ACTIONS_URL}" target="_blank" rel="noreferrer">Actions</a></div>
+  `;
+}
+
 function applyStaticText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
   document.title = state.lang === "zh" ? "各国热点话题日报" : "Global Trend Brief";
@@ -651,4 +692,7 @@ function render() {
 }
 
 bindToolbar();
-render();
+(async () => {
+  renderStatusBanner(await loadStatus());
+  render();
+})();

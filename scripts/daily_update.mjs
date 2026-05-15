@@ -69,6 +69,17 @@ function yyyymmdd(dateStr) {
   return dateStr.replaceAll("-", "");
 }
 
+async function writeStatus({ ok, dateStr, message }) {
+  const statusPath = path.join(ROOT, "status.json");
+  const payload = {
+    ok: Boolean(ok),
+    date: dateStr,
+    updatedAt: new Date().toISOString(),
+    message: String(message || (ok ? "OK" : "FAILED")),
+  };
+  await fs.writeFile(statusPath, JSON.stringify(payload, null, 2) + "\n");
+}
+
 function encode(q) {
   return encodeURIComponent(q);
 }
@@ -567,12 +578,17 @@ async function main() {
 
   const fetchedCountries = byCountry.filter((c) => Array.isArray(c.rawTop30) && c.rawTop30.length > 0);
   if (fetchedCountries.length === 0) {
-    throw new Error(
-      "All countries failed to fetch trends. Report markdown was generated for auditing, but site data will not be updated. " +
-        "Re-run in a network-enabled environment or rely on GitHub Actions.",
-    );
+    await writeStatus({
+      ok: false,
+      dateStr,
+      message:
+        "Fetch failed for all countries; site data not updated (see markdown for attempted sources).",
+    });
+    console.log(`Generated ${mdName} (no fetch; site not updated)`);
+    return;
   }
 
+  await writeStatus({ ok: true, dateStr, message: "OK" });
   await updateIndexHtml(dateStr);
   await updateAppJs({ dateStr, byCountry });
 
