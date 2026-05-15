@@ -72,22 +72,135 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", undefined, [
-
+        t("Gibran Majukan Wisata Daerah", "综合/待分类", "General / To Classify", "低", "Low", "Gibran Majukan Wisata Daerah"),
+        t("BBTF 2026", "综合/待分类", "General / To Classify", "低", "Low", "BBTF 2026"),
+        t("#KAZZAWARDS2026xPondPhuwin", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026xPondPhuwin"),
+        t("PPP FAMILY KAZZAWARDS", "综合/待分类", "General / To Classify", "低", "Low", "PPP FAMILY KAZZAWARDS"),
+        t("#Sk8erBoiYoshiDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Sk8erBoiYoshiDay"),
+        t("#요시를_사랑하는_515가지이유", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "요시를_사랑하는_515가지이유"),
+        t("Nadiem", "综合/待分类", "General / To Classify", "低", "Low", "Nadiem"),
+        t("#満天の想いが降り注ぐYOSHI_DAY", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "満天の想いが降り注ぐYOSHI_DAY"),
+        t("BORN TO BE YOXI", "综合/待分类", "General / To Classify", "低", "Low", "BORN TO BE YOXI"),
+        t("Bedrock", "综合/待分类", "General / To Classify", "低", "Low", "Bedrock"),
+        t("Wapres Gibran", "综合/待分类", "General / To Classify", "低", "Low", "Wapres Gibran"),
+        t("#山下智久xJUNGWON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "山下智久xJUNGWON"),
+        t("GRABFOOD X JOONGDUNK", "综合/待分类", "General / To Classify", "低", "Low", "GRABFOOD X JOONGDUNK"),
+        t("Trade $KAIO", "综合/待分类", "General / To Classify", "低", "Low", "Trade $KAIO"),
+        t("KOE OUT NOW", "综合/待分类", "General / To Classify", "低", "Low", "KOE OUT NOW"),
+        t("kembalikan aset negara", "综合/待分类", "General / To Classify", "低", "Low", "kembalikan aset negara"),
+        t("PERTH DOMIIA ENGAGE IN KAZZ", "综合/待分类", "General / To Classify", "低", "Low", "PERTH DOMIIA ENGAGE IN KAZZ"),
+        t("Canton", "综合/待分类", "General / To Classify", "低", "Low", "Canton"),
+        t("Revan", "综合/待分类", "General / To Classify", "低", "Low", "Revan"),
+        t("Pagiii", "综合/待分类", "General / To Classify", "低", "Low", "Pagiii")
       ]),
       country("th", "泰国", "Thailand", undefined, [
-
+        t("#KAZZAWARDS2026xDMD", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026xDMD"),
+        t("#ตฟวมารับรางวัลด้วยกันแล้วนะ", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ตฟวมารับรางวัลด้วยกันแล้วนะ"),
+        t("#PerthSantaGlowTogether", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PerthSantaGlowTogether"),
+        t("PERTHSANTA BORN2SHINE", "综合/待分类", "General / To Classify", "低", "Low", "PERTHSANTA BORN2SHINE"),
+        t("#แคสอวอร์ด2026Xอิงล็อต", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "แคสอวอร์ด2026Xอิงล็อต"),
+        t("#BamBamXCannes2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BamBamXCannes2026"),
+        t("BE MY PLAYER TWO Q9 Q10", "综合/待分类", "General / To Classify", "低", "Low", "BE MY PLAYER TWO Q9 Q10"),
+        t("CANNES CALLING HARIT", "综合/待分类", "General / To Classify", "低", "Low", "CANNES CALLING HARIT"),
+        t("GRABFOOD X JOONGDUNK", "综合/待分类", "General / To Classify", "低", "Low", "GRABFOOD X JOONGDUNK"),
+        t("NAMPING LIVE WITH LOREAL", "综合/待分类", "General / To Classify", "低", "Low", "NAMPING LIVE WITH LOREAL"),
+        t("MR FANBOY Q12", "综合/待分类", "General / To Classify", "低", "Low", "MR FANBOY Q12"),
+        t("knp x linearzdensity", "综合/待分类", "General / To Classify", "低", "Low", "knp x linearzdensity"),
+        t("BECKY X CANNES FF26", "综合/待分类", "General / To Classify", "低", "Low", "BECKY X CANNES FF26"),
+        t("ENGFA THE MAGNIFICENT15", "综合/待分类", "General / To Classify", "低", "Low", "ENGFA THE MAGNIFICENT15"),
+        t("FORCEBOOK 1ST THEWALLSONG", "音乐/演出/粉丝内容", "Music / Show / Fandom", "低", "Low", "FORCEBOOK 1ST THEWALLSONG"),
+        t("EMROBIC WITH FORCE", "综合/待分类", "General / To Classify", "低", "Low", "EMROBIC WITH FORCE"),
+        t("WIN GLOWS IN CANNES", "综合/待分类", "General / To Classify", "低", "Low", "WIN GLOWS IN CANNES"),
+        t("GEMINI IN CANNES FILM FEST26", "综合/待分类", "General / To Classify", "低", "Low", "GEMINI IN CANNES FILM FEST26"),
+        t("TURNING OUR LIGHT INTO TKNUR", "综合/待分类", "General / To Classify", "低", "Low", "TURNING OUR LIGHT INTO TKNUR"),
+        t("Winter Season EP1", "剧集/娱乐", "Drama / Entertainment", "低", "Low", "Winter Season EP1")
       ]),
       country("ph", "菲律宾", "Philippines", undefined, [
-
+        t("TABI OUT NOW", "综合/待分类", "General / To Classify", "低", "Low", "TABI OUT NOW"),
+        t("Bato", "综合/待分类", "General / To Classify", "低", "Low", "Bato"),
+        t("#Sk8erBoiYoshiDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Sk8erBoiYoshiDay"),
+        t("#요시를_사랑하는_515가지이유", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "요시를_사랑하는_515가지이유"),
+        t("BORN TO BE YOXI", "综合/待分类", "General / To Classify", "低", "Low", "BORN TO BE YOXI"),
+        t("WILBEA WITH HONOR600", "综合/待分类", "General / To Classify", "低", "Low", "WILBEA WITH HONOR600"),
+        t("#KAZZAWARDS2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026"),
+        t("Senate", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Senate"),
+        t("#山下智久xJUNGWON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "山下智久xJUNGWON"),
+        t("#ジョンウォン", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ジョンウォン"),
+        t("Cayetano", "综合/待分类", "General / To Classify", "低", "Low", "Cayetano"),
+        t("Senado", "综合/待分类", "General / To Classify", "低", "Low", "Senado"),
+        t("GSIS", "综合/待分类", "General / To Classify", "低", "Low", "GSIS"),
+        t("OSAA", "综合/待分类", "General / To Classify", "低", "Low", "OSAA"),
+        t("Pilipinas", "综合/待分类", "General / To Classify", "低", "Low", "Pilipinas"),
+        t("vote wilbert for juancast", "综合/待分类", "General / To Classify", "低", "Low", "vote wilbert for juancast"),
+        t("Pananabik", "综合/待分类", "General / To Classify", "低", "Low", "Pananabik"),
+        t("Robin", "综合/待分类", "General / To Classify", "低", "Low", "Robin"),
+        t("BECKY X CANNES FF26", "综合/待分类", "General / To Classify", "低", "Low", "BECKY X CANNES FF26"),
+        t("Pilipino", "综合/待分类", "General / To Classify", "低", "Low", "Pilipino")
       ]),
       country("sa", "沙特", "Saudi Arabia", undefined, [
-
+        t("#اوقف_مصحفا_للحجاج_يوم_عرفه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "اوقف_مصحفا_للحجاج_يوم_عرفه"),
+        t("#يوم_الجمعه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "يوم_الجمعه"),
+        t("#الاتحاد_الاتفاق", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "الاتحاد_الاتفاق"),
+        t("علي النبي", "综合/待分类", "General / To Classify", "低", "Low", "علي النبي"),
+        t("#قنوات_عين", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "قنوات_عين"),
+        t("#الاصلي_يفرق", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "الاصلي_يفرق"),
+        t("عنابي سدير", "综合/待分类", "General / To Classify", "低", "Low", "عنابي سدير"),
+        t("النسخه الاضعف", "综合/待分类", "General / To Classify", "低", "Low", "النسخه الاضعف"),
+        t("علي محمد", "综合/待分类", "General / To Classify", "低", "Low", "علي محمد"),
+        t("الفلفل الوردي", "综合/待分类", "General / To Classify", "低", "Low", "الفلفل الوردي"),
+        t("جزر القمر", "综合/待分类", "General / To Classify", "低", "Low", "جزر القمر"),
+        t("موسي ديابي", "综合/待分类", "General / To Classify", "低", "Low", "موسي ديابي"),
+        t("اليوم الفضيل", "综合/待分类", "General / To Classify", "低", "Low", "اليوم الفضيل"),
+        t("نور مابين الجمعتين", "综合/待分类", "General / To Classify", "低", "Low", "نور مابين الجمعتين"),
+        t("الرييس الصيني", "综合/待分类", "General / To Classify", "低", "Low", "الرييس الصيني"),
+        t("علي العروض القويه", "综合/待分类", "General / To Classify", "低", "Low", "علي العروض القويه"),
+        t("اللهم الخلود", "综合/待分类", "General / To Classify", "低", "Low", "اللهم الخلود"),
+        t("يلو اسيا", "综合/待分类", "General / To Classify", "低", "Low", "يلو اسيا"),
+        t("الاسعار الجديده", "综合/待分类", "General / To Classify", "低", "Low", "الاسعار الجديده"),
+        t("سلم علي", "综合/待分类", "General / To Classify", "低", "Low", "سلم علي")
       ]),
       country("tr", "土耳其", "Turkey", undefined, [
-
+        t("#SeçimiKademeBelirler", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "SeçimiKademeBelirler"),
+        t("Rasim Ozan Kütahyalı", "综合/待分类", "General / To Classify", "低", "Low", "Rasim Ozan Kütahyalı"),
+        t("#perşembe", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "perşembe"),
+        t("Kim Özleyecek", "综合/待分类", "General / To Classify", "低", "Low", "Kim Özleyecek"),
+        t("Hayırlı Cumalar", "综合/待分类", "General / To Classify", "低", "Low", "Hayırlı Cumalar"),
+        t("#EsnafıDeğilFaiziBitir", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "EsnafıDeğilFaiziBitir"),
+        t("Tarkan", "综合/待分类", "General / To Classify", "低", "Low", "Tarkan"),
+        t("#AKGençlikGeliyor", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "AKGençlikGeliyor"),
+        t("#tamartutuklansın", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "tamartutuklansın"),
+        t("DenklikYoksa GelecekYok", "综合/待分类", "General / To Classify", "低", "Low", "DenklikYoksa GelecekYok"),
+        t("Özgür Çelik", "综合/待分类", "General / To Classify", "低", "Low", "Özgür Çelik"),
+        t("Sinan Akçıl", "综合/待分类", "General / To Classify", "低", "Low", "Sinan Akçıl"),
+        t("AlparslanHoca AnkarayaGeliyor", "综合/待分类", "General / To Classify", "低", "Low", "AlparslanHoca AnkarayaGeliyor"),
+        t("Emine Erdoğan", "综合/待分类", "General / To Classify", "低", "Low", "Emine Erdoğan"),
+        t("kadın milletvekilleri", "综合/待分类", "General / To Classify", "低", "Low", "kadın milletvekilleri"),
+        t("Bakanlık Randevusu Alın", "综合/待分类", "General / To Classify", "低", "Low", "Bakanlık Randevusu Alın"),
+        t("Merkez Bankası", "综合/待分类", "General / To Classify", "低", "Low", "Merkez Bankası"),
+        t("kadın belediye başkanları", "综合/待分类", "General / To Classify", "低", "Low", "kadın belediye başkanları"),
+        t("Muçi", "综合/待分类", "General / To Classify", "低", "Low", "Muçi"),
+        t("Bir Gençlik Şöleni", "综合/待分类", "General / To Classify", "低", "Low", "Bir Gençlik Şöleni")
       ]),
       country("vn", "越南", "Vietnam", undefined, [
-
+        t("Lụm Lúa", "综合/待分类", "General / To Classify", "低", "Low", "Lụm Lúa"),
+        t("#jeddahMassage", "话题标签/待分类", "Hashtag / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "jeddahMassage"),
+        t("#riyadh", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "riyadh"),
+        t("mạch", "综合/待分类", "General / To Classify", "低", "Low", "mạch"),
+        t("luận", "综合/待分类", "General / To Classify", "低", "Low", "luận"),
+        t("Thứ 6", "综合/待分类", "General / To Classify", "低", "Low", "Thứ 6"),
+        t("#KAZZAWARDS2026xPerth", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KAZZAWARDS2026xPerth"),
+        t("PERTH DOMIIA ENGAGE IN KAZZ", "综合/待分类", "General / To Classify", "低", "Low", "PERTH DOMIIA ENGAGE IN KAZZ"),
+        t("Extended", "综合/待分类", "General / To Classify", "低", "Low", "Extended"),
+        t("Chào", "综合/待分类", "General / To Classify", "低", "Low", "Chào"),
+        t("Biased", "综合/待分类", "General / To Classify", "低", "Low", "Biased"),
+        t("Evaluating", "综合/待分类", "General / To Classify", "低", "Low", "Evaluating"),
+        t("Ngày", "综合/待分类", "General / To Classify", "低", "Low", "Ngày"),
+        t("Obvious", "综合/待分类", "General / To Classify", "低", "Low", "Obvious"),
+        t("Timely", "综合/待分类", "General / To Classify", "低", "Low", "Timely"),
+        t("Lasting", "综合/待分类", "General / To Classify", "低", "Low", "Lasting"),
+        t("Questioning", "综合/待分类", "General / To Classify", "低", "Low", "Questioning"),
+        t("Uncertain", "综合/待分类", "General / To Classify", "低", "Low", "Uncertain"),
+        t("Minor", "综合/待分类", "General / To Classify", "低", "Low", "Minor")
       ])
     ],
     priorities: {
@@ -109,6 +222,16 @@ const reports = [
       ]
     }
   },
+
+  
+
+
+
+
+
+
+
+
 
   {
     date: "2026-05-14",

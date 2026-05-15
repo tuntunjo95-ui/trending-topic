@@ -425,19 +425,87 @@ async function updateAppJs({ dateStr, byCountry }) {
     `summaryTitle: "${dateStr} Six-Country Trend Brief"`,
   );
 
-  // If this date already exists, no-op.
-  if (app.includes(`date: "${dateStr}"`) || app.includes(`date: '${dateStr}'`)) {
-    await fs.writeFile(appPath, app);
-    return;
+  function findReportRangeFrom(startHint, date) {
+    const needle = `{\n    date: "${date}"`;
+    const start = app.indexOf(needle, startHint);
+    if (start === -1) return null;
+
+    let depth = 0;
+    let started = false;
+    let inString = "";
+    let escaped = false;
+    let end = -1;
+
+    for (let i = start; i < app.length; i += 1) {
+      const ch = app[i];
+
+      if (inString) {
+        if (escaped) {
+          escaped = false;
+          continue;
+        }
+        if (ch === "\\") {
+          escaped = true;
+          continue;
+        }
+        if (ch === inString) {
+          inString = "";
+        }
+        continue;
+      }
+
+      if (ch === "\"" || ch === "'" || ch === "`") {
+        inString = ch;
+        continue;
+      }
+
+      if (ch === "{") depth += 1;
+      if (ch === "}") depth -= 1;
+
+      if (ch === "{") started = true;
+
+      if (started && depth === 0 && i > start) {
+        end = i + 1;
+        break;
+      }
+    }
+
+    if (end === -1) return null;
+
+    let endWithComma = end;
+    while (endWithComma < app.length && /\s/.test(app[endWithComma])) endWithComma += 1;
+    if (app[endWithComma] === ",") endWithComma += 1;
+    return { start, end: endWithComma };
   }
 
+  function findAllReportRanges(date) {
+    const ranges = [];
+    let cursor = 0;
+    while (cursor < app.length) {
+      const r = findReportRangeFrom(cursor, date);
+      if (!r) break;
+      ranges.push(r);
+      cursor = r.end;
+    }
+    return ranges;
+  }
+
+  const reportBlock = renderAppJsReport(dateStr, byCountry);
+
+  // Remove any existing entries for this date (avoid duplicates), then insert a fresh one at the top.
+  const existingRanges = findAllReportRanges(dateStr);
+  for (let i = existingRanges.length - 1; i >= 0; i -= 1) {
+    const r = existingRanges[i];
+    app = `${app.slice(0, r.start)}${app.slice(r.end)}`;
+  }
+
+  // Re-locate insert point after removals (indexes may shift).
   const insertPoint = app.indexOf("const reports = [");
   if (insertPoint === -1) throw new Error("Cannot find `const reports = [` in app.js");
 
   const openBracketIndex = app.indexOf("[", insertPoint);
   if (openBracketIndex === -1) throw new Error("Cannot find reports array bracket in app.js");
 
-  const reportBlock = renderAppJsReport(dateStr, byCountry);
   const before = app.slice(0, openBracketIndex + 1);
   const after = app.slice(openBracketIndex + 1);
   app = `${before}\n${reportBlock},\n${after}`;
