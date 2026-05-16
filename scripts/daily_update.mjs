@@ -661,6 +661,20 @@ async function main() {
   const mdName = `${dateStr}-六国X热点30条扩展筛选报告.md`;
   const mdPath = path.join(ROOT, mdName);
 
+  const argv = process.argv.slice(2);
+  const manualIndex = argv.indexOf("--manual");
+  const manualPath =
+    manualIndex !== -1 && argv[manualIndex + 1]
+      ? path.resolve(ROOT, argv[manualIndex + 1])
+      : process.env.MANUAL_TRENDS_JSON
+        ? path.resolve(ROOT, process.env.MANUAL_TRENDS_JSON)
+        : "";
+  let manualData = null;
+  if (manualPath) {
+    const raw = await fs.readFile(manualPath, "utf8");
+    manualData = JSON.parse(raw);
+  }
+
   const byCountry = [];
   for (let i = 0; i < TARGETS.length; i += 1) {
     const meta = TARGETS[i];
@@ -670,9 +684,16 @@ async function main() {
     let error = "";
     let attempted = meta.sources?.slice?.() || [];
     try {
-      const res = await getTop30FromSources(meta);
-      rawTop30 = res.trends;
-      sourceUrl = res.sourceUrl;
+      const manualCountry = manualData?.countries?.[meta.id];
+      if (manualCountry && Array.isArray(manualCountry.rawTop30) && manualCountry.rawTop30.length) {
+        rawTop30 = manualCountry.rawTop30.slice(0, 30).map(normalizeTopic);
+        sourceUrl = manualCountry.sourceUrl || sourceUrl;
+        attempted = attempted.length ? attempted : [sourceUrl].filter(Boolean);
+      } else {
+        const res = await getTop30FromSources(meta);
+        rawTop30 = res.trends;
+        sourceUrl = res.sourceUrl;
+      }
       kept = rawTop30
         .map(normalizeTopic)
         .filter((t) => !shouldDrop(t, meta.id))
