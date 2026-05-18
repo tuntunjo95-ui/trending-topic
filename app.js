@@ -27,9 +27,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-05-17 六国热点话题日报",
-    summaryPriority: "优先深挖：泰国、菲律宾、印尼的娱乐/明星/剧集/品牌活动。",
-    summaryRisk: "风险观察：土耳其政治/司法/民族议题较多；菲律宾和印尼有政治公共议题；越南需补本地语言关键词。"
+    summaryTitle: "2026-05-18 六国热点话题日报",
+    summaryPriority: "优先深挖：泰国与沙特的明星/剧集/品牌/音乐节；印尼与越南的体育（足球/F1）与数码话题。",
+    summaryRisk: "风险观察：土耳其与菲律宾有政治/法律争议词；沙特含灾害救援与医疗/宗教敏感词；越南慈善类需核验。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -59,13 +59,141 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-05-17 Six-Country Trend Brief",
-    summaryPriority: "Priority: entertainment, celebrity, drama, and brand-event topics in Thailand, the Philippines, and Indonesia.",
-    summaryRisk: "Risk watch: Turkey has more political, legal, and identity topics; the Philippines and Indonesia include public-political issues; Vietnam needs local-language enrichment."
+    summaryTitle: "2026-05-18 Six-Country Trend Brief",
+    summaryPriority: "Priority: celebrity, drama, fashion, and festival topics in Thailand & Saudi; sports and consumer tech in Indonesia & Vietnam.",
+    summaryRisk: "Risk watch: political/legal terms appear in Turkey & the Philippines; Saudi includes disaster/medical/religion-sensitive terms; Vietnam charity keywords need verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-05-18",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://getdaytrends.com/indonesia/", [
+        t("#DriveSafe", "生活方式/出行安全", "Lifestyle / Travel Safety", "低", "Low", "DriveSafe"),
+        t("#LOVEUPONATIMEEp8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LOVEUPONATIMEEp8"),
+        t("#FinalEP1stMiniSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "FinalEP1stMiniSeries"),
+        t("#TomorrowNeverGonnaWait", "音乐/演出/发布（待确认）", "Music / Show / Release (TBD)", "低", "Low", "TomorrowNeverGonnaWait"),
+        t("#AstrophileMidnightSpecial", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "AstrophileMidnightSpecial"),
+        t("Al Nassr", "体育/足球", "Sports / Football", "低", "Low", "Al Nassr"),
+        t("Chelsea", "体育/足球", "Sports / Football", "低", "Low", "Chelsea"),
+        t("#SparkOnTheRoad", "活动/品牌/直播（待确认）", "Event / Brand / Live (TBD)", "低", "Low", "SparkOnTheRoad"),
+        t("#HBDSHAKTIARORA", "明星/生日应援", "Celebrity / Birthday Fan Project", "低", "Low", "HBDSHAKTIARORA"),
+        t("#TalesOfDemonAndGods", "动漫/漫画/游戏", "Anime / Manga / Game", "低", "Low", "TalesOfDemonAndGods"),
+        t("#ThamePoSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ThamePoSeriesEP2"),
+        t("#PialaAFFU23", "体育/赛事", "Sports / Tournament", "低", "Low", "PialaAFFU23"),
+        t("Enciso", "体育/球员/转会（待确认）", "Sports / Player / Transfer (TBD)", "低", "Low", "Enciso"),
+        t("Van Dijk", "体育/球员", "Sports / Player", "低", "Low", "Van Dijk"),
+        t("#LFC", "体育/足球", "Sports / Football", "低", "Low", "LFC"),
+        t("Max Verstappen", "体育/F1", "Sports / F1", "低", "Low", "Max Verstappen"),
+        t("Rasmus Hojlund", "体育/球员", "Sports / Player", "低", "Low", "Rasmus Hojlund"),
+        t("Tria Wallet", "金融/加密/钱包（谨慎）", "Finance / Crypto Wallet (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Tria Wallet")
+      ]),
+      country("th", "泰国", "Thailand", "https://getdaytrends.com/thailand/", [
+        t("#DriveSafe", "生活方式/出行安全", "Lifestyle / Travel Safety", "低", "Low", "DriveSafe"),
+        t("#ThamePoSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ThamePoSeriesEP2"),
+        t("#AstrophileMidnightSpecial", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "AstrophileMidnightSpecial"),
+        t("#BocchiTheRock", "动漫/漫画/游戏", "Anime / Manga / Game", "低", "Low", "BocchiTheRock"),
+        t("#จากศัตรูสู่หัวใจ", "剧集/综艺/娱乐（泰语剧/话题）", "Drama / Entertainment (TH)", "低", "Low", "จากศัตรูสู่หัวใจ"),
+        t("#LostInTheWoodsEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LostInTheWoodsEP9"),
+        t("#LOUISVUITTONCruise26", "品牌活动/时尚", "Brand / Fashion", "低", "Low", "LOUISVUITTONCruise26"),
+        t("#สวนแม่หอม5ตอนจบ", "剧集/综艺/娱乐（泰语剧/话题）", "Drama / Entertainment (TH)", "低", "Low", "สวนแม่หอม5ตอนจบ"),
+        t("Calvin Klein", "品牌活动/时尚", "Brand / Fashion", "低", "Low", "Calvin Klein"),
+        t("#Rowoon", "明星/艺人", "Celebrity / Artist", "低", "Low", "Rowoon"),
+        t("#Neymar", "体育/足球", "Sports / Football", "低", "Low", "Neymar"),
+        t("#BTS", "音乐/艺人", "Music / Artist", "低", "Low", "BTS"),
+        t("#LoveSeaSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LoveSeaSeries"),
+        t("Grok", "科技/产品话题", "Tech / Product", "低", "Low", "Grok"),
+        t("#SummerSonicBangkok", "音乐节/演出", "Festival / Live Show", "低", "Low", "SummerSonicBangkok"),
+        t("#BeastInTheBeauty", "剧集/综艺/娱乐（待确认）", "Drama / Entertainment (TBD)", "低", "Low", "BeastInTheBeauty"),
+        t("Tria Wallet", "金融/加密/钱包（谨慎）", "Finance / Crypto Wallet (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Tria Wallet"),
+        t("#รอบoneวันเสาร์", "综艺/节目（泰语）", "Variety Show (TH)", "低", "Low", "รอบoneวันเสาร์")
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://getdaytrends.com/philippines/", [
+        t("#SupportLocal", "生活方式/消费/本地品牌", "Lifestyle / Local Brands", "低", "Low", "SupportLocal"),
+        t("#BPeepsDAY", "粉丝应援/纪念日（待确认）", "Fandom / Anniversary (TBD)", "低", "Low", "BPeepsDAY"),
+        t("#UAAPCDC2026", "体育/校园赛事/啦啦队", "Sports / Campus Cheer", "低", "Low", "UAAPCDC2026"),
+        t("#NBAPlayoffs", "体育/篮球", "Sports / Basketball", "低", "Low", "NBAPlayoffs"),
+        t("Ospreay", "体育/格斗/摔角（待确认）", "Sports / Wrestling (TBD)", "低", "Low", "Ospreay"),
+        t("#FPJAPAngBagsikNiAguila", "剧集/影视/娱乐", "TV / Film / Entertainment", "低", "Low", "FPJAPAngBagsikNiAguila"),
+        t("#Ivana", "明星/艺人", "Celebrity / Artist", "低", "Low", "Ivana"),
+        t("#LoveSeaSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LoveSeaSeries"),
+        t("Peppa", "亲子/动画IP", "Kids / Cartoon IP", "低", "Low", "Peppa"),
+        t("Ningning", "音乐/艺人", "Music / Artist", "低", "Low", "Ningning"),
+        t("#HYPEBOY", "音乐/舞蹈挑战", "Music / Dance Challenge", "低", "Low", "HYPEBOY"),
+        t("Shania", "音乐/艺人（待确认）", "Music / Artist (TBD)", "低", "Low", "Shania"),
+        t("#SaveTheDateSB19SundinAngPuso", "音乐/艺人/新歌宣发", "Music / Artist / Release", "低", "Low", "SaveTheDateSB19SundinAngPuso"),
+        t("#BBM", "政治人物/争议", "Politics / Public Figure", "政治/争议", "Political / Controversy", "BBM"),
+        t("#Trump", "政治人物/争议", "Politics / Public Figure", "政治/争议", "Political / Controversy", "Trump"),
+        t("Doxxing", "争议/法律/网络安全", "Controversy / Legal / Cyber", "法律/争议", "Legal / Controversy", "Doxxing")
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://getdaytrends.com/saudi-arabia/", [
+        t("#Jisoo", "明星/艺人", "Celebrity / Artist", "低", "Low", "Jisoo"),
+        t("#Rescue_Jisoo", "粉丝行动/事件话题（待确认）", "Incident / Fandom Action (TBD)", "灾害/争议（待确认）", "Disaster / Controversy (TBD)", "Rescue_Jisoo"),
+        t("#Jisoo_earthquake_rescue", "事件话题（疑似灾害救援）", "Incident (Possible Disaster Relief)", "灾害/争议", "Disaster / Controversy", "Jisoo_earthquake_rescue"),
+        t("#Cannes2026", "电影节/红毯", "Film Festival / Red Carpet", "低", "Low", "Cannes2026"),
+        t("#Kim Soo Hyun", "明星/艺人", "Celebrity / Artist", "低", "Low", "Kim Soo Hyun"),
+        t("#NewJeans", "音乐/艺人", "Music / Artist", "低", "Low", "NewJeans"),
+        t("#NCTDREAM", "音乐/艺人", "Music / Artist", "低", "Low", "NCTDREAM"),
+        t("#AttackOnTitan", "动漫/漫画/游戏", "Anime / Manga / Game", "低", "Low", "AttackOnTitan"),
+        t("#Chaelisa", "音乐/艺人/CP向", "Music / Artist / Ship", "低", "Low", "Chaelisa"),
+        t("#Yuna", "明星/艺人（待确认）", "Celebrity / Artist (TBD)", "低", "Low", "Yuna"),
+        t("Hobi", "音乐/艺人（BTS相关）", "Music / Artist (BTS)", "低", "Low", "Hobi"),
+        t("JYP", "音乐/厂牌/艺人", "Music / Label / Artist", "低", "Low", "JYP"),
+        t("#JYP_NIZIU2", "音乐/艺人/新专（待确认）", "Music / Artist / Release (TBD)", "低", "Low", "JYP_NIZIU2"),
+        t("#RBW_BOYZ2", "综艺/选秀（待确认）", "Variety / Audition Show (TBD)", "低", "Low", "RBW_BOYZ2"),
+        t("#The_Fourth_Promise", "剧集/影视（待确认）", "TV / Film (TBD)", "低", "Low", "The_Fourth_Promise"),
+        t("#AGENT", "影视/节目（待确认）", "TV / Film / Show (TBD)", "低", "Low", "AGENT"),
+        t("#ParuParu", "医疗/健康话题（疑似）", "Medical / Health (Possible)", "医疗/争议", "Medical / Controversy", "ParuParu"),
+        t("Rasulullah", "宗教相关（敏感）", "Religion (Sensitive)", "争议/敏感内容", "Sensitive / Controversy", "Rasulullah")
+      ]),
+      country("tr", "土耳其", "Turkey", "https://getdaytrends.com/turkey/", [
+        t("#Galatasaray", "体育/足球", "Sports / Football", "低", "Low", "Galatasaray"),
+        t("#Fenerbahce", "体育/足球", "Sports / Football", "低", "Low", "Fenerbahce"),
+        t("#BJKvHTY", "体育/足球/比赛", "Sports / Match", "低", "Low", "BJKvHTY"),
+        t("Osimhen", "体育/球员", "Sports / Player", "低", "Low", "Osimhen"),
+        t("Derbi", "体育/德比话题", "Sports / Derby", "低", "Low", "Derbi"),
+        t("Süper Lig", "体育/足球联赛", "Sports / Football League", "低", "Low", "Süper Lig"),
+        t("Başakşehir", "体育/足球", "Sports / Football", "低", "Low", "Başakşehir"),
+        t("#GalaGecesi", "娱乐/盛典/红毯", "Entertainment / Gala / Red Carpet", "低", "Low", "GalaGecesi"),
+        t("#BurcuBiricik", "明星/演员", "Celebrity / Actor", "低", "Low", "BurcuBiricik"),
+        t("#HababamSinifi", "影视/经典IP", "Film / Classic IP", "低", "Low", "HababamSinifi"),
+        t("Hande", "明星/演员（待确认）", "Celebrity / Actor (TBD)", "低", "Low", "Hande"),
+        t("Demet", "明星/演员（待确认）", "Celebrity / Actor (TBD)", "低", "Low", "Demet"),
+        t("#DriveSafe", "生活方式/出行安全", "Lifestyle / Travel Safety", "低", "Low", "DriveSafe"),
+        t("#DünyaÇiftçilerGünü", "生活方式/节日话题", "Lifestyle / Holiday", "低", "Low", "DünyaÇiftçilerGünü"),
+        t("#SOSYALMEDYAYASAMIKORUSUN", "社会议题/法律政策（待确认）", "Social / Legal Policy (TBD)", "法律/争议", "Legal / Controversy", "SOSYALMEDYAYASAMIKORUSUN"),
+        t("Erdoğan", "政治人物/争议", "Politics / Public Figure", "政治/争议", "Political / Controversy", "Erdoğan"),
+        t("Saraçhane", "社会事件/争议（待确认）", "Social Incident (TBD)", "政治/争议", "Political / Controversy", "Saraçhane")
+      ]),
+      country("vn", "越南", "Vietnam", "https://getdaytrends.com/vietnam/", [
+        t("#Barcelona", "体育/足球", "Sports / Football", "低", "Low", "Barcelona"),
+        t("#LamineYamal", "体育/球员", "Sports / Player", "低", "Low", "LamineYamal"),
+        t("#FrenkieDeJong", "体育/球员", "Sports / Player", "低", "Low", "FrenkieDeJong"),
+        t("MU", "体育/足球", "Sports / Football", "低", "Low", "MU"),
+        t("#LeonGoretzka", "体育/球员", "Sports / Player", "低", "Low", "LeonGoretzka"),
+        t("#LFC", "体育/足球", "Sports / Football", "低", "Low", "LFC"),
+        t("Van Dijk", "体育/球员", "Sports / Player", "低", "Low", "Van Dijk"),
+        t("Matheus Cunha", "体育/球员", "Sports / Player", "低", "Low", "Matheus Cunha"),
+        t("Valencia", "体育/足球（或地名，待确认）", "Sports / Football (or Place, TBD)", "低", "Low", "Valencia"),
+        t("#Fenerbahce", "体育/足球", "Sports / Football", "低", "Low", "Fenerbahce"),
+        t("#Roma", "体育/足球", "Sports / Football", "低", "Low", "Roma"),
+        t("#KeiNishikori", "体育/网球", "Sports / Tennis", "低", "Low", "KeiNishikori"),
+        t("#BTS", "音乐/艺人", "Music / Artist", "低", "Low", "BTS"),
+        t("#Grok", "科技/产品话题", "Tech / Product", "低", "Low", "Grok"),
+        t("#Xiaomi", "科技/手机/数码", "Tech / Consumer Electronics", "低", "Low", "Xiaomi"),
+        t("#Hanoi", "城市/旅行/本地生活", "City / Travel / Local Life", "低", "Low", "Hanoi"),
+        t("#BachLongVi", "旅行/海岛/地理话题", "Travel / Island / Geo", "低", "Low", "BachLongVi"),
+        t("#TuThien", "公益/慈善（谨慎核验）", "Charity / Donation (Verify)", "可能含募捐/诈骗风险", "Potential Scam / Donation Risk", "TuThien"),
+        t("Hoàng Đức", "体育/球员", "Sports / Player", "低", "Low", "Hoàng Đức"),
+        t("Bùi Tiến Dũng", "体育/球员", "Sports / Player", "低", "Low", "Bùi Tiến Dũng")
+      ])
+    ]
+  },
   {
     date: "2026-05-17",
     title: {
