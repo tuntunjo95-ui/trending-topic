@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>趋势报告可视化预览</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Preview</p>
+        <h1>趋势报告可视化预览</h1>
+      </div>
+      <div class="top-actions">
+        <a class="button" href="./index.html">返回主页</a>
+      </div>
+    </header>
+
+    <main id="main" class="layout">
+      <aside class="sidebar" aria-label="预览筛选">
+        <section class="panel">
+          <h2>报告选择</h2>
+          <label class="search-box sidebar-search">
+            <span>日期</span>
+            <select id="pvReportSelect" aria-label="Report date"></select>
+          </label>
+          <p id="pvReportMeta" class="helper-text" aria-live="polite"></p>
+        </section>
+
+        <section class="panel">
+          <h2>国家选择</h2>
+          <label class="search-box sidebar-search">
+            <span>国家</span>
+            <select id="pvCountrySelect" aria-label="Country"></select>
+          </label>
+          <p class="helper-text">选择“全部”将显示 6 国汇总。</p>
+        </section>
+
+        <section class="panel compact">
+          <h2>展示内容</h2>
+          <div class="filter-list">
+            <button class="filter-chip active" data-pv-tab="topics" type="button">选题卡片</button>
+            <button class="filter-chip" data-pv-tab="threads" type="button">Threads 探针</button>
+            <button class="filter-chip" data-pv-tab="ig" type="button">IG 代理</button>
+          </div>
+          <p class="helper-text">注：Threads/IG 探针为试运行启发式，不代表官方趋势榜。</p>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="hero">
+          <div>
+            <p id="pvEyebrow" class="eyebrow">—</p>
+            <h2 id="pvTitle">—</h2>
+            <p id="pvSubtitle">—</p>
+          </div>
+          <div class="hero-metrics" aria-label="汇总指标">
+            <div><strong id="pvTopicCount">0</strong><span>总选题</span></div>
+            <div><strong id="pvLowCount">0</strong><span>低风险</span></div>
+            <div><strong id="pvWatchCount">0</strong><span>风险观察</span></div>
+          </div>
+        </section>
+
+        <section class="toolbar" aria-label="预览工具栏">
+          <div class="segmented" role="group" aria-label="风险筛选">
+            <button class="active" data-pv-risk="all" type="button">全部</button>
+            <button data-pv-risk="low" type="button">低风险</button>
+            <button data-pv-risk="watch" type="button">风险观察</button>
+          </div>
+          <label class="search-box">
+            <span>搜索</span>
+            <input id="pvSearch" type="search" placeholder="话题、国家、分类" />
+          </label>
+        </section>
+
+        <section id="pvContent" class="country-sections" aria-live="polite"></section>
+      </section>
+
+      <aside class="rightbar">
+        <section class="panel">
+          <h2>优先深挖（原始）</h2>
+          <ol id="pvPriority" class="priority-list"></ol>
+        </section>
+        <section class="panel">
+          <h2>风险观察池（原始）</h2>
+          <div id="pvRiskPool" class="risk-list"></div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="./app.js?v=202605201706"></script>
+    <script src="./preview.js"></script>
+  </body>
+</html>

@@ -1260,6 +1260,9 @@ const reports = [
   }
 ];
 
+// Expose reports for auxiliary pages (e.g. preview.html) without duplicating data.
+window.__TREND_REPORTS__ = reports;
+
 function country(id, zh, en, sourceUrl, topics) {
   return { id, name: { zh, en }, sourceUrl, topics };
 }
