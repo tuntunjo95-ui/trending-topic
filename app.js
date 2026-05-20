@@ -79,25 +79,8 @@ const reports = [
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("Arsenal", "综合/待分类", "General / To Classify", "低", "Low", "Arsenal"),
-        t("JISUNG OKCS AMBASSADOR", "综合/待分类", "General / To Classify", "低", "Low", "JISUNG OKCS AMBASSADOR"),
-        t("#JISUNGxOKCS", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "JISUNGxOKCS"),
-        t("Hari Kebangkitan Nasional", "综合/待分类", "General / To Classify", "低", "Low", "Hari Kebangkitan Nasional"),
-        t("#MenteriDesaPDTBersamaBUMDesa", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "MenteriDesaPDTBersamaBUMDesa"),
-        t("#Harkitnas2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Harkitnas2026"),
-        t("Desa Sudirman", "综合/待分类", "General / To Classify", "低", "Low", "Desa Sudirman"),
-        t("BUMDesa Dinari", "综合/待分类", "General / To Classify", "低", "Low", "BUMDesa Dinari"),
-        t("Program Desa Bersinar", "综合/待分类", "General / To Classify", "低", "Low", "Program Desa Bersinar"),
-        t("Kunjungan Menteri Desa", "综合/待分类", "General / To Classify", "低", "Low", "Kunjungan Menteri Desa"),
-        t("Happy 520", "综合/待分类", "General / To Classify", "低", "Low", "Happy 520"),
-        t("#COYG", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "COYG"),
-        t("Bersih Narkoba", "综合/待分类", "General / To Classify", "低", "Low", "Bersih Narkoba"),
-        t("#KerjaTPPBerdampak", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KerjaTPPBerdampak"),
-        t("Jaga Tunas Bangsa", "综合/待分类", "General / To Classify", "低", "Low", "Jaga Tunas Bangsa"),
-        t("Pak Anies", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Pak Anies"),
         t("Premier League", "体育/赛事", "Sports / Event", "低", "Low", "Premier League"),
-        t("Arteta", "综合/待分类", "General / To Classify", "低", "Low", "Arteta"),
-        t("Setelah 22", "综合/待分类", "General / To Classify", "低", "Low", "Setelah 22"),
-        t("After 22", "综合/待分类", "General / To Classify", "低", "Low", "After 22")
+        t("Arteta", "综合/待分类", "General / To Classify", "低", "Low", "Arteta")
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#WUTheSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WUTheSeriesEP3"),
@@ -229,6 +212,10 @@ const reports = [
       ]
     }
   },
+
+  
+
+  
 
   
 

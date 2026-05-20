@@ -789,6 +789,7 @@ async function main() {
   const dateStr = todayInShanghai();
   const mdName = `${dateStr}-六国X热点30条扩展筛选报告.md`;
   const mdPath = path.join(ROOT, mdName);
+  const filterPath = path.join(ROOT, "scripts", "topic_filters.json");
 
   const argv = process.argv.slice(2);
   const manualIndex = argv.indexOf("--manual");
@@ -802,6 +803,42 @@ async function main() {
   if (manualPath) {
     const raw = await fs.readFile(manualPath, "utf8");
     manualData = JSON.parse(raw);
+  }
+
+  let topicFilters = null;
+  try {
+    const raw = await fs.readFile(filterPath, "utf8");
+    topicFilters = JSON.parse(raw);
+  } catch {
+    topicFilters = null;
+  }
+
+  function applyTopicFilters(countryId, topics) {
+    const cfg = topicFilters?.countries?.[countryId];
+    if (!cfg) return topics;
+    const allowedTypeEn = Array.isArray(cfg.allowedTypeEn) ? cfg.allowedTypeEn : null;
+    const forceKeep = new Set(Array.isArray(cfg.forceKeepTopics) ? cfg.forceKeepTopics : []);
+    const forceDrop = new Set(Array.isArray(cfg.forceDropTopics) ? cfg.forceDropTopics : []);
+    const keepContains = Array.isArray(cfg.forceKeepContains) ? cfg.forceKeepContains : [];
+    const dropContains = Array.isArray(cfg.forceDropContains) ? cfg.forceDropContains : [];
+
+    const containsAny = (haystack, needles) => {
+      const h = String(haystack || "").toLowerCase();
+      return needles.some((n) => n && h.includes(String(n).toLowerCase()));
+    };
+
+    let out = topics.slice();
+    if (allowedTypeEn && allowedTypeEn.length) {
+      out = out.filter(
+        (t) =>
+          allowedTypeEn.includes(t.typeEn) ||
+          forceKeep.has(t.topic) ||
+          containsAny(t.topic, keepContains),
+      );
+    }
+    if (forceDrop.size) out = out.filter((t) => !forceDrop.has(t.topic));
+    if (dropContains.length) out = out.filter((t) => !containsAny(t.topic, dropContains));
+    return out;
   }
 
   const byCountry = [];
@@ -828,6 +865,7 @@ async function main() {
         .filter((t) => !shouldDrop(t, meta.id))
         .slice(0, 20) // keep a manageable number in the webpage
         .map(buildTopic);
+      kept = applyTopicFilters(meta.id, kept);
     } catch (err) {
       error = err?.message || String(err);
     }
@@ -846,9 +884,14 @@ async function main() {
 
   const markdown = renderMarkdown(dateStr, byCountry);
   await fs.writeFile(mdPath, markdown);
-  // If the markdown is manually edited later (e.g. type judgments), rerunning the script will
-  // reflect those judgments into the website because we re-apply the table values.
-  applyKeptOverridesFromMarkdown(byCountry, markdown);
+  // If the markdown is manually edited later (e.g. type/risk judgments), rerunning the script will
+  // reflect those judgments into the website by re-reading the existing file and re-applying the table values.
+  try {
+    const existing = await fs.readFile(mdPath, "utf8");
+    applyKeptOverridesFromMarkdown(byCountry, existing);
+  } catch {
+    applyKeptOverridesFromMarkdown(byCountry, markdown);
+  }
 
   const fetchedCountries = byCountry.filter((c) => Array.isArray(c.rawTop30) && c.rawTop30.length > 0);
   if (fetchedCountries.length === 0) {

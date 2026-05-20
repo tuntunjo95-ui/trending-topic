@@ -1,0 +1,26 @@
+{
+  "note": "Manual topic filters per country. Edit this file to tune what gets kept on the website. Matching is exact for topic strings; type matching uses typeEn values.",
+  "countries": {
+    "id": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer"
+      ],
+      "forceKeepContains": [
+        "arsenal",
+        "premier league",
+        "gooners",
+        "the gunners",
+        "arteta"
+      ],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    }
+  }
+}
