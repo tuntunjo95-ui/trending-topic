@@ -27,7 +27,12 @@
       <aside class="sidebar" aria-label="报告列表和筛选">
         <section class="panel">
           <h2 data-i18n="reportDate">报告日期</h2>
-          <div id="reportList" class="report-list"></div>
+          <label class="search-box sidebar-search">
+            <span data-i18n="reportSearch">搜索日期</span>
+            <input id="reportSearch" type="search" placeholder="输入日期，如 2026-05-20" list="reportDateOptions" autocomplete="off" />
+          </label>
+          <datalist id="reportDateOptions"></datalist>
+          <div id="reportList" class="report-list report-list--compact" aria-label="报告日期列表"></div>
         </section>
 
         <section class="panel">
@@ -89,6 +94,6 @@
     </main>
 
     <div id="toast" class="toast" role="status" aria-live="polite">已复制摘要</div>
-    <script src="./app.js?v=202605201121"></script>
+    <script src="./app.js?v=202605201424"></script>
   </body>
 </html>

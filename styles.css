@@ -181,6 +181,22 @@ h3 {
   gap: 8px;
 }
 
+.sidebar-search {
+  min-width: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.report-list--compact {
+  max-height: 360px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.report-list--compact .report-item {
+  padding: 10px;
+}
+
 .report-item.active {
   border-color: var(--green);
   background: var(--surface-2);
