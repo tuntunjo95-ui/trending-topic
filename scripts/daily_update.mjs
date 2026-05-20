@@ -185,8 +185,10 @@ function guessRisk(topic) {
 }
 
 function guessType(topic) {
-  const t = topic.toLowerCase();
-  const hasHashtag = topic.startsWith("#");
+  // Do not treat hashtags as a category by itself. We classify by semantics,
+  // stripping leading # so tags get the same treatment as plain words.
+  const cleaned = String(topic || "").replace(/^#+/, "").trim();
+  const t = cleaned.toLowerCase();
 
   // Travel / tourism / local event
   const travel = ["wisata", "travel", "tour", "festival", "fair", "expo", "bbtf", "bali"];
@@ -194,9 +196,33 @@ function guessType(topic) {
     return { zh: "旅行/本地活动", en: "Travel / Local Event" };
   }
 
+  // Government / civic / policy (usually low conversion for entertainment content)
+  // This is NOT a "political stance" label; it is a content-genre hint to keep the pool focused.
+  const gov = [
+    "menteri",
+    "kementerian",
+    "kemen",
+    "desa",
+    "bumdesa",
+    "bumdes",
+    "harkitnas",
+    "hari kebangkitan nasional",
+    "tpb",
+    "pdt",
+    "pdt bersama",
+    "pemerintah",
+    "presiden",
+    "kpu",
+    "dpr",
+    "senat",
+  ];
+  if (gov.some((k) => t.includes(k))) {
+    return { zh: "综合/待分类", en: "General / To Classify" };
+  }
+
   // Awards / red carpet / ceremonies
   const awards = ["awards", "award", "kazzawards", "red carpet", "carpet", "ceremony"];
-  if (awards.some((k) => t.includes(k)) || /\bkazz\b/i.test(topic)) {
+  if (awards.some((k) => t.includes(k)) || /\bkazz\b/i.test(cleaned)) {
     return { zh: "颁奖礼/红毯/盛典", en: "Awards / Red Carpet / Ceremony" };
   }
 
@@ -215,7 +241,7 @@ function guessType(topic) {
     "debut",
     "comeback",
   ];
-  if (music.some((k) => t.includes(k)) || /\bout\s+now\b/i.test(topic)) {
+  if (music.some((k) => t.includes(k)) || /\bout\s+now\b/i.test(cleaned)) {
     return { zh: "音乐/演出/发布", en: "Music / Show / Release" };
   }
 
@@ -233,7 +259,7 @@ function guessType(topic) {
 
   // Sports
   const sports = ["cup", "match", "fc", "league", "football", "basketball", "volley", "f1", "ufc", "nba"];
-  if (sports.some((k) => t.includes(k)) || /كاس|المنتخب/i.test(topic)) {
+  if (sports.some((k) => t.includes(k)) || /كاس|المنتخب/i.test(cleaned)) {
     return { zh: "体育/赛事", en: "Sports / Event" };
   }
 
@@ -261,7 +287,6 @@ function guessType(topic) {
     return { zh: "金融/加密（谨慎）", en: "Finance / Crypto (Watch)" };
   }
 
-  if (hasHashtag) return { zh: "话题标签/待分类", en: "Hashtag / To Classify" };
   return { zh: "综合/待分类", en: "General / To Classify" };
 }
 
