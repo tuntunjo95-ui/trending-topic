@@ -524,6 +524,23 @@ input:focus-visible {
   background: linear-gradient(0deg, rgba(255, 244, 223, 0.55), rgba(255, 244, 223, 0.55)), #fff;
 }
 
+.signal-row {
+  margin-top: 2px;
+}
+
+.signal-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(32, 180, 126, 0.12);
+  color: var(--green-dark);
+  border: 1px solid rgba(32, 180, 126, 0.28);
+  font-size: 12px;
+  font-weight: 750;
+}
+
 .topic-title {
   display: flex;
   align-items: flex-start;

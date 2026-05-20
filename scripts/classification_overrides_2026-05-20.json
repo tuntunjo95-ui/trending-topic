@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-20",
+  "note": "Fill with second-confirmed classifications (translation/search). Exact-match topic keys. Rerun generator after editing.",
+  "countries": {
+    "id": {
+      "topics": {
+        "Arsenal": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Sports club keyword; content response expected",
+          "source": "manual-search"
+        },
+        "Premier League": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Sports league keyword; content response expected",
+          "source": "manual-search"
+        },
+        "Arteta": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Coach/football context; content response expected",
+          "source": "manual-search"
+        }
+      }
+    }
+  }
+}
+

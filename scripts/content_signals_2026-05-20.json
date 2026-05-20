@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-20",
+  "note": "Fill this file with manually verified Threads/TikTok URLs, then rerun: node scripts/daily_update.mjs --manual scripts/manual_trends_2026-05-20.json",
+  "countries": {
+    "id": {
+      "topics": {
+        "Arsenal": {
+          "categoryZh": "体育/赛事",
+          "categoryEn": "Sports / Event",
+          "threadsTop": [],
+          "threadsRecent": [],
+          "tiktokTop": [],
+          "tiktokRecent": [],
+          "verifiedAt": "",
+          "verifier": "manual"
+        },
+        "Premier League": {
+          "categoryZh": "体育/赛事",
+          "categoryEn": "Sports / Event",
+          "threadsTop": [],
+          "threadsRecent": [],
+          "tiktokTop": [],
+          "tiktokRecent": [],
+          "verifiedAt": "",
+          "verifier": "manual"
+        },
+        "Arteta": {
+          "categoryZh": "体育/赛事",
+          "categoryEn": "Sports / Event",
+          "threadsTop": [],
+          "threadsRecent": [],
+          "tiktokTop": [],
+          "tiktokRecent": [],
+          "verifiedAt": "",
+          "verifier": "manual"
+        }
+      }
+    }
+  }
+}
+

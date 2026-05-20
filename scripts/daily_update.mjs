@@ -330,6 +330,15 @@ function buildTopic(topic) {
     query,
     tiktok: `https://www.tiktok.com/search?q=${encode(query)}`,
     threads: `https://www.threads.com/search?q=${encode(query)}`,
+    // Optional manual enrichment (see scripts/content_signals_YYYY-MM-DD.json)
+    signals: {
+      threadsTop: [],
+      threadsRecent: [],
+      tiktokTop: [],
+      tiktokRecent: [],
+      verifiedAt: "",
+      verifier: ""
+    }
   };
 }
 
@@ -545,6 +554,34 @@ function renderCountryMarkdown(country, rawTop30, kept) {
   }
   lines.push("");
 
+  // Manual verified content signals (if provided)
+  const hasSignals = Array.isArray(kept) && kept.some((k) =>
+    (k.signals?.threadsTop?.length || 0) +
+      (k.signals?.threadsRecent?.length || 0) +
+      (k.signals?.tiktokTop?.length || 0) +
+      (k.signals?.tiktokRecent?.length || 0) >
+      0,
+  );
+  if (hasSignals) {
+    lines.push("### Threads / TikTok 已确认内容（人工）");
+    lines.push("");
+    lines.push("说明：以下链接来自人工在 Threads/TikTok 搜索页确认的热门内容，用于二次验证“是否有内容响应”。");
+    lines.push("");
+    lines.push(mdTableRow(["话题", "Threads Top", "Threads Recent", "TikTok Top", "TikTok Recent"]));
+    lines.push(mdTableRow(["---", "---", "---", "---", "---"]));
+    kept.forEach((k) => {
+      const s = k.signals || {};
+      const tTop = (s.threadsTop || []).slice(0, 3).join("<br/>") || "—";
+      const tRec = (s.threadsRecent || []).slice(0, 3).join("<br/>") || "—";
+      const vTop = (s.tiktokTop || []).slice(0, 3).join("<br/>") || "—";
+      const vRec = (s.tiktokRecent || []).slice(0, 3).join("<br/>") || "—";
+      const any = [tTop, tRec, vTop, vRec].some((x) => x !== "—");
+      if (!any) return;
+      lines.push(mdTableRow([k.topic, tTop, tRec, vTop, vRec]));
+    });
+    lines.push("");
+  }
+
   // Threads trend probe (regional signals) + IG proxy signals
   lines.push("### Threads 地区热点探针（试运行）");
   lines.push("");
@@ -642,7 +679,8 @@ function renderAppJsCountry(country, kept) {
       const riskZh = JSON.stringify(k.riskZh);
       const riskEn = JSON.stringify(k.riskEn);
       const query = JSON.stringify(k.query);
-      return `        t(${topicLiteral}, ${typeZh}, ${typeEn}, ${riskZh}, ${riskEn}, ${query})`;
+      const signals = JSON.stringify(k.signals || null);
+      return `        t(${topicLiteral}, ${typeZh}, ${typeEn}, ${riskZh}, ${riskEn}, ${query}, ${signals})`;
     })
     .join(",\n");
 
@@ -790,6 +828,8 @@ async function main() {
   const mdName = `${dateStr}-六国X热点30条扩展筛选报告.md`;
   const mdPath = path.join(ROOT, mdName);
   const filterPath = path.join(ROOT, "scripts", "topic_filters.json");
+  const contentSignalsPath = path.join(ROOT, "scripts", `content_signals_${dateStr}.json`);
+  const overridesPath = path.join(ROOT, "scripts", `classification_overrides_${dateStr}.json`);
 
   const argv = process.argv.slice(2);
   const manualIndex = argv.indexOf("--manual");
@@ -811,6 +851,22 @@ async function main() {
     topicFilters = JSON.parse(raw);
   } catch {
     topicFilters = null;
+  }
+
+  let contentSignals = null;
+  try {
+    const raw = await fs.readFile(contentSignalsPath, "utf8");
+    contentSignals = JSON.parse(raw);
+  } catch {
+    contentSignals = null;
+  }
+
+  let classificationOverrides = null;
+  try {
+    const raw = await fs.readFile(overridesPath, "utf8");
+    classificationOverrides = JSON.parse(raw);
+  } catch {
+    classificationOverrides = null;
   }
 
   function applyTopicFilters(countryId, topics) {
@@ -841,6 +897,47 @@ async function main() {
     return out;
   }
 
+  function applyClassificationOverrides(countryId, topics) {
+    const map = classificationOverrides?.countries?.[countryId]?.topics || null;
+    if (!map) return topics;
+    return topics.map((t) => {
+      const o = map[t.topic];
+      if (!o) return t;
+      const next = { ...t };
+      if (o.typeZh) next.typeZh = o.typeZh;
+      if (o.typeEn) next.typeEn = o.typeEn;
+      if (o.riskZh) next.riskZh = o.riskZh;
+      if (o.riskEn) next.riskEn = o.riskEn;
+      next.riskKey = next.riskZh === "低" ? "low" : "watch";
+      return next;
+    });
+  }
+
+  function applyContentSignals(countryId, topics) {
+    const map = contentSignals?.countries?.[countryId]?.topics || null;
+    if (!map) return topics;
+    return topics.map((t) => {
+      const s = map[t.topic];
+      if (!s) return t;
+      const next = { ...t };
+      // Allow signals file to also override category (secondary confirmation).
+      if (s.categoryZh) next.typeZh = s.categoryZh;
+      if (s.categoryEn) next.typeEn = s.categoryEn;
+      if (s.threadsTop || s.threadsRecent || s.tiktokTop || s.tiktokRecent) {
+        next.signals = {
+          ...(next.signals || {}),
+          threadsTop: Array.isArray(s.threadsTop) ? s.threadsTop : next.signals?.threadsTop || [],
+          threadsRecent: Array.isArray(s.threadsRecent) ? s.threadsRecent : next.signals?.threadsRecent || [],
+          tiktokTop: Array.isArray(s.tiktokTop) ? s.tiktokTop : next.signals?.tiktokTop || [],
+          tiktokRecent: Array.isArray(s.tiktokRecent) ? s.tiktokRecent : next.signals?.tiktokRecent || [],
+          verifiedAt: s.verifiedAt || next.signals?.verifiedAt || "",
+          verifier: s.verifier || next.signals?.verifier || ""
+        };
+      }
+      return next;
+    });
+  }
+
   const byCountry = [];
   for (let i = 0; i < TARGETS.length; i += 1) {
     const meta = TARGETS[i];
@@ -866,6 +963,8 @@ async function main() {
         .slice(0, 20) // keep a manageable number in the webpage
         .map(buildTopic);
       kept = applyTopicFilters(meta.id, kept);
+      kept = applyClassificationOverrides(meta.id, kept);
+      kept = applyContentSignals(meta.id, kept);
     } catch (err) {
       error = err?.message || String(err);
     }

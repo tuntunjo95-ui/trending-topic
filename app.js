@@ -78,119 +78,119 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
-        t("Arsenal", "综合/待分类", "General / To Classify", "低", "Low", "Arsenal"),
-        t("Premier League", "体育/赛事", "Sports / Event", "低", "Low", "Premier League"),
-        t("Arteta", "综合/待分类", "General / To Classify", "低", "Low", "Arteta")
+        t("Arsenal", "体育/赛事", "Sports / Event", "低", "Low", "Arsenal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":"manual"}),
+        t("Premier League", "体育/赛事", "Sports / Event", "低", "Low", "Premier League", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":"manual"}),
+        t("Arteta", "体育/赛事", "Sports / Event", "低", "Low", "Arteta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":"manual"})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
-        t("#WUTheSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WUTheSeriesEP3"),
-        t("#dek69", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "dek69"),
-        t("#นุนิวปักใจ6โมงเย็น", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "นุนิวปักใจ6โมงเย็น"),
-        t("#KCLmcคิดได้หรือยัง", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KCLmcคิดได้หรือยัง"),
-        t("KCL MC COMEOUT", "综合/待分类", "General / To Classify", "低", "Low", "KCL MC COMEOUT"),
-        t("#เฮียตี๋5แสนแล้วนะหม่ามี๊", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "เฮียตี๋5แสนแล้วนะหม่ามี๊"),
-        t("Chermchey Open Now", "综合/待分类", "General / To Classify", "低", "Low", "Chermchey Open Now"),
-        t("EST SUPHA BD 2026", "综合/待分类", "General / To Classify", "低", "Low", "EST SUPHA BD 2026"),
-        t("SKY HALF MILLION ON X", "综合/待分类", "General / To Classify", "低", "Low", "SKY HALF MILLION ON X"),
-        t("TTP X CLEAR WATSONS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TTP X CLEAR WATSONS"),
-        t("LOVE NO REFUND KRITTANUN", "综合/待分类", "General / To Classify", "低", "Low", "LOVE NO REFUND KRITTANUN"),
-        t("520 LOVE MEEN NICHA", "综合/待分类", "General / To Classify", "低", "Low", "520 LOVE MEEN NICHA"),
-        t("ENGFA THE MAGNIFICENT20", "综合/待分类", "General / To Classify", "低", "Low", "ENGFA THE MAGNIFICENT20"),
-        t("520 BELOVED MP", "综合/待分类", "General / To Classify", "低", "Low", "520 BELOVED MP"),
-        t("GRABFOOD X POOHPAVEL", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GRABFOOD X POOHPAVEL"),
-        t("1 DAYSTIL GUINZLY BD", "综合/待分类", "General / To Classify", "低", "Low", "1 DAYSTIL GUINZLY BD"),
-        t("FREE SOUL CHARLOTTE20", "综合/待分类", "General / To Classify", "低", "Low", "FREE SOUL CHARLOTTE20"),
-        t("520 WOAINI POOHPAVEL", "综合/待分类", "General / To Classify", "低", "Low", "520 WOAINI POOHPAVEL"),
-        t("Happy 520", "综合/待分类", "General / To Classify", "低", "Low", "Happy 520"),
-        t("520 I LOVE BOAT", "综合/待分类", "General / To Classify", "低", "Low", "520 I LOVE BOAT")
+        t("#WUTheSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WUTheSeriesEP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#dek69", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "dek69", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#นุนิวปักใจ6โมงเย็น", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "นุนิวปักใจ6โมงเย็น", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KCLmcคิดได้หรือยัง", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KCLmcคิดได้หรือยัง", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KCL MC COMEOUT", "综合/待分类", "General / To Classify", "低", "Low", "KCL MC COMEOUT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เฮียตี๋5แสนแล้วนะหม่ามี๊", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "เฮียตี๋5แสนแล้วนะหม่ามี๊", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Chermchey Open Now", "综合/待分类", "General / To Classify", "低", "Low", "Chermchey Open Now", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EST SUPHA BD 2026", "综合/待分类", "General / To Classify", "低", "Low", "EST SUPHA BD 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SKY HALF MILLION ON X", "综合/待分类", "General / To Classify", "低", "Low", "SKY HALF MILLION ON X", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TTP X CLEAR WATSONS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TTP X CLEAR WATSONS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LOVE NO REFUND KRITTANUN", "综合/待分类", "General / To Classify", "低", "Low", "LOVE NO REFUND KRITTANUN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("520 LOVE MEEN NICHA", "综合/待分类", "General / To Classify", "低", "Low", "520 LOVE MEEN NICHA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ENGFA THE MAGNIFICENT20", "综合/待分类", "General / To Classify", "低", "Low", "ENGFA THE MAGNIFICENT20", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("520 BELOVED MP", "综合/待分类", "General / To Classify", "低", "Low", "520 BELOVED MP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GRABFOOD X POOHPAVEL", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GRABFOOD X POOHPAVEL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("1 DAYSTIL GUINZLY BD", "综合/待分类", "General / To Classify", "低", "Low", "1 DAYSTIL GUINZLY BD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREE SOUL CHARLOTTE20", "综合/待分类", "General / To Classify", "低", "Low", "FREE SOUL CHARLOTTE20", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("520 WOAINI POOHPAVEL", "综合/待分类", "General / To Classify", "低", "Low", "520 WOAINI POOHPAVEL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Happy 520", "综合/待分类", "General / To Classify", "低", "Low", "Happy 520", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("520 I LOVE BOAT", "综合/待分类", "General / To Classify", "低", "Low", "520 I LOVE BOAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
-        t("#BINIFromPHToTheWorld", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINIFromPHToTheWorld"),
-        t("#KPOPSTARSHOW2026", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "KPOPSTARSHOW2026"),
-        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026"),
-        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4"),
-        t("#LIFEgoesON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LIFEgoesON"),
-        t("#BINI6thSingleShagidi", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINI6thSingleShagidi"),
-        t("GOD DID", "综合/待分类", "General / To Classify", "低", "Low", "GOD DID"),
-        t("#HappyMarisDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "HappyMarisDay"),
-        t("#NBA", "体育/赛事", "Sports / Event", "低", "Low", "NBA"),
-        t("F1 Imola", "体育/赛事", "Sports / Event", "低", "Low", "F1 Imola"),
-        t("MOWA", "综合/待分类", "General / To Classify", "低", "Low", "MOWA"),
-        t("TOTGA", "综合/待分类", "General / To Classify", "低", "Low", "TOTGA"),
-        t("PBB GEN 12 BIG 4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG 4"),
-        t("#PusuanMoAko", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PusuanMoAko"),
-        t("#Uninvited", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Uninvited"),
-        t("PBB GEN 12 BIG4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG4"),
-        t("Lorna", "综合/待分类", "General / To Classify", "低", "Low", "Lorna"),
-        t("May 20", "综合/待分类", "General / To Classify", "低", "Low", "May 20"),
-        t("Maloi", "综合/待分类", "General / To Classify", "低", "Low", "Maloi"),
-        t("#PBAFinals", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBAFinals")
+        t("#BINIFromPHToTheWorld", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINIFromPHToTheWorld", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KPOPSTARSHOW2026", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "KPOPSTARSHOW2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LIFEgoesON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LIFEgoesON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BINI6thSingleShagidi", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINI6thSingleShagidi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GOD DID", "综合/待分类", "General / To Classify", "低", "Low", "GOD DID", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#HappyMarisDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "HappyMarisDay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#NBA", "体育/赛事", "Sports / Event", "低", "Low", "NBA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("F1 Imola", "体育/赛事", "Sports / Event", "低", "Low", "F1 Imola", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MOWA", "综合/待分类", "General / To Classify", "低", "Low", "MOWA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TOTGA", "综合/待分类", "General / To Classify", "低", "Low", "TOTGA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PBB GEN 12 BIG 4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG 4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PusuanMoAko", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PusuanMoAko", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Uninvited", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Uninvited", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PBB GEN 12 BIG4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lorna", "综合/待分类", "General / To Classify", "低", "Low", "Lorna", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("May 20", "综合/待分类", "General / To Classify", "低", "Low", "May 20", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Maloi", "综合/待分类", "General / To Classify", "低", "Low", "Maloi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PBAFinals", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBAFinals", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://getdaytrends.com/saudi-arabia/", [
-        t("#سقيا_الحجاج__في_يوم_الترويه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "سقيا_الحجاج__في_يوم_الترويه"),
-        t("#مبادره_لست_وحدك", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "مبادره_لست_وحدك"),
-        t("#ايسف2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ايسف2026"),
-        t("#WWERAW", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "WWERAW"),
-        t("بروك ليسنر", "综合/待分类", "General / To Classify", "低", "Low", "بروك ليسنر"),
-        t("#ام__احمد_تنااشدكم_احسان", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ام__احمد_تنااشدكم_احسان"),
-        t("الانستا الجديد", "综合/待分类", "General / To Classify", "低", "Low", "الانستا الجديد"),
-        t("جواو بيدرو", "综合/待分类", "General / To Classify", "低", "Low", "جواو بيدرو"),
-        t("سعود العلي", "综合/待分类", "General / To Classify", "低", "Low", "سعود العلي"),
-        t("منتخب البرازيل", "综合/待分类", "General / To Classify", "低", "Low", "منتخب البرازيل"),
-        t("عبود عنتر", "综合/待分类", "General / To Classify", "低", "Low", "عبود عنتر"),
-        t("الايام الفضيله", "综合/待分类", "General / To Classify", "低", "Low", "الايام الفضيله"),
-        t("الرقصه الاخيره", "综合/待分类", "General / To Classify", "低", "Low", "الرقصه الاخيره"),
-        t("مساعد الرشيدي", "综合/待分类", "General / To Classify", "低", "Low", "مساعد الرشيدي"),
-        t("ماجد الشمراني", "综合/待分类", "General / To Classify", "低", "Low", "ماجد الشمراني"),
-        t("الاهلي المصري", "综合/待分类", "General / To Classify", "低", "Low", "الاهلي المصري"),
-        t("بيب غوارديولا", "综合/待分类", "General / To Classify", "低", "Low", "بيب غوارديولا"),
-        t("عمل المراه", "综合/待分类", "General / To Classify", "低", "Low", "عمل المراه"),
-        t("الغاء الهدف", "综合/待分类", "General / To Classify", "低", "Low", "الغاء الهدف"),
-        t("كاس عالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس عالم")
+        t("#سقيا_الحجاج__في_يوم_الترويه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "سقيا_الحجاج__في_يوم_الترويه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#مبادره_لست_وحدك", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "مبادره_لست_وحدك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ايسف2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ايسف2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WWERAW", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "WWERAW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("بروك ليسنر", "综合/待分类", "General / To Classify", "低", "Low", "بروك ليسنر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ام__احمد_تنااشدكم_احسان", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ام__احمد_تنااشدكم_احسان", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الانستا الجديد", "综合/待分类", "General / To Classify", "低", "Low", "الانستا الجديد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("جواو بيدرو", "综合/待分类", "General / To Classify", "低", "Low", "جواو بيدرو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سعود العلي", "综合/待分类", "General / To Classify", "低", "Low", "سعود العلي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("منتخب البرازيل", "综合/待分类", "General / To Classify", "低", "Low", "منتخب البرازيل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("عبود عنتر", "综合/待分类", "General / To Classify", "低", "Low", "عبود عنتر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الايام الفضيله", "综合/待分类", "General / To Classify", "低", "Low", "الايام الفضيله", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الرقصه الاخيره", "综合/待分类", "General / To Classify", "低", "Low", "الرقصه الاخيره", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("مساعد الرشيدي", "综合/待分类", "General / To Classify", "低", "Low", "مساعد الرشيدي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ماجد الشمراني", "综合/待分类", "General / To Classify", "低", "Low", "ماجد الشمراني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الاهلي المصري", "综合/待分类", "General / To Classify", "低", "Low", "الاهلي المصري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("بيب غوارديولا", "综合/待分类", "General / To Classify", "低", "Low", "بيب غوارديولا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("عمل المراه", "综合/待分类", "General / To Classify", "低", "Low", "عمل المراه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الغاء الهدف", "综合/待分类", "General / To Classify", "低", "Low", "الغاء الهدف", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كاس عالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس عالم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
-        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards"),
-        t("#Gazze", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Gazze"),
-        t("#Fenerbahçe", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Fenerbahçe"),
-        t("#Kudüs", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Kudüs"),
-        t("#GazzeKatliamdır", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "GazzeKatliamdır"),
-        t("#Galatasaray", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Galatasaray"),
-        t("#iheartaward", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartaward"),
-        t("#iHeartAwards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iHeartAwards"),
-        t("#Çarşamba", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Çarşamba"),
-        t("#TBMM", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "TBMM"),
-        t("#İstanbul", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İstanbul"),
-        t("#LeMan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LeMan"),
-        t("#Külliye", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Külliye"),
-        t("#CHP", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "CHP"),
-        t("#AKPARTİ", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "AKPARTİ"),
-        t("#nusaybin", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "nusaybin"),
-        t("#TFF", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TFF"),
-        t("#Beşiktaş", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Beşiktaş"),
-        t("#Hindistan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Hindistan"),
-        t("#İzmir", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İzmir")
+        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Gazze", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Gazze", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Fenerbahçe", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Fenerbahçe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Kudüs", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Kudüs", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GazzeKatliamdır", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "GazzeKatliamdır", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Galatasaray", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Galatasaray", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#iheartaward", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartaward", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#iHeartAwards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iHeartAwards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Çarşamba", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Çarşamba", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TBMM", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "TBMM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#İstanbul", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İstanbul", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LeMan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LeMan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Külliye", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Külliye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#CHP", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "CHP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#AKPARTİ", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "AKPARTİ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#nusaybin", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "nusaybin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TFF", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TFF", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Beşiktaş", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Beşiktaş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Hindistan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Hindistan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#İzmir", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İzmir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://getdaytrends.com/vietnam/", [
-        t("#IfIRun", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "IfIRun"),
-        t("#Lemon8", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Lemon8"),
-        t("#feelgood", "品牌活动/消费", "Brand / Consumer", "低", "Low", "feelgood"),
-        t("#Mayday", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Mayday"),
-        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026"),
-        t("#livelaughlove", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "livelaughlove"),
-        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4"),
-        t("#tinhyeu", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "tinhyeu"),
-        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards"),
-        t("#VivaVideo", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "VivaVideo"),
-        t("#rose", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "rose"),
-        t("#Okto", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Okto"),
-        t("#Minecraft", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Minecraft"),
-        t("#Xbox", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Xbox"),
-        t("#capcut", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "capcut"),
-        t("#Spotify", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Spotify"),
-        t("#TaylorSwift", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TaylorSwift"),
-        t("#MinecraftMovie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "MinecraftMovie"),
-        t("#Movie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Movie"),
-        t("#Kiara", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Kiara")
+        t("#IfIRun", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "IfIRun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Lemon8", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Lemon8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#feelgood", "品牌活动/消费", "Brand / Consumer", "低", "Low", "feelgood", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Mayday", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Mayday", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#livelaughlove", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "livelaughlove", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#tinhyeu", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "tinhyeu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#VivaVideo", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "VivaVideo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#rose", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "rose", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Okto", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Okto", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Minecraft", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Minecraft", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Xbox", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Xbox", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#capcut", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "capcut", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Spotify", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Spotify", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TaylorSwift", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TaylorSwift", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MinecraftMovie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "MinecraftMovie", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Movie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Movie", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Kiara", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Kiara", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
     priorities: {
@@ -212,6 +212,10 @@ const reports = [
       ]
     }
   },
+
+  
+
+  
 
   
 
@@ -1254,7 +1258,22 @@ function country(id, zh, en, sourceUrl, topics) {
   return { id, name: { zh, en }, sourceUrl, topics };
 }
 
-function t(topic, typeZh, typeEn, riskZh, riskEn, query) {
+function normalizeSignals(input) {
+  const s = input && typeof input === "object" ? input : null;
+  if (!s) {
+    return { threadsTop: [], threadsRecent: [], tiktokTop: [], tiktokRecent: [], verifiedAt: "", verifier: "" };
+  }
+  return {
+    threadsTop: Array.isArray(s.threadsTop) ? s.threadsTop : [],
+    threadsRecent: Array.isArray(s.threadsRecent) ? s.threadsRecent : [],
+    tiktokTop: Array.isArray(s.tiktokTop) ? s.tiktokTop : [],
+    tiktokRecent: Array.isArray(s.tiktokRecent) ? s.tiktokRecent : [],
+    verifiedAt: typeof s.verifiedAt === "string" ? s.verifiedAt : "",
+    verifier: typeof s.verifier === "string" ? s.verifier : ""
+  };
+}
+
+function t(topic, typeZh, typeEn, riskZh, riskEn, query, signals) {
   const encoded = encodeURIComponent(query);
   return {
     topic,
@@ -1263,7 +1282,8 @@ function t(topic, typeZh, typeEn, riskZh, riskEn, query) {
     riskKey: riskEn === "Low" || riskEn.startsWith("Low /") ? "low" : "watch",
     query,
     tiktok: `https://www.tiktok.com/search?q=${encoded}`,
-    threads: `https://www.threads.com/search?q=${encoded}`
+    threads: `https://www.threads.com/search?q=${encoded}`,
+    signals: normalizeSignals(signals)
   };
 }
 
@@ -1446,6 +1466,12 @@ function renderCountries() {
 
 function renderTopic(topic) {
   const riskClass = lowRisk(topic) ? "low" : "watch";
+  const hasSignals =
+    (topic.signals?.threadsTop?.length || 0) +
+      (topic.signals?.threadsRecent?.length || 0) +
+      (topic.signals?.tiktokTop?.length || 0) +
+      (topic.signals?.tiktokRecent?.length || 0) >
+    0;
   return `
     <article class="topic-card ${riskClass}">
       <div class="topic-title">
@@ -1457,6 +1483,7 @@ function renderTopic(topic) {
         <a href="${topic.tiktok}" target="_blank" rel="noreferrer">TikTok</a>
         <a href="${topic.threads}" target="_blank" rel="noreferrer">Threads</a>
       </div>
+      ${hasSignals ? `<div class="signal-row"><span class="signal-badge">已确认</span></div>` : ""}
     </article>
   `;
 }
