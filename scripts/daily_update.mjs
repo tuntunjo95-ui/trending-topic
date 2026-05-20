@@ -370,6 +370,94 @@ function mdTableRow(cells) {
   return `| ${cells.map((c) => String(c).replaceAll("\n", " ")).join(" | ")} |`;
 }
 
+const THREADS_PROBE_SEEDS = {
+  id: {
+    cities: ["Jakarta", "Bandung", "Surabaya", "Bali"],
+    media: ["Kompas", "detik", "CNN Indonesia", "TRANS7"],
+    pop: ["NCT", "JKT48", "Arsenal", "Premier League"],
+    langHints: ["Indonesia", "Bahasa", "viral", "tren"]
+  },
+  th: {
+    cities: ["Bangkok", "Chiang Mai", "Phuket", "Khon Kaen"],
+    media: ["GMMTV", "Workpoint", "Thairath", "ช่อง 3"],
+    pop: ["T-pop", "BL series", "The Weeknd", "GrabFood"],
+    langHints: ["ไทย", "เทรนด์", "ไวรัล", "ซีรีส์"]
+  },
+  ph: {
+    cities: ["Manila", "Cebu", "Davao", "Bacolod"],
+    media: ["ABS-CBN", "GMA", "Inquirer", "Rappler"],
+    pop: ["BINI", "PBB", "NBA", "F1"],
+    langHints: ["Pinoy", "P-pop", "viral", "trend"]
+  },
+  sa: {
+    cities: ["Riyadh", "Jeddah", "Mecca", "Dammam"],
+    media: ["MBC", "Saudi League", "Al Nassr", "Al Hilal"],
+    pop: ["World Cup", "football", "WWE", "Red Bull"],
+    langHints: ["السعودية", "ترند", "الرياض", "جدة"]
+  },
+  tr: {
+    cities: ["İstanbul", "Ankara", "İzmir", "Antalya"],
+    media: ["TRT", "NTV", "Hurriyet", "beIN Sports"],
+    pop: ["Galatasaray", "Fenerbahçe", "NBA", "iHeartAwards"],
+    langHints: ["Türkiye", "gündem", "trend", "viral"]
+  },
+  vn: {
+    cities: ["Hà Nội", "TP.HCM", "Đà Nẵng", "Cần Thơ"],
+    media: ["VTV", "Zing", "Kenh14", "VnExpress"],
+    pop: ["Sơn Tùng", "K-pop", "Netflix", "CapCut"],
+    langHints: ["Việt Nam", "xu hướng", "viral", "hot trend"]
+  }
+};
+
+function uniq(items) {
+  return Array.from(new Set(items.filter(Boolean)));
+}
+
+function buildThreadsProbeQueries(countryId, keptTopics) {
+  const seeds = THREADS_PROBE_SEEDS[countryId] || {};
+  const kept = Array.isArray(keptTopics) ? keptTopics : [];
+  const keptHeads = kept
+    .map((k) => k?.topic || "")
+    .filter(Boolean)
+    .slice(0, 6);
+
+  const queries = uniq([
+    ...keptHeads,
+    ...((seeds.cities || []).map((c) => `${c} viral`)),
+    ...((seeds.media || []).slice(0, 4)),
+    ...((seeds.pop || []).slice(0, 4)),
+    ...((seeds.langHints || []).slice(0, 4))
+  ]).slice(0, 12);
+
+  return queries.map((q) => ({
+    query: q,
+    threads: `https://www.threads.com/search?q=${encode(q)}`
+  }));
+}
+
+function buildInstagramProxyHashtags(countryId, keptTopics) {
+  const seeds = THREADS_PROBE_SEEDS[countryId] || {};
+  const kept = Array.isArray(keptTopics) ? keptTopics : [];
+  const keptTags = kept
+    .map((k) => (k?.query || "").replace(/^#/, ""))
+    .filter(Boolean)
+    .slice(0, 6);
+  const tagCandidates = uniq([
+    ...keptTags,
+    ...(seeds.cities || []).map((c) => c.replace(/\s+/g, "")),
+    ...(seeds.pop || []).map((p) => p.replace(/\s+/g, ""))
+  ]).slice(0, 10);
+
+  return tagCandidates.map((tag) => {
+    const safe = tag.replace(/[^\p{L}\p{N}_]/gu, "");
+    return {
+      hashtag: `#${safe}`,
+      instagram: `https://www.instagram.com/explore/tags/${encodeURIComponent(safe)}/`,
+      threadsVerify: `https://www.threads.com/search?q=${encode(safe)}`
+    };
+  });
+}
+
 function parseKeptTypesFromMarkdown(markdown) {
   // Extract kept-topic tables:
   // | 话题 | 类型判断 | TikTok 搜索 | Threads 搜索 | 风险标签 |
@@ -456,6 +544,29 @@ function renderCountryMarkdown(country, rawTop30, kept) {
     });
   }
   lines.push("");
+
+  // Threads trend probe (regional signals) + IG proxy signals
+  lines.push("### Threads 地区热点探针（试运行）");
+  lines.push("");
+  lines.push("说明：这不是 Threads 官方“趋势榜”，而是用地理/语言/媒体/娱乐词做探针，快速定位可能的地区热点内容入口。");
+  lines.push("");
+
+  const probes = buildThreadsProbeQueries(country.meta.id, kept);
+  lines.push(mdTableRow(["探针关键词", "Threads 搜索"]));
+  lines.push(mdTableRow(["---", "---"]));
+  probes.forEach((p) => lines.push(mdTableRow([p.query, p.threads])));
+  lines.push("");
+
+  lines.push("#### Instagram 代理信号（可选）");
+  lines.push("");
+  lines.push("说明：用 Instagram 标签页观察是否有明显热度，再回到 Threads 搜索同词验证。部分地区可能需要登录才能查看。");
+  lines.push("");
+  const ig = buildInstagramProxyHashtags(country.meta.id, kept);
+  lines.push(mdTableRow(["IG 标签", "Instagram 标签页", "Threads 验证"]));
+  lines.push(mdTableRow(["---", "---", "---"]));
+  ig.forEach((h) => lines.push(mdTableRow([h.hashtag, h.instagram, h.threadsVerify])));
+  lines.push("");
+
   return lines.join("\n");
 }
 
