@@ -197,12 +197,6 @@ h3 {
   padding: 10px;
 }
 
-.report-hint {
-  margin: 8px 0 0;
-  color: var(--muted);
-  font-size: 12px;
-}
-
 .report-item.active {
   border-color: var(--green);
   background: var(--surface-2);
@@ -345,6 +339,15 @@ h3 {
 }
 
 .search-box input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+}
+
+.search-box select {
   width: 100%;
   border: 0;
   outline: 0;

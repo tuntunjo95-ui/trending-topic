@@ -4,7 +4,6 @@ const ui = {
     copySummary: "复制分享摘要",
     rawReport: "查看原始报告",
     reportDate: "报告日期",
-    reportSearch: "搜索日期",
     countryFilter: "国家筛选",
     methodTitle: "今日口径",
     methodText: "每国读取前 30 条 X 趋势，过滤泛词和低转化词，保留更可能在 TikTok/Threads 有内容响应的选题，并标记政治、灾害、争议等风险。",
@@ -17,7 +16,7 @@ const ui = {
     lowRisk: "低风险",
     search: "搜索",
     searchPlaceholder: "话题、国家、类型",
-    reportSearchPlaceholder: "输入日期，如 2026-05-20",
+    reportSelect: "选择日期",
     typeLabel: "分类",
     priorityTitle: "优先深挖",
     riskPoolTitle: "风险观察池",
@@ -38,7 +37,6 @@ const ui = {
     copySummary: "Copy Summary",
     rawReport: "Raw Report",
     reportDate: "Report Date",
-    reportSearch: "Search Date",
     countryFilter: "Country Filter",
     methodTitle: "Method",
     methodText: "The workflow scans the top 30 X trends for each country, removes broad or low-signal terms, keeps topics more likely to have TikTok/Threads responses, and flags political, disaster, or controversial risks.",
@@ -51,7 +49,7 @@ const ui = {
     lowRisk: "Low Risk",
     search: "Search",
     searchPlaceholder: "Topic, country, or category",
-    reportSearchPlaceholder: "Type a date, e.g. 2026-05-20",
+    reportSelect: "Select Date",
     typeLabel: "Category",
     priorityTitle: "Priority Deep Dives",
     riskPoolTitle: "Risk Watch Pool",
@@ -1281,8 +1279,7 @@ const state = {
   country: "all",
   risk: "all",
   search: "",
-  lang: localStorage.getItem("trendReportLang") || "zh",
-  reportPickerOpen: false
+  lang: localStorage.getItem("trendReportLang") || "zh"
 };
 
 const text = (key) => ui[state.lang][key];
@@ -1345,8 +1342,6 @@ function applyStaticText() {
     node.textContent = text(node.dataset.i18n);
   });
   document.querySelector("#searchInput").placeholder = text("searchPlaceholder");
-  const reportSearch = document.querySelector("#reportSearch");
-  if (reportSearch) reportSearch.placeholder = text("reportSearchPlaceholder");
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.classList.toggle("active", button.dataset.lang === state.lang);
   });
@@ -1357,8 +1352,6 @@ function selectReportByIndex(index) {
   state.reportIndex = index;
   state.report = reports[state.reportIndex];
   updateRawReportLink(state.report?.date);
-  const reportSearch = document.querySelector("#reportSearch");
-  if (reportSearch) reportSearch.value = "";
   state.country = "all";
   state.risk = "all";
   state.search = "";
@@ -1369,68 +1362,18 @@ function selectReportByIndex(index) {
   render();
 }
 
-function findReportIndexByDate(date) {
-  if (!date) return -1;
-  return reports.findIndex((r) => r.date === date);
-}
-
-function normalizeReportQuery(input) {
-  return String(input || "").trim();
-}
-
 function renderReportList() {
-  const wrap = document.querySelector("#reportList");
-  const input = document.querySelector("#reportSearch");
-  const datalist = document.querySelector("#reportDateOptions");
-  if (!wrap) return;
+  const select = document.querySelector("#reportSelect");
+  if (!select) return;
 
-  const query = normalizeReportQuery(input?.value);
-
-  // Collapse history by default: show only the active report unless user is searching
-  // or explicitly focuses the date search input.
-  if (!query && !state.reportPickerOpen) {
-    const active = reports[state.reportIndex] || reports[0];
-    wrap.innerHTML = `
-      <button class="report-item active" data-report-index="${state.reportIndex}" type="button">
-        <span>${active.date}</span>
-        <small>${localized(active.title)}</small>
-      </button>
-      <p class="report-hint">${text("reportSearch")}</p>
-    `;
-    wrap.querySelector("button")?.addEventListener("click", () => {
-      input?.focus();
-      state.reportPickerOpen = true;
-      renderReportList();
-    });
-    return;
-  }
-
-  const visible = reports
-    .map((report, index) => ({ report, index }))
-    .filter(({ report }) => (query ? report.date.includes(query) : true))
-    .slice(0, 14);
-
-  wrap.innerHTML = visible
-    .map(
-      ({ report, index }) => `
-      <button class="report-item ${index === state.reportIndex ? "active" : ""}" data-report-index="${index}" type="button">
-        <span>${report.date}</span>
-        <small>${localized(report.title)}</small>
-      </button>
-    `,
-    )
+  select.innerHTML = reports
+    .map((report, index) => {
+      const label = `${report.date} · ${localized(report.title)}`;
+      return `<option value="${index}">${label}</option>`;
+    })
     .join("");
 
-  if (datalist) {
-    // Let users quickly jump by typing/selecting dates (no long list in the sidebar).
-    datalist.innerHTML = reports.map((r) => `<option value="${r.date}"></option>`).join("");
-  }
-
-  wrap.querySelectorAll("button").forEach((button) => {
-    button.addEventListener("click", () => {
-      selectReportByIndex(Number(button.dataset.reportIndex));
-    });
-  });
+  select.value = String(state.reportIndex);
 }
 
 function renderFilters() {
@@ -1556,39 +1499,10 @@ function bindToolbar() {
     renderCountries();
   });
 
-  const reportSearch = document.querySelector("#reportSearch");
-  if (reportSearch) {
-    const trySelect = () => {
-      const date = normalizeReportQuery(reportSearch.value);
-      const idx = findReportIndexByDate(date);
-      if (idx !== -1) selectReportByIndex(idx);
-    };
-
-    reportSearch.addEventListener("focus", () => {
-      state.reportPickerOpen = true;
-      renderReportList();
-    });
-
-    reportSearch.addEventListener("blur", () => {
-      // Delay collapse so clicking a result doesn't immediately hide the list.
-      setTimeout(() => {
-        state.reportPickerOpen = false;
-        renderReportList();
-      }, 120);
-    });
-
-    reportSearch.addEventListener("input", () => {
-      renderReportList();
-    });
-
-    reportSearch.addEventListener("change", () => {
-      trySelect();
-    });
-
-    reportSearch.addEventListener("keydown", (event) => {
-      if (event.key !== "Enter") return;
-      event.preventDefault();
-      trySelect();
+  const reportSelect = document.querySelector("#reportSelect");
+  if (reportSelect) {
+    reportSelect.addEventListener("change", () => {
+      selectReportByIndex(Number(reportSelect.value));
     });
   }
 
