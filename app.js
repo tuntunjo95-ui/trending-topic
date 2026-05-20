@@ -17,6 +17,7 @@ const ui = {
     search: "搜索",
     searchPlaceholder: "话题、国家、类型",
     reportSelect: "选择日期",
+    reportSelectedMeta: "当前：{date}（{title}）",
     typeLabel: "分类",
     priorityTitle: "优先深挖",
     riskPoolTitle: "风险观察池",
@@ -50,6 +51,7 @@ const ui = {
     search: "Search",
     searchPlaceholder: "Topic, country, or category",
     reportSelect: "Select Date",
+    reportSelectedMeta: "Now: {date} ({title})",
     typeLabel: "Category",
     priorityTitle: "Priority Deep Dives",
     riskPoolTitle: "Risk Watch Pool",
@@ -1364,16 +1366,26 @@ function selectReportByIndex(index) {
 
 function renderReportList() {
   const select = document.querySelector("#reportSelect");
+  const meta = document.querySelector("#reportSelectMeta");
   if (!select) return;
 
   select.innerHTML = reports
     .map((report, index) => {
-      const label = `${report.date} · ${localized(report.title)}`;
+      // Keep dropdown compact; show title below.
+      const label = report.date;
       return `<option value="${index}">${label}</option>`;
     })
     .join("");
 
   select.value = String(state.reportIndex);
+
+  if (meta) {
+    const report = reports[state.reportIndex] || reports[0];
+    const template = text("reportSelectedMeta");
+    meta.textContent = template
+      .replace("{date}", report?.date || "")
+      .replace("{title}", localized(report?.title || ""));
+  }
 }
 
 function renderFilters() {

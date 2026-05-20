@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="topbar">
       <div>
         <p class="eyebrow">Daily Trend Brief</p>
@@ -23,7 +24,7 @@
     </header>
     <div id="statusBanner" class="status-banner" hidden></div>
 
-    <main class="layout">
+    <main id="main" class="layout">
       <aside class="sidebar" aria-label="报告列表和筛选">
         <section class="panel">
           <h2 data-i18n="reportDate">报告日期</h2>
@@ -31,6 +32,7 @@
             <span data-i18n="reportSelect">选择日期</span>
             <select id="reportSelect" aria-label="Report date"></select>
           </label>
+          <p id="reportSelectMeta" class="helper-text" aria-live="polite"></p>
         </section>
 
         <section class="panel">
@@ -92,6 +94,6 @@
     </main>
 
     <div id="toast" class="toast" role="status" aria-live="polite">已复制摘要</div>
-    <script src="./app.js?v=202605201436"></script>
+    <script src="./app.js?v=202605201457"></script>
   </body>
 </html>
