@@ -16,6 +16,7 @@
   --shadow: 0 12px 35px rgba(24, 33, 31, 0.08);
   --focus: rgba(41, 95, 159, 0.55);
   --radius: 10px;
+  --topbar-bg: rgba(246, 247, 248, 0.9);
 }
 
 * {
@@ -41,6 +42,48 @@
     --shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
     --focus: rgba(106, 168, 255, 0.55);
   }
+}
+
+html[data-theme="dark"] {
+  --bg: #0b1110;
+  --surface: #0f1716;
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --text: #e8f0ee;
+  --muted: rgba(232, 240, 238, 0.68);
+  --line: rgba(255, 255, 255, 0.12);
+  --green: #4dd69b;
+  --green-dark: #2aa071;
+  --amber: #ffb85c;
+  --amber-bg: rgba(160, 92, 0, 0.2);
+  --blue: #6aa8ff;
+  --blue-bg: rgba(41, 95, 159, 0.2);
+  --red: #ff9a93;
+  --red-bg: rgba(161, 59, 53, 0.2);
+  --shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+  --focus: rgba(106, 168, 255, 0.55);
+  --topbar-bg: rgba(11, 17, 16, 0.85);
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --surface-2: #eef3f1;
+  --text: #18211f;
+  --muted: #60706b;
+  --line: #dce4e1;
+  --green: #207a55;
+  --green-dark: #14583d;
+  --amber: #a05c00;
+  --amber-bg: #fff4df;
+  --blue: #295f9f;
+  --blue-bg: #eaf2ff;
+  --red: #a13b35;
+  --red-bg: #fff0ee;
+  --shadow: 0 12px 35px rgba(24, 33, 31, 0.08);
+  --focus: rgba(41, 95, 159, 0.55);
+  --topbar-bg: rgba(246, 247, 248, 0.9);
+  color-scheme: light;
 }
 
 body {
@@ -120,7 +163,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 28px;
-  background: rgba(246, 247, 248, 0.9);
+  background: var(--topbar-bg);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(14px);
 }
@@ -368,6 +411,14 @@ h3 {
   background: var(--surface);
 }
 
+.theme-switch {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
 .segmented button,
 .language-switch button {
   min-height: 34px;
@@ -380,8 +431,24 @@ h3 {
   font-weight: 650;
 }
 
+.theme-switch button {
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 650;
+}
+
 .segmented button.active,
 .language-switch button.active {
+  background: var(--green);
+  color: #fff;
+}
+
+.theme-switch button.active {
   background: var(--green);
   color: #fff;
 }
