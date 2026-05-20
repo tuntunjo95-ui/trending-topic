@@ -47,6 +47,19 @@
           </div>
           <p class="helper-text">注：Threads/IG 探针为试运行启发式，不代表官方趋势榜。</p>
         </section>
+
+        <section class="panel">
+          <h2>人工回填</h2>
+          <div class="filter-list">
+            <button id="pvEditToggle" class="filter-chip" type="button">进入编辑</button>
+            <button id="pvExportSignals" class="filter-chip" type="button">导出内容 JSON</button>
+            <button id="pvExportOverrides" class="filter-chip" type="button">导出分类 JSON</button>
+          </div>
+          <p class="helper-text">
+            说明：把 Threads/TikTok 的热门链接手动粘贴进来，然后导出 JSON 文件，保存到
+            <code>scripts/</code> 目录（文件名含日期）再运行生成器。
+          </p>
+        </section>
       </aside>
 
       <section class="content">
@@ -90,7 +103,80 @@
       </aside>
     </main>
 
-    <script src="./app.js?v=202605201706"></script>
+    <dialog id="pvEditor" class="pv-dialog">
+      <form method="dialog" class="pv-dialog-inner">
+        <header class="pv-dialog-head">
+          <div>
+            <p class="eyebrow">Manual Verify</p>
+            <h2 id="pvEditorTitle">—</h2>
+            <p id="pvEditorMeta" class="helper-text">—</p>
+          </div>
+          <button class="button" value="cancel" type="submit">关闭</button>
+        </header>
+
+        <div class="pv-form">
+          <label>
+            <span>二次确认分类（可选）</span>
+            <select id="pvEditorType">
+              <option value="">不覆盖</option>
+              <option value="Sports / Event">Sports / Event</option>
+              <option value="Drama / Variety / Entertainment">Drama / Variety / Entertainment</option>
+              <option value="Music / Show / Release">Music / Show / Release</option>
+              <option value="Celebrity / Fandom">Celebrity / Fandom</option>
+              <option value="Brand / Consumer">Brand / Consumer</option>
+              <option value="Travel / Local Event">Travel / Local Event</option>
+              <option value="General / To Classify">General / To Classify</option>
+            </select>
+          </label>
+
+          <label>
+            <span>风险（可选）</span>
+            <select id="pvEditorRisk">
+              <option value="">不覆盖</option>
+              <option value="Low">Low</option>
+              <option value="Political / Controversy">Political / Controversy</option>
+              <option value="Legal / Fraud">Legal / Fraud</option>
+              <option value="Medical / Sensitive">Medical / Sensitive</option>
+              <option value="Disaster / Memorial">Disaster / Memorial</option>
+              <option value="Speculation / Crypto-Shill Risk">Speculation / Crypto-Shill Risk</option>
+              <option value="Adult / Low-Quality Ad Risk">Adult / Low-Quality Ad Risk</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Threads Top（每行 1 个链接）</span>
+            <textarea id="pvEditorThreadsTop" rows="4" placeholder="https://www.threads.com/..."></textarea>
+          </label>
+
+          <label>
+            <span>Threads Recent（每行 1 个链接）</span>
+            <textarea id="pvEditorThreadsRecent" rows="3" placeholder="https://www.threads.com/..."></textarea>
+          </label>
+
+          <label>
+            <span>TikTok Top（每行 1 个链接）</span>
+            <textarea id="pvEditorTikTokTop" rows="4" placeholder="https://www.tiktok.com/@.../video/..."></textarea>
+          </label>
+
+          <label>
+            <span>TikTok Recent（每行 1 个链接）</span>
+            <textarea id="pvEditorTikTokRecent" rows="3" placeholder="https://www.tiktok.com/@.../video/..."></textarea>
+          </label>
+
+          <label>
+            <span>备注（可选）</span>
+            <input id="pvEditorNote" type="text" placeholder="例如：Top tab 取前 3 条" />
+          </label>
+        </div>
+
+        <footer class="pv-dialog-foot">
+          <button id="pvEditorSave" class="button primary" value="default" type="submit">保存</button>
+          <button id="pvEditorClear" class="button" value="default" type="button">清空此条</button>
+        </footer>
+      </form>
+    </dialog>
+
+    <script src="./app.js?v=202605201739"></script>
     <script src="./preview.js"></script>
   </body>
 </html>

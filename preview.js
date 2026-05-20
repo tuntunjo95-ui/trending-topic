@@ -108,8 +108,43 @@ const state = {
   country: "all",
   tab: "topics",
   risk: "all",
-  search: ""
+  search: "",
+  editMode: false,
+  editTarget: { date: "", countryId: "", topic: "" }
 };
+
+function draftKey(date) {
+  return `pvManualDraft:${date}`;
+}
+
+function loadDraft(date) {
+  try {
+    const raw = localStorage.getItem(draftKey(date));
+    return raw ? JSON.parse(raw) : { overrides: {}, signals: {} };
+  } catch {
+    return { overrides: {}, signals: {} };
+  }
+}
+
+function saveDraft(date, draft) {
+  localStorage.setItem(draftKey(date), JSON.stringify(draft));
+}
+
+function ensurePath(obj, pathParts) {
+  let cur = obj;
+  for (const p of pathParts) {
+    if (!cur[p] || typeof cur[p] !== "object") cur[p] = {};
+    cur = cur[p];
+  }
+  return cur;
+}
+
+function splitLines(text) {
+  return String(text || "")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
+}
 
 function getReports() {
   return window.__TREND_REPORTS__ || [];
@@ -208,6 +243,12 @@ function renderTopicsTab(report) {
               .map((t) => {
                 const rk = riskKey(t);
                 const riskClass = rk === "low" ? "low" : "watch";
+                const hasSignals =
+                  (t.signals?.threadsTop?.length || 0) +
+                    (t.signals?.threadsRecent?.length || 0) +
+                    (t.signals?.tiktokTop?.length || 0) +
+                    (t.signals?.tiktokRecent?.length || 0) >
+                  0;
                 return `
                   <article class="topic-card ${riskClass}">
                     <div class="topic-title">
@@ -218,6 +259,10 @@ function renderTopicsTab(report) {
                     <div class="links">
                       <a href="${escapeHtml(t.tiktok)}" target="_blank" rel="noreferrer">TikTok</a>
                       <a href="${escapeHtml(t.threads)}" target="_blank" rel="noreferrer">Threads</a>
+                    </div>
+                    <div class="links">
+                      ${hasSignals ? `<span class="signal-badge">已确认</span>` : ""}
+                      ${state.editMode ? `<button class="button" data-pv-edit="${escapeHtml(c.id)}::${escapeHtml(t.topic)}" type="button">编辑</button>` : ""}
                     </div>
                   </article>
                 `;
@@ -231,6 +276,15 @@ function renderTopicsTab(report) {
 
   if (!content.innerHTML.trim()) {
     content.innerHTML = `<article class="panel compact"><p>当前筛选下没有匹配内容。</p></article>`;
+  }
+
+  if (state.editMode) {
+    content.querySelectorAll("[data-pv-edit]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const [countryId, topic] = String(btn.dataset.pvEdit || "").split("::");
+        openEditor({ date: report.date, countryId, topic });
+      });
+    });
   }
 }
 
@@ -337,6 +391,155 @@ function renderAll() {
   $("#pvReportMeta").textContent = `当前报告：${report.date}`;
 }
 
+function setEditMode(enabled) {
+  state.editMode = Boolean(enabled);
+  const toggle = $("#pvEditToggle");
+  if (toggle) toggle.classList.toggle("active", state.editMode);
+  if (toggle) toggle.textContent = state.editMode ? "退出编辑" : "进入编辑";
+  renderAll();
+}
+
+function openEditor({ date, countryId, topic }) {
+  const dialog = $("#pvEditor");
+  if (!dialog) return;
+  state.editTarget = { date, countryId, topic };
+
+  const report = currentReport();
+  const country = getCountries(report).find((c) => c.id === countryId);
+  $("#pvEditorTitle").textContent = topic;
+  $("#pvEditorMeta").textContent = `${report.date} · ${localized(country?.name, state.lang)} (${countryId})`;
+
+  const draft = loadDraft(date);
+  const o = draft?.overrides?.[countryId]?.[topic] || {};
+  const s = draft?.signals?.[countryId]?.[topic] || {};
+
+  $("#pvEditorType").value = o.typeEn || "";
+  $("#pvEditorRisk").value = o.riskEn || "";
+  $("#pvEditorThreadsTop").value = (s.threadsTop || []).join("\n");
+  $("#pvEditorThreadsRecent").value = (s.threadsRecent || []).join("\n");
+  $("#pvEditorTikTokTop").value = (s.tiktokTop || []).join("\n");
+  $("#pvEditorTikTokRecent").value = (s.tiktokRecent || []).join("\n");
+  $("#pvEditorNote").value = o.reason || s.note || "";
+
+  dialog.showModal();
+}
+
+function closeEditor() {
+  $("#pvEditor")?.close();
+}
+
+function saveEditor() {
+  const { date, countryId, topic } = state.editTarget;
+  if (!date || !countryId || !topic) return;
+
+  const draft = loadDraft(date);
+  const overridesCountry = ensurePath(draft, ["overrides", countryId]);
+  const signalsCountry = ensurePath(draft, ["signals", countryId]);
+
+  const typeEn = $("#pvEditorType").value.trim();
+  const riskEn = $("#pvEditorRisk").value.trim();
+  const note = $("#pvEditorNote").value.trim();
+
+  if (typeEn || riskEn || note) {
+    overridesCountry[topic] = {
+      typeEn: typeEn || "",
+      riskEn: riskEn || "",
+      reason: note || "",
+      source: "manual"
+    };
+  } else {
+    delete overridesCountry[topic];
+  }
+
+  const threadsTop = splitLines($("#pvEditorThreadsTop").value);
+  const threadsRecent = splitLines($("#pvEditorThreadsRecent").value);
+  const tiktokTop = splitLines($("#pvEditorTikTokTop").value);
+  const tiktokRecent = splitLines($("#pvEditorTikTokRecent").value);
+
+  if (threadsTop.length || threadsRecent.length || tiktokTop.length || tiktokRecent.length) {
+    signalsCountry[topic] = {
+      threadsTop,
+      threadsRecent,
+      tiktokTop,
+      tiktokRecent,
+      verifiedAt: new Date().toISOString(),
+      verifier: "manual",
+      note
+    };
+  } else {
+    delete signalsCountry[topic];
+  }
+
+  saveDraft(date, draft);
+  closeEditor();
+  renderAll();
+}
+
+function clearEditorEntry() {
+  const { date, countryId, topic } = state.editTarget;
+  if (!date || !countryId || !topic) return;
+  const draft = loadDraft(date);
+  if (draft?.overrides?.[countryId]) delete draft.overrides[countryId][topic];
+  if (draft?.signals?.[countryId]) delete draft.signals[countryId][topic];
+  saveDraft(date, draft);
+  closeEditor();
+  renderAll();
+}
+
+function downloadJson(filename, obj) {
+  const blob = new Blob([JSON.stringify(obj, null, 2) + "\n"], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function exportSignals() {
+  const report = currentReport();
+  const draft = loadDraft(report.date);
+  const out = { date: report.date, note: "exported from preview.html", countries: {} };
+  Object.entries(draft.signals || {}).forEach(([countryId, topics]) => {
+    out.countries[countryId] = { topics: {} };
+    Object.entries(topics || {}).forEach(([topic, s]) => {
+      out.countries[countryId].topics[topic] = {
+        categoryZh: "",
+        categoryEn: "",
+        threadsTop: s.threadsTop || [],
+        threadsRecent: s.threadsRecent || [],
+        tiktokTop: s.tiktokTop || [],
+        tiktokRecent: s.tiktokRecent || [],
+        verifiedAt: s.verifiedAt || "",
+        verifier: s.verifier || "manual"
+      };
+    });
+  });
+  downloadJson(`content_signals_${report.date}.json`, out);
+}
+
+function exportOverrides() {
+  const report = currentReport();
+  const draft = loadDraft(report.date);
+  const out = { date: report.date, note: "exported from preview.html", countries: {} };
+  Object.entries(draft.overrides || {}).forEach(([countryId, topics]) => {
+    out.countries[countryId] = { topics: {} };
+    Object.entries(topics || {}).forEach(([topic, o]) => {
+      out.countries[countryId].topics[topic] = {
+        typeZh: "",
+        typeEn: o.typeEn || "",
+        riskZh: "",
+        riskEn: o.riskEn || "",
+        reason: o.reason || "",
+        source: o.source || "manual"
+      };
+    });
+  });
+  downloadJson(`classification_overrides_${report.date}.json`, out);
+}
+
 function init() {
   const reports = getReports();
   const reportSel = $("#pvReportSelect");
@@ -386,6 +589,16 @@ function init() {
     renderAll();
   });
 
+  $("#pvEditToggle")?.addEventListener("click", () => setEditMode(!state.editMode));
+  $("#pvExportSignals")?.addEventListener("click", () => exportSignals());
+  $("#pvExportOverrides")?.addEventListener("click", () => exportOverrides());
+
+  $("#pvEditorSave")?.addEventListener("click", (e) => {
+    e.preventDefault();
+    saveEditor();
+  });
+  $("#pvEditorClear")?.addEventListener("click", () => clearEditorEntry());
+
   // Keep country options in sync with language switch from main app (if any).
   window.addEventListener("storage", (e) => {
     if (e.key !== "trendReportLang") return;
@@ -398,4 +611,3 @@ function init() {
 }
 
 init();
-
