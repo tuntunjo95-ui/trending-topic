@@ -3,9 +3,6 @@ const ui = {
     appTitle: "各国热点话题日报",
     copySummary: "复制分享摘要",
     rawReport: "查看原始报告",
-    themeAuto: "跟随系统",
-    themeLight: "浅色",
-    themeDark: "深色",
     reportDate: "报告日期",
     countryFilter: "国家筛选",
     methodTitle: "今日口径",
@@ -40,9 +37,6 @@ const ui = {
     appTitle: "Global Trend Brief",
     copySummary: "Copy Summary",
     rawReport: "Raw Report",
-    themeAuto: "System",
-    themeLight: "Light",
-    themeDark: "Dark",
     reportDate: "Report Date",
     countryFilter: "Country Filter",
     methodTitle: "Method",
@@ -1287,8 +1281,7 @@ const state = {
   country: "all",
   risk: "all",
   search: "",
-  lang: localStorage.getItem("trendReportLang") || "zh",
-  theme: localStorage.getItem("trendReportTheme") || "auto"
+  lang: localStorage.getItem("trendReportLang") || "zh"
 };
 
 const text = (key) => ui[state.lang][key];
@@ -1346,7 +1339,6 @@ function updateRawReportLink(dateOverride) {
 
 function applyStaticText() {
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
-  document.documentElement.dataset.theme = state.theme;
   document.title = state.lang === "zh" ? "各国热点话题日报" : "Global Trend Brief";
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     node.textContent = text(node.dataset.i18n);
@@ -1354,9 +1346,6 @@ function applyStaticText() {
   document.querySelector("#searchInput").placeholder = text("searchPlaceholder");
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.classList.toggle("active", button.dataset.lang === state.lang);
-  });
-  document.querySelectorAll("[data-theme]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.theme === state.theme);
   });
   updateRawReportLink();
 }
@@ -1513,14 +1502,6 @@ function bindToolbar() {
     button.addEventListener("click", () => {
       state.lang = button.dataset.lang;
       localStorage.setItem("trendReportLang", state.lang);
-      render();
-    });
-  });
-
-  document.querySelectorAll("[data-theme]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.theme = button.dataset.theme;
-      localStorage.setItem("trendReportTheme", state.theme);
       render();
     });
   });
