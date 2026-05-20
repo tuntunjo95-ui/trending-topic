@@ -27,7 +27,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-05-19 六国热点话题日报",
+    summaryTitle: "2026-05-20 六国热点话题日报",
     summaryPriority: "优先深挖：泰国与沙特的明星/剧集/品牌/音乐节；印尼与越南的体育（足球/F1）与数码话题。",
     summaryRisk: "风险观察：土耳其与菲律宾有政治/法律争议词；沙特含灾害救援与医疗/宗教敏感词；越南慈善类需核验。"
   },
@@ -59,13 +59,175 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-05-19 Six-Country Trend Brief",
+    summaryTitle: "2026-05-20 Six-Country Trend Brief",
     summaryPriority: "Priority: celebrity, drama, fashion, and festival topics in Thailand & Saudi; sports and consumer tech in Indonesia & Vietnam.",
     summaryRisk: "Risk watch: political/legal terms appear in Turkey & the Philippines; Saudi includes disaster/medical/religion-sensitive terms; Vietnam charity keywords need verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-05-20",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("Arsenal", "综合/待分类", "General / To Classify", "低", "Low", "Arsenal"),
+        t("JISUNG OKCS AMBASSADOR", "综合/待分类", "General / To Classify", "低", "Low", "JISUNG OKCS AMBASSADOR"),
+        t("#JISUNGxOKCS", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "JISUNGxOKCS"),
+        t("Hari Kebangkitan Nasional", "综合/待分类", "General / To Classify", "低", "Low", "Hari Kebangkitan Nasional"),
+        t("#MenteriDesaPDTBersamaBUMDesa", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "MenteriDesaPDTBersamaBUMDesa"),
+        t("#Harkitnas2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Harkitnas2026"),
+        t("Desa Sudirman", "综合/待分类", "General / To Classify", "低", "Low", "Desa Sudirman"),
+        t("BUMDesa Dinari", "综合/待分类", "General / To Classify", "低", "Low", "BUMDesa Dinari"),
+        t("Program Desa Bersinar", "综合/待分类", "General / To Classify", "低", "Low", "Program Desa Bersinar"),
+        t("Kunjungan Menteri Desa", "综合/待分类", "General / To Classify", "低", "Low", "Kunjungan Menteri Desa"),
+        t("Happy 520", "综合/待分类", "General / To Classify", "低", "Low", "Happy 520"),
+        t("#COYG", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "COYG"),
+        t("Bersih Narkoba", "综合/待分类", "General / To Classify", "低", "Low", "Bersih Narkoba"),
+        t("#KerjaTPPBerdampak", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KerjaTPPBerdampak"),
+        t("Jaga Tunas Bangsa", "综合/待分类", "General / To Classify", "低", "Low", "Jaga Tunas Bangsa"),
+        t("Pak Anies", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Pak Anies"),
+        t("Premier League", "体育/赛事", "Sports / Event", "低", "Low", "Premier League"),
+        t("Arteta", "综合/待分类", "General / To Classify", "低", "Low", "Arteta"),
+        t("Setelah 22", "综合/待分类", "General / To Classify", "低", "Low", "Setelah 22"),
+        t("After 22", "综合/待分类", "General / To Classify", "低", "Low", "After 22")
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#WUTheSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WUTheSeriesEP3"),
+        t("#dek69", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "dek69"),
+        t("#นุนิวปักใจ6โมงเย็น", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "นุนิวปักใจ6โมงเย็น"),
+        t("#KCLmcคิดได้หรือยัง", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "KCLmcคิดได้หรือยัง"),
+        t("KCL MC COMEOUT", "综合/待分类", "General / To Classify", "低", "Low", "KCL MC COMEOUT"),
+        t("#เฮียตี๋5แสนแล้วนะหม่ามี๊", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "เฮียตี๋5แสนแล้วนะหม่ามี๊"),
+        t("Chermchey Open Now", "综合/待分类", "General / To Classify", "低", "Low", "Chermchey Open Now"),
+        t("EST SUPHA BD 2026", "综合/待分类", "General / To Classify", "低", "Low", "EST SUPHA BD 2026"),
+        t("SKY HALF MILLION ON X", "综合/待分类", "General / To Classify", "低", "Low", "SKY HALF MILLION ON X"),
+        t("TTP X CLEAR WATSONS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TTP X CLEAR WATSONS"),
+        t("LOVE NO REFUND KRITTANUN", "综合/待分类", "General / To Classify", "低", "Low", "LOVE NO REFUND KRITTANUN"),
+        t("520 LOVE MEEN NICHA", "综合/待分类", "General / To Classify", "低", "Low", "520 LOVE MEEN NICHA"),
+        t("ENGFA THE MAGNIFICENT20", "综合/待分类", "General / To Classify", "低", "Low", "ENGFA THE MAGNIFICENT20"),
+        t("520 BELOVED MP", "综合/待分类", "General / To Classify", "低", "Low", "520 BELOVED MP"),
+        t("GRABFOOD X POOHPAVEL", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GRABFOOD X POOHPAVEL"),
+        t("1 DAYSTIL GUINZLY BD", "综合/待分类", "General / To Classify", "低", "Low", "1 DAYSTIL GUINZLY BD"),
+        t("FREE SOUL CHARLOTTE20", "综合/待分类", "General / To Classify", "低", "Low", "FREE SOUL CHARLOTTE20"),
+        t("520 WOAINI POOHPAVEL", "综合/待分类", "General / To Classify", "低", "Low", "520 WOAINI POOHPAVEL"),
+        t("Happy 520", "综合/待分类", "General / To Classify", "低", "Low", "Happy 520"),
+        t("520 I LOVE BOAT", "综合/待分类", "General / To Classify", "低", "Low", "520 I LOVE BOAT")
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#BINIFromPHToTheWorld", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINIFromPHToTheWorld"),
+        t("#KPOPSTARSHOW2026", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "KPOPSTARSHOW2026"),
+        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026"),
+        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4"),
+        t("#LIFEgoesON", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LIFEgoesON"),
+        t("#BINI6thSingleShagidi", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "BINI6thSingleShagidi"),
+        t("GOD DID", "综合/待分类", "General / To Classify", "低", "Low", "GOD DID"),
+        t("#HappyMarisDay", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "HappyMarisDay"),
+        t("#NBA", "体育/赛事", "Sports / Event", "低", "Low", "NBA"),
+        t("F1 Imola", "体育/赛事", "Sports / Event", "低", "Low", "F1 Imola"),
+        t("MOWA", "综合/待分类", "General / To Classify", "低", "Low", "MOWA"),
+        t("TOTGA", "综合/待分类", "General / To Classify", "低", "Low", "TOTGA"),
+        t("PBB GEN 12 BIG 4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG 4"),
+        t("#PusuanMoAko", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PusuanMoAko"),
+        t("#Uninvited", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Uninvited"),
+        t("PBB GEN 12 BIG4", "综合/待分类", "General / To Classify", "低", "Low", "PBB GEN 12 BIG4"),
+        t("Lorna", "综合/待分类", "General / To Classify", "低", "Low", "Lorna"),
+        t("May 20", "综合/待分类", "General / To Classify", "低", "Low", "May 20"),
+        t("Maloi", "综合/待分类", "General / To Classify", "低", "Low", "Maloi"),
+        t("#PBAFinals", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBAFinals")
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://getdaytrends.com/saudi-arabia/", [
+        t("#سقيا_الحجاج__في_يوم_الترويه", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "سقيا_الحجاج__في_يوم_الترويه"),
+        t("#مبادره_لست_وحدك", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "مبادره_لست_وحدك"),
+        t("#ايسف2026", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ايسف2026"),
+        t("#WWERAW", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "WWERAW"),
+        t("بروك ليسنر", "综合/待分类", "General / To Classify", "低", "Low", "بروك ليسنر"),
+        t("#ام__احمد_تنااشدكم_احسان", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "ام__احمد_تنااشدكم_احسان"),
+        t("الانستا الجديد", "综合/待分类", "General / To Classify", "低", "Low", "الانستا الجديد"),
+        t("جواو بيدرو", "综合/待分类", "General / To Classify", "低", "Low", "جواو بيدرو"),
+        t("سعود العلي", "综合/待分类", "General / To Classify", "低", "Low", "سعود العلي"),
+        t("منتخب البرازيل", "综合/待分类", "General / To Classify", "低", "Low", "منتخب البرازيل"),
+        t("عبود عنتر", "综合/待分类", "General / To Classify", "低", "Low", "عبود عنتر"),
+        t("الايام الفضيله", "综合/待分类", "General / To Classify", "低", "Low", "الايام الفضيله"),
+        t("الرقصه الاخيره", "综合/待分类", "General / To Classify", "低", "Low", "الرقصه الاخيره"),
+        t("مساعد الرشيدي", "综合/待分类", "General / To Classify", "低", "Low", "مساعد الرشيدي"),
+        t("ماجد الشمراني", "综合/待分类", "General / To Classify", "低", "Low", "ماجد الشمراني"),
+        t("الاهلي المصري", "综合/待分类", "General / To Classify", "低", "Low", "الاهلي المصري"),
+        t("بيب غوارديولا", "综合/待分类", "General / To Classify", "低", "Low", "بيب غوارديولا"),
+        t("عمل المراه", "综合/待分类", "General / To Classify", "低", "Low", "عمل المراه"),
+        t("الغاء الهدف", "综合/待分类", "General / To Classify", "低", "Low", "الغاء الهدف"),
+        t("كاس عالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس عالم")
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards"),
+        t("#Gazze", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Gazze"),
+        t("#Fenerbahçe", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Fenerbahçe"),
+        t("#Kudüs", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Kudüs"),
+        t("#GazzeKatliamdır", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "GazzeKatliamdır"),
+        t("#Galatasaray", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Galatasaray"),
+        t("#iheartaward", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartaward"),
+        t("#iHeartAwards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iHeartAwards"),
+        t("#Çarşamba", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Çarşamba"),
+        t("#TBMM", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "TBMM"),
+        t("#İstanbul", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İstanbul"),
+        t("#LeMan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "LeMan"),
+        t("#Külliye", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "Külliye"),
+        t("#CHP", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "CHP"),
+        t("#AKPARTİ", "话题标签/待分类", "Hashtag / To Classify", "政治/争议", "Political / Controversy", "AKPARTİ"),
+        t("#nusaybin", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "nusaybin"),
+        t("#TFF", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TFF"),
+        t("#Beşiktaş", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Beşiktaş"),
+        t("#Hindistan", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Hindistan"),
+        t("#İzmir", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "İzmir")
+      ]),
+      country("vn", "越南", "Vietnam", "https://getdaytrends.com/vietnam/", [
+        t("#IfIRun", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "IfIRun"),
+        t("#Lemon8", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Lemon8"),
+        t("#feelgood", "品牌活动/消费", "Brand / Consumer", "低", "Low", "feelgood"),
+        t("#Mayday", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Mayday"),
+        t("#ABSCBNBall2026", "体育/赛事", "Sports / Event", "低", "Low", "ABSCBNBall2026"),
+        t("#livelaughlove", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "livelaughlove"),
+        t("#PBBGen12Big4", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "PBBGen12Big4"),
+        t("#tinhyeu", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "tinhyeu"),
+        t("#iheartawards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "iheartawards"),
+        t("#VivaVideo", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "VivaVideo"),
+        t("#rose", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "rose"),
+        t("#Okto", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Okto"),
+        t("#Minecraft", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Minecraft"),
+        t("#Xbox", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Xbox"),
+        t("#capcut", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "capcut"),
+        t("#Spotify", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Spotify"),
+        t("#TaylorSwift", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "TaylorSwift"),
+        t("#MinecraftMovie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "MinecraftMovie"),
+        t("#Movie", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Movie"),
+        t("#Kiara", "话题标签/待分类", "Hashtag / To Classify", "低", "Low", "Kiara")
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
+  
+
   {
     date: "2026-05-19",
     title: {
