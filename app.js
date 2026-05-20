@@ -1281,7 +1281,8 @@ const state = {
   country: "all",
   risk: "all",
   search: "",
-  lang: localStorage.getItem("trendReportLang") || "zh"
+  lang: localStorage.getItem("trendReportLang") || "zh",
+  reportPickerOpen: false
 };
 
 const text = (key) => ui[state.lang][key];
@@ -1384,6 +1385,26 @@ function renderReportList() {
   if (!wrap) return;
 
   const query = normalizeReportQuery(input?.value);
+
+  // Collapse history by default: show only the active report unless user is searching
+  // or explicitly focuses the date search input.
+  if (!query && !state.reportPickerOpen) {
+    const active = reports[state.reportIndex] || reports[0];
+    wrap.innerHTML = `
+      <button class="report-item active" data-report-index="${state.reportIndex}" type="button">
+        <span>${active.date}</span>
+        <small>${localized(active.title)}</small>
+      </button>
+      <p class="report-hint">${text("reportSearch")}</p>
+    `;
+    wrap.querySelector("button")?.addEventListener("click", () => {
+      input?.focus();
+      state.reportPickerOpen = true;
+      renderReportList();
+    });
+    return;
+  }
+
   const visible = reports
     .map((report, index) => ({ report, index }))
     .filter(({ report }) => (query ? report.date.includes(query) : true))
@@ -1542,6 +1563,19 @@ function bindToolbar() {
       const idx = findReportIndexByDate(date);
       if (idx !== -1) selectReportByIndex(idx);
     };
+
+    reportSearch.addEventListener("focus", () => {
+      state.reportPickerOpen = true;
+      renderReportList();
+    });
+
+    reportSearch.addEventListener("blur", () => {
+      // Delay collapse so clicking a result doesn't immediately hide the list.
+      setTimeout(() => {
+        state.reportPickerOpen = false;
+        renderReportList();
+      }, 120);
+    });
 
     reportSearch.addEventListener("input", () => {
       renderReportList();
