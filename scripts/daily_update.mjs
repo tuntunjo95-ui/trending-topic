@@ -196,6 +196,35 @@ function guessType(topic) {
     return { zh: "旅行/本地活动", en: "Travel / Local Event" };
   }
 
+  // Celebrity / fandom (highly recurring across markets; helps avoid over-filtering)
+  const celebSeeds = [
+    // K-pop / idol groups & fandom words
+    "bts",
+    "seventeen",
+    "carat",
+    "nct",
+    "treasure",
+    "jkt48",
+    "itzy",
+    // Common idol / fandom name tokens seen in these markets
+    "jungkook",
+    "renjun",
+    "jeonghan",
+    "yeji",
+    "pp krit",
+    // Thai BL / actor pairing tags (often appear as fused names)
+    "perthsanta",
+    "pondphuwin",
+    "geminifourth",
+    "jossgawin",
+    "joongdunk",
+    "forcebook",
+    "bounprem"
+  ];
+  if (celebSeeds.some((k) => t.includes(k))) {
+    return { zh: "明星/粉丝应援", en: "Celebrity / Fandom" };
+  }
+
   // Government / civic / policy (usually low conversion for entertainment content)
   // This is NOT a "political stance" label; it is a content-genre hint to keep the pool focused.
   const gov = [
@@ -638,7 +667,7 @@ function renderMarkdown(dateStr, byCountry) {
   lines.push("");
   lines.push(`执行日期：${dateStr}  `);
   lines.push("目标国家：印尼、泰国、菲律宾、沙特、土耳其、越南  ");
-  lines.push("数据源：trends24.in（公开可访问 X/Twitter Trends 聚合页）  ");
+  lines.push("数据源：getdaytrends.com / trends24.in（公开可访问 X/Twitter Trends 聚合页；优先使用可访问者并在各国小节记录具体来源）  ");
   lines.push(
     "执行口径：每国读取前 30 条 X 趋势；过滤泛词、低语义词和明显无短视频转化价值的话题；保留更可能在 TikTok/Threads 找到内容响应的选题；政治、灾害、争议类单独打风险标签。",
   );
