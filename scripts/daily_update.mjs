@@ -529,8 +529,16 @@ function parseKeptTypesFromMarkdown(markdown) {
   const out = new Map();
   const lines = markdown.split(/\r?\n/);
   let inTable = false;
+  let currentCountryEn = "";
   for (let i = 0; i < lines.length; i += 1) {
     const line = lines[i].trim();
+    const heading = line.match(/^##\s+\d+\.\s+.+?\s+(Indonesia|Thailand|Philippines|Saudi Arabia|Turkey|Vietnam)$/);
+    if (heading) {
+      currentCountryEn = heading[1];
+      inTable = false;
+      if (!out.has(currentCountryEn)) out.set(currentCountryEn, new Map());
+      continue;
+    }
     if (line === "| 话题 | 类型判断 | TikTok 搜索 | Threads 搜索 | 风险标签 |") {
       // skip separator line next
       inTable = true;
@@ -549,14 +557,17 @@ function parseKeptTypesFromMarkdown(markdown) {
     if (cells.length < 5) continue;
     const [topic, typeZh, , , riskZh] = cells;
     if (!topic || topic === "（无）") continue;
-    out.set(topic, { typeZh, riskZh });
+    if (!out.has(currentCountryEn)) out.set(currentCountryEn, new Map());
+    out.get(currentCountryEn).set(topic, { typeZh, riskZh });
   }
   return out;
 }
 
 function applyKeptOverridesFromMarkdown(byCountry, markdown) {
-  const map = parseKeptTypesFromMarkdown(markdown);
+  const byCountryMap = parseKeptTypesFromMarkdown(markdown);
   byCountry.forEach((c) => {
+    const map = byCountryMap.get(c.meta?.en || c.en || "");
+    if (!map) return;
     c.kept = (c.kept || []).map((k) => {
       const o = map.get(k.topic);
       if (!o) return k;

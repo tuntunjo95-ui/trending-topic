@@ -1,0 +1,185 @@
+{
+  "date": "2026-06-25",
+  "countries": {
+    "id": {
+      "topics": {
+        "#haruto": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "#TeeTeeAsFriendOfKIMSENSE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#MAYAxCOPPERBeyondCool": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "HARUTO ROCKING IN PARIS": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "#BamBamxLVMenSS27": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "MAYAxCOPPER BeyondCool": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "Farel Prayoga": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release"
+        },
+        "ENHYPEN": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "Kevin Diks": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Arsenal": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Reijnders": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Madueke": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Kudus": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Hidup Tak Lagi Sama": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release"
+        },
+        "Blok M": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend"
+        },
+        "Prabowo": {
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#แผ่นดินไหว": {
+          "typeZh": "灾害/公共事件",
+          "typeEn": "Disaster / Public Incident",
+          "riskZh": "灾害/纪念",
+          "riskEn": "Disaster / Memorial"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "#ThisIsntTheSolution": {
+          "typeZh": "争议/公共事件",
+          "typeEn": "Controversy / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "LEAVE AC FORDA SAFETY": {
+          "typeZh": "争议/公共事件",
+          "typeEn": "Controversy / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#الانضباط_المالي_مطلب": {
+          "typeZh": "体育/治理争议",
+          "typeEn": "Sports / Governance Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#اكسبلور": {
+          "typeZh": "泛词/低语义",
+          "typeEn": "Generic / Low Signal",
+          "riskZh": "低质广告/泛流量",
+          "riskEn": "Low-Quality Ad / Generic Traffic"
+        },
+        "عرض سريع": {
+          "typeZh": "本地广告/促销",
+          "typeEn": "Local Ad / Promotion",
+          "riskZh": "成人/低质广告风险",
+          "riskEn": "Adult / Low-Quality Ad Risk"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#KürtçeBenimDilim": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#anayasa153üuygulaAYM": {
+          "typeZh": "法律/公共议题",
+          "typeEn": "Legal / Public Issue",
+          "riskZh": "法律/诈骗",
+          "riskEn": "Legal / Fraud"
+        },
+        "#HSKedeİhalePazarlığı": {
+          "typeZh": "法律/公共议题",
+          "typeEn": "Legal / Public Issue",
+          "riskZh": "法律/诈骗",
+          "riskEn": "Legal / Fraud"
+        },
+        "#ÇeyrekAltın": {
+          "typeZh": "金融/加密（谨慎）",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "#BebeklerinRızkınıÇalanlar": {
+          "typeZh": "争议/公共事件",
+          "typeEn": "Controversy / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "Zorunlu Bağışı Durdurun": {
+          "typeZh": "争议/公共事件",
+          "typeEn": "Controversy / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "İstanbulSözleşmesi Yaşatır": {
+          "typeZh": "法律/公共议题",
+          "typeEn": "Legal / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#KürtçeBenimDilim": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#immigration": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        }
+      }
+    }
+  }
+}

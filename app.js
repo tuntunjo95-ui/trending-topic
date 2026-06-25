@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-06-24 六国热点话题日报",
-    summaryPriority: "优先深挖：泰国由 LV 男装秀、LingOrm 系列合作、生日应援和剧集更新主导；菲律宾集中在 Jungkook、PRADAxENHYPEN、YMFSPilotWeek 与 BINI；印尼是香水品牌、K-pop 发布和球星词；沙特基本是足球赛况加少量品牌词；土耳其可用词集中在 BTS 饭圈、Erzurumspor 与 Canbay；越南以 LingOrm、剧集 EP、Prada 联动和球星词最稳。",
-    summaryRisk: "风险观察：印尼前排混入 BUMN/志愿者政治口号与投机币圈词；沙特出现社会求助标签与体育部长公共议题；土耳其榜单以政党、教师诉求和议会司法口号为主；越南夹杂按摩广告与交易所投机词。"
+    summaryTitle: "2026-06-25 六国热点话题日报",
+    summaryPriority: "优先深挖：泰国由 KAZZ Awards、BamBam/LV、PP Krit、Prada Phuwin 与 Sulwhasoo 话题主导；菲律宾集中在 Felix 马尼拉粉丝见面、SB19、KimPau、Dokyeom 与 Pacquiao；印尼是 Haruto、TeeTee/KIMSENSE、WUTheSeries、MAYA/COPPER 与足球词；沙特以 الهلال vs Pachuca、沙特联和皇马相关词为主；越南可看 KAZZ、BamBam/LV、Min Hee Jin、Garmin 与篮球/台球标签。",
+    summaryRisk: "风险观察：泰国有地震标签；菲律宾出现安全诉求/争议标签；沙特混入财务纪律诉求与本地广告促销词；土耳其政治、法律、医院/捐款诉求和投机词密度高；越南夹入库尔德语公共议题与 immigration 标签。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,175 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-06-24 Six-Country Trend Brief",
-    summaryPriority: "Priority: Thailand is led by LV menswear, LingOrm tie-ins, birthday fandom pushes, and episode drops; the Philippines clusters around Jungkook, PRADAxENHYPEN, YMFSPilotWeek, and BINI; Indonesia is fragrance, K-pop releases, and football names; Saudi is mostly football with a light brand layer; Turkey narrows to BTS fandom, Erzurumspor, and Canbay; Vietnam is strongest on LingOrm, episode tags, Prada tie-ins, and football names.",
-    summaryRisk: "Risk watch: Indonesia mixes BUMN/volunteer political slogans with crypto-shill language; Saudi surfaces a civic-help hashtag and ministerial wording; Turkey is dominated by party, teacher-demand, and parliament/legal slogans; Vietnam includes massage spam and exchange-speculation terms."
+    summaryTitle: "2026-06-25 Six-Country Trend Brief",
+    summaryPriority: "Priority: Thailand is led by KAZZ Awards, BamBam/LV, PP Krit, Prada Phuwin, and Sulwhasoo topics; the Philippines clusters around Felix in Manila, SB19, KimPau, Dokyeom, and Pacquiao; Indonesia is Haruto, TeeTee/KIMSENSE, WUTheSeries, MAYA/COPPER, and football; Saudi is mostly Al Hilal vs Pachuca, Saudi League, and Real Madrid terms; Vietnam is strongest on KAZZ, BamBam/LV, Min Hee Jin, Garmin, basketball, and billiards tags.",
+    summaryRisk: "Risk watch: Thailand has an earthquake tag; the Philippines has safety-demand and controversy tags; Saudi mixes financial-discipline demands with local promo ads; Turkey is dense with political, legal, hospital/donation, and speculative topics; Vietnam includes Kurdish-language public-issue and immigration tags."
   }
 };
 
 const reports = [
+  {
+    date: "2026-06-25",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://getdaytrends.com/indonesia/", [
+        t("#haruto", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "haruto", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TeeTeeAsFriendOfKIMSENSE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TeeTeeAsFriendOfKIMSENSE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WUTheSeriesEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WUTheSeriesEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MAYAxCOPPERBeyondCool", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAYAxCOPPERBeyondCool", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HARUTO ROCKING IN PARIS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HARUTO ROCKING IN PARIS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BamBamxLVMenSS27", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BamBamxLVMenSS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYAxCOPPER BeyondCool", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAYAxCOPPER BeyondCool", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Farel Prayoga", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Farel Prayoga", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ENHYPEN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENHYPEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kevin Diks", "体育/赛事", "Sports / Event", "低", "Low", "Kevin Diks", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Arsenal", "体育/赛事", "Sports / Event", "低", "Low", "Arsenal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Reijnders", "体育/赛事", "Sports / Event", "低", "Low", "Reijnders", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Madueke", "体育/赛事", "Sports / Event", "低", "Low", "Madueke", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kudus", "体育/赛事", "Sports / Event", "低", "Low", "Kudus", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Hidup Tak Lagi Sama", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Hidup Tak Lagi Sama", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Blok M", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Blok M", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://getdaytrends.com/thailand/", [
+        t("#YLConcertBBxPP", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "YLConcertBBxPP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KAZZAWARDS2026", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "KAZZAWARDS2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BamBamxLVMenSS27", "综合/待分类", "General / To Classify", "低", "Low", "BamBamxLVMenSS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#HAPPYLIUZHANGDAY", "综合/待分类", "General / To Classify", "低", "Low", "HAPPYLIUZHANGDAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TeeTeeAsFriendOfKIMSENSE", "综合/待分类", "General / To Classify", "低", "Low", "TeeTeeAsFriendOfKIMSENSE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FreenBecky at HKDL", "综合/待分类", "General / To Classify", "低", "Low", "FreenBecky at HKDL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#แผ่นดินไหว", "灾害/公共事件", "Disaster / Public Incident", "灾害/纪念", "Disaster / Memorial", "แผ่นดินไหว", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYAxCOPPER BeyondCool", "综合/待分类", "General / To Classify", "低", "Low", "MAYAxCOPPER BeyondCool", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KAZZ 2026", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "KAZZ 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PRADA BOY PHUWIN RETURNS", "综合/待分类", "General / To Classify", "低", "Low", "PRADA BOY PHUWIN RETURNS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THOMAS THE MAZE RUNNER", "综合/待分类", "General / To Classify", "低", "Low", "THOMAS THE MAZE RUNNER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOONGDUNK WITH ICON CRAFT", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JOONGDUNK WITH ICON CRAFT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BEST FRIENDS MAKE BEST MOMENTS", "综合/待分类", "General / To Classify", "低", "Low", "BEST FRIENDS MAKE BEST MOMENTS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ENHYPEN", "综合/待分类", "General / To Classify", "低", "Low", "ENHYPEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PPKRIT THE WALL SONG", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "PPKRIT THE WALL SONG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREEBIRDS OF BECKY", "综合/待分类", "General / To Classify", "低", "Low", "FREEBIRDS OF BECKY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TOP 3 JAPAN ZEEPRUK", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TOP 3 JAPAN ZEEPRUK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CHEER FOR WAR WANARAT", "综合/待分类", "General / To Classify", "低", "Low", "CHEER FOR WAR WANARAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SULWHASOO X BIBLEWICHAPAS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "SULWHASOO X BIBLEWICHAPAS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BIBLE ON RISE", "综合/待分类", "General / To Classify", "低", "Low", "BIBLE ON RISE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://getdaytrends.com/philippines/", [
+        t("#LeeFelixinManila", "综合/待分类", "General / To Classify", "低", "Low", "LeeFelixinManila", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FelixFanMeetTourInManila", "旅行/本地活动", "Travel / Local Event", "低", "Low", "FelixFanMeetTourInManila", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FelixFanMeetTour", "旅行/本地活动", "Travel / Local Event", "低", "Low", "FelixFanMeetTour", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SB19SimulaAtWakasFinaleD4", "综合/待分类", "General / To Classify", "低", "Low", "SB19SimulaAtWakasFinaleD4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KimPau", "综合/待分类", "General / To Classify", "低", "Low", "KimPau", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ThisIsntTheSolution", "争议/公共事件", "Controversy / Public Issue", "政治/争议", "Political / Controversy", "ThisIsntTheSolution", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Manila", "综合/待分类", "General / To Classify", "低", "Low", "Manila", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LEAVE AC FORDA SAFETY", "争议/公共事件", "Controversy / Public Issue", "政治/争议", "Political / Controversy", "LEAVE AC FORDA SAFETY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DOKYEOM", "综合/待分类", "General / To Classify", "低", "Low", "DOKYEOM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FELIX", "综合/待分类", "General / To Classify", "低", "Low", "FELIX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HOSH", "综合/待分类", "General / To Classify", "低", "Low", "HOSH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("San Juan", "综合/待分类", "General / To Classify", "低", "Low", "San Juan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mavericks", "综合/待分类", "General / To Classify", "低", "Low", "Mavericks", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GHAAD", "综合/待分类", "General / To Classify", "低", "Low", "GHAAD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NED 1ST SOLO ALBUM", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "NED 1ST SOLO ALBUM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KDLEX", "综合/待分类", "General / To Classify", "低", "Low", "KDLEX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PACQUIAO LEGENDARY ICON", "综合/待分类", "General / To Classify", "低", "Low", "PACQUIAO LEGENDARY ICON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Treasure in Manila", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Treasure in Manila", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DK SINGLE OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DK SINGLE OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Hospital Playlist", "综合/待分类", "General / To Classify", "低", "Low", "Hospital Playlist", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://getdaytrends.com/saudi-arabia/", [
+        t("#الهلال_باتشوكا", "综合/待分类", "General / To Classify", "低", "Low", "الهلال_باتشوكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#الهلال", "综合/待分类", "General / To Classify", "低", "Low", "الهلال", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#الاهلي_يجدد_لعلي_مجريشي", "综合/待分类", "General / To Classify", "低", "Low", "الاهلي_يجدد_لعلي_مجريشي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#الانضباط_المالي_مطلب", "体育/治理争议", "Sports / Governance Issue", "政治/争议", "Political / Controversy", "الانضباط_المالي_مطلب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#اكسبلور", "泛词/低语义", "Generic / Low Signal", "低质广告/泛流量", "Low-Quality Ad / Generic Traffic", "اكسبلور", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#الهلال_السعودي_باتشوكا", "综合/待分类", "General / To Classify", "低", "Low", "الهلال_السعودي_باتشوكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#هلا_مدريد", "综合/待分类", "General / To Classify", "低", "Low", "هلا_مدريد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ستان لياو", "综合/待分类", "General / To Classify", "低", "Low", "ستان لياو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الهلال السعودي", "综合/待分类", "General / To Classify", "低", "Low", "الهلال السعودي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الهلال السعودي", "综合/待分类", "General / To Classify", "低", "Low", "الهلال السعودي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سالم الدوسري", "综合/待分类", "General / To Classify", "低", "Low", "سالم الدوسري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الاهلي السعودي", "综合/待分类", "General / To Classify", "低", "Low", "الاهلي السعودي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ناصر الدوسري", "综合/待分类", "General / To Classify", "低", "Low", "ناصر الدوسري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ريال مدريد", "综合/待分类", "General / To Classify", "低", "Low", "ريال مدريد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ليله مباراة الهلال", "综合/待分类", "General / To Classify", "低", "Low", "ليله مباراة الهلال", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("عبدالرحمن الحميدي", "综合/待分类", "General / To Classify", "低", "Low", "عبدالرحمن الحميدي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("فيفا", "综合/待分类", "General / To Classify", "低", "Low", "فيفا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كاس العالم للانديه", "体育/赛事", "Sports / Event", "低", "Low", "كاس العالم للانديه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نادي الهلال", "综合/待分类", "General / To Classify", "低", "Low", "نادي الهلال", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("بونو", "综合/待分类", "General / To Classify", "低", "Low", "بونو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://getdaytrends.com/turkey/", [
+        t("#KürtçeBenimDilim", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "KürtçeBenimDilim", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#anayasa153üuygulaAYM", "法律/公共议题", "Legal / Public Issue", "法律/诈骗", "Legal / Fraud", "anayasa153üuygulaAYM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#tesettür", "综合/待分类", "General / To Classify", "低", "Low", "tesettür", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#HSKedeİhalePazarlığı", "法律/公共议题", "Legal / Public Issue", "法律/诈骗", "Legal / Fraud", "HSKedeİhalePazarlığı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ÇeyrekAltın", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "ÇeyrekAltın", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BebeklerinRızkınıÇalanlar", "争议/公共事件", "Controversy / Public Issue", "政治/争议", "Political / Controversy", "BebeklerinRızkınıÇalanlar", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Trade $KORI", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $KORI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Üniversite Hastaneleri", "综合/待分类", "General / To Classify", "低", "Low", "Üniversite Hastaneleri", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Zorunlu Bağışı Durdurun", "争议/公共事件", "Controversy / Public Issue", "政治/争议", "Political / Controversy", "Zorunlu Bağışı Durdurun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Dsi Orman Karayolu", "综合/待分类", "General / To Classify", "低", "Low", "Dsi Orman Karayolu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Haydi Galatasaraya", "综合/待分类", "General / To Classify", "低", "Low", "Haydi Galatasaraya", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Fenerbahçe Tarih Yazıyor", "综合/待分类", "General / To Classify", "低", "Low", "Fenerbahçe Tarih Yazıyor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Hasta Garantili Şehir", "综合/待分类", "General / To Classify", "低", "Low", "Hasta Garantili Şehir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("İstanbulSözleşmesi Yaşatır", "法律/公共议题", "Legal / Public Issue", "政治/争议", "Political / Controversy", "İstanbulSözleşmesi Yaşatır", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Teminat Yakma Durdurulsun", "综合/待分类", "General / To Classify", "低", "Low", "Teminat Yakma Durdurulsun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Dekanlık", "综合/待分类", "General / To Classify", "低", "Low", "Dekanlık", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Nihal Candan", "综合/待分类", "General / To Classify", "低", "Low", "Nihal Candan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Evsiz Çocuk Kalmasın", "综合/待分类", "General / To Classify", "低", "Low", "Evsiz Çocuk Kalmasın", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Hastanelere Kpss Şart", "综合/待分类", "General / To Classify", "低", "Low", "Hastanelere Kpss Şart", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("2024 KPSS", "综合/待分类", "General / To Classify", "低", "Low", "2024 KPSS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://getdaytrends.com/vietnam/", [
+        t("#KAZZAWARDS2026", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "KAZZAWARDS2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TraeYoung", "综合/待分类", "General / To Classify", "低", "Low", "TraeYoung", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#copilot", "综合/待分类", "General / To Classify", "低", "Low", "copilot", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KürtçeBenimDilim", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "KürtçeBenimDilim", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Shams", "综合/待分类", "General / To Classify", "低", "Low", "Shams", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KAZZ2026", "综合/待分类", "General / To Classify", "低", "Low", "KAZZ2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Garmin", "综合/待分类", "General / To Classify", "低", "Low", "Garmin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MinHeeJin", "综合/待分类", "General / To Classify", "低", "Low", "MinHeeJin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PorTor", "综合/待分类", "General / To Classify", "低", "Low", "PorTor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BamBamxLVMenSS27", "综合/待分类", "General / To Classify", "低", "Low", "BamBamxLVMenSS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MINHEEJIN", "综合/待分类", "General / To Classify", "低", "Low", "MINHEEJIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Billiards", "综合/待分类", "General / To Classify", "低", "Low", "Billiards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WTTLjubljana", "综合/待分类", "General / To Classify", "低", "Low", "WTTLjubljana", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#billiards", "综合/待分类", "General / To Classify", "低", "Low", "billiards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#NewYork", "综合/待分类", "General / To Classify", "低", "Low", "NewYork", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#30YearsWithV", "综合/待分类", "General / To Classify", "低", "Low", "30YearsWithV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#nba", "体育/赛事", "Sports / Event", "低", "Low", "nba", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ManUnited", "综合/待分类", "General / To Classify", "低", "Low", "ManUnited", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LVMenSS27xFourth", "综合/待分类", "General / To Classify", "低", "Low", "LVMenSS27xFourth", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#wnba", "体育/赛事", "Sports / Event", "低", "Low", "wnba", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
+  
+
+  
+
+  
+
   {
     date: "2026-06-24",
     title: {
