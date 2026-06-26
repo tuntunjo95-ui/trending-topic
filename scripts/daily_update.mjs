@@ -953,6 +953,7 @@ async function main() {
       out = out.filter(
         (t) =>
           allowedTypeEn.includes(t.typeEn) ||
+          t.riskKey !== "low" ||
           forceKeep.has(t.topic) ||
           containsAny(t.topic, keepContains),
       );
@@ -1027,8 +1028,8 @@ async function main() {
         .filter((t) => !shouldDrop(t, meta.id))
         .slice(0, 20) // keep a manageable number in the webpage
         .map(buildTopic);
-      kept = applyTopicFilters(meta.id, kept);
       kept = applyClassificationOverrides(meta.id, kept);
+      kept = applyTopicFilters(meta.id, kept);
       kept = applyContentSignals(meta.id, kept);
     } catch (err) {
       error = err?.message || String(err);

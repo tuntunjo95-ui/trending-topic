@@ -9,7 +9,9 @@
         "Awards / Red Carpet / Ceremony",
         "Sports / Event",
         "Travel / Local Event",
-        "Brand / Consumer"
+        "Brand / Consumer",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
       ],
       "forceKeepContains": [
         "arsenal",
@@ -30,6 +32,92 @@
         "hidup tak lagi sama",
         "blok m"
       ],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    },
+    "th": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
+      ],
+      "forceKeepContains": [],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    },
+    "ph": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
+      ],
+      "forceKeepContains": [],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    },
+    "sa": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer",
+        "Brand / Sports Sponsorship",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
+      ],
+      "forceKeepContains": [],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    },
+    "tr": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
+      ],
+      "forceKeepContains": [],
+      "forceKeepTopics": [],
+      "forceDropContains": [],
+      "forceDropTopics": []
+    },
+    "vn": {
+      "allowedTypeEn": [
+        "Music / Show / Release",
+        "Drama / Variety / Entertainment",
+        "Celebrity / Fandom",
+        "Awards / Red Carpet / Ceremony",
+        "Sports / Event",
+        "Travel / Local Event",
+        "Brand / Consumer",
+        "Fashion / Brand Event",
+        "Lifestyle / Local Trend"
+      ],
+      "forceKeepContains": [],
       "forceKeepTopics": [],
       "forceDropContains": [],
       "forceDropTopics": []

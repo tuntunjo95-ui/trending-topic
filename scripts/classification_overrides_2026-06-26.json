@@ -1,0 +1,559 @@
+{
+  "date": "2026-06-26",
+  "countries": {
+    "id": {
+      "topics": {
+        "#PeachAndMeSeries": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "Gajian Ke Natasha": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend"
+        },
+        "#DukungSensusEkonomi": {
+          "typeZh": "政务/公共议题",
+          "typeEn": "Civic / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#TemukanKembaliCantikmu": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "HUAWEI MatePad Mini": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#Reno16SeriesTHxDewTee": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "OPPO X DEWTEE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "PSD DEVILLAIN LAUNCH OPPO": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "28THER WISH SKY DAY": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "Jeonghan": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "PERTHSANTA LOVE FULLFEEL": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "Elliot Anderson": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "GEMINI BANG OLUFSEN SG OPENING": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "NAMTANFILM LUNAR RENO16": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "Neuer": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "TEETEEPOR WITH VETEMENTS": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "TMK X AMIRI SS27": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "SEVENTEEN JOSHUA AT UNESCO": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "Malam Jumat": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#PeachAndMeSeries": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "#ParisFashionWeek": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "#BamBamxLVMenSS27": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#AISOnlineDealxTleFirstone": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#TEETEEPORGoParisFW27": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "ENGLOT x LINE MAN LIVE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "AIS ONLINE DEAL x TFO": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "TEETEEPOR WITH VETEMENTS": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "DECORTÉ X ORMKORN": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "PEACH AND ME TRAILER": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "PSD DEVILLAIN LAUNCH OPPO": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "ENGFA THE LEGACY26": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "TTP WITHAT PARFUM": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "JOURNAL WITH JUNIOR MARK JUMMO": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "PERTHSANTA LOVE FULLFEEL": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "FORCE PAOFEII X NEKKOLIVE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "NAMTANFILM LUNAR RENO16": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "TTP X ARDERMIS TOPS": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "DEXX 1ST GO BEYOND": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release"
+        },
+        "SOTUS 10YRS LIVEHOUSE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "TONSOM 7TH EPISODE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "BONNIE ANY LOVE SHOT WITH OPPO": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "JJJ FAM X SF TOY STORY": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "LATELY ITS WINTER SEASON EP7": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "OPPO X DEWTEE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "FOURTH SHINES AT LVSS27 SHOW": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "Jeonghan": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "#ParisFashionWeek": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "#PeachAndMeSeries": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "#hulogbykaia": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release"
+        },
+        "#정한이돌아온다_기다렸던순간": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "#AmiriSS27": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "JMFYANG WYFMM TRAILER": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "DRALYS BREAKDAP 3RA": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "DUSTBIA SWEETEST YES": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "AZRALPH DAY KINSElebration": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "LOVELIKEASHTINE PRESSCON": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "MIGUEL FACES HIS DAD": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "TEETEEPOR WITH VETEMENTS": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "ANGEL EDGE OF BRAVERY": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "DUSTBIA MATCHMADE FOR PROM": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "PSD DEVILLAIN LAUNCH OPPO": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "WAITING FOR ANGUEL": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "PEACH AND ME TRAILER": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "NAMTANFILM LUNAR RENO16": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "GELIX CLASH DEEPENS": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "PERTHSANTA LOVE FULLFEEL": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "NALLY NA AT MCOUNTDOWN": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release"
+        },
+        "GELEX MADE ME DO IT": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "Jungkook": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "DECORTÉ X ORMKORN": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "JL SPARKS OSAKA": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#طريق_السيل_يحصد_الارواح": {
+          "typeZh": "灾害/公共事件",
+          "typeEn": "Disaster / Public Incident",
+          "riskZh": "灾害/纪念",
+          "riskEn": "Disaster / Memorial"
+        },
+        "#المانيا_الاكوادور": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "#الجدول_القديه": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "#الدريس_مع_الاخضر": {
+          "typeZh": "品牌活动/体育赞助",
+          "typeEn": "Brand / Sports Sponsorship"
+        },
+        "نوير": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "ساني": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "ساحل العاج": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "الياس السخيري": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "الحضور الجماهيري": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "المنتخب التونسي": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "فالنسيا": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "الهلال الاول": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "الاداء الرياضي": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "المنتخب الياباني": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "المجموعه الخامسه": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "إليوت أندرسون": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "اندرسون": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "برنامج الاستقطاب": {
+          "typeZh": "体育/治理争议",
+          "typeEn": "Sports / Governance Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "النصر الاول": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "فوز الراس الاخضر": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "SüreçtekiAF EşitAdilOlsun": {
+          "typeZh": "法律/公共议题",
+          "typeEn": "Legal / Public Issue",
+          "riskZh": "法律/诈骗",
+          "riskEn": "Legal / Fraud"
+        },
+        "Mesut Özarslan": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#AşureGünü": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend"
+        },
+        "#tmpol": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "rasim arı": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "Kenan Şahin": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "#deprem": {
+          "typeZh": "灾害/公共事件",
+          "typeEn": "Disaster / Public Incident",
+          "riskZh": "灾害/纪念",
+          "riskEn": "Disaster / Memorial"
+        },
+        "#ALKLC": {
+          "typeZh": "金融/加密（谨慎）",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Ali Mahir Başarır": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "AK Parti'ye": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "CHP Yüksek Disiplin Kurulu": {
+          "typeZh": "政治/公共议题",
+          "typeEn": "Political / Public Issue",
+          "riskZh": "政治/争议",
+          "riskEn": "Political / Controversy"
+        },
+        "Lamelo": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Taylan Bulut": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Ahmet Çakar": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "Uefa": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#JAMESxSaintLaurent": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "JAMES ASCENDS IN YSL GAZE": {
+          "typeZh": "时尚/品牌活动",
+          "typeEn": "Fashion / Brand Event"
+        },
+        "GRAB THAI RARES LINGORM": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#LingOrmTheTouchWellnessTea": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "LINGORM PRESENTER THE TOUCH": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "#WUTheSeriesEP8": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "SUNOO OUR BRIGHTEST HUE": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "#JunePaintedBySUNOO": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom"
+        },
+        "Unicity": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "TRON BULL": {
+          "typeZh": "金融/加密（谨慎）",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Messi": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "CHARLOTTE SUPERGIRL GALA": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony"
+        },
+        "Xoài": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend"
+        },
+        "#DearMySelfxLingOrm": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "PRAEW MAGAZINE X LINGORM": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer"
+        },
+        "Haaland": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        },
+        "$AURA": {
+          "typeZh": "金融/加密（谨慎）",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "EWB EIGHTH EP": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment"
+        },
+        "Giannis": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event"
+        }
+      }
+    }
+  }
+}
