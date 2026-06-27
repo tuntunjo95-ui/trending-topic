@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-27",
+  "note": "Manual classification overrides for 2026-06-27 GetDayTrends captures. Focus is entertainment, sports, music, celebrity, brand/fashion and lifestyle; public affairs and disaster terms are kept as risk watch.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#OBSIDIANRANK1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Norway": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#SFxSkyNaniSmyleNeona": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Uruguay": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Muslera": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "SKYNANI FAM X TOY STORY5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#BoikotPenayanganMaatrubhumi": {"typeZh": "争议/舆情", "typeEn": "Controversy / Public Sentiment", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#PromoHematGreenSM": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#JanganKecilkanMBG": {"typeZh": "政务/公共议题", "typeEn": "Civic / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Suara Penerima Manfaat": {"typeZh": "政务/公共议题", "typeEn": "Civic / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "MR. Kill SERIES PRESS TOUR D1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Wujudkan Sinergi Negeri": {"typeZh": "政务/公共议题", "typeEn": "Civic / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Dembele": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Dunk Armani Si Ambassador": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Álex Baena": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Norwegia": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "PSD DEVILLAIN LAUNCH OPPO": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM PRESENTER THE TOUCH": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "San José": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#ARMDIORSS27": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#หลิงออมแจกตัวอักษร": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#JETATLAS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#Perfect10LinersFinalEP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "ARM WITH DIOR SUMMER": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "JETATLAS AT DMD LAND3": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "VOTE KRISTSINGTO LOLA2026": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#MySweetheartJomEP7": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "NLMG 1ST FM IN JAPAN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#MySweetheartJomตอนที่7": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CK JEANS X CHEN": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "PERFECT10LINERS FOREVER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "BAMBAM SUMMER DIOR": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#BBJExLOrealParisTH": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#PandoraXGeminiFourth": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#VVLuxuryWorldwideFans": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#YinWarFMinOkinawa": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#DestinyClinicXGulf": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#TheWallSong": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "TU DENTIST FINAL WALK": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#ShowtimeJune27": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "MAYNILA SERYE REVEAL": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#MTVPushAwards": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "DLSU": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "VOTE KAIA MTVPUSH": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "UPCAT": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#BINIverseD2": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "KAIA MTVPUSH": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BINIverseAtTheArena": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BINIverseW2Day2": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#Magpakailanman": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#AMNSEinMNL": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "DJ ANDRY": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "AG GANDA!": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "ANDREWS WEDDING": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "BLOOM TWITS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TEAM BRAZIL": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "SUGAR N' SPICE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CINEMA JOLINA RETURNS": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "#انتر_ميلان_اوراوا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الهلال_باتشوكا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الشوط الاول": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الهلال وباتشوكا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#كاس_العالم_للانديه": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الكاراتيه_العربي_ينافس_عالميا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الاعلام_شريك_النجاح": {"typeZh": "政务/公共议题", "typeEn": "Civic / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "سافيتش": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ماكسيمان": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سالم الدوسري": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سالم مصاب": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "موتا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الشوط الثاني": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "السنه الهجريه": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "عقوبه الانضباط": {"typeZh": "法律/公共议题", "typeEn": "Legal / Public Issue", "riskZh": "法律/诈骗", "riskEn": "Legal / Fraud"},
+        "ياسين بونو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "بشر بن حازم": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "الحكم البرازيلي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "راكتيتش": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "#deprem": {"typeZh": "灾害/公共事件", "typeEn": "Disaster / Public Incident", "riskZh": "灾害/纪念", "riskEn": "Disaster / Memorial"},
+        "#VoleybolMilletlerLigi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "6.0 Büyüklüğünde": {"typeZh": "灾害/公共事件", "typeEn": "Disaster / Public Incident", "riskZh": "灾害/纪念", "riskEn": "Disaster / Memorial"},
+        "Filenin Sultanları": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "TRUMP ÖNCE ÜLKEMİZ": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Emre Belözoğlu": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Tarikatlar Kapatılsın": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Başıboş Köpek Sorunu": {"typeZh": "争议/舆情", "typeEn": "Controversy / Public Sentiment", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Aziz Yıldırım": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Murat Çalık": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Mert Yazıcıoğlu": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Can Atalay": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Kadir Gecesi": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "Ahmet Minguzzi": {"typeZh": "争议/舆情", "typeEn": "Controversy / Public Sentiment", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Cenk Tosun": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#MTVPushAwards": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "VOTE KAIA MTVPUSH": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "KAIA MTVPUSH": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#TREASURE_REBOOT_FINALE": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "YUWIN THIS GUESS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "YUSQUAD SLAYED EVERY HINT": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "24H WITH LEGENDARY YU": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "THE WISHFUL GUESS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "MẠNH ƠI NÓI EM NGHE": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "TRÊN TÌNH BẠN DƯỚI TÌNH IU": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CHUYỆN TÌNH NGƯỜI THỨ BA": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CHERRY IS THE KISSER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CẨM LY": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "VIỆT KIỀU": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "LỐI NHỎ CHƯA THÀNH ĐƯỜNG": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#MUGLERSS26": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#PavelxJASPAL": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "CỞI ĐỒ ĐI CƯNG": {"typeZh": "成人/低质内容风险", "typeEn": "Adult / Low-Quality Content Risk", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "THE FIRST NOTE OF TLOS": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "THE LINE OF SOUL": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
