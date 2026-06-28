@@ -78,81 +78,58 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
-        t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Korea Selatan", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Korea Selatan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Algeria", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Algeria", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Neto", "体育/赛事", "Sports / Event", "低", "Low", "Neto", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#วาดฝันวันวิวาห์EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LINGORM ILF EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#VETEMENTSxTeeTeePor", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "VETEMENTSxTeeTeePor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CEREMONY LOVEx3", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "CEREMONY LOVEx3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("CL WITH ZESPRI KIWI", "品牌活动/消费", "Brand / Consumer", "低", "Low", "CL WITH ZESPRI KIWI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KHEMJIRA KHONKAEN TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "KHEMJIRA KHONKAEN TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ENGFA THE LEGACY28", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENGFA THE LEGACY28", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LING PRESENTER MISTINE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LING PRESENTER MISTINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MAJOR x ORM SUPERGIRL", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAJOR x ORM SUPERGIRL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("EMIBONNIEANY X TOY STORY5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "EMIBONNIEANY X TOY STORY5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SAVEWRG 23YRS IN BLOOM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SAVEWRG 23YRS IN BLOOM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CL WITH ZESPRI KIWI", "品牌活动/消费", "Brand / Consumer", "低", "Low", "CL WITH ZESPRI KIWI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Crazy Love MooMoo EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Crazy Love MooMoo EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BARTHTANRAK LOVE TRIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BARTHTANRAK LOVE TRIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE EDGE OF HORIZON EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE GIFT OF JUNE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "THE GIFT OF JUNE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("LING PRESENTER MISTINE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LING PRESENTER MISTINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMIBONNIEANY X TOY STORY5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "EMIBONNIEANY X TOY STORY5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
-        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#BINI_StepBackPV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BINI_StepBackPV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#BINI_SignalsEP", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BINI_SignalsEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#เสน่หาวาโยตอนที่7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนที่7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Happy Pride", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Happy Pride", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("DUSTBIA GR88TFUL FOR JADEWARD", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DUSTBIA GR88TFUL FOR JADEWARD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THEE WAVE DRPONG LIVE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "THEE WAVE DRPONG LIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LINGORM ILF EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("krystal mejestic night", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "krystal mejestic night", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KAIKYLE HEADLINES SCOTLAND", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "KAIKYLE HEADLINES SCOTLAND", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THEE WAVE DRPONG LIVE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "THEE WAVE DRPONG LIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("dustbia promever together", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "dustbia promever together", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("carmelle made it magical", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "carmelle made it magical", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Madrid", "体育/赛事", "Sports / Event", "低", "Low", "Madrid", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("BARTHTANRAK LOVE TRIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BARTHTANRAK LOVE TRIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
         t("كولومبيا", "体育/赛事", "Sports / Event", "低", "Low", "كولومبيا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#بوح_lلخاطر", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "بوح_lلخاطر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("كوستا", "体育/赛事", "Sports / Event", "低", "Low", "كوستا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("نيتو", "体育/赛事", "Sports / Event", "低", "Low", "نيتو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("خاميس", "体育/赛事", "Sports / Event", "低", "Low", "خاميس", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#الراتب", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "الراتب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("نيفيز", "体育/赛事", "Sports / Event", "低", "Low", "نيفيز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#الراتب", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "الراتب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("Devletten Kaçılmaz Tamar", "争议/舆情", "Controversy / Public Sentiment", "政治/争议", "Political / Controversy", "Devletten Kaçılmaz Tamar", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Kolombiya", "体育/赛事", "Sports / Event", "低", "Low", "Kolombiya", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Davinson", "体育/赛事", "Sports / Event", "低", "Low", "Davinson", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#Monetary_Boycott_Of_BELIFT", "争议/舆情", "Controversy / Public Sentiment", "政治/争议", "Political / Controversy", "Monetary_Boycott_Of_BELIFT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("AK Parti 33", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "AK Parti 33", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Hırvatistan", "体育/赛事", "Sports / Event", "低", "Low", "Hırvatistan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("ak parti 33", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "ak parti 33", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("#วาดฝันวันวิวาห์EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LINGORM ILF EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Cuối", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Cuối", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#SupergirlxOrmKornnaphat", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SupergirlxOrmKornnaphat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#เสน่หาวาโยตอนที่7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนที่7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("MAJOR x ORM SUPERGIRL", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAJOR x ORM SUPERGIRL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Chủ Nhật", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Chủ Nhật", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Chào", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Chào", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SEONGHYEON SHINES AT DIOR", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "SEONGHYEON SHINES AT DIOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SEONGHYEON SHINES AT DIOR", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "SEONGHYEON SHINES AT DIOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Ngày", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Ngày", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("SEONGHYEON SHINES AT DIOR", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "SEONGHYEON SHINES AT DIOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
     priorities: {
@@ -174,6 +151,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   
 
