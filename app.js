@@ -78,96 +78,77 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
-        t("Nyaman & Privasi Terjamin", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Nyaman & Privasi Terjamin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PPxSTAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "PPxSTAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#TAEHYUNGxCELINE", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "TAEHYUNGxCELINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#zooombierelay", "品牌活动/消费", "Brand / Consumer", "低", "Low", "zooombierelay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#weekendhematgreensm", "品牌活动/消费", "Brand / Consumer", "低", "Low", "weekendhematgreensm", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BARTHTANRAK LOVE TRIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BARTHTANRAK LOVE TRIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("WE'LL BE FINE WITH ENHYPEN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WE'LL BE FINE WITH ENHYPEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("TIPRACHA LUNAR TOY STORY 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TIPRACHA LUNAR TOY STORY 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BARTHTANRAK LOVE TRIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BARTHTANRAK LOVE TRIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("$ANSEM", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ANSEM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("WILLIAM PVM SKIN CLASS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "WILLIAM PVM SKIN CLASS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("TAEHYUNG TAEHYUNG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TAEHYUNG TAEHYUNG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("TIPRACHA LUNAR TOY STORY 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TIPRACHA LUNAR TOY STORY 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TAEHYUNG TAEHYUNG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TAEHYUNG TAEHYUNG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM PVM SKIN CLASS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "WILLIAM PVM SKIN CLASS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#PondPhuwinConcert", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#เลือกตั้งกทม2569", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "เลือกตั้งกทม2569", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#EnemiesWithBenefitsEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#CelineSS27", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "CelineSS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#TicketToHeavenEP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenEP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ENGFA THE LEGACY29", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENGFA THE LEGACY29", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("EWB NINTH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB NINTH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SWEET CANDY WITH ZEENUNEW", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SWEET CANDY WITH ZEENUNEW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SHINING PRIDE CHARLOTTE29", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SHINING PRIDE CHARLOTTE29", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("GINJAY FIRST TH FANSIGN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "GINJAY FIRST TH FANSIGN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SWEET CANDY WITH ZEENUNEW", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SWEET CANDY WITH ZEENUNEW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("WILLIAM PVM SKIN CLASS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "WILLIAM PVM SKIN CLASS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KHEMJIRA KHONKAEN TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "KHEMJIRA KHONKAEN TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TIPRACHA LUNAR TOY STORY 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TIPRACHA LUNAR TOY STORY 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("TEETEEPOR FAN PARTY D2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TEETEEPOR FAN PARTY D2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LINGORM ILF EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("the gift of june", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "the gift of june", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("the gift of june", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "the gift of june", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ENGFA THE LEGACY29", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENGFA THE LEGACY29", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TEETEEPOR FAN PARTY D2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TEETEEPOR FAN PARTY D2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#PPxSTAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "PPxSTAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("SB19 SECAWARDS 5TH WIN", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "SB19 SECAWARDS 5TH WIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#WASInternationalAlbumOTY", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "WASInternationalAlbumOTY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#PPxSTAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "PPxSTAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#TAEHYUNGxCELINE", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "TAEHYUNGxCELINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShowtimePrideQandA", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ShowtimePrideQandA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#EnemiesWithBenefitsEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("dustbia gr88tful for jadeward", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "dustbia gr88tful for jadeward", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#AngFearKoSaWork", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "AngFearKoSaWork", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("WE'LL BE FINE WITH ENHYPEN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WE'LL BE FINE WITH ENHYPEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TAEHYUNG TAEHYUNG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TAEHYUNG TAEHYUNG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("A'TIN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "A'TIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("kaikyle headlines scotland", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "kaikyle headlines scotland", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("EWB NINTH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB NINTH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("thee wave drpong live", "品牌活动/消费", "Brand / Consumer", "低", "Low", "thee wave drpong live", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MARQUEESAYA WITH RHENSEPH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MARQUEESAYA WITH RHENSEPH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("gelex powerhouse duo", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "gelex powerhouse duo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GINJAY FIRST TH FANSIGN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "GINJAY FIRST TH FANSIGN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("marqueesaya with rhenseph", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "marqueesaya with rhenseph", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TIPRACHA LUNAR TOY STORY 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TIPRACHA LUNAR TOY STORY 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Happy Pride", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Happy Pride", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GINJAY FIRST TH FANSIGN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "GINJAY FIRST TH FANSIGN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
-        t("#الساعه_كم_تنام", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "الساعه_كم_تنام", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#اجمل_تغريده_للام", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "اجمل_تغريده_للام", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ياسر المسحل", "体育/赛事", "Sports / Event", "低", "Low", "ياسر المسحل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#ذكريات_الصيف", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "ذكريات_الصيف", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("خالد البلطان", "体育/赛事", "Sports / Event", "低", "Low", "خالد البلطان", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("معتز هوساوي", "体育/赛事", "Sports / Event", "低", "Low", "معتز هوساوي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("نواف التمياط", "体育/赛事", "Sports / Event", "低", "Low", "نواف التمياط", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("رييس الاتحاد السعودي", "体育/赛事", "Sports / Event", "低", "Low", "رييس الاتحاد السعودي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#هدايا_بلاك", "品牌活动/消费", "Brand / Consumer", "低", "Low", "هدايا_بلاك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("وليد معاذ", "体育/赛事", "Sports / Event", "低", "Low", "وليد معاذ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("حاتم خيمي", "体育/赛事", "Sports / Event", "低", "Low", "حاتم خيمي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ليفربول", "体育/赛事", "Sports / Event", "低", "Low", "ليفربول", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("ياسر المسحل", "体育/赛事", "Sports / Event", "低", "Low", "ياسر المسحل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("وليد معاذ", "体育/赛事", "Sports / Event", "低", "Low", "وليد معاذ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نواف التمياط", "体育/赛事", "Sports / Event", "低", "Low", "نواف التمياط", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("#GaziKoşusu", "体育/赛事", "Sports / Event", "低", "Low", "GaziKoşusu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Halis Karataş", "体育/赛事", "Sports / Event", "低", "Low", "Halis Karataş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Kadir İnanır", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Kadir İnanır", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#PassTheMic_ToAll7", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PassTheMic_ToAll7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Teoman", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Teoman", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Muhittin Böcek", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "Muhittin Böcek", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Greenwood", "体育/赛事", "Sports / Event", "低", "Low", "Greenwood", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Teoman", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Teoman", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cumhurbaşkanına", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "Cumhurbaşkanına", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("AK Parti 33", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "AK Parti 33", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Kara Kuvvetleri", "军事/公共议题", "Military / Public Issue", "政治/争议", "Political / Controversy", "Kara Kuvvetleri", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Cumhurbaşkanına", "政治/公共议题", "Political / Public Issue", "政治/争议", "Political / Controversy", "Cumhurbaşkanına", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Kara Kuvvetleri", "军事/公共议题", "Military / Public Issue", "政治/争议", "Political / Controversy", "Kara Kuvvetleri", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
-        t("#เสน่หาวาโยตอนที่7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนที่7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#SupergirlxOrmKornnaphat", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SupergirlxOrmKornnaphat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#TAEHYUNGxCELINE", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "TAEHYUNGxCELINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#EnemiesWithBenefitsEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("major x orm supergirl", "品牌活动/消费", "Brand / Consumer", "低", "Low", "major x orm supergirl", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$ANSEM", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ANSEM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("EWB NINTH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB NINTH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#EnemiesWithBenefitsEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TAEHYUNGxCELINE", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "TAEHYUNGxCELINE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR BLEEDING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR BLEEDING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เสน่หาวาโยตอนที่7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนที่7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TIPRACHA LUNAR TOY STORY 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TIPRACHA LUNAR TOY STORY 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#SFxNamtanFilmLunar", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SFxNamtanFilmLunar", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("JUHOON MESMERIZES AT DIOR SHOW", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "JUHOON MESMERIZES AT DIOR SHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("JUHOON MESMERIZES AT DIOR SHOW", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "JUHOON MESMERIZES AT DIOR SHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Crazy Love MooMoo EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Crazy Love MooMoo EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
     priorities: {
@@ -189,6 +170,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   
 
