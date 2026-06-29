@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-29",
+  "note": "Manual classification overrides for 2026-06-29 Trends24 captures. Focus is entertainment, sports, music, celebrity, brand/fashion, lifestyle and clear risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "Nyaman & Privasi Terjamin": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#PPxSTAKE": {"typeZh": "博彩/广告观察", "typeEn": "Gambling / Ad Watch", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "#TicketToHeavenEP5": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#TAEHYUNGxCELINE": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#zooombierelay": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#weekendhematgreensm": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "BARTHTANRAK LOVE TRIAL": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "WE'LL BE FINE WITH ENHYPEN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TIPRACHA LUNAR TOY STORY 5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "$ANSEM": {"typeZh": "金融/加密（谨慎）", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "WILLIAM PVM SKIN CLASS": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "TAEHYUNG TAEHYUNG": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "jungkook": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GoPay": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "PHUWIN BIRDY LIVE": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "AOUBOOM CELEBRATE URANUS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "mix & match ootd": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#PondPhuwinConcert": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#เลือกตั้งกทม2569": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#EnemiesWithBenefitsEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#CelineSS27": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#TicketToHeavenEP5": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "ENGFA THE LEGACY29": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "THE AIR BLEEDING LOVE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CL WITH ZESPRI KIWI": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "EWB NINTH EP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "SWEET CANDY WITH ZEENUNEW": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "SHINING PRIDE CHARLOTTE29": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GINJAY FIRST TH FANSIGN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "JJJ FAM LANEIGE TINT UP": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "WILLIAM PVM SKIN CLASS": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "KHEMJIRA KHONKAEN TOUR": {"typeZh": "旅行/本地活动", "typeEn": "Travel / Local Event", "riskZh": "低", "riskEn": "Low"},
+        "TIPRACHA LUNAR TOY STORY 5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "TEETEEPOR FAN PARTY D2": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP2": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "the gift of june": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "SB19 SECAWARDS 5TH WIN": {"typeZh": "颁奖礼/红毯/盛典", "typeEn": "Awards / Red Carpet / Ceremony", "riskZh": "低", "riskEn": "Low"},
+        "#WASInternationalAlbumOTY": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#PPxSTAKE": {"typeZh": "博彩/广告观察", "typeEn": "Gambling / Ad Watch", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "#TAEHYUNGxCELINE": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "jungkook": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#EnemiesWithBenefitsEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "dustbia gr88tful for jadeward": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#AngFearKoSaWork": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "WE'LL BE FINE WITH ENHYPEN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "THE AIR BLEEDING LOVE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "TAEHYUNG TAEHYUNG": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "A'TIN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "kaikyle headlines scotland": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "EWB NINTH EP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "thee wave drpong live": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "MARQUEESAYA WITH RHENSEPH": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "gelex powerhouse duo": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GINJAY FIRST TH FANSIGN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TIPRACHA LUNAR TOY STORY 5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Happy Pride": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "#الساعه_كم_تنام": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#اجمل_تغريده_للام": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "ياسر المسحل": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ذكريات_الصيف": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "خالد البلطان": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "معتز هوساوي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "نواف التمياط": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "رييس الاتحاد السعودي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#هدايا_بلاك": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "وليد معاذ": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "حاتم خيمي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ليفربول": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "فابينهو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "جيسي مارش": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "دورينا غير": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "#GaziKoşusu": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Halis Karataş": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Kadir İnanır": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#PassTheMic_ToAll7": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Teoman": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Muhittin Böcek": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Greenwood": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "AK Parti 33": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Kara Kuvvetleri": {"typeZh": "军事/公共议题", "typeEn": "Military / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Cumhurbaşkanına": {"typeZh": "政治/公共议题", "typeEn": "Political / Public Issue", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "LGBT": {"typeZh": "社会议题/争议", "typeEn": "Social Issue / Controversy", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Ansem": {"typeZh": "金融/加密（谨慎）", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Önder Özen": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Kolombiya": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#เสน่หาวาโยตอนที่7": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "THE AIR BLEEDING LOVE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#SupergirlxOrmKornnaphat": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "LING PRESENTER MISTINE": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MAJOR x ORM SUPERGIRL": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#TAEHYUNGxCELINE": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#EnemiesWithBenefitsEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "EWB NINTH EP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "TIPRACHA LUNAR TOY STORY 5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#SFxNamtanFilmLunar": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "JUHOON MESMERIZES AT DIOR SHOW": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Ansem": {"typeZh": "金融/加密（谨慎）", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "JJJ FAM LANEIGE TINT UP": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP2": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Crazy Love MooMoo EP8": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}

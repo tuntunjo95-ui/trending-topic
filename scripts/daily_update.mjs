@@ -85,7 +85,14 @@ function encode(q) {
 }
 
 function stripHtml(input) {
-  return input.replace(/<[^>]+>/g, "").trim();
+  return input
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, "\"")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .trim();
 }
 
 function normalizeTopic(topic) {
