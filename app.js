@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-06-29 六国热点话题日报",
-    summaryPriority: "优先深挖：泰国由 PondPhuwinConcert、EnemiesWithBenefitsEP9、CelineSS27、TicketToHeavenEP5 和 Engfa 话题主导；菲律宾集中在 SB19、WAS album、Taehyung/Celine、Jungkook 和 EWB；印尼可看隐私品牌词、TicketToHeaven、Taehyung/Celine、Zooombie Relay 与 GreenSM；沙特以睡眠/母亲/夏日生活标签和足球人物为主；土耳其可看 GaziKoşusu、Halis Karataş、Kadir İnanır、PassTheMic 与 Teoman；越南优先泰剧/Orm、Taehyung/Celine、EWB 与 Dior。",
-    summaryRisk: "风险观察：印尼和菲律宾出现 PPxSTAKE 博彩/广告风险，印尼另有 $ANSEM 投机风险；泰国出现曼谷选举标签；土耳其包含市政、政党、军事和总统相关公共议题。"
+    summaryTitle: "2026-06-30 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼围绕德国、日本、摩洛哥与 Neuer、Klopp、Jonathan Tah 等足球词；泰国由 Engfa、GeminiConcert、Charlotte、Head & Shoulders/Fourth、Tops Beauty 和 Celine 品牌活动主导；菲律宾集中在 V8 album、PP、SB19 与 MAKE IT RAIN；沙特以荷兰/德国足球、WWE Raw 和月夜生活标签为主；土耳其看 GERPAR、Germany、Nagelsmann、Sane、Neuer、Deniz Undav；越南优先 Saint Laurent、Dunk/SiBloom、YSL、EWB 和 Dior。",
+    summaryRisk: "风险观察：印尼、菲律宾、土耳其、越南均出现 STAKE 博彩/广告风险；菲律宾和越南出现 $ANSEM 投机风险；沙特有歧视/社会争议词，越南有泰语平台投诉争议标签。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,113 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-06-29 Six-Country Trend Brief",
-    summaryPriority: "Priority: Thailand is led by PondPhuwinConcert, EnemiesWithBenefitsEP9, CelineSS27, TicketToHeavenEP5, and Engfa; the Philippines clusters around SB19, WAS album, Taehyung/Celine, Jungkook, and EWB; Indonesia has privacy-brand, TicketToHeaven, Taehyung/Celine, Zooombie Relay, and GreenSM topics; Saudi is lifestyle plus football figures; Turkey has GaziKoşusu, Halis Karataş, Kadir İnanır, PassTheMic, and Teoman; Vietnam is Thai-drama/Orm, Taehyung/Celine, EWB, and Dior.",
-    summaryRisk: "Risk watch: Indonesia and the Philippines include PPxSTAKE gambling/ad risk, with $ANSEM speculation risk in Indonesia; Thailand has a Bangkok election tag; Turkey includes municipal, party, military, and presidential public-issue terms."
+    summaryTitle: "2026-06-30 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia is football-heavy around Germany, Japan, Morocco, Neuer, Klopp, and Jonathan Tah; Thailand is led by Engfa, GeminiConcert, Charlotte, Head & Shoulders/Fourth, Tops Beauty, and Celine brand topics; the Philippines clusters around V8 album, PP, SB19, and MAKE IT RAIN; Saudi is Netherlands/Germany football, WWE Raw, and moon-night lifestyle; Turkey has GERPAR, Germany, Nagelsmann, Sane, Neuer, and Deniz Undav; Vietnam is Saint Laurent, Dunk/SiBloom, YSL, EWB, and Dior.",
+    summaryRisk: "Risk watch: STAKE gambling/ad risk appears in Indonesia, the Philippines, Turkey, and Vietnam; $ANSEM speculation risk appears in the Philippines and Vietnam; Saudi has a discrimination/social-controversy term, and Vietnam has a Thai platform-complaint controversy tag."
   }
 };
 
 const reports = [
+  {
+    date: "2026-06-30",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#STAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "STAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jerman", "体育/赛事", "Sports / Event", "低", "Low", "Jerman", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Neuer", "体育/赛事", "Sports / Event", "低", "Low", "Neuer", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Klopp", "体育/赛事", "Sports / Event", "低", "Low", "Klopp", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jonathan Tah", "体育/赛事", "Sports / Event", "低", "Low", "Jonathan Tah", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jepang", "体育/赛事", "Sports / Event", "低", "Low", "Jepang", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Orlando Gill", "体育/赛事", "Sports / Event", "低", "Low", "Orlando Gill", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Morocco", "体育/赛事", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Nagelsmann", "体育/赛事", "Sports / Event", "低", "Low", "Nagelsmann", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("ENGFA THE LEGACY30", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENGFA THE LEGACY30", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#นางฟ้าปารีส", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "นางฟ้าปารีส", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SHINING PRIDE CHARLOTTE30", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SHINING PRIDE CHARLOTTE30", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#HeadandShouldersxFourth", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "HeadandShouldersxFourth", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TFO BENICE TOKYO ICHIGO", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "TFO BENICE TOKYO ICHIGO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FOURTH x TOPS BEAUTY", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "FOURTH x TOPS BEAUTY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BOOK x CELINE PMFW27", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BOOK x CELINE PMFW27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ewb ninth ep", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ewb ninth ep", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q21", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q21", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TOPS X PEARLPEAK", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TOPS X PEARLPEAK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUNSET IN WINTER EP11", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUNSET IN WINTER EP11", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DAOU GUN JUNG NICE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DAOU GUN JUNG NICE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#STAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "STAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#V8_Album_OutNow", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "V8_Album_OutNow", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#V8_시동걸자", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "V8_시동걸자", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PEDAL TO THE METAL FOR V8", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "PEDAL TO THE METAL FOR V8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PP THE GOAT", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PP THE GOAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("angels smartest move", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "angels smartest move", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAKE IT RAIN", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MAKE IT RAIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$ANSEM", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ANSEM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("هولندا", "体育/赛事", "Sports / Event", "低", "Low", "هولندا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المانيا", "体育/赛事", "Sports / Event", "低", "Low", "المانيا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كومان", "体育/赛事", "Sports / Event", "低", "Low", "كومان", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نوير", "体育/赛事", "Sports / Event", "低", "Low", "نوير", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#قمر_الليله", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "قمر_الليله", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كيميتش", "体育/赛事", "Sports / Event", "低", "Low", "كيميتش", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("منتخب الشواذ", "社会争议/歧视风险", "Social Controversy / Hate Risk", "政治/争议", "Political / Controversy", "منتخب الشواذ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WWERaw", "体育/赛事", "Sports / Event", "低", "Low", "WWERaw", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سهيل الحويك", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "سهيل الحويك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Germany", "体育/赛事", "Sports / Event", "低", "Low", "Germany", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#STAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "STAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Paraguay", "体育/赛事", "Sports / Event", "低", "Low", "Paraguay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Germany", "体育/赛事", "Sports / Event", "低", "Low", "Germany", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GERPAR", "体育/赛事", "Sports / Event", "低", "Low", "GERPAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Nagelsmann", "体育/赛事", "Sports / Event", "低", "Low", "Nagelsmann", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Sane", "体育/赛事", "Sports / Event", "低", "Low", "Sane", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Neuer", "体育/赛事", "Sports / Event", "低", "Low", "Neuer", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Deniz Undav", "体育/赛事", "Sports / Event", "低", "Low", "Deniz Undav", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#STAKE", "博彩/广告观察", "Gambling / Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "STAKE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$ANSEM", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ANSEM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SaintLaurentSS27", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "SaintLaurentSS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DunkXSiBloom", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "DunkXSiBloom", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Martin and YSL", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "Martin and YSL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ช่อง3รบกวนทํางานให้ได้มาตรฐาน", "争议/平台投诉", "Controversy / Platform Complaint", "政治/争议", "Political / Controversy", "ช่อง3รบกวนทํางานให้ได้มาตรฐาน", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EWB NINTH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB NINTH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KEONHO AT DIOR PFW", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "KEONHO AT DIOR PFW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
+  
+
+  
+
   {
     date: "2026-06-29",
     title: {
