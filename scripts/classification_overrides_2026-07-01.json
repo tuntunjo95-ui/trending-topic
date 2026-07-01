@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-01",
+  "note": "Manual classification overrides for 2026-07-01 public trend captures. Focus is sports, entertainment, music, celebrity/fandom, brand/fashion, lifestyle, and risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#GarudaMudaMendunia": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Indonesia": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Jerman": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#U17WC": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "HARKODNAS": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "TURUNKAN HARGA BBM": {"typeZh": "公共政策/民生争议", "typeEn": "Public Policy / Civic Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Hidup Jokowi": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "PDI-P": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Garuda Muda": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Uzbekistan": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Hidup Prabowo": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "BRICS": {"typeZh": "政治/国际事务", "typeEn": "Politics / Global Affairs", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#HidupJokowi": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Pertamina": {"typeZh": "品牌/公共服务观察", "typeEn": "Brand / Public-Service Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Indonesia U-17": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "GBK": {"typeZh": "体育/场馆热点", "typeEn": "Sports / Venue Trend", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "POOH OISHIxYOKO APPS": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#9entertainAwards2026": {"typeZh": "颁奖礼/红毯/盛典", "typeEn": "Awards / Red Carpet / Ceremony", "riskZh": "低", "riskEn": "Low"},
+        "#BoyyKantapon": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#OISHIแอปดีบอกต่อxPOOH": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#TitanClinicXOrmkornnaphat": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#รับจบเรื่องผิวbyBKxพีพี": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#mayahotnews2026": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "WAKEONE ARTIST IAN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Freen Sarocha": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "ให้ตายสิพับผ่า": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "สุโขทัย": {"typeZh": "旅行/本地活动", "typeEn": "Travel / Local Event", "riskZh": "低", "riskEn": "Low"},
+        "#CHOGLOBALAMBASSADOR": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "OLYMPOP WITH SIAM PIWAT": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#ข้าวมันไก่ทองคำxBUS": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "HIDDEN LOVE MY BIRTHDAY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LemonPuffSpecialEP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#ElevateHERxBeautyGems": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#TheWallSongxออฟจุมพล": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#StrayKidsOnGlobalCitizen": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#ALLINMediaCon": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#PBBInfluencers2ndNomination": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#LinkedInPremLUCKY7": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#ArcaneSeason2": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "BURNHAM PARK OF CHARMY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Ashley": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Ralph": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Shuvee": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "JV IBARRA FRAGRANCE FORWARD": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "ANBANGIS RAFAELAGORDA": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#AshleyOrtega": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LUCY DRESSED IN BARONG": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "FRUITAS1000THSTORE": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Our Unbothered Queen": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "CHARLOTTE SHOULDER KISS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "BINILAT Artist of the Year": {"typeZh": "颁奖礼/红毯/盛典", "typeEn": "Awards / Red Carpet / Ceremony", "riskZh": "低", "riskEn": "Low"},
+        "Rico Blanco": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Ashley Ortega": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Outlander": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "الهلال": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "مانشستر سيتي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سالم": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "المشرد": {"typeZh": "社会争议/低语义观察", "typeEn": "Social Controversy / Low-Signal Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "دوناروما": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الرياض": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#الهلال_مانشستر_سيتي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "علي البليهي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "دوري روشن": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "يوسف الثنيان": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "تميم": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "البليهي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "السالم": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كاس العالم": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#رغد_دايز": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "مدرب الهلال": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "خيسوس": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#من_ذا_الي_شاف_الهلال": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "فورستر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ذكرى_بيعه_ولي_العهد": {"typeZh": "政治/公共人物", "typeEn": "Politics / Public Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "#memurlukariyerinebaşla": {"typeZh": "招聘/公共服务观察", "typeEn": "Jobs / Public-Service Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Volkan Konak": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Hakan": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Okan": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Orkun": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Akdeniz": {"typeZh": "旅行/本地活动", "typeEn": "Travel / Local Event", "riskZh": "低", "riskEn": "Low"},
+        "Adnan Menderes": {"typeZh": "政治/历史人物", "typeEn": "Politics / Historical Figure", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Memurluk Kariyerine Başla": {"typeZh": "招聘/公共服务观察", "typeEn": "Jobs / Public-Service Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Sergio Oliveira": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Kardeşim": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "Kerem Aktürkoğlu": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Radyoaktif Madde": {"typeZh": "灾害/安全观察", "typeEn": "Disaster / Safety Watch", "riskZh": "灾害/纪念", "riskEn": "Disaster / Memorial"},
+        "Dursun Özbek": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Hasan Arat": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cüneyt Arkın": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#gsstoklarıyükseliyor": {"typeZh": "体育/品牌观察", "typeEn": "Sports / Brand Watch", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Kocaelispor": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Serik Belediyespor": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Türk Edebiyatı": {"typeZh": "生活方式/本地热点", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "Okan Buruk": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#ทับทิมกรอบnctwish": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LINEMANxMeMindY": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#TheBestOfMe_NATxLouisVuitton": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "BEHIND THE DOOR WITH LYKN": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "ELLE MEN X GEMINI": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "PROXIE CATCHER": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "WAYV CONCERT TOUR": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "INU ON THE STREET": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "HAPPY DAIN DAY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#PolcasanxTomFordBeauty": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#500kVstarproject1M": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "HAPPY JUNGHYUK DAY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#MVHỒNGQUANG1TRIỆUVIEW": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#มาร์คฟอร์ด": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LISA IN JAPAN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LINEMANxFortPeat": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#PancakeDayxDMD": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "SPARKLING 3RD WITH NEXnattakit": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TODAY ONLY JIMMYSEA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "MARTIN FOR YSL LIBRE": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
