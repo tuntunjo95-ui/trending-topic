@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-03 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼由 Portugal/Ronaldo/Modric、Goncalo Ramos、Diogo Jota 等足球词和 PerthSanta、HSR 娱乐词主导；泰国集中在 PerthSanta、TLE、BUS、Engfa、Charlotte、Toy Story 5、1981Studio 等明星/音乐/品牌活动；菲律宾围绕 Croatia/Portugal/Ronaldo、Janice、Valko、Olbap、PABLO 和本地剧综粉丝词；沙特几乎全是 Ronaldo、Portugal、Modric、Bruno 等足球热词；土耳其以 Modric、Leao、Fenerbahçe、Penaltı、Nuno Mendes 为主；越南优先 Decorté x Orm、Saint Laurent/Dior/Paris Fashion Week、Portugal/Croatia/Spain 和 AI 工具词。",
-    summaryRisk: "风险观察：泰国 #พระธุดงค์ 属宗教/社会观察；土耳其 #3Temmuz 和 #DenizGöktaşSerbestBırakılsın 涉体育俱乐部纪念、法律/社会争议；越南 Perceptron Network、#NodeAndProud 属加密/节点投机观察。"
+    summaryTitle: "2026-07-04 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼由 Cape Verde、Messi、Vozinha、Lisandro Martinez 等足球赛事实时词和 Inception Wrapped 娱乐词主导；泰国集中在 PeachAndMeSeries、LingOrm、DuangGoRound、ADogAndAPlane、Tory Burch、LISA x SHISEIDO 等剧集/明星/品牌活动；菲律宾围绕 LingOrm、BINI 旅游大使、PABLO、Jennie、Sinigang MV 和本地粉丝词；沙特以 Messi、埃及/澳大利亚、阿根廷/佛得角等赛事词为主，夹带美食生活方式话题；土耳其以 Cape Verde、Messi、Cabral、Taylor Swift、Salah 等体育/音乐词为可用池；越南优先 LingOrm、Inception Wrapped、Decorté、Saint Laurent、Dior、Paris Fashion Week 和 JoongDunk 品牌活动。",
+    summaryRisk: "风险观察：泰国 #พระธุดงค์ 属宗教/社会观察；沙特 #ارسل_طلبك_وتشليح_بارت_يبحث 属低质广告风险；土耳其 #picemiyeti、EZANA SAHİP ÇIK、Kudüs'ü Koru 涉政治/宗教争议；越南 #InterLinkSeoulPrivateMainnet 属加密/节点投机观察。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,126 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-03 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia is led by Portugal/Ronaldo/Modric, Goncalo Ramos, Diogo Jota, plus PerthSanta and HSR entertainment terms; Thailand clusters around PerthSanta, TLE, BUS, Engfa, Charlotte, Toy Story 5, and 1981Studio celebrity/music/brand activity; the Philippines has Croatia/Portugal/Ronaldo, Janice, Valko, Olbap, PABLO, and local fandom terms; Saudi is almost entirely Ronaldo/Portugal/Modric/Bruno football; Turkey centers on Modric, Leao, Fenerbahçe, Penaltı, and Nuno Mendes; Vietnam has Decorté x Orm, Saint Laurent/Dior/Paris Fashion Week, Portugal/Croatia/Spain, and AI-tool terms.",
-    summaryRisk: "Risk watch: Thailand's #พระธุดงค์ is religion/social watch; Turkey's #3Temmuz and #DenizGöktaşSerbestBırakılsın involve club memorial and legal/social controversy; Vietnam's Perceptron Network and #NodeAndProud are crypto/node speculation watch."
+    summaryTitle: "2026-07-04 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia is led by Cape Verde, Messi, Vozinha, Lisandro Martinez, and Inception Wrapped; Thailand clusters around PeachAndMeSeries, LingOrm, DuangGoRound, ADogAndAPlane, Tory Burch, and LISA x SHISEIDO; the Philippines has LingOrm, BINI tourism ambassador, PABLO, Jennie, Sinigang MV, and local fandom terms; Saudi is driven by Messi, Egypt/Australia, Argentina/Cape Verde, and food/lifestyle prompts; Turkey has Cape Verde, Messi, Cabral, Taylor Swift, and Salah as usable sports/music angles; Vietnam centers on LingOrm, Inception Wrapped, Decorté, Saint Laurent, Dior, Paris Fashion Week, and JoongDunk brand activity.",
+    summaryRisk: "Risk watch: Thailand's #พระธุดงค์ is religion/social watch; Saudi's #ارسل_طلبك_وتشليح_بارت_يبحث is low-quality ad risk; Turkey's #picemiyeti, EZANA SAHİP ÇIK, and Kudüs'ü Koru involve political/religious controversy; Vietnam's #InterLinkSeoulPrivateMainnet is crypto/node speculation watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-04",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Vozinha", "体育/赛事", "Sports / Event", "低", "Low", "Vozinha", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lisandro Martinez", "体育/赛事", "Sports / Event", "低", "Low", "Lisandro Martinez", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Romero", "体育/赛事", "Sports / Event", "低", "Low", "Romero", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lopes Cabral", "体育/赛事", "Sports / Event", "低", "Low", "Lopes Cabral", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mesir", "体育/赛事", "Sports / Event", "低", "Low", "Mesir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Deroy Duarte", "体育/赛事", "Sports / Event", "低", "Low", "Deroy Duarte", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Licha", "体育/赛事", "Sports / Event", "低", "Low", "Licha", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WHAT A MATCH", "体育/赛事", "Sports / Event", "低", "Low", "WHAT A MATCH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#PeachAndMeSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DuangGoRoundConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangGoRoundConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ADogAndAPlaneEP6", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ADogAndAPlaneEP6", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#พระธุดงค์", "宗教/社会观察", "Religion / Social Watch", "政治/争议", "Political / Controversy", "พระธุดงค์", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KENG TORY BURCH AT ICONSIAM", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "KENG TORY BURCH AT ICONSIAM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TLE X PURPEECH", "音乐/品牌联动", "Brand / Celebrity Campaign", "低", "Low", "TLE X PURPEECH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DUANG CONCERT AT IMPACT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DUANG CONCERT AT IMPACT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE04", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE04", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA04", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA04", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ZEENUNEW UNBOX OPPO", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "ZEENUNEW UNBOX OPPO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FORCEBOOK WITH CROCS LIVE", "品牌活动/明星", "Brand / Celebrity Campaign", "低", "Low", "FORCEBOOK WITH CROCS LIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FEAR COVER BY TLE", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FEAR COVER BY TLE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("OFFROAD X AFReality2026", "明星/综艺活动", "Drama / Variety / Entertainment", "低", "Low", "OFFROAD X AFReality2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GRABFOOD X JanJingjingJewel", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GRABFOOD X JanJingjingJewel", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#วาดฝันวันวิวาห์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILBEA GRANDEST LUL DAY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WILBEA GRANDEST LUL DAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Taylor", "音乐/明星", "Music / Show / Release", "低", "Low", "Taylor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#YsaTong", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "YsaTong", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LoveULots", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LoveULots", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PABLO IN THE MIDDLE", "音乐/明星", "Music / Show / Release", "低", "Low", "PABLO IN THE MIDDLE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("bini visits dot", "明星/品牌旅游活动", "Brand / Celebrity Campaign", "低", "Low", "bini visits dot", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("RHENSEPH IN MAFIA WORLD", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "RHENSEPH IN MAFIA WORLD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BINI TOURISM AMBASSADOR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "BINI TOURISM AMBASSADOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SINIGANG MV OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "SINIGANG MV OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("ميسي", "体育/赛事", "Sports / Event", "低", "Low", "ميسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الفاريز", "体育/赛事", "Sports / Event", "低", "Low", "الفاريز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#اكله_شعبيه_تحبها", "美食/生活方式", "Lifestyle / Local Trend", "低", "Low", "اكله_شعبيه_تحبها", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سيميوني", "体育/赛事", "Sports / Event", "低", "Low", "سيميوني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#مصر_استراليا", "体育/赛事", "Sports / Event", "低", "Low", "مصر_استراليا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كاب فيردي", "体育/赛事", "Sports / Event", "低", "Low", "كاب فيردي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("باريديس", "体育/赛事", "Sports / Event", "低", "Low", "باريديس", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الاشواط الاضافيه", "体育/赛事", "Sports / Event", "低", "Low", "الاشواط الاضافيه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ارسل_طلبك_وتشليح_بارت_يبحث", "低质广告观察", "Low-Quality Ad Watch", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "ارسل_طلبك_وتشليح_بارت_يبحث", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("لمصر", "体育/赛事", "Sports / Event", "低", "Low", "لمصر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("Yeşil Burun Adaları", "体育/赛事", "Sports / Event", "低", "Low", "Yeşil Burun Adaları", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cabral", "体育/赛事", "Sports / Event", "低", "Low", "Cabral", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Vozinha", "体育/赛事", "Sports / Event", "低", "Low", "Vozinha", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cabo Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cabo Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lisandro Martinez", "体育/赛事", "Sports / Event", "低", "Low", "Lisandro Martinez", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Ganalı", "体育/赛事", "Sports / Event", "低", "Low", "Ganalı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mısır", "体育/赛事", "Sports / Event", "低", "Low", "Mısır", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#picemiyeti", "公共/社会观察", "Civic / Social Watch", "政治/争议", "Political / Controversy", "picemiyeti", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Fıfaworldcup", "体育/赛事", "Sports / Event", "低", "Low", "Fıfaworldcup", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Alvarez", "体育/赛事", "Sports / Event", "低", "Low", "Alvarez", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EZANA SAHİP ÇIK", "宗教/社会观察", "Religion / Social Watch", "政治/争议", "Political / Controversy", "EZANA SAHİP ÇIK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kudüs'ü Koru", "政治/宗教观察", "Political / Religious Watch", "政治/争议", "Political / Controversy", "Kudüs'ü Koru", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("LINGORM ILF EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ParisFashionWeek", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "ParisFashionWeek", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#InterLinkSeoulPrivateMainnet", "加密/节点活动观察", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "InterLinkSeoulPrivateMainnet", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-03",
     title: {

@@ -1,0 +1,140 @@
+{
+  "date": "2026-07-04",
+  "note": "Manual classification overrides for 2026-07-04 public trend captures. Focus is sports, entertainment, celebrity/fandom, brand campaigns, fashion/lifestyle, and risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Vozinha": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lisandro Martinez": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lopes Cabral": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "WHAT A GOAL": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Romero": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Deroy Duarte": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "WHAT A MATCH": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#HappyBDayFour": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Kiper": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#HBD4Meme": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Licha": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Extra Time": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Taylor": {"typeZh": "音乐/明星", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Mo Salah": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mesir": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Speed": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "$ANSEM": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#วาดฝันวันวิวาห์EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#ADogAndAPlaneEP6": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#พระธุดงค์": {"typeZh": "宗教/社会观察", "typeEn": "Religion / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#ToryBurchxKengHarit": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "KENG TORY BURCH AT ICONSIAM": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA04": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LISAxSHISEIDO": {"typeZh": "美妆/品牌明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "TLE X PURPEECH": {"typeZh": "音乐/品牌联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE04": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "OFFROAD X AFReality2026": {"typeZh": "明星/综艺活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "ZEENUNEW UNBOX OPPO": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA FILL HEART": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FORCEBOOK WITH CROCS LIVE": {"typeZh": "品牌活动/明星", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "FEAR COVER BY TLE": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "GRABFOOD X JanJingjingJewel": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "SIP RED WINE WITH AUAU": {"typeZh": "生活方式/明星活动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#วาดฝันวันวิวาห์EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "WILBEA GRANDEST LUL DAY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Taylor": {"typeZh": "音乐/明星", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BINILoveThePhilippines": {"typeZh": "明星/品牌旅游活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#YsaTong": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LoveULots": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "bini tourism ambassador": {"typeZh": "明星/品牌旅游活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "PABLO IN THE MIDDLE": {"typeZh": "音乐/明星", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ShowcaseSaUnoSiyete": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "RHENSEPH IN MAFIA WORLD": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "bini visits dot": {"typeZh": "明星/品牌旅游活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "JENNIE HEADLINES ROSKILDE": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "SINIGANG MV OUT NOW": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "LENA TORY BURCH AT ICONSIAM": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "angels close call": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "ميسي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الارجنتين_الراس_الاخضر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#مصر_استراليا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "حارس الراس الاخضر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "لمصر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ارسل_طلبك_وتشليح_بارت_يبحث": {"typeZh": "低质广告观察", "typeEn": "Low-Quality Ad Watch", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "الفاريز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "صلاح": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سيميوني": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "منتخب مصر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#اكله_شعبيه_تحبها": {"typeZh": "美食/生活方式", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#وش_في_خاطرك_الان": {"typeZh": "生活方式/互动话题", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "باريديس": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "حسام حسن": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "قول الراس الاخضر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كاب فيردي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الاشواط الاضافيه": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "محمد هاني": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "التعادل الراس الاخضر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Yeşil Burun Adaları": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lisandro Martinez": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Vozinha": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mısır": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#picemiyeti": {"typeZh": "公共/社会观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#ProtectJerusalem": {"typeZh": "政治/宗教观察", "typeEn": "Political / Religious Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Ganalı": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#SıraUrladaMı": {"typeZh": "本地社会观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#DijitaldeKaosVar": {"typeZh": "数字服务/争议观察", "typeEn": "Lifestyle / Local Trend", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Cabo Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "EZANA SAHİP ÇIK": {"typeZh": "宗教/社会观察", "typeEn": "Religion / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Kudüs'ü Koru": {"typeZh": "政治/宗教观察", "typeEn": "Political / Religious Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Ömer Kutluay": {"typeZh": "体育/明星", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Alvarez": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cabral": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Taylor Swift": {"typeZh": "音乐/明星", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Mohamed Salah": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "LINGORM ILF EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "orm friend of decorté": {"typeZh": "美妆/品牌明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#martinxsaintlaurent": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#onedroponejourney": {"typeZh": "品牌/公益活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "martin and ysl": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Inception Wrapped": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#SEONGHYEONxDior": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#ParisFashionWeek": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#InterLinkSeoulPrivateMainnet": {"typeZh": "加密/节点活动观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "EthraShip": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "perceptron network": {"typeZh": "加密/AI 项目观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "JOONGDUNK BA URANUS CLINIC": {"typeZh": "明星/品牌活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
