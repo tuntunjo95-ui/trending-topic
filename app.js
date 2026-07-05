@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-04 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼由 Cape Verde、Messi、Vozinha、Lisandro Martinez 等足球赛事实时词和 Inception Wrapped 娱乐词主导；泰国集中在 PeachAndMeSeries、LingOrm、DuangGoRound、ADogAndAPlane、Tory Burch、LISA x SHISEIDO 等剧集/明星/品牌活动；菲律宾围绕 LingOrm、BINI 旅游大使、PABLO、Jennie、Sinigang MV 和本地粉丝词；沙特以 Messi、埃及/澳大利亚、阿根廷/佛得角等赛事词为主，夹带美食生活方式话题；土耳其以 Cape Verde、Messi、Cabral、Taylor Swift、Salah 等体育/音乐词为可用池；越南优先 LingOrm、Inception Wrapped、Decorté、Saint Laurent、Dior、Paris Fashion Week 和 JoongDunk 品牌活动。",
-    summaryRisk: "风险观察：泰国 #พระธุดงค์ 属宗教/社会观察；沙特 #ارسل_طلبك_وتشليح_بارت_يبحث 属低质广告风险；土耳其 #picemiyeti、EZANA SAHİP ÇIK、Kudüs'ü Koru 涉政治/宗教争议；越南 #InterLinkSeoulPrivateMainnet 属加密/节点投机观察。"
+    summaryTitle: "2026-07-05 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼以 Paraguay、Mbappe、Cape Verde 等赛事词和 Ticket To Heaven、GeminiFourth、Phuwin、The Air 剧集/粉丝词并行；泰国集中在 DuangGoRound、Ticket To Heaven、LingOrm、Engfa、Pandora、Tory Burch 等演出/剧集/品牌活动；菲律宾优先 EXhOrizon Manila、iKON Manila、Ticket To Heaven、LingOrm、Dusbi 票务和本地粉丝词；沙特以法国、摩洛哥/加拿大、姆巴佩、迪尚、切尔基等足球话题为主，夹带轻互动生活方式词；土耳其由 Paraguay-France、Icardi、Greenwood、Sunghoon 和俱乐部球迷话题组成；越南可用池是泰剧/娱乐、Inception Wrapped、Saint Laurent、Dior 与法国赛事词。",
+    summaryRisk: "风险观察：印尼 #PDBarengAHY 属政党/公共活动观察；越南 #Airdrop、#Kryonara 属加密/空投投机风险；其余低风险池仍需在 TikTok/Threads 登录态下确认 48 小时内内容响应。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,126 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-04 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia is led by Cape Verde, Messi, Vozinha, Lisandro Martinez, and Inception Wrapped; Thailand clusters around PeachAndMeSeries, LingOrm, DuangGoRound, ADogAndAPlane, Tory Burch, and LISA x SHISEIDO; the Philippines has LingOrm, BINI tourism ambassador, PABLO, Jennie, Sinigang MV, and local fandom terms; Saudi is driven by Messi, Egypt/Australia, Argentina/Cape Verde, and food/lifestyle prompts; Turkey has Cape Verde, Messi, Cabral, Taylor Swift, and Salah as usable sports/music angles; Vietnam centers on LingOrm, Inception Wrapped, Decorté, Saint Laurent, Dior, Paris Fashion Week, and JoongDunk brand activity.",
-    summaryRisk: "Risk watch: Thailand's #พระธุดงค์ is religion/social watch; Saudi's #ارسل_طلبك_وتشليح_بارت_يبحث is low-quality ad risk; Turkey's #picemiyeti, EZANA SAHİP ÇIK, and Kudüs'ü Koru involve political/religious controversy; Vietnam's #InterLinkSeoulPrivateMainnet is crypto/node speculation watch."
+    summaryTitle: "2026-07-05 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia mixes Paraguay, Mbappe, and Cape Verde sports terms with Ticket To Heaven, GeminiFourth, Phuwin, and The Air fandom/drama terms; Thailand clusters around DuangGoRound, Ticket To Heaven, LingOrm, Engfa, Pandora, and Tory Burch; the Philippines has EXhOrizon Manila, iKON Manila, Ticket To Heaven, LingOrm, Dusbi ticketing, and local fandom terms; Saudi is football-led by France, Morocco/Canada, Mbappe, Deschamps, and Cherki; Turkey centers on Paraguay-France, Icardi, Greenwood, Sunghoon, and club fandom; Vietnam has Thai drama, Inception Wrapped, Saint Laurent, Dior, and France sports angles.",
+    summaryRisk: "Risk watch: Indonesia's #PDBarengAHY is a political/public-event item; Vietnam's #Airdrop and #Kryonara are crypto-airdrop speculation risks; low-risk topics still need logged-in TikTok/Threads confirmation for 48-hour content response."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-05",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("Paraguay", "体育/赛事", "Sports / Event", "低", "Low", "Paraguay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TicketToHeavenFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINIFOURTH TTH FINALE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "GEMINIFOURTH TTH FINALE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#23rdHoneyThePHUWINDay", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "23rdHoneyThePHUWINDay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cape Verde", "体育/赛事", "Sports / Event", "低", "Low", "Cape Verde", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PDBarengAHY", "政党/公共活动观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "PDBarengAHY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Orlando Gill", "体育/赛事", "Sports / Event", "低", "Low", "Orlando Gill", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MOONOFD3MONS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MOONOFD3MONS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Vozinha", "体育/赛事", "Sports / Event", "低", "Low", "Vozinha", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR FINAL EPISODE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR FINAL EPISODE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เสน่หาวาโยตอนจบ", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนจบ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#DuangGoRoundConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangGoRoundConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TicketToHeavenFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เสน่หาวาโยตอนจบ", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนจบ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR FINAL EPISODE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR FINAL EPISODE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LingOrmKhonKaenFanMeet", "明星/粉丝见面会", "Celebrity / Fandom", "低", "Low", "LingOrmKhonKaenFanMeet", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM THAILAND FANTOUR", "明星/粉丝巡演", "Celebrity / Fandom", "低", "Low", "LINGORM THAILAND FANTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DUANG CONCERT AT IMPACT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DUANG CONCERT AT IMPACT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA05", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA05", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINIFOURTH TTH FINALE", "剧集/明星活动", "Drama / Variety / Entertainment", "低", "Low", "GEMINIFOURTH TTH FINALE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE05", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE05", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KNP X PANDORA", "珠宝/品牌明星活动", "Brand / Celebrity Campaign", "低", "Low", "KNP X PANDORA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("keng tory burch at iconsiam", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "keng tory burch at iconsiam", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q23", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q23", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TEETEEPOR DRANK LOVE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TEETEEPOR DRANK LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("STORM CHASER CONCERT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "STORM CHASER CONCERT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("RECORDING BTS TFO 1ST SONG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "RECORDING BTS TFO 1ST SONG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#EXhOrizoninMANILA", "音乐/演唱会", "Music / Show / Release", "低", "Low", "EXhOrizoninMANILA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TicketToHeavenFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TicketToHeavenFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR FINAL EPISODE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR FINAL EPISODE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เสน่หาวาโยตอนจบ", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนจบ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("dusbi ticket selling", "演出/票务", "Music / Show / Release", "低", "Low", "dusbi ticket selling", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINIFOURTH TTH FINALE", "剧集/明星活动", "Drama / Variety / Entertainment", "低", "Low", "GEMINIFOURTH TTH FINALE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WINRI FIRST MONTHSARY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WINRI FIRST MONTHSARY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ashtine live at robpangasinan", "明星/线下活动", "Celebrity / Fandom", "低", "Low", "ashtine live at robpangasinan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("wilbea grandest lul day", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "wilbea grandest lul day", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM THAILAND FANTOUR", "明星/粉丝巡演", "Celebrity / Fandom", "低", "Low", "LINGORM THAILAND FANTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#رساله_من_القلب_للقلب", "生活方式/互动话题", "Lifestyle / Local Trend", "低", "Low", "رساله_من_القلب_للقلب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("فرنسا", "体育/赛事", "Sports / Event", "低", "Low", "فرنسا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#المغرب_كندا", "体育/赛事", "Sports / Event", "低", "Low", "المغرب_كندا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ديشامب", "体育/赛事", "Sports / Event", "低", "Low", "ديشامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ريان شرقي", "体育/赛事", "Sports / Event", "低", "Low", "ريان شرقي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("مبابي", "体育/赛事", "Sports / Event", "低", "Low", "مبابي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المنتخب الفرنسي", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب الفرنسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("لوكاس", "体育/赛事", "Sports / Event", "低", "Low", "لوكاس", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("دور الثمانيه", "体育/赛事", "Sports / Event", "低", "Low", "دور الثمانيه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("Paraguay", "体育/赛事", "Sports / Event", "低", "Low", "Paraguay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#IcardiyeVefaDeğilVeda", "俱乐部/球迷话题", "Sports / Event", "低", "Low", "IcardiyeVefaDeğilVeda", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Galarza", "体育/赛事", "Sports / Event", "低", "Low", "Galarza", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#OurIcePrinceSunghoon", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "OurIcePrinceSunghoon", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Orlando Gill", "体育/赛事", "Sports / Event", "低", "Low", "Orlando Gill", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Aral Şimşir", "体育/赛事", "Sports / Event", "低", "Low", "Aral Şimşir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Greenwood", "体育/转会话题", "Sports / Event", "低", "Low", "Greenwood", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#Airdrop", "加密/空投观察", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Airdrop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Kryonara", "加密/空投观察", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Kryonara", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เสน่หาวาโยตอนจบ", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "เสน่หาวาโยตอนจบ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE AIR FINAL EPISODE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE AIR FINAL EPISODE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Pháp", "体育/赛事", "Sports / Event", "低", "Low", "Pháp", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#martinxsaintlaurent", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "martinxsaintlaurent", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("martin and ysl", "时尚/品牌活动", "Fashion / Brand Event", "低", "Low", "martin and ysl", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("seonghyeon elevates dior", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "seonghyeon elevates dior", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
+
+
   {
     date: "2026-07-04",
     title: {

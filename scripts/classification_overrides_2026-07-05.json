@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-05",
+  "note": "Manual classification overrides for 2026-07-05 public trend captures. Focus is entertainment, sports, concerts, celebrity/fandom, brand/fashion, lifestyle, and risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "Paraguay": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mbappe": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Orlando Gill": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#PDBarengAHY": {"typeZh": "政党/公共活动观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Logo HUT Demokrat": {"typeZh": "政党/公共活动观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Galarza": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#MOONOFD3MONS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Vozinha": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Deschamps": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#เสน่หาวาโยตอนจบ": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Morocco": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#เสน่หาวาโยตอนจบ": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#LingOrmKhonKaenFanMeet": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM THAILAND FANTOUR": {"typeZh": "明星/粉丝巡演", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA05": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GEMINIFOURTH TTH FINALE": {"typeZh": "剧集/明星活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE05": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "KNP X PANDORA": {"typeZh": "珠宝/品牌明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "keng tory burch at iconsiam": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "MR FANBOY Q23": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TEETEEPOR DRANK LOVE": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#EXhOrizoninMANILA": {"typeZh": "音乐/演唱会", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#เสน่หาวาโยตอนจบ": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#MNLWaengWaengReady": {"typeZh": "音乐/粉丝活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#iKON_FOUREVER_TOUR_MNL": {"typeZh": "音乐/演唱会", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "dusbi ticket selling": {"typeZh": "演出/票务", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "GEMINIFOURTH TTH FINALE": {"typeZh": "剧集/明星活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "isang taong minamahal": {"typeZh": "音乐/娱乐", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "WINRI FIRST MONTHSARY": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "get heathstime tix": {"typeZh": "演出/票务", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "ashtine live at robpangasinan": {"typeZh": "明星/线下活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM THAILAND FANTOUR": {"typeZh": "明星/粉丝巡演", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "wilbea grandest lul day": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "$ANSEM": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "فرنسا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#رساله_من_القلب_للقلب": {"typeZh": "生活方式/互动话题", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#المغرب_كندا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ديشامب": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ريان شرقي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#احسموا_غرينوود_يالتنفيذيين": {"typeZh": "体育/转会话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ام_المساكين_الصاعدي_بذمه_الله": {"typeZh": "纪念/哀悼观察", "typeEn": "Disaster / Memorial Watch", "riskZh": "灾害/纪念", "riskEn": "Disaster / Memorial"},
+        "المنتخب الفرنسي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "مبابي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "دور الثمانيه": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "محرز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "لوكاس دين": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سفيان رحيمي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Paraguay": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Galarza": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#PARFRA": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Aral Şimşir": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mbappe": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Orlando Gill": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#DursunÖzbekistifa": {"typeZh": "俱乐部/争议观察", "typeEn": "Sports / Controversy Watch", "riskZh": "体育/争议", "riskEn": "Sports / Controversy"},
+        "#OurIcePrinceSunghoon": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Greenwood": {"typeZh": "体育/转会话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#FRAPAR": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#IcardiyeVefaDeğilVeda": {"typeZh": "俱乐部/球迷话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Tebrikler Fas": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Doue": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Watkins": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Fransızlar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "SGK Başlangıcı Hak": {"typeZh": "公共/社保诉求观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Bülent Ersoy": {"typeZh": "明星/娱乐", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#Kryonara": {"typeZh": "加密/空投观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "#Airdrop": {"typeZh": "加密/空投观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "#เสน่หาวาโยตอนจบ": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Inception Wrapped": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#martinxsaintlaurent": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Pháp": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "martin and ysl": {"typeZh": "时尚/品牌活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "seonghyeon elevates dior": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Cape Verde": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "EthraShip": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"}
+      }
+    }
+  }
+}
