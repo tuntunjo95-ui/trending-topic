@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-06",
+  "note": "Manual classification overrides for 2026-07-06 public trend captures. Focus is entertainment, sports, concerts, celebrity/fandom, brand/lifestyle, and risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#BersamaBerantasJudol": {"typeZh": "公共治理/赌博风险观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Komdigi": {"typeZh": "公共治理/平台政策观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Viking": {"typeZh": "体育/球迷话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "OUR STAR PHUWIN 23rd": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FIFA": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Gabriel": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Vini": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ancelotti": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "BSSN": {"typeZh": "公共治理/网络安全观察", "typeEn": "Civic / Social Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Trump": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Joao Pedro": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Paraguay": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Endrick": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#DENTISTEXPERTHSANTA": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA FRESH BREATH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Peter Crouch": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "EWB FINAL EP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Meta": {"typeZh": "科技/平台观察", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#KNPvloginMacao": {"typeZh": "明星/线下活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "OUR STAR PHUWIN 23rd": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LAST MEMORY WITH FOUREVER YOU": {"typeZh": "剧集/明星活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA06": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TTP CLEAR NOSE TOWN": {"typeZh": "品牌/明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE06": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM THAILAND FANTOUR": {"typeZh": "明星/粉丝巡演", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Norway": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "mr fanboy q24": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LOVE FINDS WAY ENGLOT06": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "MAJOR X YINWAR TOYSTORY5": {"typeZh": "品牌/明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LAROCHEPOSAY X NUTHONG": {"typeZh": "美妆/品牌明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "HAPPY BE WITH BOUN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "junior mrbig pillow live": {"typeZh": "明星/直播活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#EXhOrizoninManila": {"typeZh": "音乐/演唱会", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#iKONinMANILA2026": {"typeZh": "音乐/演唱会", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "ECVIT ADVENTURE WITH BEANCA": {"typeZh": "品牌/明星活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#MNLWaengWaengReady": {"typeZh": "音乐/粉丝活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Alex": {"typeZh": "明星/娱乐观察", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Charles": {"typeZh": "明星/娱乐观察", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "WILL EDDYS SUPPORTING ACTOR": {"typeZh": "剧集/演员奖项", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "RUN TO YOU SNEAK PEEK": {"typeZh": "音乐/娱乐预告", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "happy 1year brekanniversary": {"typeZh": "明星/粉丝纪念", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LAST MEMORY WITH FOUREVER YOU": {"typeZh": "剧集/明星活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Queen REGINE": {"typeZh": "明星/娱乐", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "OUR STAR PHUWIN 23rd": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "vg cinema comeback": {"typeZh": "影视/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "$ANSEM": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "LINGORM THAILAND FANTOUR": {"typeZh": "明星/粉丝巡演", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "$PATTYICE": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "نيمار": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "البرازيل": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#خلود_للعقار_θちち6θ4745θ": {"typeZh": "地产/低质广告观察", "typeEn": "Brand / Consumer", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "انشيلوتي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#القهوه_ولا_الشاهي": {"typeZh": "生活方式/互动话题", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "غابرييل": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "اوديغارد": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "جواو بيدرو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كاسيميرو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#هالاند": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#بنك_الرياض": {"typeZh": "金融/品牌观察", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "ابو ذيب": {"typeZh": "生活方式/本地人物观察", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "برونو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "رافينها": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الاحوال الجويه": {"typeZh": "天气/公共信息观察", "typeEn": "Civic / Social Watch", "riskZh": "灾害/纪念", "riskEn": "Disaster / Memorial"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ترامب": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "رونالدينهو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "England": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "اندريك": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Brezilya": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Zihni Göktay": {"typeZh": "明星/演艺人物", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Ancelotti": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Norway": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#idolhouse": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Meksika": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ayberk": {"typeZh": "明星/娱乐观察", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Kurtuluş Savaşı": {"typeZh": "历史/政治纪念观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#crush": {"typeZh": "娱乐/互动话题", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Milan": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Vini": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Endrick": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Nyland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Teoman": {"typeZh": "音乐/演艺人物", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Gabriel": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Casemiro": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Milli Mücadele": {"typeZh": "历史/政治纪念观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Yusuf Tekin": {"typeZh": "公共人物/教育政策观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#kryonara": {"typeZh": "加密/空投观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Neymar": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Airdrop": {"typeZh": "加密/空投观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Brazil": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#LingOrmKhonKaenFanMeet": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "The Gambler": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Limit Order 2.0": {"typeZh": "金融/加密观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "kybernetwork": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Inception Wrapped": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Na Uy": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Samba": {"typeZh": "体育/巴西足球文化", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA FRESH BREATH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP3": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
