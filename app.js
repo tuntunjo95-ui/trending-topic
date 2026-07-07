@@ -80,59 +80,54 @@ const reports = [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("Belgia", "体育/赛事", "Sports / Event", "低", "Low", "Belgia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Ronaldo", "体育/赛事", "Sports / Event", "低", "Low", "Ronaldo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Trump", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Trump", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#WIN4SHO", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WIN4SHO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lawson", "综合/待分类", "General / To Classify", "法律/诈骗", "Legal / Fraud", "Lawson", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("De Ketelaere", "体育/赛事", "Sports / Event", "低", "Low", "De Ketelaere", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Amerika", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Amerika", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Roberto Martinez", "体育/赛事", "Sports / Event", "低", "Low", "Roberto Martinez", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("$SBTV", "加密/投机观察", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$SBTV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Euro 2016", "体育/赛事", "Sports / Event", "低", "Low", "Euro 2016", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Menlu", "公共治理/外交观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Menlu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Merino", "体育/赛事", "Sports / Event", "低", "Low", "Merino", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Euro 2016", "体育/赛事", "Sports / Event", "低", "Low", "Euro 2016", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#SmootoxNamping", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "SmootoxNamping", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("FLOURISHING GROWTH ENGFA07", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA07", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#EnemiesWithBenefitsFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("EWB FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#SeaYouZeeNuNew", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SeaYouZeeNuNew", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KNP FRIENDS OF COOKANDLOBSTER", "美食/品牌明星活动", "Brand / Celebrity Campaign", "低", "Low", "KNP FRIENDS OF COOKANDLOBSTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("REBECCA X SUNSILK", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "REBECCA X SUNSILK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SIMPLY BE CHARLOTTE07", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE07", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EWB FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KNP FRIENDS OF COOKANDLOBSTER", "美食/品牌明星活动", "Brand / Celebrity Campaign", "低", "Low", "KNP FRIENDS OF COOKANDLOBSTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA07", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA07", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("PHUWIN WITH CHIKKI", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "PHUWIN WITH CHIKKI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LAST MEMORY WITH FOUREVER YOU", "剧集/明星活动", "Drama / Variety / Entertainment", "低", "Low", "LAST MEMORY WITH FOUREVER YOU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("3rdYEAR OF ARTIST NUNEW", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "3rdYEAR OF ARTIST NUNEW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TTP X TEFAL COOK", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "TTP X TEFAL COOK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ttp clear nose town", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "ttp clear nose town", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("1M PILOT UNKNOWN LOVER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "1M PILOT UNKNOWN LOVER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE07", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE07", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("NUTDAN SOLO PT D2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NUTDAN SOLO PT D2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BIRTHDAY BUT WITH ME MV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BIRTHDAY BUT WITH ME MV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("BIRTHDAY BUT WITH ME MV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BIRTHDAY BUT WITH ME MV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUNSET IN WINTER EP13", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUNSET IN WINTER EP13", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("1M PILOT UNKNOWN LOVER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "1M PILOT UNKNOWN LOVER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
         t("#KaarawanNiSB19Justin", "明星生日/粉丝应援", "Celebrity / Fandom", "低", "Low", "KaarawanNiSB19Justin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("DAHON and Onlyjustin", "音乐/粉丝活动", "Music / Show / Release", "低", "Low", "DAHON and Onlyjustin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Spain", "体育/赛事", "Sports / Event", "低", "Low", "Spain", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#MINGYUxDior", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "MINGYUxDior", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#iKONinMANILA2026", "音乐/演唱会", "Music / Show / Release", "低", "Low", "iKONinMANILA2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ANGUEL OUR COMFORT SHIP", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ANGUEL OUR COMFORT SHIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShowtimeTumpak", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ShowtimeTumpak", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#iKON_FOUREVER_TOUR_MNL", "旅行/本地活动", "Travel / Local Event", "低", "Low", "iKON_FOUREVER_TOUR_MNL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("EWB FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#ibelieveshowtimeito", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ibelieveshowtimeito", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Cayetano", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Cayetano", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ANGUEL OUR COMFORT SHIP", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ANGUEL OUR COMFORT SHIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Paolini", "体育/赛事", "Sports / Event", "低", "Low", "Paolini", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Cayetano", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Cayetano", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("WISHES WITH STEJAY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WISHES WITH STEJAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("CAPTAIN SERENADEs ENCOUNTER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "CAPTAIN SERENADEs ENCOUNTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("REBECCA X SUNSILK", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "REBECCA X SUNSILK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Sara Duterte", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Sara Duterte", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Senate", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Senate", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
         t("#صدقه_جاريه_عن_سعود_العتيبي", "纪念/公益观察", "Civic / Social Watch", "灾害/纪念", "Disaster / Memorial", "صدقه_جاريه_عن_سعود_العتيبي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("امريكا", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "امريكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ترامب", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "ترامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("رونالدو", "体育/赛事", "Sports / Event", "低", "Low", "رونالدو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ترامب", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "ترامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("امريكا", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "امريكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#WWERaw", "体育/娱乐赛事", "Sports / Event", "低", "Low", "WWERaw", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#البرتغال_اسبانيا", "体育/赛事", "Sports / Event", "低", "Low", "البرتغال_اسبانيا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("بروين", "体育/赛事", "Sports / Event", "低", "Low", "بروين", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
@@ -143,39 +138,27 @@ const reports = [
         t("كاس عالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس عالم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#USABEL", "体育/赛事", "Sports / Event", "低", "Low", "USABEL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("الدون", "体育/赛事", "Sports / Event", "低", "Low", "الدون", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("مالك تيلمان", "体育/赛事", "Sports / Event", "低", "Low", "مالك تيلمان", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("دوكو", "体育/赛事", "Sports / Event", "低", "Low", "دوكو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("الدون", "体育/赛事", "Sports / Event", "低", "Low", "الدون", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
-        t("Belçika", "体育/赛事", "Sports / Event", "低", "Low", "Belçika", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Ronaldo", "体育/赛事", "Sports / Event", "低", "Low", "Ronaldo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#USABEL", "体育/赛事", "Sports / Event", "低", "Low", "USABEL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("De Ketelaere", "体育/赛事", "Sports / Event", "低", "Low", "De Ketelaere", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Portekiz", "体育/赛事", "Sports / Event", "低", "Low", "Portekiz", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("İspanya", "体育/赛事", "Sports / Event", "低", "Low", "İspanya", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Trump", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Trump", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#altıüstüistanbul", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "altıüstüistanbul", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#debutforfour", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "debutforfour", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Euro 2016", "体育/赛事", "Sports / Event", "低", "Low", "Euro 2016", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#NATOyaVETO", "政治/外交观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "NATOyaVETO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Kayhan Ayhan", "体育/赛事", "Sports / Event", "低", "Low", "Kayhan Ayhan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GOAT", "体育/球迷话题", "Sports / Event", "低", "Low", "GOAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Roberto Martinez", "体育/赛事", "Sports / Event", "低", "Low", "Roberto Martinez", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Merino", "体育/赛事", "Sports / Event", "低", "Low", "Merino", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Belçika", "体育/赛事", "Sports / Event", "低", "Low", "Belçika", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DanceProdigyRiki", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DanceProdigyRiki", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Trump", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Trump", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Portekiz", "体育/赛事", "Sports / Event", "低", "Low", "Portekiz", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("De Ketelaere", "体育/赛事", "Sports / Event", "低", "Low", "De Ketelaere", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("THE GAMBLER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE GAMBLER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Ronaldo", "体育/赛事", "Sports / Event", "低", "Low", "Ronaldo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Spain", "体育/赛事", "Sports / Event", "低", "Low", "Spain", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Saylor", "加密/投机观察", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Saylor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Spain", "体育/赛事", "Sports / Event", "低", "Low", "Spain", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Belgium", "体育/赛事", "Sports / Event", "低", "Low", "Belgium", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Haaland", "体育/赛事", "Sports / Event", "低", "Low", "Haaland", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#EnemiesWithBenefitsFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EnemiesWithBenefitsFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("EWB FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EWB FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#LiuXuanChengHCW27", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LiuXuanChengHCW27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#LiuXuanChengHCW27", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LiuXuanChengHCW27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Ronaldo", "体育/赛事", "Sports / Event", "低", "Low", "Ronaldo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
     priorities: {
@@ -197,6 +180,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   {
     date: "2026-07-06",
