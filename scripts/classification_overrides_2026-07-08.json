@@ -1,0 +1,144 @@
+{
+  "date": "2026-07-08",
+  "note": "Manual classification overrides for 2026-07-08 public trend captures. Focus is sports, entertainment/fandom, brand collaborations, and political/disaster risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#MrKillSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#dewtee": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "promo serba 5": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#seabank5thbersama": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#ดิวธี": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FIFA": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ronaldo": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "perkuat kemitraan global": {"typeZh": "公共治理/外交观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Young Forever": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#ShopeeLivexSantaDomiia": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Portugal": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "77 SHOPEE SANTADOMIIA": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MAYBELLINE LIFTERGEL PERTH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Switzerland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Inception Wrapped": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Trump": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Dodo": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Wasit": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "THE GAMBLER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Rigged": {"typeZh": "体育争议观察", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "Roberto Martinez": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Norwegia vs Inggris": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Balogun": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#อิงฟ้าบวงสรวงพญาศรีสัตตนาคราช": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#MrKillSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#D7xNamping": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#D7อร่อยคล้ายกาแฟสด": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#D7Thailand": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE08": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TMK WITH BLACKMORES": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA08": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TTP LOVE BERRY MUCH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MAYBELLINE LIFTERGEL PERTH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "GARNIER PUMP MARKJUMMO": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "GEMINI CONCERT PRESS TOUR": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "LYKN LIPGLAM LIVE77": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "SUNSET IN WINTER EP14": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "BEFORE TOMORROW OST LUAT": {"typeZh": "音乐/剧集原声", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "BOATOAT NEXT STEP KNOT EP2": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "POND FIGHT UV WITH LOREAL": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "CHERMCHEY THE BIG MERMAID": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "RADIANT SKIN WITH EST": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#RUN_TO_YOU": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#kaarawannisb19justin": {"typeZh": "明星生日/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "dahon and onlyjustin": {"typeZh": "音乐/粉丝活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#AHOF": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#VPonTrial": {"typeZh": "政治/法律观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/法律争议", "riskEn": "Political / Legal Controversy"},
+        "fyang mmff lead star": {"typeZh": "影视/明星话题", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Young Forever": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "anguel our comfort ship": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "miguels truth revealed": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Super Typhoon Inday": {"typeZh": "灾害/公共信息观察", "typeEn": "Disaster / Public Info Watch", "riskZh": "灾害/公共安全", "riskEn": "Disaster / Public Safety"},
+        "brentuesday ist fun": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Spain": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "TMK WITH BLACKMORES": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MAYBELLINE LIFTERGEL PERTH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "ANGUEL HITS DIFFERENT": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "captain serenades encounter": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Sara Duterte": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Senate": {"typeZh": "政治/公共治理观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "سويسرا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ميسي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#خاطرك_عندي": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#مصر_الارجنتين": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#البنات_ملح_التويتر": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "سانشيز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الفيفا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "صلاح": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "تشاكا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "لويس دياز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "منتخب مصر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "زياد بن نحيت": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "حسام حسن": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Fıfaworldcup": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "FIFA": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#RiyadBank": {"typeZh": "品牌/金融活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "فلسطين": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "منتخب عربي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Switzerland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "İsviçre": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Arjantin": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Davinson": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#permadebut": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Murat Yakın": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Bender Abbas": {"typeZh": "政治/地缘观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Sütlü Nuriye": {"typeZh": "生活方式/本地趋势", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "Malcom": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ABD İran": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "ABD'nin İran": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#ApplyTheGenocideConvention": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Dünya Lideri Erdoğan": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Akanji": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Egypt": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Meloni": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#YaGreenwoodYaHiç": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Fıfaworldcup": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mehter": {"typeZh": "音乐/文化话题", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Djokovic": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "THE GAMBLER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Inception Wrapped": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#LiuXuanChengxRonaldVanDerKemp": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "#ShopeeLivexSantaDomiia": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "77 SHOPEE SANTADOMIIA": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MAYBELLINE LIFTERGEL PERTH": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Belgium": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ronaldo": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#D7xNamping": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}

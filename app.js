@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-07 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼以 Belgia、Belgium、Portugal、Ronaldo 等足球/赛事词为主，叠加 #WIN4SHO 与 Inception Wrapped；泰国集中在 Engfa、ZeeNuNew、Enemies With Benefits、Sunsilk、Tefal、Phuwin 等明星/剧集/品牌联动；菲律宾优先 SB19 Justin 生日、Onlyjustin、Mingyu x Dior、iKON Manila、EWB Final EP 与 Rebecca x Sunsilk；沙特以 Ronaldo、WWE Raw、Portugal vs Spain、Belgium/USA 相关足球词为主；土耳其由 Belçika、Ronaldo、#USABEL、Portekiz、GOAT 与 #debutforfour 组成；越南可用池是 The Gambler、Inception Wrapped、Ronaldo、Belgium、Spain、Haaland 与 EWB Final EP。",
-    summaryRisk: "风险观察：印尼 Trump、Menlu 属政治/外交争议，$SBTV 属加密投机；菲律宾 Cayetano 属政治人物观察；沙特 Trump 与纪念/公益标签需人工复核；土耳其 #NATOyaVETO 和 Trump 属政治/外交争议；越南 Saylor 属加密投机风险。"
+    summaryTitle: "2026-07-08 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼以 #MrKillSeriesEP1、Argentina、promo serba 5、#dewtee、#seabank5thbersama 组成剧集/体育/品牌池；泰国集中在 Engfa、PERTHSANTA、Mr Kill、D7、Charlotte、Blackmores、Maybelline、Gemini Concert 等明星与品牌联动；菲律宾优先 #RUN_TO_YOU、#AHOF、Messi/Argentina、Fyang、Anguel 与 Maybelline/Blackmores；沙特以埃及/阿根廷、FIFA、Salah、Xhaka、RiyadBank 和本地生活标签为主；土耳其以 İsviçre、Arjantin、Davinson、#permadebut、Messi、Greenwood、Djokovic 作为体育/音乐入口；越南优先 The Gambler、Inception Wrapped、Messi/Argentina、Liu Xuancheng x Ronald van der Kemp 与 Shopee/Maybelline。",
+    summaryRisk: "风险观察：印尼 perkuat kemitraan global 属外交/公共治理观察；菲律宾 #VPonTrial 属政治法律争议；沙特 فلسطين 属国际政治争议；土耳其 Bender Abbas、ABD/İran、#ApplyTheGenocideConvention、Erdoğan、Meloni 等集中在地缘政治和公共争议池。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,141 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-07 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia is football-led by Belgia, Belgium, Portugal, and Ronaldo, with #WIN4SHO and Inception Wrapped as lighter content angles; Thailand clusters around Engfa, ZeeNuNew, Enemies With Benefits, Sunsilk, Tefal, and Phuwin celebrity-brand topics; the Philippines has SB19 Justin birthday, Onlyjustin, Mingyu x Dior, iKON Manila, EWB Final EP, and Rebecca x Sunsilk; Saudi is led by Ronaldo, WWE Raw, Portugal vs Spain, and Belgium/USA football terms; Turkey mixes Belçika, Ronaldo, #USABEL, Portekiz, GOAT, and #debutforfour; Vietnam has The Gambler, Inception Wrapped, Ronaldo, Belgium, Spain, Haaland, and EWB Final EP.",
-    summaryRisk: "Risk watch: Indonesia's Trump and Menlu are political/diplomatic-watch items, while $SBTV is crypto speculation; the Philippines' Cayetano is political-watch; Saudi has Trump plus memorial/charity tags for review; Turkey's #NATOyaVETO and Trump are political/diplomatic-watch items; Vietnam's Saylor is crypto speculation."
+    summaryTitle: "2026-07-08 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia mixes #MrKillSeriesEP1, Argentina, promo serba 5, #dewtee, and #seabank5thbersama across drama, sports, and brand angles; Thailand is led by Engfa, PERTHSANTA, Mr Kill, D7, Charlotte, Blackmores, Maybelline, and Gemini Concert celebrity-brand topics; the Philippines has #RUN_TO_YOU, #AHOF, Messi/Argentina, Fyang, Anguel, and Maybelline/Blackmores; Saudi is football-heavy around Egypt/Argentina, FIFA, Salah, Xhaka, RiyadBank, and local lifestyle tags; Turkey's usable pool is İsviçre, Arjantin, Davinson, #permadebut, Messi, Greenwood, and Djokovic; Vietnam has The Gambler, Inception Wrapped, Messi/Argentina, Liu Xuancheng x Ronald van der Kemp, Shopee, and Maybelline.",
+    summaryRisk: "Risk watch: Indonesia's perkuat kemitraan global is a diplomatic/civic-watch item; the Philippines' #VPonTrial is a political/legal controversy; Saudi's فلسطين is an international political controversy; Turkey has a dense geopolitical pool around Bender Abbas, ABD/İran, #ApplyTheGenocideConvention, Erdoğan, and Meloni."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-08",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#MrKillSeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("promo serba 5", "品牌活动/消费", "Brand / Consumer", "低", "Low", "promo serba 5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#dewtee", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "dewtee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#seabank5thbersama", "品牌活动/消费", "Brand / Consumer", "低", "Low", "seabank5thbersama", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ดิวธี", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ดิวธี", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FIFA", "体育/赛事", "Sports / Event", "低", "Low", "FIFA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Ronaldo", "体育/赛事", "Sports / Event", "低", "Low", "Ronaldo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perkuat kemitraan global", "公共治理/外交观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "perkuat kemitraan global", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShopeeLivexSantaDomiia", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "ShopeeLivexSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("77 SHOPEE SANTADOMIIA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "77 SHOPEE SANTADOMIIA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Portugal", "体育/赛事", "Sports / Event", "低", "Low", "Portugal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Young Forever", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "Young Forever", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Wasit", "体育/赛事", "Sports / Event", "低", "Low", "Wasit", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE LIFTERGEL PERTH", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MAYBELLINE LIFTERGEL PERTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#อิงฟ้าบวงสรวงพญาศรีสัตตนาคราช", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "อิงฟ้าบวงสรวงพญาศรีสัตตนาคราช", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA SECOND ERA", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA SECOND ERA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MrKillSeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#D7xNamping", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "D7xNamping", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE08", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE08", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TMK WITH BLACKMORES", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "TMK WITH BLACKMORES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA08", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA08", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TTP LOVE BERRY MUCH", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "TTP LOVE BERRY MUCH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE LIFTERGEL PERTH", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MAYBELLINE LIFTERGEL PERTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GARNIER PUMP MARKJUMMO", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GARNIER PUMP MARKJUMMO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINI CONCERT PRESS TOUR", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GEMINI CONCERT PRESS TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LYKN LIPGLAM LIVE77", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "LYKN LIPGLAM LIVE77", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUNSET IN WINTER EP14", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUNSET IN WINTER EP14", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BOATOAT NEXT STEP KNOT EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BOATOAT NEXT STEP KNOT EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BEFORE TOMORROW OST LUAT", "音乐/剧集原声", "Music / Show / Release", "低", "Low", "BEFORE TOMORROW OST LUAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#RUN_TO_YOU", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RUN_TO_YOU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#AHOF", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "AHOF", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#VPonTrial", "政治/法律观察", "Civic / Political Watch", "政治/法律争议", "Political / Legal Controversy", "VPonTrial", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("fyang mmff lead star", "影视/明星话题", "Drama / Variety / Entertainment", "低", "Low", "fyang mmff lead star", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("anguel our comfort ship", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "anguel our comfort ship", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("miguels truth revealed", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "miguels truth revealed", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Young Forever", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "Young Forever", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("brentuesday ist fun", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "brentuesday ist fun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE LIFTERGEL PERTH", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MAYBELLINE LIFTERGEL PERTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TMK WITH BLACKMORES", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "TMK WITH BLACKMORES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("سويسرا", "体育/赛事", "Sports / Event", "低", "Low", "سويسرا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#خاطرك_عندي", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "خاطرك_عندي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#البنات_ملح_التويتر", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "البنات_ملح_التويتر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#مصر_الارجنتين", "体育/赛事", "Sports / Event", "低", "Low", "مصر_الارجنتين", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الفيفا", "体育/赛事", "Sports / Event", "低", "Low", "الفيفا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سانشيز", "体育/赛事", "Sports / Event", "低", "Low", "سانشيز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("صلاح", "体育/赛事", "Sports / Event", "低", "Low", "صلاح", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("تشاكا", "体育/赛事", "Sports / Event", "低", "Low", "تشاكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("منتخب مصر", "体育/赛事", "Sports / Event", "低", "Low", "منتخب مصر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المنتخب المصري", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب المصري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("لويس دياز", "体育/赛事", "Sports / Event", "低", "Low", "لويس دياز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("حسام حسن", "体育/赛事", "Sports / Event", "低", "Low", "حسام حسن", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("زياد بن نحيت", "明星/本地名人", "Celebrity / Fandom", "低", "Low", "زياد بن نحيت", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Fıfaworldcup", "体育/赛事", "Sports / Event", "低", "Low", "Fıfaworldcup", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#RiyadBank", "品牌/金融活动", "Brand / Consumer", "低", "Low", "RiyadBank", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FIFA", "体育/赛事", "Sports / Event", "低", "Low", "FIFA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("منتخب عربي", "体育/赛事", "Sports / Event", "低", "Low", "منتخب عربي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("فلسطين", "政治/国际争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "فلسطين", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("İsviçre", "体育/赛事", "Sports / Event", "低", "Low", "İsviçre", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Arjantin", "体育/赛事", "Sports / Event", "低", "Low", "Arjantin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Davinson", "体育/赛事", "Sports / Event", "低", "Low", "Davinson", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#permadebut", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "permadebut", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Murat Yakın", "体育/赛事", "Sports / Event", "低", "Low", "Murat Yakın", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bender Abbas", "政治/地缘观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Bender Abbas", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ABD'nin İran", "政治/国际争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "ABD'nin İran", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Sütlü Nuriye", "生活方式/本地趋势", "Lifestyle / Local Trend", "低", "Low", "Sütlü Nuriye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ABD İran", "政治/国际争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "ABD İran", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Malcom", "体育/赛事", "Sports / Event", "低", "Low", "Malcom", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ApplyTheGenocideConvention", "政治/国际争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "ApplyTheGenocideConvention", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Dünya Lideri Erdoğan", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Dünya Lideri Erdoğan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Meloni", "政治人物/争议观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "Meloni", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#YaGreenwoodYaHiç", "体育/赛事", "Sports / Event", "低", "Low", "YaGreenwoodYaHiç", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Fıfaworldcup", "体育/赛事", "Sports / Event", "低", "Low", "Fıfaworldcup", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Egypt", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Egypt", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mehter", "音乐/文化话题", "Music / Show / Release", "低", "Low", "Mehter", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Djokovic", "体育/赛事", "Sports / Event", "低", "Low", "Djokovic", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("THE GAMBLER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE GAMBLER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/赛事", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inception Wrapped", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Inception Wrapped", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LiuXuanChengxRonaldVanDerKemp", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "LiuXuanChengxRonaldVanDerKemp", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShopeeLivexSantaDomiia", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "ShopeeLivexSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("77 SHOPEE SANTADOMIIA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "77 SHOPEE SANTADOMIIA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE LIFTERGEL PERTH", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MAYBELLINE LIFTERGEL PERTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-07",
     title: {
