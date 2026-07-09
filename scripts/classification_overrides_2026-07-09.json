@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-09",
+  "note": "Manual classification overrides for 2026-07-09 public trend captures. Focus is entertainment, fandom, sports, brand campaigns, lifestyle, speculative finance, and political/geopolitical risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#ShopeeBelanjaInstant1Jam": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Gratis Voucher Kalau Telat": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Diskon 50%": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#MrKillSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "pd bareng ahy": {"typeZh": "公共治理/政治观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#logohut25demokrat": {"typeZh": "政党/公共传播观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#PSDDevils2Years2gether": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA SECOND ERA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FIFA": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "winwin": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "SKYNANI S TO THE N PRESS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Jampidsus": {"typeZh": "法律/公共治理观察", "typeEn": "Civic / Political Watch", "riskZh": "法律/争议", "riskEn": "Legal / Controversy"},
+        "#WhenOrangesFallEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Trade-In": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Andrey Santos": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "77 shopee santadomiia": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Egypt": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "TONSOM 9TH EPISODE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Adeyemi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "$HOODIE": {"typeZh": "金融/加密（谨慎）", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Krakatau Steel": {"typeZh": "品牌/企业观察", "typeEn": "Brand / Consumer", "riskZh": "商业/公共争议需复核", "riskEn": "Business / Public Controversy Review"},
+        "D1 JAEHYUN 99 DEGREES": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Robinhood": {"typeZh": "综合/待复核", "typeEn": "General / To Classify", "riskZh": "金融/品牌混淆需复核", "riskEn": "Finance / Brand Ambiguity Review"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#YourtuberSeries": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#BUS_รักมักยาก_MV": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#PSDDevils2Years2gether": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA SECOND ERA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#SmootoxKeng": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA09": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#WhenOrangesFallEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "KENG WITH SMOOTOLIVE77": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LOLO FIRST SOLO PR": {"typeZh": "音乐/明星活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE09": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TONSOM 9TH EPISODE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "77 shopee santadomiia": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "GRABFOOD X LOOKMHEESONYA": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "AI GIRL EPISODE TWO": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "SKYNANI S TO THE N PRESS": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TNMR ADAAP CHITCHAT": {"typeZh": "明星/直播互动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LOVER LOSER OUT NOW": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "maybelline liftergel perth": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "GARNIER PUMP MARKJUMMO": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "TMK WITH BLACKMORES": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#RUN_TO_YOU": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#Teaser_PlsLoveรักได้ไหม": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "winwin": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "ARMY Day": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#PVL2026": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ลีน่าหมิว": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#LenaMiu": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "JL STAGE SLAYER": {"typeZh": "音乐/演出/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "reliable friend miguel": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "KAI SETS SAIL AT MOA": {"typeZh": "明星/活动应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Narvasa": {"typeZh": "体育/公共人物观察", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "PERTHSANTA SECOND ERA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "angel steps up": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Metawin": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Atty": {"typeZh": "法律/公共争议观察", "typeEn": "Civic / Political Watch", "riskZh": "法律/争议", "riskEn": "Legal / Controversy"},
+        "GOSE": {"typeZh": "综艺/粉丝内容", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "anguel apart again": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "hansol": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "51 MONTHS WITH KAIA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "fyang mmff lead star": {"typeZh": "影视/明星话题", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "#قرضك_مسدد_θちち28б7378": {"typeZh": "金融/低质广告", "typeEn": "Finance / Crypto (Watch)", "riskZh": "低质广告/金融风险", "riskEn": "Low-Quality Ad / Finance Risk"},
+        "#حقيقه_يجب_ان_تدركها": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#مصر_الارجنتين": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ميسي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#طمنا_عليك_الباحه": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#هشتاقك_بسعر_مميز_0ち481б8201": {"typeZh": "低质广告/刷榜", "typeEn": "General / To Classify", "riskZh": "低质广告/刷榜风险", "riskEn": "Low-Quality Ad / Spam Risk"},
+        "صلاح": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "رافينها": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "رونالدو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "المنتخب المصري": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "منتخب مصر": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "فوز فرنسا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "حسام حسن": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كريم اديمي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "روني": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ثنيان خالد": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "هيثم حسن": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "مصر اليوم": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كره القدم": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "علي مصر": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Trump": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#NATOsummit": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#KüreselLiderErdoğan": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "#HainsinDursunÖzbek": {"typeZh": "体育/俱乐部争议观察", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "#Crush100K": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "F-35": {"typeZh": "政治/军事观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Macron": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Iran": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "İzlanda": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Meloni": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Greenwood": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mehter": {"typeZh": "音乐/文化话题", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Malcom": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Arjantin": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Çağrı Balta": {"typeZh": "体育/公共人物观察", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "Ekrem İmamoğlu": {"typeZh": "政治人物/争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/法律争议", "riskEn": "Political / Legal Controversy"},
+        "özçelik sendikası": {"typeZh": "劳工/公共议题观察", "typeEn": "Civic / Political Watch", "riskZh": "社会/争议", "riskEn": "Social / Controversy"},
+        "İsrail": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Mısır": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "#PSDDevils2Years2gether": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA SECOND ERA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#FutureTalk": {"typeZh": "科技/品牌活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#aydensngxarmanibeauty": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "$CASHCAT": {"typeZh": "金融/加密（谨慎）", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Argentina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#WhenOrangesFallEP9": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "TONSOM 9TH EPISODE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "HAPPY 365 DAYS MIEAYA": {"typeZh": "明星/粉丝纪念", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#เบบี้โลโล่มาเซย์ฮัลโหลอิอิ": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "77 shopee santadomiia": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Iran": {"typeZh": "政治/国际争议观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "Ai Cập": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "LOLO FIRST SOLO PR": {"typeZh": "音乐/明星活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
