@@ -78,91 +78,70 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
-        t("#ShopeeBelanjaInstant1Jam", "品牌活动/消费", "Brand / Consumer", "低", "Low", "ShopeeBelanjaInstant1Jam", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#belanjainstant1jamdishopee", "品牌活动/消费", "Brand / Consumer", "低", "Low", "belanjainstant1jamdishopee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#OwnTheNewShape", "品牌/科技活动", "Brand / Consumer", "低", "Low", "OwnTheNewShape", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("gratis voucher kalau telat", "品牌活动/消费", "Brand / Consumer", "低", "Low", "gratis voucher kalau telat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#pemikatjiwa", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "pemikatjiwa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#belanjainstant1jamdishopee", "品牌活动/消费", "Brand / Consumer", "低", "Low", "belanjainstant1jamdishopee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Diskon 50%", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Diskon 50%", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#FoldTheDoubt", "品牌/科技活动", "Brand / Consumer", "低", "Low", "FoldTheDoubt", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#OwnTheNewShape", "品牌/科技活动", "Brand / Consumer", "低", "Low", "OwnTheNewShape", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GFSN OISHI JAPAN TRIP", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GFSN OISHI JAPAN TRIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Prancis", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Prancis", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("perkuat warisan bangsa", "公共治理/文化政策观察", "Civic / Political Watch", "政治/公共议题", "Political / Civic Issue", "perkuat warisan bangsa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("masa depan tanah papua", "公共治理/地区议题观察", "Civic / Political Watch", "政治/地区争议", "Political / Regional Controversy", "masa depan tanah papua", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("pd bareng ahy", "公共治理/政治观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "pd bareng ahy", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GFSN OISHI JAPAN TRIP", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GFSN OISHI JAPAN TRIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Prancis", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Prancis", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("mou peradi profesional", "法律/行业组织观察", "Civic / Political Watch", "法律/公共议题", "Legal / Civic Issue", "mou peradi profesional", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("JIN FOR ELLE KOREA", "时尚/明星活动", "Fashion / Brand Event", "低", "Low", "JIN FOR ELLE KOREA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jampidsus", "法律/公共治理观察", "Civic / Political Watch", "法律/争议", "Legal / Controversy", "Jampidsus", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bono", "体育/赛事", "Sports / Event", "低", "Low", "Bono", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NO LABELS PART 2 OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "NO LABELS PART 2 OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#ENGFAxLadyBeeBlessingCeremony", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "ENGFAxLadyBeeBlessingCeremony", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PROUDกลิ่นฝนTFO", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PROUDกลิ่นฝนTFO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TFO 3T 4R S1M", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TFO 3T 4R S1M", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#ENGFAxLadyBeeBlessingCeremony", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "ENGFAxLadyBeeBlessingCeremony", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#SiamParagonxTCEX2026xGMMTV", "品牌/娱乐展会", "Brand / Celebrity Campaign", "低", "Low", "SiamParagonxTCEX2026xGMMTV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#FlashbackWilliamjkpMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FlashbackWilliamjkpMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#BokBear", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BokBear", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KENGNAMPING X PISEN", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "KENGNAMPING X PISEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("AYOO YOURTUBER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "AYOO YOURTUBER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("FLOURISHING GROWTH ENGFA10", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("GFSN OISHI JAPAN TRIP", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GFSN OISHI JAPAN TRIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LETTER LOVE TO BOUN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LETTER LOVE TO BOUN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoshiMoshixPondPhuwin", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MoshiMoshixPondPhuwin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("SIMPLY BE CHARLOTTE10", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BE MY PLAYER TWO LV0", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO LV0", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("TRAILER YOUR THIRD", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TRAILER YOUR THIRD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MAJOR X THEEWAVE MOANA", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MAJOR X THEEWAVE MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MIU WITH BOBBI BROWN", "美妆/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MIU WITH BOBBI BROWN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("REBECCA X TODS SG", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "REBECCA X TODS SG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LETTER LOVE TO BOUN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LETTER LOVE TO BOUN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA10", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EFM FANDOM WITH UPPOOM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "EFM FANDOM WITH UPPOOM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("MR FANBOY Q25", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q25", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
         t("#MoreSweetSarapSaya", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MoreSweetSarapSaya", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("JOLLIMOMENT WITH MIKBRENT", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JOLLIMOMENT WITH MIKBRENT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("HELUL YSATONG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HELUL YSATONG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#LULLotsOfLove", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "LULLotsOfLove", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOLLIMOMENT WITH MIKBRENT", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JOLLIMOMENT WITH MIKBRENT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#MoanaTHxTheewave", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MoanaTHxTheewave", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#FlashbackWilliamjkpMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FlashbackWilliamjkpMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NO LABELS PART 2 OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "NO LABELS PART 2 OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("YEONJUN ICE CREAM OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "YEONJUN ICE CREAM OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("MAJOR X THEEWAVE MOANA", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MAJOR X THEEWAVE MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("JOLLYDAY WITH JOSHUAGARCIA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JOLLYDAY WITH JOSHUAGARCIA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DISTANT LOVER OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DISTANT LOVER OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("MIGUEL JOINS BRIGHTON BAY", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MIGUEL JOINS BRIGHTON BAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("CAPRICE DESERVES BETTER", "影视/明星话题", "Drama / Variety / Entertainment", "低", "Low", "CAPRICE DESERVES BETTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("anguel campus soulmates", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "anguel campus soulmates", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Spain", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Spain", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CAPRICE DESERVES BETTER", "影视/明星话题", "Drama / Variety / Entertainment", "低", "Low", "CAPRICE DESERVES BETTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("fyang at avignon launch", "明星/品牌活动", "Brand / Celebrity Campaign", "低", "Low", "fyang at avignon launch", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Jungwon", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Jungwon", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("jmfyang plays all star", "明星/活动应援", "Celebrity / Fandom", "低", "Low", "jmfyang plays all star", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("song for angel", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "song for angel", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
-        t("#الحكم_نجم_المباراه", "体育/赛事争议", "Sports / Event", "争议/需复核", "Controversy / Review", "الحكم_نجم_المباراه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ياسين بونو", "体育/赛事", "Sports / Event", "低", "Low", "ياسين بونو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#حرق_هنتر", "影视/娱乐话题", "Drama / Variety / Entertainment", "争议/需复核", "Controversy / Review", "حرق_هنتر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("المنتخب الفرنسي", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب الفرنسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ديمبيلي", "体育/赛事", "Sports / Event", "低", "Low", "ديمبيلي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("دوار السعاده", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "دوار السعاده", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("حارس عربي", "体育/赛事", "Sports / Event", "低", "Low", "حارس عربي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ديشامب", "体育/赛事", "Sports / Event", "低", "Low", "ديشامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("نصف النهايي", "体育/赛事", "Sports / Event", "低", "Low", "نصف النهايي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("مبابي", "体育/赛事", "Sports / Event", "低", "Low", "مبابي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("دياز", "体育/赛事", "Sports / Event", "低", "Low", "دياز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("دوار السعاده", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "دوار السعاده", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("#PoliseFazlaMesai", "公共治理/劳工议题观察", "Civic / Political Watch", "政治/劳工争议", "Political / Labor Controversy", "PoliseFazlaMesai", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Yeditepe Üniversitesi", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Yeditepe Üniversitesi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Lesley Ugochukwu", "体育/赛事", "Sports / Event", "低", "Low", "Lesley Ugochukwu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Engin Basmacı", "体育/公共人物观察", "Sports / Event", "争议/需复核", "Controversy / Review", "Engin Basmacı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Bono", "体育/赛事", "Sports / Event", "低", "Low", "Bono", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Reijnders", "体育/赛事", "Sports / Event", "低", "Low", "Reijnders", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("Pháp", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Pháp", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Chloe", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Chloe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#AydenSngXTODS", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "AydenSngXTODS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ENGFAxLadyBeeBlessingCeremony", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "ENGFAxLadyBeeBlessingCeremony", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
@@ -185,6 +164,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   {
     date: "2026-07-09",
