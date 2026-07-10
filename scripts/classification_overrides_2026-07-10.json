@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-10",
+  "note": "Manual classification overrides for 2026-07-10 public trend captures. Focus is brand promotions, football/national-team topics, music/fandom, Thai entertainment-brand campaigns, and civic/political/legal risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#ShopeeBelanjaInstant1Jam": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#belanjainstant1jamdishopee": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#OwnTheNewShape": {"typeZh": "品牌/科技活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "gratis voucher kalau telat": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Diskon 50%": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Mbappe": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#pemikatjiwa": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Prancis": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#FlashbackWilliamjkpMV": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#FoldTheDoubt": {"typeZh": "品牌/科技活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Bono": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "WILLIAM FLASHBACK SOLO": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "perkuat warisan bangsa": {"typeZh": "公共治理/文化政策观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/公共议题", "riskEn": "Political / Civic Issue"},
+        "masa depan tanah papua": {"typeZh": "公共治理/地区议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/地区争议", "riskEn": "Political / Regional Controversy"},
+        "pd bareng ahy": {"typeZh": "公共治理/政治观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"},
+        "GFSN OISHI JAPAN TRIP": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "mou peradi profesional": {"typeZh": "法律/行业组织观察", "typeEn": "Civic / Political Watch", "riskZh": "法律/公共议题", "riskEn": "Legal / Civic Issue"},
+        "JIN FOR ELLE KOREA": {"typeZh": "时尚/明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "Morocco": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Jampidsus": {"typeZh": "法律/公共治理观察", "typeEn": "Civic / Political Watch", "riskZh": "法律/争议", "riskEn": "Legal / Controversy"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#PROUDกลิ่นฝนTFO": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "TFO 3T 4R S1M": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#SiamParagonxTCEX2026xGMMTV": {"typeZh": "品牌/娱乐展会", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#FlashbackWilliamjkpMV": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BokBear": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#FullyChargedWithPisen": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "KENGNAMPING X PISEN": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "WILLIAM FLASHBACK SOLO": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#YourtuberSeries": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "TCEX 2026 SIAM PARAGON": {"typeZh": "品牌/娱乐展会", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA10": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GFSN OISHI JAPAN TRIP": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE10": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "AYOO YOURTUBER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "LETTER LOVE TO BOUN": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TRAILER YOUR THIRD": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "MAJOR X THEEWAVE MOANA": {"typeZh": "品牌/电影活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "BE MY PLAYER TWO LV0": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "MIU WITH BOBBI BROWN": {"typeZh": "美妆/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "REBECCA X TODS SG": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "JUMARKMOPAUL FAMILY LIVE": {"typeZh": "明星/直播互动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "MR FANBOY Q25": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#MoreSweetSarapSaya": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "JOLLIMOMENT WITH MIKBRENT": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "HELUL YSATONG": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#MoanaTHxTheewave": {"typeZh": "品牌/电影活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#LULLotsOfLove": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "MAJOR X THEEWAVE MOANA": {"typeZh": "品牌/电影活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "JOLLYDAY WITH JOSHUAGARCIA": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "WILLIAM FLASHBACK SOLO": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#FlashbackWilliamjkpMV": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#RUN_TO_YOU": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Army Day": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "MIGUEL JOINS BRIGHTON BAY": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CAPRICE DESERVES BETTER": {"typeZh": "影视/明星话题", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Spain": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "anguel campus soulmates": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Morocco": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Jungwon": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "fyang at avignon launch": {"typeZh": "明星/品牌活动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "JENNIE TAKE DOWN MAD COOL": {"typeZh": "音乐/明星应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "jmfyang plays all star": {"typeZh": "明星/活动应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GELEX TCD2 PROMO DAY": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "song for angel": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "#المغرب_فرنسا": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الحكم_نجم_المباراه": {"typeZh": "体育/赛事争议", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "ياسين بونو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ليله_الجمعه": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "ديمبيلي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ديشامب": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "دوار السعاده": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "حارس عربي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#حرق_هنتر": {"typeZh": "影视/娱乐话题", "typeEn": "Drama / Variety / Entertainment", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "نصف النهايي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "دياز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "مبابي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#القريه_الجوده_تتكلم": {"typeZh": "品牌/本地活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Morocco": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "عيسى ديوب": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "محمد وهبي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "لوكاس دين": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Engin Basmacı": {"typeZh": "体育/公共人物观察", "typeEn": "Sports / Event", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "Fransa": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#MuhtemelAşk": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Mbappe": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Dembele": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lesley Ugochukwu": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#PoliseFazlaMesai": {"typeZh": "公共治理/劳工议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/劳工争议", "riskEn": "Political / Labor Controversy"},
+        "Fas'ı 2-0": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#AliİsmailKorkmaz": {"typeZh": "纪念/政治社会议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/社会争议", "riskEn": "Political / Social Controversy"},
+        "#TaksimMeydanı": {"typeZh": "公共空间/政治社会议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/社会争议", "riskEn": "Political / Social Controversy"},
+        "Bono": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Cihan Kamer": {"typeZh": "商业/公共人物观察", "typeEn": "Brand / Consumer", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "#Morocco": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Marsilya'ya": {"typeZh": "体育/转会话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Reijnders": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lemina": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "CHP İstanbul İl Başkanlığı": {"typeZh": "政治/政党组织观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/争议", "riskEn": "Political / Controversy"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "Pháp": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mbappe": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Morocco": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Chloe": {"typeZh": "品牌活动/消费", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#AydenSngXTODS": {"typeZh": "时尚/品牌明星活动", "typeEn": "Fashion / Brand Event", "riskZh": "低", "riskEn": "Low"},
+        "PERTHSANTA SECOND ERA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}

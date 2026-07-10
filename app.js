@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-09 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼以 Shopee 即时购物、折扣券、Argentina/Messi/FIFA、PERTHSANTA 与 SKYNANI 组成品牌/体育/明星池；泰国集中在 YourtuberSeries、BUS MV、When Oranges Fall、PERTHSANTA、Engfa/Charlotte、GrabFood、Maybelline 等剧集音乐与品牌联动；菲律宾优先 #RUN_TO_YOU、ARMY Day、LenaMiu、PVL2026、KAI、KAIA、Fyang 与 Anguel；沙特以 مصر_الارجنتين、ميسي、صلاح、رونالدو、منتخب مصر 等足球词和本地互动标签为主；土耳其可用低风险池偏体育/音乐，如 İzlanda、Greenwood、Mehter、Malcom、Arjantin、Messi、#Crush100K；越南以 PERTHSANTA、PSD Devils 与 Armani Beauty 时尚活动补充。",
-    summaryRisk: "风险观察：印尼 pd bareng ahy、Jampidsus 属政治/法律观察；菲律宾 Narvasa、Atty 需争议或法律复核；沙特贷款/刷榜标签属于低质广告和金融风险；土耳其 Trump、NATO summit、Erdoğan、F-35、Macron、Iran、Meloni、İsrail、Ekrem İmamoğlu 等集中在政治、军事和地缘争议池。"
+    summaryTitle: "2026-07-10 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼以 Shopee 即时购物、#OwnTheNewShape、#pemikatjiwa、WILLIAM FLASHBACK SOLO、JIN FOR ELLE KOREA、Mbappe/Prancis/Morocco 组成品牌、音乐明星与足球池；泰国集中在 ENGFA、Siam Paragon x TCEX/GMMTV、William MV、KENGNAMPING x PISEN、Yourtuber、Rebecca x TODS、MIU x Bobbi Brown 等娱乐品牌联动；菲律宾优先 Jollibee/MikBrent/Joshua Garcia、#LULLotsOfLove、Moana/Theewave、William MV、Miguel、Fyang、Jungwon 与 Anguel；沙特以法国/摩洛哥、Yassine Bounou、Mbappe、Dembele、Deschamps、Morocco 和本地互动为主；土耳其低风险入口偏足球/转会与剧集，如 Lesley Ugochukwu、Bono、Reijnders、Yeditepe；越南以 Pháp、Mbappe、Morocco、Chloe 与 AydenSng x TODS 补充。",
+    summaryRisk: "风险观察：印尼 perkuat warisan bangsa、masa depan tanah papua、pd bareng ahy、mou peradi profesional 属政治/地区/法律观察；沙特 #الحكم_نجم_المباراه 和 #حرق_هنتر 需争议复核；土耳其 #PoliseFazlaMesai 属劳工政治观察，Engin Basmacı 需体育人物争议复核。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,129 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-09 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia mixes Shopee instant shopping, voucher/discount hooks, Argentina/Messi/FIFA, PERTHSANTA, and SKYNANI; Thailand is led by YourtuberSeries, BUS MV, When Oranges Fall, PERTHSANTA, Engfa/Charlotte, GrabFood, and Maybelline brand-celebrity topics; the Philippines has #RUN_TO_YOU, ARMY Day, LenaMiu, PVL2026, KAI, KAIA, Fyang, and Anguel; Saudi is football-heavy around مصر_الارجنتين, ميسي, صلاح, رونالدو, and منتخب مصر; Turkey's low-risk pool is sports/music led by İzlanda, Greenwood, Mehter, Malcom, Arjantin, Messi, and #Crush100K; Vietnam has PERTHSANTA, PSD Devils, and Armani Beauty fashion activity.",
-    summaryRisk: "Risk watch: Indonesia's pd bareng ahy and Jampidsus are political/legal watch items; the Philippines' Narvasa and Atty need controversy or legal review; Saudi loan/promoted-hashtag items are low-quality ad and finance risks; Turkey has dense political, military, and geopolitical topics around Trump, NATO summit, Erdoğan, F-35, Macron, Iran, Meloni, İsrail, and Ekrem İmamoğlu."
+    summaryTitle: "2026-07-10 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia mixes Shopee instant shopping, #OwnTheNewShape, #pemikatjiwa, WILLIAM FLASHBACK SOLO, JIN FOR ELLE KOREA, and Mbappe/France/Morocco football; Thailand is led by ENGFA, Siam Paragon x TCEX/GMMTV, William MV, KENGNAMPING x PISEN, Yourtuber, Rebecca x TODS, and MIU x Bobbi Brown; the Philippines has Jollibee/MikBrent/Joshua Garcia, #LULLotsOfLove, Moana/Theewave, William MV, Miguel, Fyang, Jungwon, and Anguel; Saudi is football-heavy around France/Morocco, Yassine Bounou, Mbappe, Dembele, Deschamps, and Morocco; Turkey's low-risk entry points are football/transfer and drama terms such as Lesley Ugochukwu, Bono, Reijnders, and Yeditepe; Vietnam has Pháp, Mbappe, Morocco, Chloe, and AydenSng x TODS.",
+    summaryRisk: "Risk watch: Indonesia's perkuat warisan bangsa, masa depan tanah papua, pd bareng ahy, and mou peradi profesional are political/regional/legal watch items; Saudi's referee-star and Hunter spoiler tags need controversy review; Turkey's #PoliseFazlaMesai is a labor-politics watch item, while Engin Basmacı needs sports-person controversy review."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-10",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#ShopeeBelanjaInstant1Jam", "品牌活动/消费", "Brand / Consumer", "低", "Low", "ShopeeBelanjaInstant1Jam", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#belanjainstant1jamdishopee", "品牌活动/消费", "Brand / Consumer", "低", "Low", "belanjainstant1jamdishopee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#OwnTheNewShape", "品牌/科技活动", "Brand / Consumer", "低", "Low", "OwnTheNewShape", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("gratis voucher kalau telat", "品牌活动/消费", "Brand / Consumer", "低", "Low", "gratis voucher kalau telat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#pemikatjiwa", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "pemikatjiwa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Diskon 50%", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Diskon 50%", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FoldTheDoubt", "品牌/科技活动", "Brand / Consumer", "低", "Low", "FoldTheDoubt", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Prancis", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Prancis", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perkuat warisan bangsa", "公共治理/文化政策观察", "Civic / Political Watch", "政治/公共议题", "Political / Civic Issue", "perkuat warisan bangsa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("masa depan tanah papua", "公共治理/地区议题观察", "Civic / Political Watch", "政治/地区争议", "Political / Regional Controversy", "masa depan tanah papua", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("pd bareng ahy", "公共治理/政治观察", "Civic / Political Watch", "政治/争议", "Political / Controversy", "pd bareng ahy", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GFSN OISHI JAPAN TRIP", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GFSN OISHI JAPAN TRIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("mou peradi profesional", "法律/行业组织观察", "Civic / Political Watch", "法律/公共议题", "Legal / Civic Issue", "mou peradi profesional", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JIN FOR ELLE KOREA", "时尚/明星活动", "Fashion / Brand Event", "低", "Low", "JIN FOR ELLE KOREA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#PROUDกลิ่นฝนTFO", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PROUDกลิ่นฝนTFO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TFO 3T 4R S1M", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TFO 3T 4R S1M", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ENGFAxLadyBeeBlessingCeremony", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "ENGFAxLadyBeeBlessingCeremony", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SiamParagonxTCEX2026xGMMTV", "品牌/娱乐展会", "Brand / Celebrity Campaign", "低", "Low", "SiamParagonxTCEX2026xGMMTV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FlashbackWilliamjkpMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FlashbackWilliamjkpMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BokBear", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BokBear", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KENGNAMPING X PISEN", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "KENGNAMPING X PISEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("AYOO YOURTUBER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "AYOO YOURTUBER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA10", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GFSN OISHI JAPAN TRIP", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GFSN OISHI JAPAN TRIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LETTER LOVE TO BOUN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LETTER LOVE TO BOUN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE10", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BE MY PLAYER TWO LV0", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO LV0", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TRAILER YOUR THIRD", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TRAILER YOUR THIRD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAJOR X THEEWAVE MOANA", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MAJOR X THEEWAVE MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MIU WITH BOBBI BROWN", "美妆/明星联动", "Brand / Celebrity Campaign", "低", "Low", "MIU WITH BOBBI BROWN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("REBECCA X TODS SG", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "REBECCA X TODS SG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q25", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q25", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#MoreSweetSarapSaya", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MoreSweetSarapSaya", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOLLIMOMENT WITH MIKBRENT", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JOLLIMOMENT WITH MIKBRENT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HELUL YSATONG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HELUL YSATONG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LULLotsOfLove", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "LULLotsOfLove", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoanaTHxTheewave", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MoanaTHxTheewave", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FlashbackWilliamjkpMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FlashbackWilliamjkpMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAJOR X THEEWAVE MOANA", "品牌/电影活动", "Brand / Consumer", "低", "Low", "MAJOR X THEEWAVE MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOLLYDAY WITH JOSHUAGARCIA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JOLLYDAY WITH JOSHUAGARCIA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM FLASHBACK SOLO", "音乐/明星应援", "Music / Show / Release", "低", "Low", "WILLIAM FLASHBACK SOLO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MIGUEL JOINS BRIGHTON BAY", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MIGUEL JOINS BRIGHTON BAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CAPRICE DESERVES BETTER", "影视/明星话题", "Drama / Variety / Entertainment", "低", "Low", "CAPRICE DESERVES BETTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("anguel campus soulmates", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "anguel campus soulmates", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Spain", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Spain", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("fyang at avignon launch", "明星/品牌活动", "Brand / Celebrity Campaign", "低", "Low", "fyang at avignon launch", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jungwon", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Jungwon", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jmfyang plays all star", "明星/活动应援", "Celebrity / Fandom", "低", "Low", "jmfyang plays all star", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("song for angel", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "song for angel", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#الحكم_نجم_المباراه", "体育/赛事争议", "Sports / Event", "争议/需复核", "Controversy / Review", "الحكم_نجم_المباراه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ياسين بونو", "体育/赛事", "Sports / Event", "低", "Low", "ياسين بونو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#حرق_هنتر", "影视/娱乐话题", "Drama / Variety / Entertainment", "争议/需复核", "Controversy / Review", "حرق_هنتر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المنتخب الفرنسي", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب الفرنسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ديمبيلي", "体育/赛事", "Sports / Event", "低", "Low", "ديمبيلي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("دوار السعاده", "生活方式/本地互动", "Lifestyle / Local Trend", "低", "Low", "دوار السعاده", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("حارس عربي", "体育/赛事", "Sports / Event", "低", "Low", "حارس عربي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ديشامب", "体育/赛事", "Sports / Event", "低", "Low", "ديشامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نصف النهايي", "体育/赛事", "Sports / Event", "低", "Low", "نصف النهايي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("مبابي", "体育/赛事", "Sports / Event", "低", "Low", "مبابي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("دياز", "体育/赛事", "Sports / Event", "低", "Low", "دياز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#PoliseFazlaMesai", "公共治理/劳工议题观察", "Civic / Political Watch", "政治/劳工争议", "Political / Labor Controversy", "PoliseFazlaMesai", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Yeditepe Üniversitesi", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Yeditepe Üniversitesi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lesley Ugochukwu", "体育/赛事", "Sports / Event", "低", "Low", "Lesley Ugochukwu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Engin Basmacı", "体育/公共人物观察", "Sports / Event", "争议/需复核", "Controversy / Review", "Engin Basmacı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bono", "体育/赛事", "Sports / Event", "低", "Low", "Bono", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Reijnders", "体育/赛事", "Sports / Event", "低", "Low", "Reijnders", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("Pháp", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Pháp", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Chloe", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Chloe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mbappe", "体育/赛事", "Sports / Event", "低", "Low", "Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#AydenSngXTODS", "时尚/品牌明星活动", "Fashion / Brand Event", "低", "Low", "AydenSngXTODS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Morocco", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Morocco", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-09",
     title: {
