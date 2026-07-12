@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-11 六国热点话题日报",
+    summaryTitle: "2026-07-12 六国热点话题日报",
     summaryPriority: "优先深挖：印尼以 Shopee 即时购物、Galaxy Unpacked/Fold、Oishi x GFSN、Mr. Kill、LingOrm 和 Spain/Courtois/Yamal 等科技品牌、剧集与足球池为主；泰国集中在 วาดฝันวันวิวาห์、LingOrm、Moshi Moshi x PondPhuwin、Siam Paragon x TCEX/GMMTV、ADogAndAPlane、Engfa/Charlotte、Oishi、William 和美妆品牌联动；菲律宾优先 LingOrm、SB19、All Star Games、Miguel/Caprice/Mafia Boss、Anguel、Major x Theewave、Carton、Winter Wimbledon 与 Miu x Bobbi Brown；沙特以 SmackDown、西班牙队、Courtois、Torres、Raphinha、Lamine Yamal 等体育词和本地品牌/生活方式标签为主；土耳其可用低风险池偏体育、音乐和文化人物，如 Merino、İspanya、Oğuz Çetin、Yamal、Courtois、PAOK、Haluk Levent、Ahmet Kaya；越南优先 LingOrm、วาดฝันวันวิวาห์、Spain/Pháp、Ling and Orm 与 InLoveForever。",
     summaryRisk: "风险观察：印尼 memastikan nkri tangguh 属公共治理议题；沙特 سمو_تنخاكم、علاقات التعاون、القضايا الاقليميه 属本地争议、外交和地区政治观察；土耳其 WakeUpGuarantors、Garantörleri Uyandırın、FİLİSTİN'DE GERÇEK ATEŞKES、Tufan Erhürman 属政治/国际争议，HYBE/BELIFT 粉丝维权需争议复核；越南 $SLEEP、CASHCAT、TRC20-USDT 属币圈/广告风险。"
   },
@@ -63,13 +63,71 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-11 Six-Country Trend Brief",
+    summaryTitle: "2026-07-12 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia mixes Shopee instant shopping, Galaxy Unpacked/Fold, Oishi x GFSN, Mr. Kill, LingOrm, and Spain/Courtois/Yamal football; Thailand is led by Wedding Plan-style drama tags, LingOrm, Moshi Moshi x PondPhuwin, Siam Paragon x TCEX/GMMTV, ADogAndAPlane, Engfa/Charlotte, Oishi, William, and beauty-brand campaigns; the Philippines has LingOrm, SB19, All Star Games, Miguel/Caprice/Mafia Boss, Anguel, Major x Theewave, Carton, Winter Wimbledon, and Miu x Bobbi Brown; Saudi is sports-heavy around SmackDown, Spain, Courtois, Torres, Raphinha, and Lamine Yamal plus local lifestyle/brand tags; Turkey's low-risk pool is sports, music, and culture led by Merino, İspanya, Oğuz Çetin, Yamal, Courtois, PAOK, Haluk Levent, and Ahmet Kaya; Vietnam has LingOrm, Thai drama tags, Spain/France, Ling and Orm, and InLoveForever.",
     summaryRisk: "Risk watch: Indonesia's memastikan nkri tangguh is a civic-governance item; Saudi has local controversy plus diplomatic/regional-political watch terms around سمو_تنخاكم, علاقات التعاون, and القضايا الاقليميه; Turkey has political/international controversy around WakeUpGuarantors, Garantörleri Uyandırın, FİLİSTİN'DE GERÇEK ATEŞKES, and Tufan Erhürman, with HYBE/BELIFT fandom boycott tags needing review; Vietnam's $SLEEP, CASHCAT, and TRC20-USDT are crypto/ad risks."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-12",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#UFC329", "体育/赛事", "Sports / Event", "低", "Low", "UFC329", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#PeachAndMeSeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WELCOME TO THE FIRE", "综合/待分类", "General / To Classify", "灾害/纪念", "Disaster / Memorial", "WELCOME TO THE FIRE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NPP X LINGORM LOVE ORBIT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NPP X LINGORM LOVE ORBIT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KHUNPRACHUAY X HEART THAI", "品牌活动/消费", "Brand / Consumer", "低", "Low", "KHUNPRACHUAY X HEART THAI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Crazy Love MooMoo Final EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Crazy Love MooMoo Final EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#PeachAndMeSeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#UFC329", "体育/赛事", "Sports / Event", "低", "Low", "UFC329", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("LINGORM ILF EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PeachAndMeSeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PondPhuwin", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-11",
     title: {
