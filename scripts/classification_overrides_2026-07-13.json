@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-13",
+  "note": "Manual classification overrides for 2026-07-13 public trend captures. Focus is entertainment, football, music/fandom, celebrity-brand campaigns, Thai/Vietnamese drama, Saudi sports/local celebrity terms, and civic/disaster/adult risk-watch items.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#PeachAndMeSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "LOUDER THAN BOMBS": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Munich": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Sorloth": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#OishixGFSNTrip2026": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#OwnTheNewShape": {"typeZh": "品牌/科技活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#GalaxyUnpacked": {"typeZh": "品牌/科技活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "GFSN OISHI JAPAN TRIP": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "England": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#FoldTheDoubt": {"typeZh": "品牌/科技活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Norway": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Haaland": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "TCEX 2026 SIAM PARAGON": {"typeZh": "品牌/娱乐展会", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Bellingham": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "AMPG FIRST MEET PONPON": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Petani": {"typeZh": "公共/民生观察", "typeEn": "Civic / Political Watch", "riskZh": "公共/民生议题", "riskEn": "Civic / Public Issue"},
+        "PONDPHUWIN WITH TPLUS": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Switzerland": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "EVERYBODY YO-I-DON": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Yordania": {"typeZh": "政治/国际议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/国际议题", "riskEn": "Political / International Watch"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#ไฟไหม้": {"typeZh": "灾害/火灾观察", "typeEn": "Civic / Disaster Watch", "riskZh": "灾害/突发事件", "riskEn": "Disaster / Breaking Event"},
+        "#PeachAndMeSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#BYDSEALION5DMixLingLingKwong": {"typeZh": "汽车/明星代言", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#TAPE_ROOTS_BANGKOK_DAY2": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "LINGLING 1ST PRESENTER BYD": {"typeZh": "汽车/明星代言", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#วอลเลย์บอลหญิง": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA13": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "ZEENUNEW TNP FANSIGN": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE13": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "AMPG FIRST MEET PONPON": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TCEX 2026 SIAM PARAGON": {"typeZh": "品牌/娱乐展会", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "WELCOME TO THE FIRE": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "DAOU M&D FANFEST2026": {"typeZh": "明星/粉丝活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GINNY JAYNA LIFE LEVEL UP TALK": {"typeZh": "明星/访谈活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "NPP X LINGORM LOVE ORBIT": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "jjjfam first fansign": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "FORCE WITH DESTINY CLINIC": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "GFSN OISHI JAPAN TRIP": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "MARKJRTN X SWS BEAUTRIUM": {"typeZh": "美妆/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "BOOK WITH DNA MILK": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LINGORM ILF EP4": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "risa mv teaser x mp": {"typeZh": "音乐/MV 预告", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "THE EDGE OF HORIZON EP4": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Crazy Love MooMoo Final EP": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "purple neon fansign": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "BYD SEALION 5 DM-i": {"typeZh": "汽车/品牌活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "LOUDER THAN BOMBS": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "SB19 HEADLINES OPM": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BINI_SIGNALS_CEBU": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "BINI SIGNALS SA SUGBO": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#BINI_SIGNALS_WORLDTOUR_2026": {"typeZh": "音乐/演唱会", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#PeachAndMeSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#G22_TheEveOfAnAlpha": {"typeZh": "音乐/演出预热", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#G22TheFirstConcert": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "LINGLING 1ST PRESENTER BYD": {"typeZh": "汽车/明星代言", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "ALPHAS THE FIRST CONCERT": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "KRYSTAL MEJES TURNS EIGHTEEN": {"typeZh": "明星/生日应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "BGYOxSM NOVALICHES": {"typeZh": "音乐/商场活动", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Norway": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "LIFUN WITH RHENSEPH": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "KAI COMES ASHORE": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "GINNY JAYNA LIFE LEVEL UP TALK": {"typeZh": "明星/访谈活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "xonara waves opmcon": {"typeZh": "音乐/演出/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "England": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "begin again with enhypen": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Germany": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "kolette in afterglow": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "CARTON GABI NG PANANABIK": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "#سمو_تنخااكم": {"typeZh": "本地互动/争议观察", "typeEn": "Lifestyle / Local Trend", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "#خليك_تريند_اولθち5θち2θ129": {"typeZh": "低质广告/刷榜", "typeEn": "General / To Classify", "riskZh": "低质广告/刷榜风险", "riskEn": "Low-Quality Ad / Spam Risk"},
+        "#دحام_الضحيك": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "إنجلترا": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "نصف النهايي": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "الفاريز": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "توخيل": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "بنزيما": {"typeZh": "体育/球星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "نورت الرياض": {"typeZh": "生活方式/本地互动", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "القانون الجديد": {"typeZh": "法律/公共政策观察", "typeEn": "Civic / Legal Watch", "riskZh": "法律/公共政策观察", "riskEn": "Legal / Public Policy Watch"},
+        "قانون جديد": {"typeZh": "法律/公共政策观察", "typeEn": "Civic / Legal Watch", "riskZh": "法律/公共政策观察", "riskEn": "Legal / Public Policy Watch"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Haluk Levent": {"typeZh": "音乐/公益人物", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#daha17": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Kızılay": {"typeZh": "公共机构/公益观察", "typeEn": "Civic / Political Watch", "riskZh": "公共机构/争议复核", "riskEn": "Civic / Institution Review"},
+        "#uşakbayAn": {"typeZh": "成人/低质广告", "typeEn": "General / To Classify", "riskZh": "成人/低质广告风险", "riskEn": "Adult / Low-Quality Ad Risk"},
+        "Yenal Duğral": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ahbap": {"typeZh": "公益/社会组织观察", "typeEn": "Civic / Political Watch", "riskZh": "公共机构/争议复核", "riskEn": "Civic / Institution Review"},
+        "Ece Güner": {"typeZh": "政治/公共人物观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/公共人物", "riskEn": "Political / Public Figure"},
+        "Teoman": {"typeZh": "音乐/艺人", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Baraj": {"typeZh": "公共/灾害风险观察", "typeEn": "Civic / Disaster Watch", "riskZh": "灾害/公共安全", "riskEn": "Disaster / Public Safety"},
+        "#United_we_boycottBELIFT": {"typeZh": "音乐/粉丝维权", "typeEn": "Music / Show / Release", "riskZh": "争议/需复核", "riskEn": "Controversy / Review"},
+        "Dani Ceballos": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Diaz": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Deprem": {"typeZh": "灾害/地震观察", "typeEn": "Civic / Disaster Watch", "riskZh": "灾害/地震", "riskEn": "Disaster / Earthquake"},
+        "Kerem Kınık": {"typeZh": "公共机构/人物观察", "typeEn": "Civic / Political Watch", "riskZh": "公共机构/争议复核", "riskEn": "Civic / Institution Review"},
+        "Irak": {"typeZh": "政治/国际议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/国际议题", "riskEn": "Political / International Watch"},
+        "Antony": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Abdullah Kavukcu": {"typeZh": "体育/俱乐部人物", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "LOUDER THAN BOMBS": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Sıla": {"typeZh": "音乐/艺人", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Al Ahli": {"typeZh": "体育/俱乐部话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "İzmir Marşı": {"typeZh": "音乐/文化话题", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Devlete": {"typeZh": "政治/公共议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/公共议题", "riskEn": "Political / Civic Issue"},
+        "Kumar": {"typeZh": "赌博/低质广告风险", "typeEn": "General / To Classify", "riskZh": "赌博/低质广告风险", "riskEn": "Gambling / Low-Quality Ad Risk"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "LINGLING 1ST PRESENTER BYD": {"typeZh": "汽车/明星代言", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Louis Phạm": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#PeachAndMeSeriesEP1": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Sphere": {"typeZh": "娱乐/演出场馆话题", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "arcade house": {"typeZh": "娱乐/生活方式", "typeEn": "Lifestyle / Local Trend", "riskZh": "低", "riskEn": "Low"},
+        "#วาดฝันวันวิวาห์EP4": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "#WINTERxWimbledon": {"typeZh": "体育/明星出行", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "PondPhuwin": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "England": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#윈터_윔블던으로가자": {"typeZh": "体育/明星出行", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Switzerland": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Unicity": {"typeZh": "品牌/生活方式", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#BeverTonliew1stFMinVN": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "BYD SEALION 5 DM-i": {"typeZh": "汽车/品牌活动", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "Lindsey Graham": {"typeZh": "政治/国际议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治/国际议题", "riskEn": "Political / International Watch"},
+        "Norway": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "jjjfam first fansign": {"typeZh": "明星/粉丝见面会", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TCEX 2026 SIAM PARAGON": {"typeZh": "品牌/娱乐展会", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Trần Hà Linh": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
