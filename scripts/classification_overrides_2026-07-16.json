@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-16",
+  "note": "Manual classification overrides for 2026-07-16 public trend captures. Focus is World Cup/Argentina-England football terms, Thai drama/fandom/brand activity, Philippines BINI/K-pop/series and political watch, Saudi football/Al Nassr deal debate, Turkey football/club transfer and political watch, and Vietnam Thai-series/fandom/brand/football topics.",
+  "countries": {
+    "id": {
+      "topics": {
+        "Tuchel": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Gordon": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Lautaro": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Enzo": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Pickford": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Barca": {"typeZh": "体育/俱乐部话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Rice": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Spence": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Dan Burn": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Maguire": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Bellingham": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Konsa": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Scaloni": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Southgate": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Barcelona": {"typeZh": "体育/俱乐部话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Final Piala Dunia": {"typeZh": "体育/世界杯决赛", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ENGARG": {"typeZh": "体育/赛事标签", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "th": {
+      "topics": {
+        "#บอลโลก": {"typeZh": "体育/世界杯话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#เชียงใหม่มันดีที่มีเธอ": {"typeZh": "旅行/本地活动", "typeEn": "Travel / Local Event", "riskZh": "低", "riskEn": "Low"},
+        "#SFxJanJingjingJewel": {"typeZh": "品牌/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "FLOURISHING GROWTH ENGFA16": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#TagiXTeetee": {"typeZh": "明星/粉丝活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "JJJFAM KPCZ WITH MOANA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "TWNPICH AT CTW": {"typeZh": "明星/线下活动", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "SIMPLY BE CHARLOTTE16": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "BOARDING CALL FOR DITTO": {"typeZh": "剧集/粉丝活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "THEE WAVE WITH CERAVE": {"typeZh": "美妆/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "LOVE FINDS WAY ENGLOT16": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LITTLE MIRACLE WITH LENAMIU": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "WE ARE LITTLE DEVIL": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "CHERMCHEY LAST ORDER": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "PRESS TOUR MATCHPOINT": {"typeZh": "剧集/宣传活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "ph": {
+      "topics": {
+        "#JolliBINI": {"typeZh": "品牌/音乐联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#DINO_LoveSick_OutNow": {"typeZh": "音乐/发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "#CeraVeHAWaterGelxTheeWave": {"typeZh": "美妆/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#피절인_아프지않은이별은없다": {"typeZh": "K-pop/音乐发布", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "THEE WAVE WITH CERAVE": {"typeZh": "美妆/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "#AHOF7thWin": {"typeZh": "K-pop/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "dustbia live actually": {"typeZh": "剧集/直播讨论", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "andito na si sen risa": {"typeZh": "政治/人物议题观察", "typeEn": "Civic / Political Watch", "riskZh": "政治", "riskEn": "Political"},
+        "BOARDING CALL FOR DITTO": {"typeZh": "剧集/粉丝活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "SB19 STELL IS GOATED": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "Angel Locsin": {"typeZh": "明星/本地名人", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "LITTLE MIRACLE WITH LENAMIU": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "CARMELLE SHINES AT NINETEEN": {"typeZh": "明星/生日应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "celestine in peril": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "CARTON BEYOND LIMITS": {"typeZh": "音乐/粉丝应援", "typeEn": "Music / Show / Release", "riskZh": "低", "riskEn": "Low"},
+        "miguel sparks kilig": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "sa": {
+      "topics": {
+        "ميسي": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#الارجنتين_انجلترا": {"typeZh": "体育/赛事标签", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "توخيل": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كره القدم": {"typeZh": "体育/足球话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#من_يعرقل_صفقات_النصر": {"typeZh": "体育/俱乐部争议", "typeEn": "Sports / Event", "riskZh": "体育争议/俱乐部交易", "riskEn": "Sports Controversy / Club Deals"},
+        "#الداعم_الخفي": {"typeZh": "体育/俱乐部争议", "typeEn": "Sports / Event", "riskZh": "体育争议/俱乐部交易", "riskEn": "Sports Controversy / Club Deals"},
+        "روميرو": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "كاس عالم": {"typeZh": "体育/世界杯话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "ملك اللعبه": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "هاري كين": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "سيميوني": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "برشلونة": {"typeZh": "体育/俱乐部话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "باريديس": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "tr": {
+      "topics": {
+        "Messi": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Arjantin": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#ENGARG": {"typeZh": "体育/赛事标签", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Tuchel": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Mauro Icardi": {"typeZh": "体育/俱乐部球星", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#sela": {"typeZh": "体育/品牌/赞助话题", "typeEn": "Brand / Consumer", "riskZh": "低", "riskEn": "Low"},
+        "#ComeToBeşiktaşSalah": {"typeZh": "体育/转会粉丝话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Galatasaraylı": {"typeZh": "体育/俱乐部话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#England": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Maradona": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "GOAT": {"typeZh": "体育/明星讨论", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "İngilizler": {"typeZh": "体育/赛事讨论", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Enzo": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Ömer Üründül": {"typeZh": "体育/评论员话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Spence": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Gordon": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Pickford": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "BAŞKOMUTAN ERDOĞAN": {"typeZh": "政治人物/宣传口号", "typeEn": "Civic / Political Watch", "riskZh": "政治/公共议题", "riskEn": "Political / Civic Watch"},
+        "Lautaro Martinez": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    },
+    "vn": {
+      "topics": {
+        "Argentina": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Messi": {"typeZh": "体育/明星话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#DittoSeries": {"typeZh": "剧集/综艺/娱乐", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "BOARDING CALL FOR DITTO": {"typeZh": "剧集/粉丝活动", "typeEn": "Drama / Variety / Entertainment", "riskZh": "低", "riskEn": "Low"},
+        "Block Rocket": {"typeZh": "加密/投机观察", "typeEn": "Finance / Crypto (Watch)", "riskZh": "投机/币圈/广告风险", "riskEn": "Speculation / Crypto-Shill Risk"},
+        "Tuchel": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "Southgate": {"typeZh": "体育/赛事", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "#MilkLove": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#GetWellSoonKeonho": {"typeZh": "明星/健康应援", "typeEn": "Celebrity / Fandom", "riskZh": "健康/医疗相关", "riskEn": "Health / Medical Watch"},
+        "#มิ้ลค์เลิฟ": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "#TAGHeuerxFaye": {"typeZh": "奢侈品/明星联动", "typeEn": "Brand / Celebrity Campaign", "riskZh": "低", "riskEn": "Low"},
+        "Tây Ban Nha": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"},
+        "JJJFAM KPCZ WITH MOANA": {"typeZh": "明星/粉丝应援", "typeEn": "Celebrity / Fandom", "riskZh": "低", "riskEn": "Low"},
+        "Spain": {"typeZh": "体育/赛事/国家队话题", "typeEn": "Sports / Event", "riskZh": "低", "riskEn": "Low"}
+      }
+    }
+  }
+}
