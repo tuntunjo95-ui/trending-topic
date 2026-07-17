@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-16 六国热点话题日报",
-    summaryPriority: "优先深挖：今天六国共同被 Argentina/England 世界杯决赛和 Messi/Tuchel/球员词带动；印尼以 Messi、Argentina、Tuchel、Lautaro、Pickford、Bellingham、Final Piala Dunia、#ENGARG 为主；泰国同时有 #บอลโลก、เชียงใหม่旅行标签、When Oranges Fall EP10、SF x JanJingjing、Engfa/Charlotte、Ditto、CeraVe、AI Girl 等剧集粉丝和品牌活动；菲律宾优先 JolliBINI、DINO Love Sick、CeraVe x Thee Wave、AHOF、SB19 Stell、Angel Locsin、Carmelle、Darna/剧综词；沙特以 Messi、Argentina-England、World Cup、Al Nassr 交易讨论和 Barcelona 等体育词为主；土耳其以 Messi、Arjantin、ENGARG、Icardi、Beşiktaş Salah、Galatasaray、Maradona、Ömer Üründül 等足球池为主；越南优先 Ditto Series、MilkLove、TAG Heuer x Faye、JJJFAM/Moana、Tây Ban Nha/Spain 与 Messi/Argentina 足球词。",
-    summaryRisk: "风险观察：菲律宾 andito na si sen risa 属政治人物议题；沙特 #من_يعرقل_صفقات_النصر、#الداعم_الخفي 属体育争议/俱乐部交易话题；土耳其 BAŞKOMUTAN ERDOĞAN 属政治/公共议题；越南 Block Rocket 属投机/币圈广告风险，#GetWellSoonKeonho 属健康/医疗相关应援，进入人工复核池。"
+    summaryTitle: "2026-07-17 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼以 Motorola Razr Fold/Unfold Flawless、JDJAIDEE x SF Moana、JoongDunk/SF、Wonwoo 生日应援、Messi/Argentina/Tuchel、Phuwin x 2Stories 和 Pos Indonesia 为主；泰国集中在 TENCORE Concert、ซอโซ่ล่ามธีร์ 首播、Be My Player Two、Engfa/Charlotte、JDJAIDEE、Thai Products、True5G Thepleela、GrabFood、MR Fanboy、JimJuForce 和 Ditto；菲律宾优先 Wonwoo/JWW 生日影视应援、HEATHJORNALES/StreamHMJMusic、JolliBINI、Dustbia、Taekook、SB19 Ken、AZ Tnalak Fest、Carmelle、DRALYS 与剧综粉丝词；沙特以 Qalamsi 应用、Messi、Argentina-England、Tuchel、football、Simeone 和 coupon/app 广告词为主；土耳其低风险池为 Adalı Bize Salahı Getir、Esra Ezmeci、Bremer、Lemina、İlyas Yalçıntaş、Zeki Çelik、Onuachu 等体育/娱乐词；越南优先 VertuoWorld with LingOrm、LingOrm x Nespresso、JDJAIDEE x SF Moana 和 Chloé 时尚品牌词。",
+    summaryRisk: "风险观察：印尼 pastikan manfaat terbaik、Qodari 属公共民生/政治人物议题；泰国 บัตรสวัสดิการแห่งรัฐ 属政府福利/民生政策；菲律宾 NANDITO NA ANG USAD 属政治公共议题；沙特婚恋应用、宗教公益、优惠码广告、Kuwait/Trump speech 属广告、宗教公益或国际政治观察；土耳其 Minguzzi 法案、Belift 艺人过劳/抵制、Ucuz Can Ucuz、Yargı Paketi 属法律政治、粉丝维权或公共安全争议。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,127 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-16 Six-Country Trend Brief",
-    summaryPriority: "Priority: all six markets are driven by Argentina-England World Cup terms plus Messi, Tuchel, and player names. Indonesia is led by Messi, Argentina, Tuchel, Lautaro, Pickford, Bellingham, Final Piala Dunia, and #ENGARG; Thailand combines #บอลโลก with Chiang Mai travel, When Oranges Fall EP10, SF x JanJingjing, Engfa/Charlotte, Ditto, CeraVe, and AI Girl; the Philippines has JolliBINI, DINO Love Sick, CeraVe x Thee Wave, AHOF, SB19 Stell, Angel Locsin, Carmelle, and drama-variety terms; Saudi is mostly Messi, Argentina-England, World Cup, Al Nassr deal debate, and Barcelona; Turkey centers on Messi, Arjantin, ENGARG, Icardi, Beşiktaş Salah, Galatasaray, Maradona, and Ömer Üründül; Vietnam has Ditto Series, MilkLove, TAG Heuer x Faye, JJJFAM/Moana, Tây Ban Nha/Spain, and Messi/Argentina football terms.",
-    summaryRisk: "Risk watch: the Philippines has andito na si sen risa as a political-person topic; Saudi has #من_يعرقل_صفقات_النصر and #الداعم_الخفي as sports controversy/club-deal items; Turkey has BAŞKOMUTAN ERDOĞAN as a political/civic watch item; Vietnam has Block Rocket crypto-ad risk and #GetWellSoonKeonho health/medical fandom support for manual review."
+    summaryTitle: "2026-07-17 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia is led by Motorola Razr Fold/Unfold Flawless, JDJAIDEE x SF Moana, JoongDunk/SF, Wonwoo birthday fandom, Messi/Argentina/Tuchel, Phuwin x 2Stories, and Pos Indonesia; Thailand has TENCORE Concert, ซอโซ่ล่ามธีร์ premiere, Be My Player Two, Engfa/Charlotte, JDJAIDEE, Thai Products, True5G Thepleela, GrabFood, MR Fanboy, JimJuForce, and Ditto; the Philippines has Wonwoo/JWW birthday-film fandom, HEATHJORNALES/StreamHMJMusic, JolliBINI, Dustbia, Taekook, SB19 Ken, AZ Tnalak Fest, Carmelle, DRALYS, and drama fandom terms; Saudi is led by Qalamsi app, Messi, Argentina-England, Tuchel, football, Simeone, plus coupon/app ad terms; Turkey's lower-risk pool is Adalı Bize Salahı Getir, Esra Ezmeci, Bremer, Lemina, İlyas Yalçıntaş, Zeki Çelik, and Onuachu; Vietnam has VertuoWorld with LingOrm, LingOrm x Nespresso, JDJAIDEE x SF Moana, and Chloé fashion-brand terms.",
+    summaryRisk: "Risk watch: Indonesia has pastikan manfaat terbaik and Qodari as civic/political-person items; Thailand has บัตรสวัสดิการแห่งรัฐ as a welfare-policy topic; the Philippines has NANDITO NA ANG USAD as a political/civic watch item; Saudi has dating-app, religious/public-welfare, coupon-ad, Kuwait, and Trump speech watch items; Turkey has the Minguzzi bill, Belift overwork/boycott, Ucuz Can Ucuz, and Yargı Paketi as legal-political, fan-labor, or public-safety controversy topics."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-17",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#MotorolaRazrFold", "手机/科技新品", "Brand / Consumer", "低", "Low", "MotorolaRazrFold", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Unfold Flawless", "手机/折叠屏品牌活动", "Brand / Consumer", "低", "Low", "Unfold Flawless", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JDJAIDEE ABCERI X SF MOANA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JDJAIDEE ABCERI X SF MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SFxJoongDunkJaidee", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "SFxJoongDunkJaidee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#30FilmsWithJWW", "明星/影视粉丝活动", "Celebrity / Fandom", "低", "Low", "30FilmsWithJWW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#전원우_MOYA_생일_MOYA", "K-pop/生日应援", "Celebrity / Fandom", "低", "Low", "전원우_MOYA_생일_MOYA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#kargohajipos", "物流/品牌活动", "Brand / Consumer", "低", "Low", "kargohajipos", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("pastikan manfaat terbaik", "公共服务/民生观察", "Civic / Political Watch", "公共民生议题", "Civic / Public Welfare Watch", "pastikan manfaat terbaik", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Messi", "体育/明星话题", "Sports / Event", "低", "Low", "Messi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Qodari", "政治人物/公共议题观察", "Civic / Political Watch", "政治/公共议题", "Political / Civic Watch", "Qodari", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("wonwoo", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "wonwoo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Tuchel", "体育/赛事", "Sports / Event", "低", "Low", "Tuchel", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PHUWIN TEE X 2STORIES", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "PHUWIN TEE X 2STORIES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("pos indonesia", "物流/品牌话题", "Brand / Consumer", "低", "Low", "pos indonesia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Inggris", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Inggris", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#TENCORE0110Concert_Day1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "TENCORE0110Concert_Day1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ซอโซ่ล่ามธีร์ตอนแรกมาแล้ว", "剧集/首播话题", "Drama / Variety / Entertainment", "低", "Low", "ซอโซ่ล่ามธีร์ตอนแรกมาแล้ว", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BE MY PLAYER TWO FIRST EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO FIRST EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#บัตรสวัสดิการแห่งรัฐ", "政府福利/公共政策", "Civic / Political Watch", "政治/民生政策", "Political / Livelihood Policy", "บัตรสวัสดิการแห่งรัฐ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA17", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA17", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE17", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE17", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JDJAIDEE ABCERI X SF MOANA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JDJAIDEE ABCERI X SF MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BS BROTHERS X THAI PRODUCTS", "品牌活动/本土产品", "Brand / Consumer", "低", "Low", "BS BROTHERS X THAI PRODUCTS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TTP TRUE5G THEPLEELA", "电信品牌/娱乐联动", "Brand / Celebrity Campaign", "低", "Low", "TTP TRUE5G THEPLEELA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NNN EFMFANDOM 2026", "明星/粉丝活动", "Celebrity / Fandom", "低", "Low", "NNN EFMFANDOM 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GRABFOOD X GF LKN", "外卖品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "GRABFOOD X GF LKN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q28", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q28", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JIMJUFORCE BIRDY EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "JIMJUFORCE BIRDY EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jjjfam kpcz with moana", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jjjfam kpcz with moana", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BOARDING CALL FOR DITTO", "剧集/粉丝活动", "Drama / Variety / Entertainment", "低", "Low", "BOARDING CALL FOR DITTO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINE MAN LIVE x THEE WAVE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LINE MAN LIVE x THEE WAVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#30FilmsWithJWW", "明星/影视粉丝活动", "Celebrity / Fandom", "低", "Low", "30FilmsWithJWW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#전원우_MOYA_생일_MOYA", "K-pop/生日应援", "Celebrity / Fandom", "低", "Low", "전원우_MOYA_생일_MOYA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("wonwoo", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "wonwoo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NANDITO NA ANG USAD", "政治/社会口号观察", "Civic / Political Watch", "政治/公共议题", "Political / Civic Watch", "NANDITO NA ANG USAD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#theMiddle", "音乐/娱乐标签", "Music / Show / Release", "低", "Low", "theMiddle", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HEATHJORNALES EP OUT NOW", "音乐/发布", "Music / Show / Release", "低", "Low", "HEATHJORNALES EP OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#StreamHMJMusic", "音乐/播放应援", "Music / Show / Release", "低", "Low", "StreamHMJMusic", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#JolliBINI", "品牌/音乐联动", "Brand / Celebrity Campaign", "低", "Low", "JolliBINI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("wonu", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "wonu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("dustbia media day", "剧集/媒体活动", "Drama / Variety / Entertainment", "低", "Low", "dustbia media day", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("taekook", "K-pop/粉丝话题", "Celebrity / Fandom", "低", "Low", "taekook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("itss dustbia love", "剧集/粉丝话题", "Drama / Variety / Entertainment", "低", "Low", "itss dustbia love", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("balibaliktarin salubong", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "balibaliktarin salubong", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("angel is ready", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "angel is ready", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("AZ ROCKS TNALAK FEST", "音乐/本地节庆活动", "Music / Show / Release", "低", "Low", "AZ ROCKS TNALAK FEST", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("carmelle shines at nineteen", "明星/生日应援", "Celebrity / Fandom", "低", "Low", "carmelle shines at nineteen", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DRALYS BREAKIN6 TRUTH", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DRALYS BREAKIN6 TRUTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SB19 KEN IS GOATED", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "SB19 KEN IS GOATED", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#تزوج_بسهوله_مع_تطبيق_استقرار", "婚恋应用广告", "Brand / Consumer", "低质广告/婚恋推广", "Low-Quality Ad / Dating App", "تزوج_بسهوله_مع_تطبيق_استقرار", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#سقيا_المعتمرين__يوم_الجمعه", "宗教/公益活动观察", "Civic / Political Watch", "宗教/公益议题", "Religious / Public Welfare Watch", "سقيا_المعتمرين__يوم_الجمعه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#تطبيق_قلمسي", "应用/品牌活动", "Brand / Consumer", "低", "Low", "تطبيق_قلمسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ميسي", "体育/明星话题", "Sports / Event", "低", "Low", "ميسي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#الارجنتين_انجلترا", "体育/赛事标签", "Sports / Event", "低", "Low", "الارجنتين_انجلترا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("توخيل", "体育/赛事", "Sports / Event", "低", "Low", "توخيل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كود كوبون", "优惠码/广告推广", "Brand / Consumer", "低质广告/促销风险", "Low-Quality Ad / Promo Risk", "كود كوبون", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كره القدم", "体育/足球话题", "Sports / Event", "低", "Low", "كره القدم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سيميوني", "体育/赛事", "Sports / Event", "低", "Low", "سيميوني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("خطاب ترامب", "政治人物/国际议题观察", "Civic / Political Watch", "政治/国际争议", "Political / International Controversy", "خطاب ترامب", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الكويت", "地区/国际议题观察", "Civic / Political Watch", "地区/国际议题", "Regional / International Watch", "الكويت", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#AdalıBizeSalahıGetir", "体育/转会粉丝话题", "Sports / Event", "低", "Low", "AdalıBizeSalahıGetir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Esra Ezmeci", "电视/名人话题", "Celebrity / Fandom", "低", "Low", "Esra Ezmeci", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MinguzziYasasıTBMM", "法律/议会公共议题", "Civic / Political Watch", "法律/政治争议", "Legal / Political Controversy", "MinguzziYasasıTBMM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bremer", "体育/转会/球员话题", "Sports / Event", "低", "Low", "Bremer", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lemina", "体育/转会/球员话题", "Sports / Event", "低", "Low", "Lemina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("İlyas Yalçıntaş", "音乐/歌手话题", "Music / Show / Release", "低", "Low", "İlyas Yalçıntaş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Zeki Çelik", "体育/转会/球员话题", "Sports / Event", "低", "Low", "Zeki Çelik", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Onuachu", "体育/转会/球员话题", "Sports / Event", "低", "Low", "Onuachu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#VertuoWorldwithLingOrm", "咖啡品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "VertuoWorldwithLingOrm", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM X NESPRESSO", "咖啡品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "LINGORM X NESPRESSO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JDJAIDEE ABCERI X SF MOANA", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "JDJAIDEE ABCERI X SF MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Chloe", "时尚/品牌话题", "Fashion / Brand Event", "低", "Low", "Chloe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-16",
     title: {

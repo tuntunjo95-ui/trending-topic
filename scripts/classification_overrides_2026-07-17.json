@@ -1,0 +1,636 @@
+{
+  "date": "2026-07-17",
+  "note": "Manual classification overrides for 2026-07-17 public trend captures. Focus is Motorola/Razr and Thai celebrity-brand campaigns, K-pop/Wonwoo fandom, Philippines music and drama fandom, Saudi app/spam/football/political watch, Turkey football/music/drama/legal/political watch, and Vietnam LingOrm/Nespresso/fashion-brand topics.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#MotorolaRazrFold": {
+          "typeZh": "手机/科技新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Unfold Flawless": {
+          "typeZh": "手机/折叠屏品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JDJAIDEE ABCERI X SF MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "terangi desa": {
+          "typeZh": "公益/乡村项目观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共民生/公益议题",
+          "riskEn": "Civic / Public Welfare Watch"
+        },
+        "#SFxJoongDunkJaidee": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#30FilmsWithJWW": {
+          "typeZh": "明星/影视粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#전원우_MOYA_생일_MOYA": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#kargohajipos": {
+          "typeZh": "物流/品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "pastikan manfaat terbaik": {
+          "typeZh": "公共服务/民生观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共民生议题",
+          "riskEn": "Civic / Public Welfare Watch"
+        },
+        "Messi": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Qodari": {
+          "typeZh": "政治人物/公共议题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "Argentina": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Tuchel": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wonwoo": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PHUWIN TEE X 2STORIES": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "pos indonesia": {
+          "typeZh": "物流/品牌话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Inggris": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "VAMPIRE BRAND UNVEILED": {
+          "typeZh": "剧集/品牌发布",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wanam pangan kita": {
+          "typeZh": "农业/粮食公共议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "民生/公共政策",
+          "riskEn": "Livelihood / Public Policy Watch"
+        },
+        "80w turbopowertm": {
+          "typeZh": "手机/充电技术卖点",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#ซอโซ่ล่ามธีร์ตอนแรกมาแล้ว": {
+          "typeZh": "剧集/首播话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BE MY PLAYER TWO FIRST EP": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA17": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#บัตรสวัสดิการแห่งรัฐ": {
+          "typeZh": "政府福利/公共政策",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/民生政策",
+          "riskEn": "Political / Livelihood Policy"
+        },
+        "#VertuoWorldwithLingOrm": {
+          "typeZh": "咖啡品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE17": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#เชียงใหม่มันดีที่มีเธอ": {
+          "typeZh": "旅行/本地活动",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM X NESPRESSO": {
+          "typeZh": "咖啡品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#TENCORE0110Concert": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JDJAIDEE ABCERI X SF MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BS BROTHERS X THAI PRODUCTS": {
+          "typeZh": "品牌活动/本土产品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TTP TRUE5G THEPLEELA": {
+          "typeZh": "电信品牌/娱乐联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "NNN EFMFANDOM 2026": {
+          "typeZh": "明星/粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "GRABFOOD X GF LKN": {
+          "typeZh": "外卖品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TONSOM 10TH EPISODE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "mr fanboy q28": {
+          "typeZh": "剧集/拍摄动态",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BOARDING CALL FOR DITTO": {
+          "typeZh": "剧集/粉丝活动",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JIMJUFORCE BIRDY EP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "jjjfam kpcz with moana": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PHUWIN TEE X 2STORIES": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "#30FilmsWithJWW": {
+          "typeZh": "明星/影视粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#전원우_MOYA_생일_MOYA": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wonwoo": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "NANDITO NA ANG USAD": {
+          "typeZh": "政治/社会口号观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "#theMiddle": {
+          "typeZh": "音乐/娱乐标签",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "HEATHJORNALES EP OUT NOW": {
+          "typeZh": "音乐/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#StreamHMJMusic": {
+          "typeZh": "音乐/播放应援",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Argentina": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#JolliBINI": {
+          "typeZh": "品牌/音乐联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wonu": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "dustbia media day": {
+          "typeZh": "剧集/媒体活动",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "taekook": {
+          "typeZh": "K-pop/粉丝话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "itss dustbia love": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "balibaliktarin salubong": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "angel is ready": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SB19 KEN IS GOATED": {
+          "typeZh": "音乐/粉丝应援",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "AZ ROCKS TNALAK FEST": {
+          "typeZh": "音乐/本地节庆活动",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "carmelle shines at nineteen": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DRALYS BREAKIN6 TRUTH": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LITTLE MIRACLE WITH LENAMIU": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#تزوج_بسهوله_مع_تطبيق_استقرار": {
+          "typeZh": "婚恋应用广告",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低质广告/婚恋推广",
+          "riskEn": "Low-Quality Ad / Dating App"
+        },
+        "#سقيا_المعتمرين__يوم_الجمعه": {
+          "typeZh": "宗教/公益活动观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "宗教/公益议题",
+          "riskEn": "Religious / Public Welfare Watch"
+        },
+        "#تطبيق_قلمسي": {
+          "typeZh": "应用/品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ميسي": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#الارجنتين_انجلترا": {
+          "typeZh": "体育/赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "توخيل": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كود كوبون": {
+          "typeZh": "优惠码/广告推广",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低质广告/促销风险",
+          "riskEn": "Low-Quality Ad / Promo Risk"
+        },
+        "سيميوني": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الكويت": {
+          "typeZh": "地区/国际议题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "地区/国际议题",
+          "riskEn": "Regional / International Watch"
+        },
+        "كره القدم": {
+          "typeZh": "体育/足球话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "فابينهو": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "برشلونة": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "روميرو": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "قصر السلام": {
+          "typeZh": "政治/政府机构观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "خوان لابورتا": {
+          "typeZh": "体育/俱乐部管理层话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ليكيب": {
+          "typeZh": "体育/媒体话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "خطاب ترامب": {
+          "typeZh": "政治人物/国际议题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/国际争议",
+          "riskEn": "Political / International Controversy"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "Lemina": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bremer": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#MinguzziYasasıTBMM": {
+          "typeZh": "法律/议会公共议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "法律/政治争议",
+          "riskEn": "Legal / Political Controversy"
+        },
+        "#MuhtemelAşk": {
+          "typeZh": "剧集/娱乐话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Davinson": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Esra Ezmeci": {
+          "typeZh": "电视/名人话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Onuachu": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#AdalıBizeSalahıGetir": {
+          "typeZh": "体育/转会粉丝话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Zeki Çelik": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BeliftStopOverworkingArtists": {
+          "typeZh": "K-pop/艺人劳工争议",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "粉丝维权/劳工争议",
+          "riskEn": "Fan Labor Controversy"
+        },
+        "#Boycott_Belift_Management": {
+          "typeZh": "K-pop/粉丝抵制",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "粉丝抵制/争议",
+          "riskEn": "Fan Boycott / Controversy"
+        },
+        "İncirler": {
+          "typeZh": "音乐/歌曲话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Albayrak Hazır Beton": {
+          "typeZh": "品牌/企业话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Masfen Enerji": {
+          "typeZh": "品牌/企业话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ucuz Can Ucuz": {
+          "typeZh": "社会/公共安全口号",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共安全/社会争议",
+          "riskEn": "Public Safety / Social Controversy"
+        },
+        "İlyas Yalçıntaş": {
+          "typeZh": "音乐/歌手话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Juventus": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Guirassy": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Di Marzio": {
+          "typeZh": "体育/转会媒体话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Yargı Paketi": {
+          "typeZh": "司法改革/法律议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "法律/政治议题",
+          "riskEn": "Legal / Political Watch"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#VertuoWorldwithLingOrm": {
+          "typeZh": "咖啡品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM X NESPRESSO": {
+          "typeZh": "咖啡品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Chloe": {
+          "typeZh": "时尚/品牌话题",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JDJAIDEE ABCERI X SF MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    }
+  }
+}
