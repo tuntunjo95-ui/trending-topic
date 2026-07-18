@@ -1,0 +1,600 @@
+{
+  "date": "2026-07-18",
+  "note": "Manual classification overrides for 2026-07-18 public trend captures. Focus is coffee/phone/Thai drama/K-pop/fandom/brand campaigns, Saudi app/ad/religious/public-safety/football watch items, Turkey football/transfers/TV/political-legal watch, and Vietnam LingOrm drama/fashion topics.",
+  "countries": {
+    "id": {
+      "topics": {
+        "piknik lightplus": {
+          "typeZh": "品牌/户外活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#KopiKenanganxNCTHAECHAN": {
+          "typeZh": "咖啡品牌/K-pop 联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#lightperiencepicnic": {
+          "typeZh": "品牌/户外活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "mengabdi menjalankan tugas": {
+          "typeZh": "公共服务/政治口号观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "#motorolarazrfold": {
+          "typeZh": "手机/科技新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertLIVE": {
+          "typeZh": "音乐/演唱会直播",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PERTHSANTA READY DEVILKISS": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "kerja bersama global": {
+          "typeZh": "公共服务/政策口号观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "#ADogAndAPlaneEP8": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JDJAIDEE ABCERI X SF MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "unfold flawless": {
+          "typeZh": "手机/折叠屏品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KNP IN NEW YORK": {
+          "typeZh": "明星/旅行内容",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JOONG LEGEND100 NEW FACE": {
+          "typeZh": "明星/粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TIPRACHA LUNAR X MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Samsung": {
+          "typeZh": "手机/科技品牌",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DWY LIMITED VERSION": {
+          "typeZh": "剧集/粉丝内容",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wonwoo": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#วาดฝันวันวิวาห์EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#TENCORE0110Concert_Day1": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#kengnampinginUSA": {
+          "typeZh": "明星/旅行内容",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KNP IN NEW YORK": {
+          "typeZh": "明星/旅行内容",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ด้วงกับเธอที่Netflix": {
+          "typeZh": "Netflix/剧集话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DWY LIMITED VERSION": {
+          "typeZh": "剧集/粉丝内容",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ADogAndAPlaneEP8": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BE MY PLAYER TWO FIRST EP": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "MARKJRTN PRES DRALLY": {
+          "typeZh": "品牌/明星活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA18": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE18": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "EST OUR NEW PRESENTER": {
+          "typeZh": "品牌/明星代言",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PERTHSANTA READY DEVILKISS": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PURPLE NEON DEBUT MV": {
+          "typeZh": "音乐/MV 发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LOVE FINDS WAY ENGLOT18": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "CREATIVE SOUL X TEETUT": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JDJAIDEE ABCERI X SF MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "MAGIC DREAMSCAPE JIMMYSEA": {
+          "typeZh": "明星/粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DBTE RULES EP4": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "#theMiddle": {
+          "typeZh": "音乐/娱乐标签",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#30FilmsWithJWW": {
+          "typeZh": "明星/影视粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#전원우_MOYA_생일_MOYA": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "wonwoo": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#วาดฝันวันวิวาห์EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BringNCT127ToManila": {
+          "typeZh": "K-pop/演唱会粉丝诉求",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bring The Redline To Manila": {
+          "typeZh": "K-pop/演唱会粉丝诉求",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "HEATHJORNALES EP OUT NOW": {
+          "typeZh": "音乐/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DWY LIMITED VERSION": {
+          "typeZh": "剧集/粉丝内容",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "AEZEKE MOOURNING": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "angels magical moment": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE ALIBI IWANTTFC FINALE": {
+          "typeZh": "剧集/结局话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "kolette bvd ilo-ilo": {
+          "typeZh": "明星/本地活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "sb19 ken is goated": {
+          "typeZh": "音乐/粉丝应援",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "anguel destined partner": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "miguels memorable night": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "gelix the confrontation": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TIPRACHA LUNAR X MOANA": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#تطبيق_نقهويكم_لاجمل_مناسبه": {
+          "typeZh": "应用/咖啡品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#يوم_الجمعه": {
+          "typeZh": "宗教/周五话题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "宗教议题",
+          "riskEn": "Religious Watch"
+        },
+        "#خليك_تريند_معنا_θち5θち2θ129": {
+          "typeZh": "刷榜/广告推广",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低质广告/刷榜风险",
+          "riskEn": "Low-Quality Ad / Trend Spam"
+        },
+        "#كلنا_سمو_الخيرر": {
+          "typeZh": "公共人物/公益口号观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共/公益议题",
+          "riskEn": "Civic / Public Welfare Watch"
+        },
+        "#ساعه_استجابه": {
+          "typeZh": "宗教/祈祷话题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "宗教议题",
+          "riskEn": "Religious Watch"
+        },
+        "ميسي": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "سامو كوستا": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الانذار المبكر": {
+          "typeZh": "公共安全/预警",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "灾害/公共安全",
+          "riskEn": "Disaster / Public Safety"
+        },
+        "كود كوبون": {
+          "typeZh": "优惠码/广告推广",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低质广告/促销风险",
+          "riskEn": "Low-Quality Ad / Promo Risk"
+        },
+        "زال الخطر": {
+          "typeZh": "公共安全/风险解除",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "灾害/公共安全",
+          "riskEn": "Disaster / Public Safety"
+        },
+        "بنفيكا": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "اليمن": {
+          "typeZh": "地区/国际议题观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "地区/国际政治",
+          "riskEn": "Regional / International Politics"
+        },
+        "الدفاع المدني": {
+          "typeZh": "公共安全/民防",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "灾害/公共安全",
+          "riskEn": "Disaster / Public Safety"
+        },
+        "ماركوس": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "The Odyssey": {
+          "typeZh": "影视/娱乐话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "توخيل": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#BrunoCimboma": {
+          "typeZh": "体育/转会粉丝话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Teminat": {
+          "typeZh": "法律/金融担保话题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "法律/金融公共议题",
+          "riskEn": "Legal / Financial Watch"
+        },
+        "Yusuf Tekin": {
+          "typeZh": "政治人物/教育议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/教育议题",
+          "riskEn": "Political / Education Watch"
+        },
+        "#duzah": {
+          "typeZh": "娱乐/社媒话题",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#picemiyeti": {
+          "typeZh": "娱乐/社媒话题",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Lina Peker": {
+          "typeZh": "名人/社媒话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Beşiktaş": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BirazAdaletLazımda": {
+          "typeZh": "司法/公共诉求",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "法律/政治争议",
+          "riskEn": "Legal / Political Controversy"
+        },
+        "#sonsayfa": {
+          "typeZh": "媒体/节目话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Yağız Sabuncuoğlu": {
+          "typeZh": "体育/转会媒体话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ada Yüzgeç": {
+          "typeZh": "体育/游泳运动员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Mehmet Fatih": {
+          "typeZh": "公共人物/政治观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "Onur Tuğrul": {
+          "typeZh": "体育/人物话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kazımcan": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Vlahovic": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Armando Güner": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bruno Fernandes": {
+          "typeZh": "体育/转会/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ahbaplar Suç Örgütü": {
+          "typeZh": "法律/犯罪指控话题",
+          "typeEn": "Civic / Legal Watch",
+          "riskZh": "法律/犯罪争议",
+          "riskEn": "Legal / Crime Controversy"
+        },
+        "Mahsun Kırmızıgül": {
+          "typeZh": "音乐/艺人话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#วาดฝันวันวิวาห์EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Chloe": {
+          "typeZh": "时尚/品牌话题",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    }
+  }
+}
