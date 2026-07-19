@@ -1,0 +1,726 @@
+{
+  "date": "2026-07-19",
+  "note": "Manual classification overrides for 2026-07-19 public trend captures. Focus is GoPay/Point Coffee, France-England/World Cup football, Thai drama/concert/brand campaigns, Philippines fandom/music/brand and Risa political watch, Saudi sports/spam/loan-ad watch, Turkey football/Gaza/labor-policy watch, and Vietnam LingOrm/PerthSanta/tour fandom.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#GopayPromoPointCoffee": {
+          "typeZh": "支付/咖啡品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "QRIS GoPay": {
+          "typeZh": "支付/品牌活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Himalayan Butterscotch": {
+          "typeZh": "饮品/食品新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Saka": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Olise": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Arsenal": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Congrats England": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#FRAENG": {
+          "typeZh": "体育/赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Deschamps": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Dembele": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Prancis 4-6 Inggris": {
+          "typeZh": "体育/比分话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Declan Rice": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "The Three Lions": {
+          "typeZh": "体育/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kante": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Rogers": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Golden Boot": {
+          "typeZh": "体育/奖项话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kylian Mbappé": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PeachAndMeSeriesEP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Trade $O": {
+          "typeZh": "加密/投机广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Rashford": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#PeachAndMeSeriesEP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertD1": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#TENCORE0110Concert_Day2": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#บอลโลก": {
+          "typeZh": "体育/世界杯话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#วาดฝันวันวิวาห์EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE EDGE OF HORIZON EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TFO X INFINITY CLINIC": {
+          "typeZh": "医美/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE FIRE SPARKING FEELINGS": {
+          "typeZh": "剧集/情感宣传语",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA19": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "POOH 23 LITTLE PRINCE": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KNP IN NEW YORK": {
+          "typeZh": "明星/旅行内容",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DAOUOFFROAD X HOUSE31": {
+          "typeZh": "品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DWY LIMITED VERSION": {
+          "typeZh": "剧集/粉丝内容",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "MAXKYBAS ROV FLOW SERIES CARD": {
+          "typeZh": "游戏/粉丝卡活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LENAMIU PRESENTER AURA": {
+          "typeZh": "美妆/明星代言",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ADIDAS FW26 X TEETUT": {
+          "typeZh": "运动品牌/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BABY BRIGHT WITH ENJOY JUNE": {
+          "typeZh": "美妆/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE19": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JOONGDUNK URANUS IN CBI": {
+          "typeZh": "明星/线下活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "#PerthSantaConcertD1": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PeachAndMeSeriesEP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BINIBINING RISA": {
+          "typeZh": "政治人物/粉丝化口号",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "jungkook": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#AuraBangkokClinicxLenaMiu": {
+          "typeZh": "医美/明星代言",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#OnlyFARMS": {
+          "typeZh": "农业/公共政策口号",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共政策/民生",
+          "riskEn": "Public Policy / Livelihood Watch"
+        },
+        "LENAMIU PRESENTER AURA": {
+          "typeZh": "医美/明星代言",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "England": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#CharmissxTheeWave": {
+          "typeZh": "美妆/明星联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "nct 127 to the philippines": {
+          "typeZh": "K-pop/演唱会粉丝诉求",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ashtine nasaankana mv": {
+          "typeZh": "音乐/MV 发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BGYO TNALAK FEVER": {
+          "typeZh": "音乐/本地节庆活动",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Mbappe": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Saka": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "hoshi": {
+          "typeZh": "K-pop/明星粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "solovely cup of rhen": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE ETERNAL": {
+          "typeZh": "娱乐/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KOLETTE T'NALAK FEST": {
+          "typeZh": "明星/本地节庆活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#فرنسا_انجلترا": {
+          "typeZh": "体育/赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#الاهلي_في_الدلتا": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#قرضك_مسدد_المدينه_053ち782б35": {
+          "typeZh": "贷款/金融广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "金融广告/诈骗风险",
+          "riskEn": "Finance Ad / Scam Risk"
+        },
+        "#محمد_الحياني_وسعود_القحطاني": {
+          "typeZh": "本地名人/娱乐话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الهداف التاريخي": {
+          "typeZh": "体育/射手话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "المركز الثالث": {
+          "typeZh": "体育/赛事排名",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "مركز ثالث": {
+          "typeZh": "体育/赛事排名",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "تاريخ كاس العالم": {
+          "typeZh": "体育/世界杯历史",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "راشفورد": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "بيلي بيلي": {
+          "typeZh": "体育/娱乐梗",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "محمد العويس": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الهدف الرابع": {
+          "typeZh": "体育/赛事进球",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#كلنا_سموو_الخير": {
+          "typeZh": "公共人物/公益口号观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "公共/公益议题",
+          "riskEn": "Civic / Public Welfare Watch"
+        },
+        "ايفان توني": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الميداليه البرونزيه": {
+          "typeZh": "体育/奖牌话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كاس العالم التاريخي": {
+          "typeZh": "体育/世界杯历史",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "تاريخ المونديال": {
+          "typeZh": "体育/世界杯历史",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ارسنال": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "دفاع فرنسا": {
+          "typeZh": "体育/赛事讨论",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الحذاء الذهبي": {
+          "typeZh": "体育/奖项话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#قرضك_مسدد_المدينه053ち782б35": {
+          "typeZh": "贷款/金融广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "金融广告/诈骗风险",
+          "riskEn": "Finance Ad / Scam Risk"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#FRAENG": {
+          "typeZh": "体育/赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#umutsolo": {
+          "typeZh": "音乐/粉丝应援",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Olise": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Fransa İngiltere": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Dünya Fenerbahçeliler": {
+          "typeZh": "体育/俱乐部粉丝话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kylian Mbappe": {
+          "typeZh": "体育/明星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Tuchel": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bukayo Saka": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#FeelGazasPain": {
+          "typeZh": "国际政治/Gaza 议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/国际争议",
+          "riskEn": "Political / International Controversy"
+        },
+        "Yaşa Fenerbahçe": {
+          "typeZh": "体育/俱乐部粉丝话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gazze'nin Acısını Hisset": {
+          "typeZh": "国际政治/Gaza 议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/国际争议",
+          "riskEn": "Political / International Controversy"
+        },
+        "Declan Rice": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Üçüncülük": {
+          "typeZh": "体育/季军/排名话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Deschamps": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "İnsanlık Sınanıyor": {
+          "typeZh": "国际政治/人道议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/国际争议",
+          "riskEn": "Political / International Controversy"
+        },
+        "Bellingham": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Dünya Kupası 3": {
+          "typeZh": "体育/世界杯话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#StajyerinçırağınAhıBüyük": {
+          "typeZh": "劳工/公共政策观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "劳工/公共政策议题",
+          "riskEn": "Labor / Public Policy Watch"
+        },
+        "Van Dijk": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ürdün": {
+          "typeZh": "地区/国际政治观察",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "地区/国际议题",
+          "riskEn": "Regional / International Watch"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "LINGORM ILF EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertD1": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#วาดฝันวันวิวาห์EP5": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PYPD_IN_INCHEON": {
+          "typeZh": "演唱会/巡演粉丝话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PeachAndMeSeriesEP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#CORTIS_TOUR": {
+          "typeZh": "音乐/巡演话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Martin Edwards": {
+          "typeZh": "明星/巡演话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JAMES ROCKS IN 1ST TOUR": {
+          "typeZh": "音乐/巡演话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "seonghyeon begins tour era": {
+          "typeZh": "明星/巡演粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "martin owns the tour": {
+          "typeZh": "明星/巡演粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Pháp": {
+          "typeZh": "体育/赛事/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "martin lights up pypd": {
+          "typeZh": "明星/巡演粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Saka": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ling and orm": {
+          "typeZh": "明星/粉丝话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LENAMIU PRESENTER AURA": {
+          "typeZh": "医美/明星代言",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Olise": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    }
+  }
+}
