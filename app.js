@@ -79,87 +79,68 @@ const reports = [
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("#GopayPromoPointCoffee", "支付/咖啡品牌活动", "Brand / Consumer", "低", "Low", "GopayPromoPointCoffee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("QRIS GoPay", "支付/品牌活动", "Brand / Consumer", "低", "Low", "QRIS GoPay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Himalayan Butterscotch", "饮品/食品新品", "Brand / Consumer", "低", "Low", "Himalayan Butterscotch", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA NEVER ENOUGH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA NEVER ENOUGH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Saka", "体育/赛事", "Sports / Event", "低", "Low", "Saka", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Arsenal", "体育/俱乐部话题", "Sports / Event", "低", "Low", "Arsenal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Rogers", "体育/赛事", "Sports / Event", "低", "Low", "Rogers", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Olise", "体育/赛事", "Sports / Event", "低", "Low", "Olise", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Congrats England", "体育/赛事/国家队话题", "Sports / Event", "低", "Low", "Congrats England", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Prancis 4-6 Inggris", "体育/比分话题", "Sports / Event", "低", "Low", "Prancis 4-6 Inggris", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Trade $O", "加密/投机广告", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $O", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("The Three Lions", "体育/国家队话题", "Sports / Event", "低", "Low", "The Three Lions", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Deschamps", "体育/赛事", "Sports / Event", "低", "Low", "Deschamps", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Trade $O", "加密/投机广告", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $O", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Rogers", "体育/赛事", "Sports / Event", "低", "Low", "Rogers", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
-        t("#PeachAndMeSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#PerthSantaConcertD1", "音乐/演唱会", "Music / Show / Release", "低", "Low", "PerthSantaConcertD1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#TENCORE0110Concert_Day2", "音乐/演唱会", "Music / Show / Release", "低", "Low", "TENCORE0110Concert_Day2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LINGORM ILF EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE EDGE OF HORIZON EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("TFO X INFINITY CLINIC", "医美/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "TFO X INFINITY CLINIC", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("THE FIRE SPARKING FEELINGS", "剧集/情感宣传语", "Drama / Variety / Entertainment", "低", "Low", "THE FIRE SPARKING FEELINGS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PerthSantaConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PerthSantaConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA NEVER ENOUGH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA NEVER ENOUGH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TENCORE0110Concert_Day3", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "TENCORE0110Concert_Day3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BOOK X ES NEW PRESENTER", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BOOK X ES NEW PRESENTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q29", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q29", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SEA YOU TRIP X TTP DAY3", "品牌活动/消费", "Brand / Consumer", "低", "Low", "SEA YOU TRIP X TTP DAY3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA ONE TASTE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA ONE TASTE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("FLOURISHING GROWTH ENGFA19", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA19", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KNP IN NEW YORK", "明星/旅行内容", "Celebrity / Fandom", "低", "Low", "KNP IN NEW YORK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("POOH 23 LITTLE PRINCE", "明星/生日应援", "Celebrity / Fandom", "低", "Low", "POOH 23 LITTLE PRINCE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("DAOUOFFROAD X HOUSE31", "品牌/明星联动", "Brand / Celebrity Campaign", "低", "Low", "DAOUOFFROAD X HOUSE31", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SIMPLY BE CHARLOTTE19", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE19", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("DWY LIMITED VERSION", "剧集/粉丝内容", "Drama / Variety / Entertainment", "低", "Low", "DWY LIMITED VERSION", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MAXKYBAS ROV FLOW SERIES CARD", "游戏/粉丝卡活动", "Brand / Celebrity Campaign", "低", "Low", "MAXKYBAS ROV FLOW SERIES CARD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("3Y4M MEENBABE", "体育/赛事", "Sports / Event", "低", "Low", "3Y4M MEENBABE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LENAMIU PRESENTER AURA", "美妆/明星代言", "Brand / Celebrity Campaign", "低", "Low", "LENAMIU PRESENTER AURA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE19", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE19", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Final EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Final EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("BABY BRIGHT WITH ENJOY JUNE", "美妆/明星联动", "Brand / Celebrity Campaign", "低", "Low", "BABY BRIGHT WITH ENJOY JUNE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
         t("#PerthSantaConcertD1", "音乐/演唱会", "Music / Show / Release", "低", "Low", "PerthSantaConcertD1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PeachAndMeSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("BINIBINING RISA", "政治人物/粉丝化口号", "Civic / Political Watch", "政治/公共议题", "Political / Civic Watch", "BINIBINING RISA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("jungkook", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#AuraBangkokClinicxLenaMiu", "医美/明星代言", "Brand / Celebrity Campaign", "低", "Low", "AuraBangkokClinicxLenaMiu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bulgaria", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Bulgaria", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LENAMIU PRESENTER AURA", "医美/明星代言", "Brand / Celebrity Campaign", "低", "Low", "LENAMIU PRESENTER AURA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LINGORM ILF EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ashtine nasaankana mv", "音乐/MV 发布", "Music / Show / Release", "低", "Low", "ashtine nasaankana mv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Bulgaria", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Bulgaria", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("BGYO TNALAK FEVER", "音乐/本地节庆活动", "Music / Show / Release", "低", "Low", "BGYO TNALAK FEVER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("the alibi iwanttfc finale", "体育/赛事", "Sports / Event", "低", "Low", "the alibi iwanttfc finale", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("hoshi", "K-pop/明星粉丝应援", "Celebrity / Fandom", "低", "Low", "hoshi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("NCT 127 TO THE PHILIPPINES", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT 127 TO THE PHILIPPINES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("the alibi iwanttfc finale", "体育/赛事", "Sports / Event", "低", "Low", "the alibi iwanttfc finale", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("ASHTINE NASAANKANA MV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "ASHTINE NASAANKANA MV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#الاهلي_في_الدلتا", "体育/俱乐部话题", "Sports / Event", "低", "Low", "الاهلي_في_الدلتا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#قرضك_مسدد_المدينه053ち782б35", "贷款/金融广告", "Finance / Crypto (Watch)", "金融广告/诈骗风险", "Finance Ad / Scam Risk", "قرضك_مسدد_المدينه053ち782б35", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#فرنسا_انجلترا", "体育/赛事标签", "Sports / Event", "低", "Low", "فرنسا_انجلترا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#الاهلي_في_الدلتا", "体育/俱乐部话题", "Sports / Event", "低", "Low", "الاهلي_في_الدلتا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#محمد_الحياني_وسعود_القحطاني", "本地名人/娱乐话题", "Celebrity / Fandom", "低", "Low", "محمد_الحياني_وسعود_القحطاني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("الهداف التاريخي", "体育/射手话题", "Sports / Event", "低", "Low", "الهداف التاريخي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#كلنا_سموو_الخير", "公共人物/公益口号观察", "Civic / Political Watch", "公共/公益议题", "Civic / Public Welfare Watch", "كلنا_سموو_الخير", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("المركز الثالث", "体育/赛事排名", "Sports / Event", "低", "Low", "المركز الثالث", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("محمد العويس", "体育/球员话题", "Sports / Event", "低", "Low", "محمد العويس", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("تاريخ كاس العالم", "体育/世界杯历史", "Sports / Event", "低", "Low", "تاريخ كاس العالم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("مركز ثالث", "体育/赛事排名", "Sports / Event", "低", "Low", "مركز ثالث", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("تاريخ المونديال", "体育/世界杯历史", "Sports / Event", "低", "Low", "تاريخ المونديال", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الهداف التاريخي", "体育/射手话题", "Sports / Event", "低", "Low", "الهداف التاريخي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ارسنال", "体育/俱乐部话题", "Sports / Event", "低", "Low", "ارسنال", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("كاس العالم التاريخي", "体育/世界杯历史", "Sports / Event", "低", "Low", "كاس العالم التاريخي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("الميداليه البرونزيه", "体育/奖牌话题", "Sports / Event", "低", "Low", "الميداليه البرونزيه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ايفان توني", "体育/球员话题", "Sports / Event", "低", "Low", "ايفان توني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("الهدف الرابع", "体育/赛事进球", "Sports / Event", "低", "Low", "الهدف الرابع", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("راشفورد", "体育/球员话题", "Sports / Event", "低", "Low", "راشفورد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("#FRAENG", "体育/赛事标签", "Sports / Event", "低", "Low", "FRAENG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#umutsolo", "音乐/粉丝应援", "Music / Show / Release", "低", "Low", "umutsolo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Dünya Fenerbahçeliler", "体育/俱乐部粉丝话题", "Sports / Event", "低", "Low", "Dünya Fenerbahçeliler", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Kylian Mbappe", "体育/明星话题", "Sports / Event", "低", "Low", "Kylian Mbappe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Olise", "体育/赛事", "Sports / Event", "低", "Low", "Olise", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Gazze'nin Acısını Hisset", "国际政治/Gaza 议题", "Civic / Political Watch", "政治/国际争议", "Political / International Controversy", "Gazze'nin Acısını Hisset", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Ürdün", "地区/国际政治观察", "Civic / Political Watch", "地区/国际议题", "Regional / International Watch", "Ürdün", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
-        t("PERTHSANTA NEVER ENOUGH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA NEVER ENOUGH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PerthSantaConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PerthSantaConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LINGORM ILF EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#วาดฝันวันวิวาห์EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PYPD_IN_INCHEON", "演唱会/巡演粉丝话题", "Music / Show / Release", "低", "Low", "PYPD_IN_INCHEON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PeachAndMeSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#CORTIS_TOUR", "音乐/巡演话题", "Music / Show / Release", "低", "Low", "CORTIS_TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("seonghyeon begins tour era", "明星/巡演粉丝应援", "Celebrity / Fandom", "低", "Low", "seonghyeon begins tour era", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("JAMES ROCKS IN 1ST TOUR", "音乐/巡演话题", "Music / Show / Release", "低", "Low", "JAMES ROCKS IN 1ST TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("martin lights up pypd", "明星/巡演粉丝应援", "Celebrity / Fandom", "低", "Low", "martin lights up pypd", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
@@ -185,6 +166,8 @@ const reports = [
       ]
     }
   },
+
+  
 
 
   {
