@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-19 六国热点话题日报",
+    summaryTitle: "2026-07-20 六国热点话题日报",
     summaryPriority: "优先深挖：印尼以 GoPay/Point Coffee、QRIS GoPay、Himalayan Butterscotch、France-England 世界杯足球池、Arsenal、Saka、Olise、Mbappé 和 PeachAndMe EP2 为主；泰国集中在 PeachAndMe EP2、PerthSanta Concert、TENCORE Day2、วาดฝันวันวิวาห์ EP5、LingOrm ILF EP5、Edge of Horizon、TFO x Infinity Clinic、DaouOffroad x House31、Adidas x Teetut、Engfa/Charlotte 和多组明星品牌活动；菲律宾优先 PerthSanta、PeachAndMe、Jungkook、Aura/LenaMiu、Charmiss x Thee Wave、LingOrm ILF、NCT127 Philippines、Ashtine MV、BGYO Tnalak、Hoshi、Kolette 和剧集粉丝词；沙特以 France-England、World Cup history、Ahlí/Delta、Rashford、Al Owais、Ivan Toney、Arsenal、Golden Boot、Mbappé 等体育词为主；土耳其低风险池为 FRAENG、umutsolo、Fenerbahçe、Mbappé、Olise、Tuchel、Saka、Declan Rice、Bellingham、Van Dijk、Jungkook 等体育/音乐粉丝词；越南优先 LingOrm ILF、PerthSanta、วาดฝันวันวิวาห์、PeachAndMe、PYPD/CORTIS/JAMES/Martin/Seonghyeon 巡演粉丝词。",
     summaryRisk: "风险观察：印尼 Trade $O 属币圈投机广告风险；菲律宾 BINIBINING RISA、OnlyFARMS 属政治/公共政策观察；沙特 قرضك مسدد 属贷款/金融广告风险，كلنا سمو الخير 属公共公益口号观察；土耳其 FeelGazasPain/Gazze、İnsanlık Sınanıyor 属 Gaza/国际政治争议，StajyerinçırağınAhıBüyük 属劳工公共政策，Ürdün 属地区国际议题。"
   },
@@ -63,13 +63,77 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-19 Six-Country Trend Brief",
+    summaryTitle: "2026-07-20 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia is led by GoPay/Point Coffee, QRIS GoPay, Himalayan Butterscotch, France-England World Cup football, Arsenal, Saka, Olise, Mbappé, and PeachAndMe EP2; Thailand has PeachAndMe EP2, PerthSanta Concert, TENCORE Day2, วาดฝันวันวิวาห์ EP5, LingOrm ILF EP5, Edge of Horizon, TFO x Infinity Clinic, DaouOffroad x House31, Adidas x Teetut, Engfa/Charlotte, and celebrity-brand campaigns; the Philippines has PerthSanta, PeachAndMe, Jungkook, Aura/LenaMiu, Charmiss x Thee Wave, LingOrm ILF, NCT127 Philippines, Ashtine MV, BGYO Tnalak, Hoshi, Kolette, and drama fandom terms; Saudi is driven by France-England, World Cup history, Ahlí/Delta, Rashford, Al Owais, Ivan Toney, Arsenal, Golden Boot, and Mbappé football terms; Turkey's lower-risk pool is FRAENG, umutsolo, Fenerbahçe, Mbappé, Olise, Tuchel, Saka, Declan Rice, Bellingham, Van Dijk, and Jungkook; Vietnam has LingOrm ILF, PerthSanta, วาดฝันวันวิวาห์, PeachAndMe, and PYPD/CORTIS/JAMES/Martin/Seonghyeon tour fandom.",
     summaryRisk: "Risk watch: Indonesia has Trade $O crypto-shill risk; the Philippines has BINIBINING RISA and OnlyFARMS as political/public-policy watch items; Saudi has قرضك مسدد loan/finance-ad risk plus كلنا سمو الخير civic/public-welfare watch; Turkey has FeelGazasPain/Gazze and İnsanlık Sınanıyor Gaza/international-political controversy, StajyerinçırağınAhıBüyük labor-policy watch, and Ürdün regional-international watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-20",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("World Cup", "体育/赛事", "Sports / Event", "低", "Low", "World Cup", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BTSHALFTIMESHOW", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BTSHALFTIMESHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#HUGELHEETheSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "HUGELHEETheSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA NEVER ENOUGH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA NEVER ENOUGH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TFO x ENTREE MEET & CHIPS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TFO x ENTREE MEET & CHIPS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#BTSxWORLDCUP2026", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BTSxWORLDCUP2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BTSHALFTIMESHOW", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BTSHALFTIMESHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PerthSantaConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PerthSantaConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM THAILAND FANTOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "LINGORM THAILAND FANTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LASPINYASAYA WITH RHENSEPH", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LASPINYASAYA WITH RHENSEPH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BTS PAVED THE WAY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BTS PAVED THE WAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("كاس العالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس العالم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كاس عالم", "体育/赛事", "Sports / Event", "低", "Low", "كاس عالم", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#كاس_العالم_٢٠٢٦", "体育/赛事", "Sports / Event", "低", "Low", "كاس_العالم_٢٠٢٦", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المنتخب الحصان الاسود", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب الحصان الاسود", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("المنتخب الاسباني", "体育/赛事", "Sports / Event", "低", "Low", "المنتخب الاسباني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("Filistin", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Filistin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#PerthSantaConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PerthSantaConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM THAILAND FANTOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "LINGORM THAILAND FANTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BTSxWORLDCUP2026", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BTSxWORLDCUP2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JAMES REIGNS OVER 1ST TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "JAMES REIGNS OVER 1ST TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOONGDUNK URANUS IN CBI", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JOONGDUNK URANUS IN CBI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-19",
     title: {
