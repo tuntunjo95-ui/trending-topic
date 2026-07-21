@@ -1,0 +1,672 @@
+{
+  "date": "2026-07-21",
+  "note": "Manual classification overrides for 2026-07-21 public trend captures. Focus is Shopee/Samsung/SF cinema campaigns, Thai fan anniversaries and brand activations, Philippines K-pop/P-pop/fandom, Saudi World Cup football plus loan/service spam and Yemen maritime risks, Turkey football/brand plus Cyprus/Gaza/gambling/public-policy risks, and Vietnam LingOrm/CORTIS/PerthSanta/BTS/JUHOON fandom plus Galxe crypto risk.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#DagingTelurShopeeInstant1Jam": {
+          "typeZh": "Shopee 即时购/生鲜促销",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gratis Voucher Kalau Telat": {
+          "typeZh": "电商优惠券活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#KinerjaInvestasiBerdampak": {
+          "typeZh": "投资/公共经济口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共经济/政策观察",
+          "riskEn": "Civic / Public-Economy Watch"
+        },
+        "Diskon 50%": {
+          "typeZh": "促销/折扣话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "1,4 Juta Lapangan Kerja": {
+          "typeZh": "就业/公共政策口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Claim Watch"
+        },
+        "#sdcfest": {
+          "typeZh": "本地节庆/活动",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#SFxNaniPremWinny": {
+          "typeZh": "影院/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PERTHSANTA NEVER ENOUGH": {
+          "typeZh": "明星/演唱会粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Dongkrak Ekonomi Lokal": {
+          "typeZh": "本地经济/公共口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共经济/政策观察",
+          "riskEn": "Civic / Public-Economy Watch"
+        },
+        "#SFxNeonaPaodySamruay": {
+          "typeZh": "影院/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "NNPPWNS WATCHING MOANA": {
+          "typeZh": "影院/粉丝观影活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Argentina": {
+          "typeZh": "体育/世界杯球队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ferran Torres": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Rodri": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "febrie vs yaqut": {
+          "typeZh": "司法/政治人物争议",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/司法争议",
+          "riskEn": "Political / Legal Controversy"
+        },
+        "folaplay": {
+          "typeZh": "娱乐/内容平台",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "samsung rewards": {
+          "typeZh": "Samsung 会员奖励活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "$WORLD": {
+          "typeZh": "加密/投机广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Gus Yaqut": {
+          "typeZh": "政治人物/公共争议",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#2Y6MAndBeyondWithKNP": {
+          "typeZh": "明星/CP 周年应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#Always30MonthsWithTMK": {
+          "typeZh": "明星/CP 周年应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BIG HUG FOR THOMASKONG": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertD2": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#SFxNaniPremWinny": {
+          "typeZh": "影院/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#SFxNeonaPaodySamruay": {
+          "typeZh": "影院/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "NNPPWNS WATCHING MOANA": {
+          "typeZh": "影院/粉丝观影活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA21": {
+          "typeZh": "明星/生日成长应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TFO x ENTREE MEET & CHIPS": {
+          "typeZh": "零食/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "The Debt Collector x DAOU": {
+          "typeZh": "剧集/明星宣传活动",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TTP WITH LAROCHE POSAY": {
+          "typeZh": "护肤/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KNP IN LOS ANGELES": {
+          "typeZh": "明星/海外行程",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE21": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LYKN IN CATCHA LAB": {
+          "typeZh": "音乐/团体活动",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "INNONGSA AT TCM2026": {
+          "typeZh": "内容市场/明星活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM THAILAND FANTOUR": {
+          "typeZh": "明星粉丝巡演",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "OFFROAD THContentMarket 2026": {
+          "typeZh": "内容市场/明星活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TayTawan 35 Glitz And Glam": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PPNARAVIT ON TIKTOK": {
+          "typeZh": "明星/TikTok 内容活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BOOTS ANNIVERSARY X SKY": {
+          "typeZh": "美妆零售/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "DINO CRAZY CRAZY MV TEASER": {
+          "typeZh": "K-pop/MV 预告",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#피철인_미쳐미쳐_오피셜티저": {
+          "typeZh": "K-pop/MV 预告标签",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BTSxWORLDCUP2026": {
+          "typeZh": "BTS/世界杯粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BTSHALFTIMESHOW": {
+          "typeZh": "BTS/世界杯中场秀粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#Always30MonthsWithTMK": {
+          "typeZh": "明星/CP 周年应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BIG HUG FOR THOMASKONG": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "To BINI": {
+          "typeZh": "P-pop/粉丝话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PERTHSANTA NEVER ENOUGH": {
+          "typeZh": "明星/演唱会粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "angels conflicted mind": {
+          "typeZh": "剧集/粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertD2": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ashtine on peplive": {
+          "typeZh": "明星/节目宣传",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "gelix look of love": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "miguel brightonbays king": {
+          "typeZh": "剧集/明星粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Thor": {
+          "typeZh": "影视/漫威角色话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "anguel our prom royalties": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "laspinyasaya with rhenseph": {
+          "typeZh": "本地娱乐/明星活动",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Wanda": {
+          "typeZh": "影视/漫威角色话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "allstar con with rabin": {
+          "typeZh": "明星/粉丝见面会",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Cayetano": {
+          "typeZh": "政治人物/公共议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "China Coast Guard": {
+          "typeZh": "南海/海警争议",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地缘政治/安全争议",
+          "riskEn": "Geopolitical / Security Controversy"
+        },
+        "Philippine Navy": {
+          "typeZh": "军事/公共安全议题",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "军事/公共安全议题",
+          "riskEn": "Military / Public-Security Watch"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#الارجنتين_اسبانيا": {
+          "typeZh": "体育/世界杯赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#قرض__عقاري_كاش_05б7965б94": {
+          "typeZh": "贷款/金融广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "金融广告/诈骗风险",
+          "riskEn": "Finance Ad / Scam Risk"
+        },
+        "#معقب_خدمات_عامه_θちб9797ち8ち": {
+          "typeZh": "代办服务广告",
+          "typeEn": "Low-Quality Ad / Services",
+          "riskZh": "低质广告/代办诈骗风险",
+          "riskEn": "Low-Quality Services Ad / Scam Risk"
+        },
+        "#كلنا_مع_سموو_الخير": {
+          "typeZh": "公共公益/本地口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共公益口号观察",
+          "riskEn": "Civic / Public-Welfare Watch"
+        },
+        "#اللعب_يحيينا": {
+          "typeZh": "游戏/体育品牌活动",
+          "typeEn": "Brand / Sports Sponsorship",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ميسي": {
+          "typeZh": "体育/球星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كاس العالم": {
+          "typeZh": "体育/世界杯话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "توريس": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كاس عالم": {
+          "typeZh": "体育/世界杯话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كره القدم": {
+          "typeZh": "体育/足球话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "فوز الارجنتين": {
+          "typeZh": "体育/赛事结果",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "لامين يامال": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "طيور الجنه": {
+          "typeZh": "儿童娱乐/频道话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "المنتخب الاسباني": {
+          "typeZh": "体育/国家队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "دوري روشن": {
+          "typeZh": "体育/沙特联赛",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الكره الذهبيه": {
+          "typeZh": "体育/金球奖话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "باب المندب": {
+          "typeZh": "红海/航运地缘议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地缘政治/航运安全风险",
+          "riskEn": "Geopolitical / Shipping-Security Risk"
+        },
+        "الشعب اليمني": {
+          "typeZh": "也门/公共政治议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地区政治/人道议题",
+          "riskEn": "Regional-Politics / Humanitarian Watch"
+        },
+        "رشاد العليمي": {
+          "typeZh": "也门政治人物",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "地区政治议题",
+          "riskEn": "Regional Political Watch"
+        },
+        "السفن السعوديه": {
+          "typeZh": "航运/地区安全议题",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "地区安全/航运争议",
+          "riskEn": "Regional-Security / Shipping Watch"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#SabrımızKalmadıDursunÖzbek": {
+          "typeZh": "足球俱乐部/球迷抗议",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#GalaxyUnpacked": {
+          "typeZh": "Samsung 发布会/科技品牌",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ESPvsARG": {
+          "typeZh": "体育/世界杯赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#KıbrısBarışHarekatı": {
+          "typeZh": "历史军事纪念",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "历史军事/政治敏感",
+          "riskEn": "Historical Military / Political Sensitivity"
+        },
+        "#yks2026": {
+          "typeZh": "考试/教育公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "教育公共议题",
+          "riskEn": "Education / Public-Policy Watch"
+        },
+        "Asensio": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Messi": {
+          "typeZh": "体育/球星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Dünya Kupası": {
+          "typeZh": "体育/世界杯话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Güncel Giriş Linki": {
+          "typeZh": "博彩/跳转入口词",
+          "typeEn": "Low-Quality Ad / Gambling",
+          "riskZh": "博彩/低质广告风险",
+          "riskEn": "Gambling / Low-Quality Ad Risk"
+        },
+        "20 Temmuz Barış": {
+          "typeZh": "历史纪念/公共政治议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "历史政治敏感",
+          "riskEn": "Historical / Political Sensitivity"
+        },
+        "Leao": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Özgürlük Bayramı": {
+          "typeZh": "节日/历史政治纪念",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "历史政治敏感",
+          "riskEn": "Historical / Political Sensitivity"
+        },
+        "Oğuzhan Uğur": {
+          "typeZh": "名人/媒体人物",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Lamine Yamal": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Rodri": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Filistin": {
+          "typeZh": "巴勒斯坦/国际政治议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "Geçmişi AFTemizler": {
+          "typeZh": "贷款/债务广告口号",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "金融广告/债务营销风险",
+          "riskEn": "Finance Ad / Debt-Marketing Risk"
+        },
+        "3308 Değişmedikçe": {
+          "typeZh": "劳工/教育政策口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "劳工/教育公共政策",
+          "riskEn": "Labor / Education Policy Watch"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "LINGORM THAILAND FANTOUR": {
+          "typeZh": "明星粉丝巡演",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#GalxeID": {
+          "typeZh": "Web3/任务平台广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "Web3/投机广告风险",
+          "riskEn": "Web3 / Speculation-Ad Risk"
+        },
+        "#LingOrmPhuketFanMeet": {
+          "typeZh": "明星粉丝见面会",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#AlwaysWithJUHOON": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#CORTIS_TOUR": {
+          "typeZh": "巡演/粉丝活动",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PerthSantaConcertD2": {
+          "typeZh": "音乐/演唱会",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BTS AT WORLD CUP 2026": {
+          "typeZh": "BTS/世界杯粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "james reigns": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Indian Ocean": {
+          "typeZh": "地区/海域公共议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地区/国际议题观察",
+          "riskEn": "Regional / International Watch"
+        }
+      }
+    }
+  }
+}
