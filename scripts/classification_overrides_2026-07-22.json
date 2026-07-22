@@ -1,0 +1,708 @@
+{
+  "date": "2026-07-22",
+  "note": "Manual classification overrides for 2026-07-22 public trend captures. Focus is Indonesia Shopee/GoPay/Samsung/K-pop/drama plus civic and crypto risks; Thailand drama, celebrity, Scotch/La Roche-Posay/Line Man/Entree brand campaigns; Philippines SB19/LingOrm/Gelex/AJAA/Dino/brand and South China Sea risks; Saudi sports/football transfers plus marriage/finance/civic/geopolitical risks; Turkey Fenerbahce football plus Palestine/legal/public-square/defense risks; Vietnam LingOrm/JUHOON/PerthSanta fandom plus low-signal/ad watch.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#DagingTelurShopeeInstant1Jam": {
+          "typeZh": "Shopee 即时购/生鲜促销",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#MrKillSeriesEP3": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gratis Voucher Kalau Telat": {
+          "typeZh": "电商优惠券活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Diskon 50%": {
+          "typeZh": "促销/折扣话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "samsung galaxy fold 8": {
+          "typeZh": "Samsung 折叠屏新品/品牌话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "percepat perkuat kedaulatan": {
+          "typeZh": "国家主权/公共口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Civic-Slogan Watch"
+        },
+        "#4shosd": {
+          "typeZh": "K-pop/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#finalbolagopay": {
+          "typeZh": "GoPay/足球品牌活动",
+          "typeEn": "Brand / Sports Sponsorship",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ShottieSelcaDay": {
+          "typeZh": "K-pop/粉丝自拍日",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "danielle": {
+          "typeZh": "K-pop/NewJeans 成员话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bersih Bersih PU": {
+          "typeZh": "公共工程/政务口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Campaign Watch"
+        },
+        "WILLIAM SOLO PRESS": {
+          "typeZh": "音乐/个人发布宣传",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Argentina": {
+          "typeZh": "体育/世界杯球队话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Rodri": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "1,4 Juta Lapangan Kerja": {
+          "typeZh": "就业/公共政策口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Claim Watch"
+        },
+        "NNPPWNS WATCHING MOANA": {
+          "typeZh": "影院/粉丝观影活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Messi": {
+          "typeZh": "体育/球星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Trade $ILY": {
+          "typeZh": "加密/投机广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "LRP EFFACLAR WITH POND": {
+          "typeZh": "护肤/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "febrie vs yaqut": {
+          "typeZh": "司法/政治人物争议",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/司法争议",
+          "riskEn": "Political / Legal Controversy"
+        },
+        "jj beyond the mask": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#GoodGovernancePU": {
+          "typeZh": "公共治理/政务口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Campaign Watch"
+        },
+        "Kepala BGN": {
+          "typeZh": "国家营养机构/公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Agency Watch"
+        },
+        "Kepala Badan Gizi Nasional": {
+          "typeZh": "国家营养机构/公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Agency Watch"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "FIRSTONE X LULA": {
+          "typeZh": "明星/品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#2Y6MAndBeyondWithKNP": {
+          "typeZh": "明星/CP 周年应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#SEHUNxDIOR": {
+          "typeZh": "Dior/明星时尚活动",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#MrKillSeriesEP3": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM X SCOTCH THAILAND": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ScotchXLinglingWithOrm": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#JingJingMillionBlooms": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA22": {
+          "typeZh": "明星/生日成长应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE22": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "WILLIAM SOLO PRESS": {
+          "typeZh": "音乐/个人发布宣传",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "big hug for thomaskong": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LRP EFFACLAR WITH POND": {
+          "typeZh": "护肤/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "INFINITY CLINIC WITH TTP": {
+          "typeZh": "医美/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "KHOM KHLANG Q8": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TMK x LINE MAN LIVE": {
+          "typeZh": "外卖平台/明星直播活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LOVE FINDS WAY ENGLOT22": {
+          "typeZh": "明星/CP 粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "STRONGER KNOT EP4": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SUNSET IN WINTER EP18": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "NNPPWNS WATCHING MOANA": {
+          "typeZh": "影院/粉丝观影活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BECKY TATLERxJAI AT PARAGON": {
+          "typeZh": "时尚/明星活动",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "SB19 GLOBAL TOUR": {
+          "typeZh": "P-pop/全球巡演",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE GOAT GROUP": {
+          "typeZh": "体育/粉丝口号",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PleaseProtectTeeTeePor": {
+          "typeZh": "粉丝维权/艺人保护",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "粉丝争议/维权观察",
+          "riskEn": "Fandom Dispute / Protection Watch"
+        },
+        "#ScotchXLinglingWithOrm": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM X SCOTCH THAILAND": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ANGUEL KASAL NA": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PLEASE TAKE ACTION": {
+          "typeZh": "粉丝维权/行动口号",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "粉丝争议/维权观察",
+          "riskEn": "Fandom Dispute / Action Watch"
+        },
+        "#WhenWinningMeansLosing": {
+          "typeZh": "社会/公共讨论口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共争议观察",
+          "riskEn": "Public Controversy Watch"
+        },
+        "danielle": {
+          "typeZh": "K-pop/NewJeans 成员话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "gelix shot puno": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "GELEX TCD2 POSTER": {
+          "typeZh": "剧集/海报宣传",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BRIGHTONBAY CROWNS MIGUEL": {
+          "typeZh": "剧集/明星粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#CoffeeShopByHMJ": {
+          "typeZh": "咖啡店/明星品牌内容",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ajaa_comeback": {
+          "typeZh": "P-pop/音乐回归",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ash is 4üs": {
+          "typeZh": "音乐/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Ayungin Shoal": {
+          "typeZh": "南海/岛礁争议",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地缘政治/安全争议",
+          "riskEn": "Geopolitical / Security Controversy"
+        },
+        "DINO CRAZY CRAZY MV TEASER": {
+          "typeZh": "K-pop/MV 预告",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kim Chiu": {
+          "typeZh": "明星/娱乐话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "big hug for thomaskong": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "China Coast Guard": {
+          "typeZh": "南海/海警争议",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地缘政治/安全争议",
+          "riskEn": "Geopolitical / Security Controversy"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#خواطر_واقلام_تعبر": {
+          "typeZh": "文学/情感语录标签",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ازكر_ربك": {
+          "typeZh": "宗教/公共口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "宗教/公共口号观察",
+          "riskEn": "Religious / Public-Slogan Watch"
+        },
+        "#تزوج_الان_من_تطبيق_استقرار": {
+          "typeZh": "婚恋 App 广告",
+          "typeEn": "Low-Quality Ad / Services",
+          "riskZh": "婚恋广告/低质转化风险",
+          "riskEn": "Dating-App Ad / Low-Quality Conversion Risk"
+        },
+        "#تدخل_الصندوق_مطلب_الاتحاديين": {
+          "typeZh": "体育/俱乐部投资诉求",
+          "typeEn": "Sports / Event",
+          "riskZh": "体育治理/投资争议",
+          "riskEn": "Sports Governance / Investment Watch"
+        },
+        "#كلناا_سمو_الخير": {
+          "typeZh": "公共公益/本地口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共公益口号观察",
+          "riskEn": "Civic / Public-Welfare Watch"
+        },
+        "كاري": {
+          "typeZh": "体育/球星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "روما": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "بن طلال": {
+          "typeZh": "商业名人/公共财经话题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共财经/商业人物观察",
+          "riskEn": "Public-Finance / Business Figure Watch"
+        },
+        "لحم الخنزير": {
+          "typeZh": "宗教/食品争议",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "宗教/生活方式争议",
+          "riskEn": "Religious / Lifestyle Controversy"
+        },
+        "سيلفا": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "العلاقات السعوديه الاماراتيه": {
+          "typeZh": "沙特-阿联酋关系",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地区政治/外交观察",
+          "riskEn": "Regional Politics / Diplomacy Watch"
+        },
+        "الرقابه الماليه": {
+          "typeZh": "金融监管/公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "金融监管/公共议题",
+          "riskEn": "Financial-Regulation / Public Watch"
+        },
+        "منصور بن زايد": {
+          "typeZh": "王室/商业体育人物",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共人物/政治商业观察",
+          "riskEn": "Public Figure / Political-Business Watch"
+        },
+        "الامير الوليد": {
+          "typeZh": "商业名人/公共财经话题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共财经/商业人物观察",
+          "riskEn": "Public-Finance / Business Figure Watch"
+        },
+        "الانتقالات الصيفيه": {
+          "typeZh": "体育/夏窗转会",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "وست هام": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "المملكه القابضه": {
+          "typeZh": "上市公司/投资话题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "金融/上市公司观察",
+          "riskEn": "Finance / Listed-Company Watch"
+        },
+        "كوستا": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "فالفيردي": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "إمكان للتمويل": {
+          "typeZh": "金融/贷款品牌",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "金融广告/贷款风险",
+          "riskEn": "Finance / Loan-Ad Risk"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#FBvGOR": {
+          "typeZh": "体育/Fenerbahçe 赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kerem": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Talisca": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#PlunderedPalestine": {
+          "typeZh": "巴勒斯坦/国际政治口号",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "İsmail Kartal": {
+          "typeZh": "体育/教练话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#NarinDavası": {
+          "typeZh": "司法/社会案件",
+          "typeEn": "Civic / Legal Watch",
+          "riskZh": "法律/社会争议",
+          "riskEn": "Legal / Social Controversy"
+        },
+        "Gazze'yi Duy": {
+          "typeZh": "Gaza/国际政治口号",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "Filistin Yağmalanıyor": {
+          "typeZh": "巴勒斯坦/国际政治口号",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "İrfan": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Semedo": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#TaksimMeydanı": {
+          "typeZh": "公共广场/政治敏感地点",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政治/集会敏感",
+          "riskEn": "Public-Political / Assembly Sensitivity"
+        },
+        "Fredi": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Bartuğ": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Leao": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#FBvKSG": {
+          "typeZh": "体育/Fenerbahçe 赛事标签",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TUSAŞ Motor Sanayii A.Ş": {
+          "typeZh": "国防工业/企业话题",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "国防工业/公共安全议题",
+          "riskEn": "Defense Industry / Public-Security Watch"
+        },
+        "Asensio": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Guendouzi": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Musaba": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "LINGORM X SCOTCH THAILAND": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "WISHING YOU STRENGTH JUHOON": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#AlwaysWithJUHOON": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gorgeous": {
+          "typeZh": "泛词/低语义词",
+          "typeEn": "General / To Classify",
+          "riskZh": "低语义/低转化观察",
+          "riskEn": "Low-Semantic / Low-Conversion Watch"
+        },
+        "Hotness": {
+          "typeZh": "泛词/低语义词",
+          "typeEn": "General / To Classify",
+          "riskZh": "低语义/低转化观察",
+          "riskEn": "Low-Semantic / Low-Conversion Watch"
+        },
+        "Warning": {
+          "typeZh": "泛警示词/需复核",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "低语义/争议观察",
+          "riskEn": "Low-Semantic / Controversy Watch"
+        },
+        "PERTHSANTA NEVER ENOUGH": {
+          "typeZh": "明星/演唱会粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#LingOrmPhuketFanMeet": {
+          "typeZh": "明星粉丝见面会",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LINGORM THAILAND FANTOUR": {
+          "typeZh": "明星粉丝巡演",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#looters": {
+          "typeZh": "争议/犯罪泛标签",
+          "typeEn": "Civic / Legal Watch",
+          "riskZh": "争议/犯罪标签风险",
+          "riskEn": "Controversy / Crime-Tag Risk"
+        }
+      }
+    }
+  }
+}

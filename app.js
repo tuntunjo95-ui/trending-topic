@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-21 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼以 Shopee 生鲜即时购、优惠券/折扣、SDC Fest、SF x NaniPremWinny / NeonaPaodySamruay、PERTHSANTA、NNPPWNS Moana 和 Argentina/Ferran Torres/Rodri 等世界杯足球词为主；泰国集中在 KNP/TMK 周年应援、ThomasKong、PerthSanta Concert、SF 影院联动、Engfa/Charlotte、TFO x Entree、La Roche-Posay、LYKN、LingOrm、Offroad/TayTawan/PPNaravit/Boots 等明星品牌活动；菲律宾优先 Dino MV teaser、BTS World Cup/Halftime、BINI、PerthSanta、Ashtine、Gelix、Miguel、Thor/Wanda、Allstar Con 等音乐剧综粉丝词；沙特以 Argentina-Spain、World Cup、Messi、Torres、Yamal、Roshn League、Golden Ball 和 اللعب يحيينا 等体育/品牌活动为主；土耳其低风险池为 Galatasaray 球迷词、Galaxy Unpacked、ESPvsARG、Asensio、Messi、Dünya Kupası、Leao、Oğuzhan Uğur、Lamine Yamal、Rodri 等体育/科技/名人词；越南优先 LingOrm Fantour/Phuket FanMeet、JUHOON、CORTIS Tour、PerthSanta Concert、BTS World Cup 和 James Reigns 粉丝词。",
-    summaryRisk: "风险观察：印尼 KinerjaInvestasiBerdampak、1,4 Juta Lapangan Kerja、Dongkrak Ekonomi Lokal 属公共经济/政策口号，febrie vs yaqut 属政治司法争议，$WORLD/Gus Yaqut 在原始榜内需人工复核；沙特 قرض عقاري كاش、معقب خدمات عامة 属金融/代办广告风险，كلنا مع سموو الخير 属公共公益口号观察，باب المندب、الشعب اليمني、رشاد العليمي、السفن السعودية 属地区政治/航运安全观察；土耳其 KıbrısBarışHarekatı、20 Temmuz Barış、Özgürlük Bayramı 属历史政治敏感，yks2026 属教育公共议题，Güncel Giriş Linki 属博彩低质广告，Filistin/Geçmişi AFTemizler/3308 Değişmedikçe 在原始榜内需人工复核；越南 GalxeID 属 Web3/投机广告风险，Indian Ocean 属地区国际议题观察。"
+    summaryTitle: "2026-07-22 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼以 Shopee 生鲜即时购、优惠券/折扣、Samsung Galaxy Fold 8、Danielle/NewJeans、William Solo Press、Argentina/Rodri/Messi 世界杯足球词为主；泰国集中在 FirstOne x Lula、KNP 周年、Sehun x Dior、MrKill EP3、LingOrm x Scotch、JingJing、Engfa/Charlotte、William Solo、ThomasKong、La Roche-Posay、Infinity Clinic、LINE MAN、Englot、Stronger Knot、Sunset in Winter 和 Moana 观影等剧集/明星/品牌活动；菲律宾优先 SB19 Global Tour、Scotch x Lingling/Orm、LingOrm x Scotch、Anguel、Gelex、BrightonBay/Miguel、CoffeeShopByHMJ、AJAA comeback、Dino MV teaser、Kim Chiu、The Juans 等音乐剧综粉丝词；沙特低风险池为 خواطر واقلام、Roma、Curry、Silva、Valverde、West Ham、Costa 等生活方式/体育转会词；土耳其优先 FBvGOR、Kerem、Talisca、İsmail Kartal、İrfan、Semedo、Fredi、Bartuğ、Leao、FBvKSG、Asensio 等足球词；越南优先 LingOrm x Scotch、JUHOON 应援、PerthSanta、LingOrm Phuket FanMeet、LingOrm Fantour 等粉丝和品牌词。",
+    summaryRisk: "风险观察：印尼 GoodGovernancePU、Bersih Bersih PU、percepat perkuat kedaulatan、Kepala BGN、Kepala Badan Gizi Nasional 属公共政策/政务口号观察，Trade $ILY 在原始榜内属币圈投机广告风险；菲律宾 PleaseProtectTeeTeePor、PLEASE TAKE ACTION 属粉丝维权观察，WhenWinningMeansLosing 属公共争议观察，Ayungin Shoal/China Coast Guard 在原始榜内属地缘安全风险；沙特 ازكر ربك、كلناا سمو الخير 属宗教/公共公益口号，تزوج الان من تطبيق استقرار 属婚恋广告风险，تدخل الصندوق مطلب الاتحاديين 属体育治理投资争议，Prince/finance/regulation terms 属公共财经观察；土耳其 PlunderedPalestine、Gazze、Filistin 属国际政治争议，NarinDavası 属法律社会争议，Taksim Meydanı 属公共政治敏感，TUSAŞ Motor Sanayii 属国防工业/公共安全观察；越南 Warning 属低语义争议观察。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,138 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-21 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia is led by Shopee instant grocery, voucher/discount promos, SDC Fest, SF x NaniPremWinny / NeonaPaodySamruay, PerthSanta, NNPPWNS Moana, and Argentina/Ferran Torres/Rodri World Cup football terms; Thailand has KNP/TMK anniversaries, ThomasKong, PerthSanta Concert, SF cinema tie-ins, Engfa/Charlotte, TFO x Entree, La Roche-Posay, LYKN, LingOrm, Offroad/TayTawan/PPNaravit/Boots celebrity-brand campaigns; the Philippines has Dino MV teaser, BTS World Cup/Halftime, BINI, PerthSanta, Ashtine, Gelix, Miguel, Thor/Wanda, and Allstar Con fandom topics; Saudi is driven by Argentina-Spain, World Cup, Messi, Torres, Yamal, Roshn League, Golden Ball, and اللعب يحيينا sports/brand terms; Turkey's lower-risk pool is Galatasaray fan talk, Galaxy Unpacked, ESPvsARG, Asensio, Messi, Dünya Kupası, Leao, Oğuzhan Uğur, Lamine Yamal, and Rodri; Vietnam has LingOrm Fantour/Phuket FanMeet, JUHOON, CORTIS Tour, PerthSanta Concert, BTS World Cup, and James Reigns fandom.",
-    summaryRisk: "Risk watch: Indonesia has KinerjaInvestasiBerdampak, 1.4 Juta Lapangan Kerja, and Dongkrak Ekonomi Lokal as public-economy/policy slogans, febrie vs yaqut as a political/legal controversy, and $WORLD/Gus Yaqut in the raw list for manual review; Saudi has قرض عقاري كاش and معقب خدمات عامة finance/service-ad risk, كلنا مع سموو الخير civic/public-welfare watch, and Bab al-Mandab/Yemen/shipping terms as regional-security watch; Turkey has Cyprus/20 Temmuz/Özgürlük Bayramı historical-political sensitivity, yks2026 education-policy watch, Güncel Giriş Linki gambling/low-quality ad risk, plus Filistin/Geçmişi AFTemizler/3308 Değişmedikçe in the raw list for manual review; Vietnam has GalxeID Web3/speculation-ad risk and Indian Ocean regional-international watch."
+    summaryTitle: "2026-07-22 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia is led by Shopee instant grocery, voucher/discount promos, Samsung Galaxy Fold 8, Danielle/NewJeans, William Solo Press, and Argentina/Rodri/Messi World Cup football terms; Thailand has FirstOne x Lula, KNP anniversary, Sehun x Dior, MrKill EP3, LingOrm x Scotch, JingJing, Engfa/Charlotte, William Solo, ThomasKong, La Roche-Posay, Infinity Clinic, LINE MAN, Englot, Stronger Knot, Sunset in Winter, and Moana viewing campaigns; the Philippines has SB19 Global Tour, Scotch x Lingling/Orm, LingOrm x Scotch, Anguel, Gelex, BrightonBay/Miguel, CoffeeShopByHMJ, AJAA comeback, Dino MV teaser, Kim Chiu, and The Juans music/drama fandom terms; Saudi low-risk topics are خواطر واقلام, Roma, Curry, Silva, Valverde, West Ham, and Costa lifestyle/sports-transfer terms; Turkey is led by FBvGOR, Kerem, Talisca, İsmail Kartal, İrfan, Semedo, Fredi, Bartuğ, Leao, FBvKSG, and Asensio football terms; Vietnam has LingOrm x Scotch, JUHOON support, PerthSanta, LingOrm Phuket FanMeet, and LingOrm Fantour fandom/brand terms.",
+    summaryRisk: "Risk watch: Indonesia has GoodGovernancePU, Bersih Bersih PU, percepat perkuat kedaulatan, Kepala BGN, and Kepala Badan Gizi Nasional as government/public-policy slogans, with Trade $ILY in the raw list as crypto-shill risk; the Philippines has PleaseProtectTeeTeePor and PLEASE TAKE ACTION as fandom-action watch, WhenWinningMeansLosing as public-controversy watch, and Ayungin Shoal/China Coast Guard in the raw list as geopolitical-security risk; Saudi has ازكر ربك and كلناا سمو الخير religious/civic slogans, تزوج الان من تطبيق استقرار dating-ad risk, تدخل الصندوق مطلب الاتحاديين sports-governance investment watch, and prince/finance/regulation terms as public-finance watch; Turkey has PlunderedPalestine, Gazze, and Filistin international-political controversy, NarinDavası legal/social controversy, Taksim Meydanı public-political sensitivity, and TUSAŞ Motor Sanayii defense-industry/public-security watch; Vietnam has Warning as low-semantic controversy watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-22",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#DagingTelurShopeeInstant1Jam", "Shopee 即时购/生鲜促销", "Brand / Consumer", "低", "Low", "DagingTelurShopeeInstant1Jam", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GoodGovernancePU", "公共治理/政务口号", "Civic / Public Watch", "公共政策/政务口号观察", "Public-Policy / Government Campaign Watch", "GoodGovernancePU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bersih Bersih PU", "公共工程/政务口号", "Civic / Public Watch", "公共政策/政务口号观察", "Public-Policy / Government Campaign Watch", "Bersih Bersih PU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Gratis Voucher Kalau Telat", "电商优惠券活动", "Brand / Consumer", "低", "Low", "Gratis Voucher Kalau Telat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Diskon 50%", "促销/折扣话题", "Brand / Consumer", "低", "Low", "Diskon 50%", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("samsung galaxy fold 8", "Samsung 折叠屏新品/品牌话题", "Brand / Consumer", "低", "Low", "samsung galaxy fold 8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("percepat perkuat kedaulatan", "国家主权/公共口号", "Civic / Public Watch", "公共政策/政务口号观察", "Public-Policy / Civic-Slogan Watch", "percepat perkuat kedaulatan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kepala BGN", "国家营养机构/公共议题", "Civic / Public Watch", "公共政策/政务口号观察", "Public-Policy / Government Agency Watch", "Kepala BGN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("danielle", "K-pop/NewJeans 成员话题", "Celebrity / Fandom", "低", "Low", "danielle", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kepala Badan Gizi Nasional", "国家营养机构/公共议题", "Civic / Public Watch", "公共政策/政务口号观察", "Public-Policy / Government Agency Watch", "Kepala Badan Gizi Nasional", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM SOLO PRESS", "音乐/个人发布宣传", "Music / Show / Release", "低", "Low", "WILLIAM SOLO PRESS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Argentina", "体育/世界杯球队话题", "Sports / Event", "低", "Low", "Argentina", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("FIRSTONE X LULA", "明星/品牌联动", "Brand / Celebrity Campaign", "低", "Low", "FIRSTONE X LULA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#2Y6MAndBeyondWithKNP", "明星/CP 周年应援", "Celebrity / Fandom", "低", "Low", "2Y6MAndBeyondWithKNP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SEHUNxDIOR", "Dior/明星时尚活动", "Fashion / Brand Event", "低", "Low", "SEHUNxDIOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MrKillSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM X SCOTCH THAILAND", "饮品/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "LINGORM X SCOTCH THAILAND", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ScotchXLinglingWithOrm", "饮品/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "ScotchXLinglingWithOrm", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#JingJingMillionBlooms", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JingJingMillionBlooms", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA22", "明星/生日成长应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA22", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE22", "明星/生日应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE22", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WILLIAM SOLO PRESS", "音乐/个人发布宣传", "Music / Show / Release", "低", "Low", "WILLIAM SOLO PRESS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("big hug for thomaskong", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "big hug for thomaskong", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LRP EFFACLAR WITH POND", "护肤/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "LRP EFFACLAR WITH POND", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("INFINITY CLINIC WITH TTP", "医美/明星品牌活动", "Brand / Celebrity Campaign", "低", "Low", "INFINITY CLINIC WITH TTP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KHOM KHLANG Q8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "KHOM KHLANG Q8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TMK x LINE MAN LIVE", "外卖平台/明星直播活动", "Brand / Celebrity Campaign", "低", "Low", "TMK x LINE MAN LIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LOVE FINDS WAY ENGLOT22", "明星/CP 粉丝应援", "Celebrity / Fandom", "低", "Low", "LOVE FINDS WAY ENGLOT22", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("STRONGER KNOT EP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "STRONGER KNOT EP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUNSET IN WINTER EP18", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUNSET IN WINTER EP18", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NNPPWNS WATCHING MOANA", "影院/粉丝观影活动", "Brand / Celebrity Campaign", "低", "Low", "NNPPWNS WATCHING MOANA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("SB19 GLOBAL TOUR", "P-pop/全球巡演", "Music / Show / Release", "低", "Low", "SB19 GLOBAL TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE GOAT GROUP", "体育/粉丝口号", "Sports / Event", "低", "Low", "THE GOAT GROUP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ScotchXLinglingWithOrm", "饮品/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "ScotchXLinglingWithOrm", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM X SCOTCH THAILAND", "饮品/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "LINGORM X SCOTCH THAILAND", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PleaseProtectTeeTeePor", "粉丝维权/艺人保护", "Celebrity / Fandom", "粉丝争议/维权观察", "Fandom Dispute / Protection Watch", "PleaseProtectTeeTeePor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ANGUEL KASAL NA", "剧集/CP 粉丝话题", "Drama / Variety / Entertainment", "低", "Low", "ANGUEL KASAL NA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("danielle", "K-pop/NewJeans 成员话题", "Celebrity / Fandom", "低", "Low", "danielle", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("gelix shot puno", "剧集/CP 粉丝话题", "Drama / Variety / Entertainment", "低", "Low", "gelix shot puno", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WhenWinningMeansLosing", "社会/公共讨论口号", "Civic / Public Watch", "公共争议观察", "Public Controversy Watch", "WhenWinningMeansLosing", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GELEX TCD2 POSTER", "剧集/海报宣传", "Drama / Variety / Entertainment", "低", "Low", "GELEX TCD2 POSTER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PLEASE TAKE ACTION", "粉丝维权/行动口号", "Celebrity / Fandom", "粉丝争议/维权观察", "Fandom Dispute / Action Watch", "PLEASE TAKE ACTION", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BRIGHTONBAY CROWNS MIGUEL", "剧集/明星粉丝话题", "Drama / Variety / Entertainment", "低", "Low", "BRIGHTONBAY CROWNS MIGUEL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#CoffeeShopByHMJ", "咖啡店/明星品牌内容", "Brand / Celebrity Campaign", "低", "Low", "CoffeeShopByHMJ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ajaa_comeback", "P-pop/音乐回归", "Music / Show / Release", "低", "Low", "ajaa_comeback", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ash is 4üs", "音乐/粉丝应援", "Celebrity / Fandom", "低", "Low", "ash is 4üs", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#خواطر_واقلام_تعبر", "文学/情感语录标签", "Lifestyle / Local Trend", "低", "Low", "خواطر_واقلام_تعبر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ازكر_ربك", "宗教/公共口号", "Civic / Public Watch", "宗教/公共口号观察", "Religious / Public-Slogan Watch", "ازكر_ربك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#تزوج_الان_من_تطبيق_استقرار", "婚恋 App 广告", "Low-Quality Ad / Services", "婚恋广告/低质转化风险", "Dating-App Ad / Low-Quality Conversion Risk", "تزوج_الان_من_تطبيق_استقرار", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#تدخل_الصندوق_مطلب_الاتحاديين", "体育/俱乐部投资诉求", "Sports / Event", "体育治理/投资争议", "Sports Governance / Investment Watch", "تدخل_الصندوق_مطلب_الاتحاديين", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#كلناا_سمو_الخير", "公共公益/本地口号", "Civic / Public Watch", "公共公益口号观察", "Civic / Public-Welfare Watch", "كلناا_سمو_الخير", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("روما", "体育/俱乐部话题", "Sports / Event", "低", "Low", "روما", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كاري", "体育/球星话题", "Sports / Event", "低", "Low", "كاري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الامير الوليد", "商业名人/公共财经话题", "Civic / Public Watch", "公共财经/商业人物观察", "Public-Finance / Business Figure Watch", "الامير الوليد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("لحم الخنزير", "宗教/食品争议", "Civic / Public Watch", "宗教/生活方式争议", "Religious / Lifestyle Controversy", "لحم الخنزير", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("سيلفا", "体育/球员话题", "Sports / Event", "低", "Low", "سيلفا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("فالفيردي", "体育/球员话题", "Sports / Event", "低", "Low", "فالفيردي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الرقابه الماليه", "金融监管/公共议题", "Civic / Public Watch", "金融监管/公共议题", "Financial-Regulation / Public Watch", "الرقابه الماليه", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("وست هام", "体育/俱乐部话题", "Sports / Event", "低", "Low", "وست هام", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("كوستا", "体育/球员话题", "Sports / Event", "低", "Low", "كوستا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("منصور بن زايد", "王室/商业体育人物", "Civic / Public Watch", "公共人物/政治商业观察", "Public Figure / Political-Business Watch", "منصور بن زايد", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#FBvGOR", "体育/Fenerbahçe 赛事标签", "Sports / Event", "低", "Low", "FBvGOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kerem", "体育/球员话题", "Sports / Event", "低", "Low", "Kerem", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Talisca", "体育/球员话题", "Sports / Event", "低", "Low", "Talisca", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PlunderedPalestine", "巴勒斯坦/国际政治口号", "Civic / Geopolitical Watch", "国际政治/争议", "International Politics / Controversy", "PlunderedPalestine", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("İsmail Kartal", "体育/教练话题", "Sports / Event", "低", "Low", "İsmail Kartal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Gazze'yi Duy", "Gaza/国际政治口号", "Civic / Geopolitical Watch", "国际政治/争议", "International Politics / Controversy", "Gazze'yi Duy", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#NarinDavası", "司法/社会案件", "Civic / Legal Watch", "法律/社会争议", "Legal / Social Controversy", "NarinDavası", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Filistin Yağmalanıyor", "巴勒斯坦/国际政治口号", "Civic / Geopolitical Watch", "国际政治/争议", "International Politics / Controversy", "Filistin Yağmalanıyor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("İrfan", "体育/球员话题", "Sports / Event", "低", "Low", "İrfan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Semedo", "体育/球员话题", "Sports / Event", "低", "Low", "Semedo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TaksimMeydanı", "公共广场/政治敏感地点", "Civic / Public Watch", "公共政治/集会敏感", "Public-Political / Assembly Sensitivity", "TaksimMeydanı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Fredi", "体育/球员话题", "Sports / Event", "低", "Low", "Fredi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TUSAŞ Motor Sanayii A.Ş", "国防工业/企业话题", "Civic / Security Watch", "国防工业/公共安全议题", "Defense Industry / Public-Security Watch", "TUSAŞ Motor Sanayii A.Ş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Leao", "体育/球员话题", "Sports / Event", "低", "Low", "Leao", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Bartuğ", "体育/球员话题", "Sports / Event", "低", "Low", "Bartuğ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("LINGORM X SCOTCH THAILAND", "饮品/明星品牌联动", "Brand / Celebrity Campaign", "低", "Low", "LINGORM X SCOTCH THAILAND", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("WISHING YOU STRENGTH JUHOON", "K-pop/生日应援", "Celebrity / Fandom", "低", "Low", "WISHING YOU STRENGTH JUHOON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#AlwaysWithJUHOON", "K-pop/生日应援", "Celebrity / Fandom", "低", "Low", "AlwaysWithJUHOON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Warning", "泛警示词/需复核", "Civic / Public Watch", "低语义/争议观察", "Low-Semantic / Controversy Watch", "Warning", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA NEVER ENOUGH", "明星/演唱会粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA NEVER ENOUGH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#LingOrmPhuketFanMeet", "明星粉丝见面会", "Celebrity / Fandom", "低", "Low", "LingOrmPhuketFanMeet", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
+
+
+
   {
     date: "2026-07-21",
     title: {
@@ -359,7 +484,7 @@ const reports = [
     }
   },
 
-  
+
 
 
   {
@@ -477,7 +602,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-17",
@@ -584,7 +709,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-16",
@@ -705,7 +830,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-15",
@@ -808,7 +933,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-14",
@@ -903,7 +1028,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-13",
@@ -999,7 +1124,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-12",
@@ -1318,7 +1443,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-09",
@@ -1429,7 +1554,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-08",
@@ -1515,7 +1640,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-07",
@@ -1628,7 +1753,7 @@ const reports = [
     }
   },
 
-  
+
 
   {
     date: "2026-07-06",
@@ -1718,7 +1843,7 @@ const reports = [
     }
   },
 
-  
+
 
 
 
@@ -1820,7 +1945,7 @@ const reports = [
     }
   },
 
-  
+
 
 
 
