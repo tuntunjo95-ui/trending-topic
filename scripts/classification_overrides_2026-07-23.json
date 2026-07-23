@@ -1,0 +1,708 @@
+{
+  "date": "2026-07-23",
+  "note": "Manual classification overrides for 2026-07-23 public trend captures: Indonesia Shopee/Samsung/K-pop/drama plus AI/civic/crypto risks; Thailand Dior/LingOrm/Scotch/Engfa/Charlotte/Maybelline/Garnier/Vogue/series brand campaigns; Philippines BINI/SB19/Dino/LingOrm/Gelex/Anguel/Kim Chiu fandom; Saudi sports/culture plus Houthi/anti-corruption/nuclear/Red Sea risks; Turkey football/music plus party/politics/Gaza/health/labor risks; Vietnam LingOrm/Dior/series/travel plus crypto-low-signal risks.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#DagingTelurShopeeInstant1Jam": {
+          "typeZh": "Shopee 即时购/生鲜促销",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gratis Voucher Kalau Telat": {
+          "typeZh": "电商优惠券活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Diskon 50%": {
+          "typeZh": "促销/折扣话题",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#MrKillSeriesEP3": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#25SweetSeasonsWithJaehyuk": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#KerjasamaAI": {
+          "typeZh": "AI 合作/公共科技话题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "AI/公共政策观察",
+          "riskEn": "AI / Public-Policy Watch"
+        },
+        "#thenewshapereaction": {
+          "typeZh": "品牌发布/粉丝反应",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "tni perkuat kemandirianpangan": {
+          "typeZh": "军方/粮食安全公共口号",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "军事/粮食安全公共议题",
+          "riskEn": "Military / Food-Security Watch"
+        },
+        "berbuah sinergi nyata": {
+          "typeZh": "政务/公共合作口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Civic-Slogan Watch"
+        },
+        "RIKU RED HAIR": {
+          "typeZh": "K-pop/明星造型话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Galaxy Flip8": {
+          "typeZh": "Samsung 折叠屏新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Galaxy Watch9": {
+          "typeZh": "Samsung 智能手表新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PHUWIN SAMSUNG IN LONDON": {
+          "typeZh": "Samsung/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Kepala BGN": {
+          "typeZh": "国家营养机构/公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Agency Watch"
+        },
+        "Galaxy Fold8": {
+          "typeZh": "Samsung 折叠屏新品",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Trade $RE": {
+          "typeZh": "加密/投机广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Kepala Badan Gizi Nasional": {
+          "typeZh": "国家营养机构/公共议题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Agency Watch"
+        },
+        "samsung rewards": {
+          "typeZh": "Samsung 会员奖励活动",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Trade $ILY": {
+          "typeZh": "加密/投机广告",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈/广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Bersih Bersih PU": {
+          "typeZh": "公共工程/政务口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "公共政策/政务口号观察",
+          "riskEn": "Public-Policy / Government Campaign Watch"
+        },
+        "Nicehood": {
+          "typeZh": "潮流/生活方式品牌",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TONSOM 11TH EPISODE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#LingOrmAtDiorSiamParagon": {
+          "typeZh": "Dior/明星时尚活动",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FIRSTONE X LULA": {
+          "typeZh": "明星/品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ตี๋ตี๋ป๋อของวาวา": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ไอจีล่ม": {
+          "typeZh": "Instagram 服务异常",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "平台故障/公共讨论",
+          "riskEn": "Platform Outage / Public Watch"
+        },
+        "#ScotchXLinglingWithOrm": {
+          "typeZh": "饮品/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "FLOURISHING GROWTH ENGFA23": {
+          "typeZh": "明星/生日成长应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#ดั่งเดือนค้างฟ้าล้านวิว": {
+          "typeZh": "音乐/剧集 OST 百万播放",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SIMPLY BE CHARLOTTE23": {
+          "typeZh": "明星/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TONSOM 11TH EPISODE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "1M STILL THE MOON": {
+          "typeZh": "音乐/视频播放里程碑",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "bokbear 50k on x": {
+          "typeZh": "明星/账号粉丝里程碑",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "PHUWIN SAMSUNG IN LONDON": {
+          "typeZh": "Samsung/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "AI GIRL EPISODE FOUR": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "khom khlang q8": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THEEWAVE ADVENTURE ICONSIAM": {
+          "typeZh": "商场/明星活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "HIMALAYA WITH WILLIAM": {
+          "typeZh": "护肤/明星品牌联动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JUNIORMARK STANDARD POP": {
+          "typeZh": "媒体/明星采访",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ongsa ost 1m views": {
+          "typeZh": "音乐/OST 播放里程碑",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DAOU eXtraLiftInYourOwnWay": {
+          "typeZh": "护肤/明星品牌活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Orm Kornnaphat": {
+          "typeZh": "明星/粉丝话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "DUSTBIA UH ACTUALLY": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#BINI_AParallelWorld": {
+          "typeZh": "P-pop/BINI 音乐发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#SB19isLawless": {
+          "typeZh": "P-pop/SB19 巡演宣传",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THE GOAT GROUP": {
+          "typeZh": "粉丝/体育娱乐口号",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#DINO_CrazyCrazy_OutNow": {
+          "typeZh": "K-pop/MV 发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#피철인_미쳐미쳐_뮤직비디오": {
+          "typeZh": "K-pop/MV 发布标签",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DINO CRAZY CRAZY OFFICIAL MV": {
+          "typeZh": "K-pop/MV 发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#LingOrmAtDiorSiamParagon": {
+          "typeZh": "Dior/明星时尚活动",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "SHIPPED WITH PHILIPPINE PRIDE": {
+          "typeZh": "物流/本地品牌口号",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Jaehyuk's 25 Golden Years": {
+          "typeZh": "K-pop/生日应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "LULly EXCITED FOR YSATONG": {
+          "typeZh": "明星/粉丝活动",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "THEEWAVE ADVENTURE ICONSIAM": {
+          "typeZh": "商场/明星活动",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "JC IS 4ÜS": {
+          "typeZh": "音乐/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ashtine on ohmygan": {
+          "typeZh": "明星/节目宣传",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ANGUEL SAYs I DO": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "miguel perfect partner": {
+          "typeZh": "剧集/明星粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "carton amats is real": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "gelix sisig table five": {
+          "typeZh": "剧集/CP 粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "brightonbay crowns miguel": {
+          "typeZh": "剧集/明星粉丝话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "namjoon": {
+          "typeZh": "K-pop/BTS 成员话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#سقيا_المعتمرين_بمكه": {
+          "typeZh": "宗教公益/朝觐服务",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "宗教公益/公共服务观察",
+          "riskEn": "Religious Public-Service Watch"
+        },
+        "#الحوثي_يتجاهل_سفن_اسراييل": {
+          "typeZh": "红海/胡塞武装地缘议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地缘政治/航运安全风险",
+          "riskEn": "Geopolitical / Shipping-Security Risk"
+        },
+        "#محمد_رمضان_بقولك_روح": {
+          "typeZh": "音乐/明星发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#وطن_بلا_فساد": {
+          "typeZh": "反腐/公共治理口号",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "政治/公共治理观察",
+          "riskEn": "Anti-Corruption / Governance Watch"
+        },
+        "#برنامج_استكانه": {
+          "typeZh": "节目/播客话题",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "الطاقه النوويه": {
+          "typeZh": "核能/公共政策议题",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "核能/国际政策观察",
+          "riskEn": "Nuclear-Energy / Policy Watch"
+        },
+        "القهوه العربيه": {
+          "typeZh": "咖啡/生活方式",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "فؤاد": {
+          "typeZh": "音乐/名人话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "التعاون النووي": {
+          "typeZh": "核能合作/国际政策",
+          "typeEn": "Civic / Security Watch",
+          "riskZh": "核能/国际政策观察",
+          "riskEn": "Nuclear Cooperation / Policy Watch"
+        },
+        "البحر الاحمر": {
+          "typeZh": "红海/地区安全议题",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "地区安全/航运议题",
+          "riskEn": "Regional-Security / Shipping Watch"
+        },
+        "عثمان ديمبلي": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كاري": {
+          "typeZh": "体育/球星话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "ستيف": {
+          "typeZh": "体育/名人话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "سفيان بن دبكة": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "دي يونغ": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "سواريز": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "كوليبالي": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "المملكه القابضه": {
+          "typeZh": "上市公司/投资话题",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "金融/上市公司观察",
+          "riskEn": "Finance / Listed-Company Watch"
+        },
+        "بنفيكا": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#DursunÖzbekİstifa": {
+          "typeZh": "足球俱乐部/球迷抗议",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#yeniparti": {
+          "typeZh": "新政党/政治议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "Leao": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#TRANSFERLERNEREDE": {
+          "typeZh": "足球转会/球迷话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "BizimkilerHalaBurda": {
+          "typeZh": "音乐/文化梗话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Özgür Özel": {
+          "typeZh": "政治人物/公共议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "#AcilKademeŞart": {
+          "typeZh": "劳工/薪酬公共政策",
+          "typeEn": "Civic / Public Watch",
+          "riskZh": "劳工/公共政策观察",
+          "riskEn": "Labor / Public-Policy Watch"
+        },
+        "#Omega3Gerçeği": {
+          "typeZh": "健康营养话题",
+          "typeEn": "Civic / Medical Watch",
+          "riskZh": "健康/医疗营养观察",
+          "riskEn": "Health / Nutrition Watch"
+        },
+        "Ece Üner": {
+          "typeZh": "媒体/名人话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Gökhan Özoğuz": {
+          "typeZh": "音乐/名人话题",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "İsmail Kartal": {
+          "typeZh": "体育/教练话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "CHP'den": {
+          "typeZh": "政党/政治议题",
+          "typeEn": "Civic / Political Watch",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political / Civic Watch"
+        },
+        "Fatih Portakal": {
+          "typeZh": "媒体/名人话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Öykü Serter": {
+          "typeZh": "电视/名人话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Talisca": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Filistin Yağmalanıyor": {
+          "typeZh": "巴勒斯坦/国际政治口号",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "Gazze'yi Duy": {
+          "typeZh": "Gaza/国际政治口号",
+          "typeEn": "Civic / Geopolitical Watch",
+          "riskZh": "国际政治/争议",
+          "riskEn": "International Politics / Controversy"
+        },
+        "ÇerçeveSüreç AyrımsızAF": {
+          "typeZh": "司法/赦免公共政策口号",
+          "typeEn": "Civic / Legal Watch",
+          "riskZh": "法律/公共政策争议",
+          "riskEn": "Legal / Public-Policy Watch"
+        },
+        "Inter Turku": {
+          "typeZh": "体育/俱乐部话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Asensio": {
+          "typeZh": "体育/球员话题",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#LingOrmAtDiorSiamParagon": {
+          "typeZh": "Dior/明星时尚活动",
+          "typeEn": "Fashion / Brand Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Boracay": {
+          "typeZh": "旅行/海岛目的地",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Unmatched": {
+          "typeZh": "泛词/低语义词",
+          "typeEn": "General / To Classify",
+          "riskZh": "低语义/低转化观察",
+          "riskEn": "Low-Semantic / Low-Conversion Watch"
+        },
+        "Movement Labs": {
+          "typeZh": "Web3/项目词",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "Web3/投机广告风险",
+          "riskEn": "Web3 / Speculation-Ad Risk"
+        },
+        "Ling and Orm": {
+          "typeZh": "明星/CP 粉丝话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "#WhenOrangesFallEP11": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "TONSOM 11TH EPISODE": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Orm Kornnaphat": {
+          "typeZh": "明星/粉丝话题",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "DEXE": {
+          "typeZh": "加密/投机词",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "$MOVE": {
+          "typeZh": "加密/投机词",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "投机/币圈广告风险",
+          "riskEn": "Speculation / Crypto-Shill Risk"
+        },
+        "Nha Trang": {
+          "typeZh": "旅行/本地目的地",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low"
+        },
+        "Wallet Connect": {
+          "typeZh": "Web3/钱包连接词",
+          "typeEn": "Finance / Crypto (Watch)",
+          "riskZh": "Web3/钱包风险观察",
+          "riskEn": "Web3 / Wallet-Risk Watch"
+        }
+      }
+    }
+  }
+}
