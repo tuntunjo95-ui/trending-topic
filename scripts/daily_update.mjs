@@ -1034,11 +1034,11 @@ async function main() {
         .map(normalizeTopic)
         .filter((t) => !shouldDrop(t, meta.id))
         .filter((t, index, arr) => arr.indexOf(t) === index)
-        .slice(0, 20) // keep a manageable number in the webpage
         .map(buildTopic);
       kept = applyClassificationOverrides(meta.id, kept);
       kept = applyTopicFilters(meta.id, kept);
       kept = applyContentSignals(meta.id, kept);
+      kept = kept.slice(0, 20); // keep a manageable number in the webpage after top-30 screening
     } catch (err) {
       error = err?.message || String(err);
     }

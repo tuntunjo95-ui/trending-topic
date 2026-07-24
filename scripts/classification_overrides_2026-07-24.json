@@ -1,0 +1,1171 @@
+{
+  "date": "2026-07-24",
+  "note": "Manual classification overrides for 2026-07-24 after reviewing the live Trends24 top-30 lists. Shape matches daily_update.mjs: countries.<id>.topics.<topic>.",
+  "countries": {
+    "id": {
+      "topics": {
+        "#GalaxyZFold8": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Samsung foldable device launch/speculation."
+        },
+        "#FoldTheDoubt": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Samsung foldable campaign phrase."
+        },
+        "#KopiKenanganxNCTHAECHAN": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Coffee brand x NCT Haechan fan campaign."
+        },
+        "#GoneAwayGAWINmv": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Gawin MV release."
+        },
+        "li claudia chandra": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Public figure/celebrity name trend; verify local context."
+        },
+        "#dagingtelurshopeeinstant1jam": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Shopee instant grocery campaign."
+        },
+        "pendidikan berkualitas": {
+          "typeZh": "公共议题/教育",
+          "typeEn": "Public Affairs / Education",
+          "riskZh": "公共议题",
+          "riskEn": "Public affairs",
+          "reason": "Education policy/social phrase."
+        },
+        "J-Hope": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "BTS member fandom topic."
+        },
+        "GAWIN GONE AWAY MV": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Gawin MV release."
+        },
+        "jangan pikat anak": {
+          "typeZh": "公共安全/未成年人",
+          "typeEn": "Public Safety / Minors",
+          "riskZh": "未成年人/公共安全",
+          "riskEn": "Minor-safety watch",
+          "reason": "Child safety phrase; avoid sensational framing."
+        },
+        "surat cinta tempo": {
+          "typeZh": "媒体/公共讨论",
+          "typeEn": "Media / Public Discussion",
+          "riskZh": "争议/媒体",
+          "riskEn": "Controversy/media watch",
+          "reason": "Tempo/media public discussion."
+        },
+        "Jaehyuk's 25 Golden Years": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "K-pop birthday/fandom trend."
+        },
+        "BTS IS 7": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "BTS fandom trend."
+        },
+        "pengakuan dunia internasional": {
+          "typeZh": "公共议题",
+          "typeEn": "Public Affairs",
+          "riskZh": "公共议题",
+          "riskEn": "Public affairs",
+          "reason": "Government/national recognition phrase."
+        },
+        "gratis voucher kalau telat": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Delivery/voucher campaign."
+        },
+        "bri peduli": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "BRI CSR/brand activity; use neutral framing."
+        },
+        "Keno": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Entertainment/person-name trend; verify context."
+        },
+        "ZNN x TH YContent2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Y-content awards/fandom topic."
+        },
+        "GEN Wealth": {
+          "typeZh": "金融/品牌",
+          "typeEn": "Finance / Brand",
+          "riskZh": "金融/投资",
+          "riskEn": "Finance/investment watch",
+          "reason": "Wealth/finance keyword; avoid investment claims."
+        },
+        "Trade $RE": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Token trading shill risk."
+        }
+      }
+    },
+    "th": {
+      "topics": {
+        "#JANUAXBAMBAM": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "BamBam/fandom campaign."
+        },
+        "#TFOxYcontentAW25": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Thai Y-content awards event."
+        },
+        "TFO X YAWARDS2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Thai Y-content awards event."
+        },
+        "DOMIIA 500K MILESTONE": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fan milestone trend."
+        },
+        "#ThailandYContentAwards2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Thai Y-content awards event."
+        },
+        "#ซอโซ่ล่ามธีร์EP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Drama episode trend."
+        },
+        "BE MY PLAYER TWO EP2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Episode trend."
+        },
+        "#Flex1045xTEN_ถ้าไม่คิด": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "TEN/music radio promo."
+        },
+        "ZNN x TH YContent2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Y-content awards/fandom topic."
+        },
+        "FLOURISHING GROWTH ENGFA24": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Engfa birthday/fandom topic."
+        },
+        "SIMPLY BE CHARLOTTE24": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Charlotte birthday/fandom topic."
+        },
+        "KNP WITH KATE": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity/fandom trend."
+        },
+        "JUNIOR 1ST SOLO 1M": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Solo music milestone."
+        },
+        "TTP COCO LOVE": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity brand/fandom phrase."
+        },
+        "POOHPAVEL TH YCONTENT2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "PoohPavel Y-content event."
+        },
+        "EMIBONNIE PUT IT BACK ON": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Artist/fandom music phrase."
+        },
+        "ANDALOOKKAEW AT Y AWARDS": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Awards appearance."
+        },
+        "UPPOOM YCONTENT 2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Awards appearance."
+        },
+        "lingorm x scotch thailand": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "LingOrm x Scotch brand campaign."
+        },
+        "EFM FANDOM WITH EMIBONNIE": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Radio/fandom appearance."
+        },
+        "tonsom 11th episode": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Drama episode trend."
+        },
+        "LOVE FINDS WAY ENGLOT24": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "EngLot fandom phrase."
+        },
+        "SONEURO SHINE AT YAWARDS": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Awards appearance."
+        },
+        "MAYBELLINE FOURTH PARTY": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Maybelline celebrity campaign."
+        },
+        "AUMAUM MARGET X YINWAR": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity brand/event topic."
+        },
+        "diceblue smoke mv out now": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Music video release."
+        },
+        "EMBPFK FFF COUNTDOWN": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom countdown."
+        },
+        "maybelline mattemax book": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Maybelline celebrity campaign."
+        },
+        "williamest love echo 4m": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Music/series view milestone."
+        }
+      }
+    },
+    "ph": {
+      "topics": {
+        "#BINI_AParallelWorld": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "BINI music/fandom release trend."
+        },
+        "#SB19isLawless": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "SB19 music/fandom trend; not legal content."
+        },
+        "LUL AT FIRST SIGHT": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Entertainment/fandom phrase."
+        },
+        "#LULTheEstrangedGirl": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Entertainment/episode hashtag."
+        },
+        "Keno": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Entertainment/person-name trend."
+        },
+        "#DAPTwoProposals": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Drama/ship episode phrase."
+        },
+        "#WilBea": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity/ship fandom hashtag."
+        },
+        "DRALYS I7S COMPLICATED": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom/episode phrase."
+        },
+        "GELEX TCD2 TRAILER": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Trailer/fandom trend."
+        },
+        "PROTECT SEN RISA": {
+          "typeZh": "政治/公共人物",
+          "typeEn": "Politics / Public Figure",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political/public-affairs watch",
+          "reason": "Senator/public figure support phrase."
+        },
+        "dustbia uh actually": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom/entertainment phrase."
+        },
+        "Korra": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Character/entertainment keyword."
+        },
+        "GINNY JAYNA YAwards2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Awards appearance."
+        },
+        "ZNN x TH YContent2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Y-content awards/fandom topic."
+        },
+        "miguels genuine heart": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity/fandom phrase."
+        },
+        "jmfyang wyfmm s2": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Series/fandom season topic."
+        },
+        "Twenty WONders with JU": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Birthday/fandom phrase."
+        },
+        "Tropical Storm": {
+          "typeZh": "天气/灾害",
+          "typeEn": "Weather / Disaster",
+          "riskZh": "灾害/天气",
+          "riskEn": "Weather/disaster watch",
+          "reason": "Weather risk; do not use as entertainment content."
+        },
+        "Jaehyuk's 25 Golden Years": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "K-pop birthday/fandom trend."
+        },
+        "gelix cares deeply": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom/episode phrase."
+        },
+        "joshua new cover out now": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Music cover release."
+        },
+        "dino crazy crazy official mv": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Dino official MV trend."
+        },
+        "CAPEATH THROUGH ITALL": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom phrase."
+        },
+        "Disney": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Entertainment brand keyword."
+        },
+        "YOKO AT GEMS PAVILION": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity event appearance."
+        },
+        "axl is 4üs": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Fandom phrase."
+        },
+        "AZZI FUDD": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Basketball athlete trend."
+        },
+        "buy heathstime ticket now": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Ticket/event promo."
+        },
+        "loverboy ep 1million streams": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Streaming milestone."
+        },
+        "SHIPPED WITH PHILIPPINE PRIDE": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Commerce/national pride campaign phrase."
+        }
+      }
+    },
+    "sa": {
+      "topics": {
+        "#كلنا_مع_سمو_الخير_1": {
+          "typeZh": "公共人物/社会议题",
+          "typeEn": "Public Figure / Social",
+          "riskZh": "公共议题",
+          "riskEn": "Public-affairs watch",
+          "reason": "Public figure/support hashtag."
+        },
+        "#حرق_ون_بيس": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "One Piece spoiler/anime discussion."
+        },
+        "#جمعه_مباركه": {
+          "typeZh": "宗教/生活方式",
+          "typeEn": "Religious / Lifestyle",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Friday blessing phrase; use respectfully."
+        },
+        "#سقيا__المعتمرين_يوم_الجمعه": {
+          "typeZh": "宗教公益服务",
+          "typeEn": "Religious Public Service",
+          "riskZh": "宗教/公共服务",
+          "riskEn": "Religious public-service watch",
+          "reason": "Pilgrim water/public-service topic."
+        },
+        "علي النبي": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase."
+        },
+        "#هيف_بن_عبود": {
+          "typeZh": "公共人物/社会议题",
+          "typeEn": "Public Figure / Social",
+          "riskZh": "公共议题",
+          "riskEn": "Public-affairs watch",
+          "reason": "Person/public support hashtag."
+        },
+        "كود كوبون": {
+          "typeZh": "品牌活动/消费",
+          "typeEn": "Brand / Consumer",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Coupon code/deal topic."
+        },
+        "رجل النصر الاول": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Al Nassr football fan phrase."
+        },
+        "قوميز": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Gomis football topic."
+        },
+        "كوخ اليمامه": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Local place/lifestyle topic."
+        },
+        "الاتفاق النووي": {
+          "typeZh": "国际政策/核能",
+          "typeEn": "International Policy / Nuclear",
+          "riskZh": "政治/国际政策",
+          "riskEn": "Political/international-policy watch",
+          "reason": "Nuclear agreement policy topic."
+        },
+        "جدول الدوري": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "League schedule sports topic."
+        },
+        "دوري روشن السعودي": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Saudi Pro League topic."
+        },
+        "دي يونغ": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Frenkie de Jong football trend."
+        },
+        "نيتو": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Footballer transfer/topic."
+        },
+        "#رحله_المليون1": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Show/entertainment hashtag."
+        },
+        "#احسموا_صفقه_كونيه_ياتنفيذيين": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football transfer demand hashtag."
+        },
+        "#هاشتاقك_اول_معنا_θち5θち2θ129": {
+          "typeZh": "刷榜/低质广告",
+          "typeEn": "Low-Quality Promotion",
+          "riskZh": "低质广告/刷榜",
+          "riskEn": "Low-quality promotion watch",
+          "reason": "Hashtag promotion/spam-like trend."
+        },
+        "#استمرار_سندي_مطلب_الجمهور114": {
+          "typeZh": "社会诉求/公共讨论",
+          "typeEn": "Social Demand / Public Discussion",
+          "riskZh": "公共议题",
+          "riskEn": "Public-affairs watch",
+          "reason": "Audience/public demand hashtag; verify context."
+        },
+        "#يوم_الجمعه": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Friday religious expression."
+        },
+        "الهلال": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Al Hilal football topic."
+        },
+        "كاري": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Curry sports topic."
+        },
+        "البحر الاحمر": {
+          "typeZh": "地缘/航运安全",
+          "typeEn": "Geopolitics / Shipping Security",
+          "riskZh": "政治/地缘风险",
+          "riskEn": "Geopolitical risk",
+          "reason": "Red Sea geopolitical/shipping-security topic."
+        },
+        "حمد العتيبي": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Person/public figure trend; verify context."
+        },
+        "رياض الجنه": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase; handle respectfully."
+        },
+        "الفردوس الاعلي": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase; handle respectfully."
+        },
+        "ابو فهيد": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Person-name trend; verify context."
+        },
+        "اليوم الخميس": {
+          "typeZh": "泛词/低转化",
+          "typeEn": "Generic / Low Conversion",
+          "riskZh": "低语义/低转化",
+          "riskEn": "Low-conversion watch",
+          "reason": "Generic day phrase."
+        },
+        "عبدالعزيز الحارثي": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Person-name trend; verify context."
+        },
+        "الخميس الونيس": {
+          "typeZh": "宗教/生活方式",
+          "typeEn": "Religious / Lifestyle",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Thursday religious/lifestyle phrase."
+        },
+        "اليوم الفضيل": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase."
+        },
+        "سلم علي": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Likely song/phrase trend; verify context."
+        },
+        "عوض الناشري": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Saudi football/person topic."
+        },
+        "كريم اديمي": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Karim Adeyemi football transfer topic."
+        },
+        "الوليد بن طلال": {
+          "typeZh": "商业/公共人物",
+          "typeEn": "Business / Public Figure",
+          "riskZh": "金融/公共人物",
+          "riskEn": "Finance/public-figure watch",
+          "reason": "High-profile business/public figure."
+        },
+        "القهوه العربيه": {
+          "typeZh": "生活方式/本地热点",
+          "typeEn": "Lifestyle / Local Trend",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Arabic coffee lifestyle/culture topic."
+        },
+        "جنات النعيم": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase."
+        },
+        "نور مابين الجمعتين": {
+          "typeZh": "宗教/公共表达",
+          "typeEn": "Religious Expression",
+          "riskZh": "宗教/公共表达",
+          "riskEn": "Religious expression watch",
+          "reason": "Religious phrase."
+        }
+      }
+    },
+    "tr": {
+      "topics": {
+        "#BJKvFCM": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football match hashtag."
+        },
+        "#DursunÖzbekTransferlerNerede": {
+          "typeZh": "体育/争议",
+          "typeEn": "Sports / Controversy",
+          "riskZh": "体育争议",
+          "riskEn": "Sports controversy watch",
+          "reason": "Club president/transfer protest."
+        },
+        "Olaitan": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Footballer transfer/player topic."
+        },
+        "#fileninsultanları": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Turkey volleyball national team fandom."
+        },
+        "#TorbadanPTTihsyekadro": {
+          "typeZh": "劳工/公共政策",
+          "typeEn": "Labor / Public Policy",
+          "riskZh": "劳工/公共政策",
+          "riskEn": "Labor/public-policy watch",
+          "reason": "Employment/public staffing demand."
+        },
+        "#permadebut": {
+          "typeZh": "音乐/演出/发布",
+          "typeEn": "Music / Show / Release",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Music debut hashtag."
+        },
+        "Cerny": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player transfer topic."
+        },
+        "Orkun Kökçü": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player topic."
+        },
+        "Rıdvan": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player/person topic."
+        },
+        "Leao": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football transfer/player trend."
+        },
+        "yükselen yıldızlar": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Rising stars phrase."
+        },
+        "Salih": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player/person topic."
+        },
+        "Semih": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player/person topic."
+        },
+        "Fatma Soydaş": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Public personality/name trend; verify context."
+        },
+        "Murillo": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player transfer topic."
+        },
+        "Erzurum Kongresi'nin 107": {
+          "typeZh": "历史/政治纪念",
+          "typeEn": "Historical / Civic",
+          "riskZh": "政治/历史公共议题",
+          "riskEn": "Civic/history watch",
+          "reason": "Historical national commemoration."
+        },
+        "Özgür Özel": {
+          "typeZh": "政治/公共人物",
+          "typeEn": "Politics / Public Figure",
+          "riskZh": "政治/公共议题",
+          "riskEn": "Political/public-affairs watch",
+          "reason": "Political figure."
+        },
+        "Merkez Bankası": {
+          "typeZh": "金融/宏观政策",
+          "typeEn": "Finance / Monetary Policy",
+          "riskZh": "金融/政策",
+          "riskEn": "Finance/policy watch",
+          "reason": "Central bank topic."
+        },
+        "Ezel Akay": {
+          "typeZh": "影视/明星",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Film director/entertainment figure."
+        },
+        "Fatih Portakal": {
+          "typeZh": "媒体/明星",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "TV/media personality."
+        },
+        "Vincenzo Italiano": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football coach topic."
+        },
+        "Mahmut Uslu": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football executive/person topic."
+        },
+        "Rasim Özdenören": {
+          "typeZh": "文化/公共纪念",
+          "typeEn": "Culture / Public Memory",
+          "riskZh": "公共纪念",
+          "riskEn": "Public-memory watch",
+          "reason": "Writer/cultural commemoration."
+        },
+        "Mustafa Kemal Atatürk": {
+          "typeZh": "历史/政治人物",
+          "typeEn": "Historical / Political Figure",
+          "riskZh": "政治/历史公共议题",
+          "riskEn": "Political/history watch",
+          "reason": "Historical political figure."
+        },
+        "Balotelli": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Football player topic."
+        },
+        "Hazal Kaya": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Actress/celebrity topic."
+        },
+        "Vargas": {
+          "typeZh": "体育/赛事",
+          "typeEn": "Sports / Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Volleyball/sports player topic."
+        }
+      }
+    },
+    "vn": {
+      "topics": {
+        "#LingOrmAtDiorSiamParagon": {
+          "typeZh": "品牌明星合作",
+          "typeEn": "Brand / Celebrity Campaign",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "LingOrm x Dior fashion event."
+        },
+        "Dubai Creek Harbour": {
+          "typeZh": "旅行/本地活动",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Travel/destination keyword."
+        },
+        "Kaito": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Anime/music/person-name fandom keyword; verify context."
+        },
+        "Arizona": {
+          "typeZh": "旅行/本地活动",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Travel/location keyword."
+        },
+        "BitMEX": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Crypto exchange topic."
+        },
+        "#YOM_TGE": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Token generation event."
+        },
+        "kenji kamiyama": {
+          "typeZh": "影视/明星",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Anime director/film topic."
+        },
+        "ZAMA": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Web3/crypto project keyword."
+        },
+        "Michelle Yeoh": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Actress/celebrity topic."
+        },
+        "Hanoi Railway": {
+          "typeZh": "旅行/本地活动",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Local travel/railway topic."
+        },
+        "YOKO AT GEMS PAVILION": {
+          "typeZh": "明星/粉丝应援",
+          "typeEn": "Celebrity / Fandom",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Celebrity event appearance."
+        },
+        "#WhenOrangesFallEp11": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Series episode hashtag."
+        },
+        "tonsom 11th episode": {
+          "typeZh": "剧集/综艺/娱乐",
+          "typeEn": "Drama / Variety / Entertainment",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Drama episode trend."
+        },
+        "Stable": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Likely stablecoin/crypto low-context keyword."
+        },
+        "$FEFER": {
+          "typeZh": "金融/币圈",
+          "typeEn": "Crypto / Finance",
+          "riskZh": "金融/币圈",
+          "riskEn": "Crypto/finance watch",
+          "reason": "Token ticker/shill risk."
+        },
+        "#YAwards2025xPoohPavel": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Y Awards x PoohPavel fandom trend."
+        },
+        "American Southwest": {
+          "typeZh": "旅行/本地活动",
+          "typeEn": "Travel / Local Event",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "Travel/location keyword."
+        },
+        "POOHPAVEL TH YCONTENT2025": {
+          "typeZh": "颁奖礼/红毯/盛典",
+          "typeEn": "Awards / Red Carpet / Ceremony",
+          "riskZh": "低",
+          "riskEn": "Low",
+          "reason": "PoohPavel Y-content event."
+        },
+        "Unreal": {
+          "typeZh": "泛词/低语义",
+          "typeEn": "Generic / Low Semantics",
+          "riskZh": "低语义/低转化",
+          "riskEn": "Low-semantic watch",
+          "reason": "Generic word; weak conversion unless context is verified."
+        }
+      }
+    }
+  }
+}
