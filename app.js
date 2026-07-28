@@ -29,9 +29,9 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-27 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼低风险池以 PeachAndMe EP3、Wardah Colour Circuit、CORTIS KMChart、MatchPoint EP1、First Match First Serve、The Sin Bliss album preview、GeminiFourth Taipei、Now Your Sea Third、LYKN Monster 等剧集品牌颁奖音乐明星体育词为主；泰国集中在 BUS Light As One D3、FFF Party Concert D2、PeachAndMe、Your Third EP1、EMBPFK、TLE x Vetsynova、Engfa/Charlotte、Maxky、85Racing、Lingling x Kustie、Edge of Horizon、LingOrm 等音乐剧集明星品牌活动；菲律宾优先 Vernon、The First Spark Manila、Wilbert Ross、AHOF、Stell Lawless、Fyang Haunted Carnival、WR Multimedia Wonder、PeachAndMe、P-pop Road to Lolla、The Sin Bliss、BGYO Batangas、Just Say Yes、Wave x Lavojoy 等音乐剧综品牌粉丝词；沙特低风险池为 رحله المليون4、صيفيه العاصفه、Diaz、Ndiaye、Neto、Dawri Jawwy、Royi Al-Sabban、Nasser Al-Ghamdi、foreign referees、promoted clubs、Everton、Saudi coffee、Hamood Al-Fayez、Benzema 等娱乐体育生活方式词；土耳其低风险池为 Musiala、Bayern、Fabrizio、Florian Plettenberg、Teoman、Leyla、Ajans、Burhan、Aras、Samoş、Nevzat、Şebnem 等体育音乐影视人物词；越南优先 Lingling Kwong x Kustie、CORTIS KMChart、PeachAndMe、FFF Party Concert、ForceBook HCMC、PondPhuwin、LingOrm ILF EP6、Faye Fansign、Atlantic Road/New Zealand/Faroe Islands、APASRA、Shanghai with Miephat&Aya 等品牌明星剧集音乐旅行词。",
-    summaryRisk: "风险观察：印尼 Gubernur BI 属金融公共人物，berantas tindak kejahatan 属法律/公共安全，KementerianDesaPDT、visi perkokoh NKRI、Dr. Agustomi Masik 属政府/公共议题，lagi lagi tempo 属媒体争议；泰国 แบนgmmtv 属粉丝维权/品牌争议；菲律宾 Iglesia/Cristo 属宗教公共议题，SONA2026 属政治公共议题，Philcoa/Commonwealth Avenue 属本地交通公共议题；沙特 الضمان الاجتماعي المطور 属福利公共政策，يد وحده لاجل سموالخير 属公共诉求，الراتب 属薪资公共议题，المشتريات المحلية 属经济/公共采购，صيام الايام البيض 属宗教表达；土耳其 daha17、kapsamlıterörsüztürkiye、HerkesİçinAdalet、SizeYalanSöylediler、Yalanlama、Kelle、Stajyer Çırakla、PkkKadar 等属社会诉求、国家安全、法律、媒体争议或劳工政策观察；越南 BitMart、Monad 属 Web3/币圈风险。"
+    summaryTitle: "2026-07-28 六国热点话题日报",
+    summaryPriority: "优先深挖：印尼低风险池以 TimnasDay、JossGawin Concert Live、JG Ready for Concert、Kamboja、MoonshadowSeries、Thom Haye、EMIBONNIE Moonshadow Trailer、Matraman、Henderson、John Stones、First Match First Serve 等体育音乐剧集旅行生活方式词为主；泰国集中在 YourTuber、TEN、BUS Light As One D3、Engfa/Charlotte、Your Third EP1、Maxky 生日、MR Fanboy、EMBPFK、SANTAPP、Englot、Ditto、LYKN、Sunset in Winter、The Grim Lover、TLE x Vetsynova 等音乐剧集明星品牌活动；菲律宾优先 WinRiSelfie、SB19 Lollapalooza、DisneyPlus、MoonshadowSeries、KEN Is Lawless、USAD Music Video、This Is My Voice、Jisoo、Capeath、Heathjornales、Carton、Fyang、Dino、Vernon、Ditto 等音乐剧集明星品牌词；沙特低风险池为 Galaxy Z Fold8、رحله المليون5、WWE Raw、محمد محزري/محمد محرزي、Stones、Henderson、Nawaf Al-Balawi、Donnarumma、Xhaka、Nasser Al-Ghamdi、Maldini、Inter 等品牌综艺体育词；土耳其低风险池为 altıüstüistanbul、sadlin、Hakan、Leao、Jankat、Kaan、Milan、Günay、Lee Know、Soule、Venezia、İlkay、Rennes、Aziz Baba、BenHalaBurdayım、Rene Mitongo 等本地生活方式、体育和粉丝词；越南优先 MoonshadowSeries、EMIBONNIE Moonshadow Trailer、DittoSeries、Ditto Ready for Take Off、Faroe Islands、ITLG、North Atlantic、Vua Quạt 等剧集品牌旅行词。",
+    summaryRisk: "风险观察：印尼 bersih2narkobapolri、menjamin personel terbaik、taksekadar jaga wilayah、sdmunggulprofesional 属公共安全/机构宣传，Mitchell Baker 属企业公共人物，Gubernur BI/Perry Warjiyo 属金融公共议题，Dr. Agustomi Masik 属公共人物，$BLUE 属币圈投机风险；泰国 แบนgmmtv 属粉丝维权/品牌争议；菲律宾 SONA2026、State of the Nation Address 属政治公共议题，Gamdom 属博彩/低质广告，Davao Oriental 属本地公共议题；沙特 دام عزك、تكفي سمو لا تخلونها 属公共口号/社会诉求，العراق 属地缘公共议题，جامعة طيبة 属教育公共机构；土耳其 Dursun Özbek İstifa、KötüGündeYalnızBırakanı、AZİZ YILDIRIM 属体育治理/争议，kapsamliterörsüztürkiye 属国家安全政治，AdliMahkumada UmutOlun 属法律社会诉求，Yeni Parti Lideri Özgür Özel 属政治公共人物；越南 BitMart、Storj、Zerion 属 Web3/币圈风险。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -63,13 +63,163 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-27 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia low-risk topics include PeachAndMe EP3, Wardah Colour Circuit, CORTIS at KMChart, MatchPoint EP1, First Match First Serve, The Sin Bliss album preview, GeminiFourth Taipei, Now Your Sea Third, and LYKN Monster; Thailand is led by BUS Light As One D3, FFF Party Concert D2, PeachAndMe, Your Third EP1, EMBPFK, TLE x Vetsynova, Engfa/Charlotte, Maxky, 85Racing, Lingling x Kustie, Edge of Horizon, and LingOrm; the Philippines has Vernon, The First Spark Manila, Wilbert Ross, AHOF, Stell Lawless, Fyang Haunted Carnival, WR Multimedia Wonder, PeachAndMe, P-pop Road to Lolla, The Sin Bliss, BGYO Batangas, Just Say Yes, and Wave x Lavojoy; Saudi low-risk terms include Rahlat Al-Million 4, summer/local lifestyle tags, Diaz, Ndiaye, Neto, Dawri Jawwy, Royi Al-Sabban, Nasser Al-Ghamdi, foreign referees, promoted clubs, Everton, Saudi coffee, Hamood Al-Fayez, and Benzema; Turkey low-risk terms include Musiala, Bayern, Fabrizio, Florian Plettenberg, Teoman, Leyla, Ajans, Burhan, Aras, Samoš, Nevzat, and Şebnem; Vietnam has Lingling Kwong x Kustie, CORTIS at KMChart, PeachAndMe, FFF Party Concert, ForceBook HCMC, PondPhuwin, LingOrm ILF EP6, Faye Fansign, Atlantic Road/New Zealand/Faroe Islands, APASRA, and Shanghai with Miephat&Aya.",
-    summaryRisk: "Risk watch: Indonesia has Gubernur BI as a finance/public-figure topic, crime-enforcement terms as legal/public-safety watch, KementerianDesaPDT, visi perkokoh NKRI, and Dr. Agustomi Masik as public-affairs watch, plus Lagi Lagi Tempo as media controversy; Thailand has the GMMTV boycott hashtag as fan activism or brand controversy; the Philippines has Iglesia/Cristo as religious public-affairs terms, SONA2026 as politics, and Philcoa/Commonwealth Avenue as local transit/public-affairs watch; Saudi has developed social-security, public-appeal, salary, local-procurement, and religious-observance topics as policy, economic, or religious watch; Turkey has daha17, terror-free Turkey, justice, media-denial, labor, and controversy terms as social-demand, national-security, legal, media, or labor-policy watch; Vietnam has BitMart and Monad as Web3/crypto risk."
+    summaryTitle: "2026-07-28 Six-Country Trend Brief",
+    summaryPriority: "Priority: Indonesia low-risk terms include TimnasDay, JossGawin Concert Live, JG Ready for Concert, Kamboja, MoonshadowSeries, Thom Haye, EMIBONNIE Moonshadow Trailer, Matraman, Henderson, John Stones, and First Match First Serve; Thailand is led by YourTuber, TEN, BUS Light As One D3, Engfa/Charlotte, Your Third EP1, Maxky birthday, MR Fanboy, EMBPFK, SANTAPP, Englot, Ditto, LYKN, Sunset in Winter, The Grim Lover, and TLE x Vetsynova; the Philippines has WinRiSelfie, SB19 Lollapalooza, DisneyPlus, MoonshadowSeries, KEN Is Lawless, USAD Music Video, This Is My Voice, Jisoo, Capeath, Heathjornales, Carton, Fyang, Dino, Vernon, and Ditto; Saudi low-risk terms include Galaxy Z Fold8, Rahlat Al-Million 5, WWE Raw, Mohamed Mahzari variants, Stones, Henderson, Nawaf Al-Balawi, Donnarumma, Xhaka, Nasser Al-Ghamdi, Maldini, and Inter; Turkey low-risk terms include altiustuistanbul, sadlin, Hakan, Leao, Jankat, Kaan, Milan, Gunay, Lee Know, Soule, Venezia, Ilkay, Rennes, Aziz Baba, BenHalaBurdayim, and Rene Mitongo; Vietnam has MoonshadowSeries, EMIBONNIE Moonshadow Trailer, DittoSeries, Ditto Ready for Take Off, Faroe Islands, ITLG, North Atlantic, and Vua Quat.",
+    summaryRisk: "Risk watch: Indonesia has anti-drug, police/institutional, finance-public-figure, company-public-figure, and $BLUE crypto-speculation topics; Thailand has the GMMTV boycott hashtag as fan activism or brand controversy; the Philippines has SONA/state-address politics, Gamdom gambling or low-quality advertising, and Davao Oriental as local public-affairs watch; Saudi has national slogan, public appeal, Iraq geopolitics, and Taibah University public-institution topics; Turkey has Galatasaray/Fenerbahce governance controversy, national-security politics, public controversy, legal/social-demand, and political-public-figure terms; Vietnam has BitMart, Storj, and Zerion as Web3/crypto risk."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-28",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#TimnasDay", "体育/赛事", "Sports / Event", "低", "Low", "TimnasDay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#bersih2narkobapolri", "公共安全/禁毒", "Public Safety / Anti-Drug", "法律/公共安全", "Legal/public-safety watch", "bersih2narkobapolri", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("menjamin personel terbaik", "公共安全/机构宣传", "Public Safety / Institutional Campaign", "公共议题", "Public-affairs watch", "menjamin personel terbaik", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("taksekadar jaga wilayah", "公共安全/机构宣传", "Public Safety / Institutional Campaign", "公共议题", "Public-affairs watch", "taksekadar jaga wilayah", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#JossGawinConcertLIVE", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "JossGawinConcertLIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JG READY FOR CONCERT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "JG READY FOR CONCERT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mitchell Baker", "科技/公共人物", "Tech / Public Figure", "公共人物/企业观察", "Public-figure/company watch", "Mitchell Baker", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kamboja", "旅行/本地活动", "Travel / Local Event", "低", "Low", "Kamboja", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Thom Haye", "体育/赛事", "Sports / Event", "低", "Low", "Thom Haye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#sdmunggulprofesional", "公共治理/机构宣传", "Civic / Institutional Campaign", "公共议题", "Public-affairs watch", "sdmunggulprofesional", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Gubernur BI", "金融/公共人物", "Finance / Public Figure", "金融/公共议题", "Finance/public-affairs watch", "Gubernur BI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMIBONNIE MOONSHADOW TRAILER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EMIBONNIE MOONSHADOW TRAILER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Matraman", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "Matraman", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Henderson", "体育/赛事", "Sports / Event", "低", "Low", "Henderson", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("John Stones", "体育/赛事", "Sports / Event", "低", "Low", "John Stones", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Dr. Agustomi Masik", "公共人物/专业人士", "Public Figure / Professional", "公共议题", "Public-affairs watch", "Dr. Agustomi Masik", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Perry Warjiyo", "金融/公共人物", "Finance / Public Figure", "金融/公共议题", "Finance/public-affairs watch", "Perry Warjiyo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$BLUE", "金融/币圈", "Crypto / Finance", "投机/币圈/广告风险", "Speculation / crypto-shill watch", "$BLUE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FIRST MATCH FIRST SERVE", "体育/赛事", "Sports / Event", "低", "Low", "FIRST MATCH FIRST SERVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#บวงสรวงYourtuber", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "บวงสรวงYourtuber", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TEN_ถ้าไม่คิดอย่าทําให้คิด", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "TEN_ถ้าไม่คิดอย่าทําให้คิด", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#แบนgmmtv", "粉丝维权/品牌争议", "Fan Activism / Brand Controversy", "争议/粉丝维权", "Controversy/fan-activism watch", "แบนgmmtv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BUS_LIGHTASONE_D3", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BUS_LIGHTASONE_D3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#แลนบูนgmmtv", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "แลนบูนgmmtv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FLOURISHING GROWTH ENGFA28", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOURISHING GROWTH ENGFA28", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SIMPLY BE CHARLOTTE28", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SIMPLY BE CHARLOTTE28", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("YOUR THIRD SERIES EP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "YOUR THIRD SERIES EP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HAPPY BIRTHDAY TO MAXKY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HAPPY BIRTHDAY TO MAXKY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY Q33", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY Q33", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMBPFK FEEL THE FUN TOGETHER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "EMBPFK FEEL THE FUN TOGETHER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SANTAPP 3M500K BESTPART", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SANTAPP 3M500K BESTPART", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LOVE FINDS WAY ENGLOT28", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LOVE FINDS WAY ENGLOT28", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ALWAYS BESIDE TONFAHTYPHOON", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ALWAYS BESIDE TONFAHTYPHOON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DITTO READY FOR TAKE OFF Q1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DITTO READY FOR TAKE OFF Q1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("lykn at monster 2026", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "lykn at monster 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUNSET IN WINTER EP19", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUNSET IN WINTER EP19", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("The Grim Lover Q15", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "The Grim Lover Q15", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FIRST MATCH FIRST SERVE", "体育/赛事", "Sports / Event", "低", "Low", "FIRST MATCH FIRST SERVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("tle with vetsynova", "品牌明星合作", "Brand / Celebrity Campaign", "低", "Low", "tle with vetsynova", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#SONA2026", "政治/公共议题", "Politics / Public Affairs", "政治/公共议题", "Political/public-affairs watch", "SONA2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#Gamdom", "博彩/低质广告", "Gambling / Low-Quality Ad", "博彩/低质广告", "Gambling/low-quality-ad watch", "Gamdom", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WinRiSelfie", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "WinRiSelfie", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("D-3 SB19 LOLLAPALOOZA", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "D-3 SB19 LOLLAPALOOZA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DISNEYPLUS", "品牌活动/消费", "Brand / Consumer", "低", "Low", "DISNEYPLUS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KEN IS LAWLESS", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "KEN IS LAWLESS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("USAD MUSIC VIDEO", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "USAD MUSIC VIDEO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ThisIsMyVoiceByHMJ", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "ThisIsMyVoiceByHMJ", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jisoo", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Jisoo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CAPEATH WITH UH BARKADA", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "CAPEATH WITH UH BARKADA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("heathstime tiktok liveselling", "直播电商/品牌活动", "Brand / Consumer", "低", "Low", "heathstime tiktok liveselling", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("State of the Nation Address", "政治/公共议题", "Politics / Public Affairs", "政治/公共议题", "Political/public-affairs watch", "State of the Nation Address", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HEATHJORNALES RADIO TOUR", "明星/媒体活动", "Celebrity / Fandom", "低", "Low", "HEATHJORNALES RADIO TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Davao Oriental", "本地公共议题", "Local Public Affairs", "公共议题", "Public-affairs watch", "Davao Oriental", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("carton nine lovely months", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "carton nine lovely months", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("fyang enters haunted carnival", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "fyang enters haunted carnival", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DINO ON DINGO MUSIC", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DINO ON DINGO MUSIC", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("vernon", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "vernon", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DITTO READY FOR TAKE OFF Q1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DITTO READY FOR TAKE OFF Q1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#دام_عزك", "国家/公共口号", "Public Affairs / National Slogan", "公共议题", "Public-affairs watch", "دام_عزك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#تكفي_سمو_لا_تخلونها", "公共人物/社会诉求", "Public Figure / Social Demand", "公共议题", "Public-affairs watch", "تكفي_سمو_لا_تخلونها", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GalaxyZFold8", "品牌活动/消费电子", "Brand / Consumer", "低", "Low", "GalaxyZFold8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#رحله_المليون5", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "رحله_المليون5", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WWERaw", "体育/娱乐赛事", "Sports / Event", "低", "Low", "WWERaw", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("محمد محزري", "体育/赛事", "Sports / Event", "低", "Low", "محمد محزري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("العراق", "地缘/公共议题", "Geopolitics / Public Affairs", "地缘/公共议题", "Geopolitical/public-affairs watch", "العراق", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ستونز", "体育/赛事", "Sports / Event", "低", "Low", "ستونز", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("محمد محرزي", "体育/赛事", "Sports / Event", "低", "Low", "محمد محرزي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("هندرسون", "体育/赛事", "Sports / Event", "低", "Low", "هندرسون", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("جامعة طيبة", "教育/公共机构", "Education / Public Institution", "公共议题", "Public-affairs watch", "جامعة طيبة", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نواف البلوي", "体育/赛事", "Sports / Event", "低", "Low", "نواف البلوي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("اليامي", "体育/赛事", "Sports / Event", "低", "Low", "اليامي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("فيصل الصبياني", "体育/赛事", "Sports / Event", "低", "Low", "فيصل الصبياني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("دوناروما", "体育/赛事", "Sports / Event", "低", "Low", "دوناروما", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("تشاكا", "体育/赛事", "Sports / Event", "低", "Low", "تشاكا", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ناصر الغامدي", "体育/赛事", "Sports / Event", "低", "Low", "ناصر الغامدي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("مالديني", "体育/赛事", "Sports / Event", "低", "Low", "مالديني", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("الانتر", "体育/赛事", "Sports / Event", "低", "Low", "الانتر", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ادريس", "体育/赛事", "Sports / Event", "低", "Low", "ادريس", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#DursunÖzbekİstifa", "体育治理/球迷争议", "Sports Governance / Fan Controversy", "争议/体育治理", "Controversy/sports-governance watch", "DursunÖzbekİstifa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#altıüstüistanbul", "生活方式/本地热点", "Lifestyle / Local Trend", "低", "Low", "altıüstüistanbul", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#sadlin", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "sadlin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#kapsamliterörsüztürkiye", "国家安全/政治", "National Security / Politics", "政治/公共安全", "Political/public-security watch", "kapsamliterörsüztürkiye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Hakan", "体育/赛事", "Sports / Event", "低", "Low", "Hakan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Leao", "体育/赛事", "Sports / Event", "低", "Low", "Leao", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Jankat", "体育/赛事", "Sports / Event", "低", "Low", "Jankat", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#KötüGündeYalnızBırakanı", "争议/公共讨论", "Controversy / Public Discussion", "争议/公共议题", "Controversy/public-affairs watch", "KötüGündeYalnızBırakanı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Kaan", "体育/赛事", "Sports / Event", "低", "Low", "Kaan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Milan", "体育/赛事", "Sports / Event", "低", "Low", "Milan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Günay", "体育/赛事", "Sports / Event", "低", "Low", "Günay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LEE KNOW WE SUPPORT YOU", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "LEE KNOW WE SUPPORT YOU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Soule", "体育/赛事", "Sports / Event", "低", "Low", "Soule", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Venezia", "体育/赛事", "Sports / Event", "低", "Low", "Venezia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("İlkay", "体育/赛事", "Sports / Event", "低", "Low", "İlkay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Lesley", "体育/赛事", "Sports / Event", "低", "Low", "Lesley", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Rennes", "体育/赛事", "Sports / Event", "低", "Low", "Rennes", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Aziz Baba", "体育/球迷人物", "Sports / Event", "低", "Low", "Aziz Baba", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BenHalaBurdayım", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "BenHalaBurdayım", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Rene Mitongo", "体育/赛事", "Sports / Event", "低", "Low", "Rene Mitongo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#MoonshadowSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMIBONNIE MOONSHADOW TRAILER", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "EMIBONNIE MOONSHADOW TRAILER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BitMart", "金融/币圈", "Crypto / Finance", "金融/币圈", "Crypto/finance watch", "BitMart", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Storj", "金融/币圈", "Crypto / Finance", "金融/币圈", "Crypto/finance watch", "Storj", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DittoSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DittoSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DITTO READY FOR TAKE OFF Q1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DITTO READY FOR TAKE OFF Q1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("the faroe islands", "旅行/本地活动", "Travel / Local Event", "低", "Low", "the faroe islands", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ITLG", "品牌活动/消费", "Brand / Consumer", "低", "Low", "ITLG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("North Atlantic", "旅行/本地活动", "Travel / Local Event", "低", "Low", "North Atlantic", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Vua Quạt", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Vua Quạt", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Zerion", "金融/币圈", "Crypto / Finance", "金融/币圈", "Crypto/finance watch", "Zerion", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
   {
     date: "2026-07-27",
     title: {
