@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-07-30 六国热点话题日报",
+    summaryTitle: "2026-07-31 六国热点话题日报",
     summaryPriority: "优先深挖：印尼低风险池以 #jetzxhearts2hearts、JossGawin Concert、MrKillSeries EP4、PSMS vs Persebaya、Klinik Anti Drama、SkyNani/SMYLENEONA、Piala Presiden、AQUA Elektronik、Tonsom/DewTee/TayNew fansign、Montigo、Terry、Peter 等明星音乐剧集体育品牌词为主；泰国集中在 เขมจิรา special、Orm x Montigo、When Oranges Fall Final EP、Ling Dirovo、Hug E Lhee、Tonsom、SkyNani、Engfa/Charlotte、Beautrium、Grim Lover、DBTE、TayNew、MR Fanboy、Boucheron、TTP、Khom Khlang、Mark Tuan 等剧集品牌明星音乐词；菲律宾优先 The Escape Begins、Orm/Montigo、Our Yesterday's Escape、BINI、A'TIN x DisneyPlusPH、Jihan、Alex Eala、Bangtan、Ling Dirovo、Thee Wave、Dog House、Leylah Fernandez、Hug E Lhee、Violeta Constantino、Sadie 等音乐剧集明星体育品牌词；沙特低风险池为 رحله المليون7、Inzaghi、Nour Al-Qamar、Al-Owais、Wood White、Bebe Alvarez、Koulibaly、sports contract、mid-month lifestyle 等综艺体育生活方式词；土耳其低风险池为 Leao/Fener、GORvFB、Kerem、Asensio、Irfan、Sturm Graz、Semedo、Talisca、Mert Günok、Gardi、Jayden、Fenerbahçe、Musaba、Tedesco、KSGvFB、Oğulcan 等足球词；越南优先 Orm Drink Your Way Montigo、Lingling x Dirovo Live、When Oranges Fall、Tonsom final fan meeting、PerthSanta、JUMARKMO、SkyNani fansign、Juhoon、Suits、JUMMO 等品牌明星剧集粉丝词。",
     summaryRisk: "风险观察：印尼 bukti kerja nyata、Profesional Dalam Pengabdian、kawal pembangunan negeri 属公共治理/机构宣传，PayBox 和 GoPay QRIS Tap 属支付金融观察，super app polri 属警务/公共安全；菲律宾 SherwinSaySorry、save the dimaculangans 属争议/社会诉求，SUYUIN SI SEN RISA 属政治公共人物；沙特 weird تريندك tag 属低质刷榜，سقيا المعتمرين 属宗教公益，القوات الجوية الملكية السعودية 属军事公共议题，صيام الخميس 属宗教表达，مطار الملك 属公共设施，دمياط/علي ايران/الشعب الكويتي/وقطر/الحرس الثوري/علي مصر 属地缘或军事公共议题；土耳其 btwumut4milyar 属社会/财政诉求，Ahmet Davutoğlu、Gelecek Partisi 属政治公共人物/政党；越南 Beldex、Moonpay、PayBox、BChat 属币圈/金融平台风险，Privacy、Durov、Telegram 属平台/隐私观察，FOMC 属宏观金融观察。"
   },
@@ -63,13 +63,77 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-07-30 Six-Country Trend Brief",
+    summaryTitle: "2026-07-31 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia is led by JETZ x Hearts2Hearts, JossGawin Concert, MrKillSeries EP4, PSMS vs Persebaya, Klinik Anti Drama, SkyNani/SMYLENEONA, Piala Presiden, AQUA Elektronik, Tonsom/DewTee/TayNew fansigns, Montigo, Terry, and Peter; Thailand is led by Khemjira special, Orm x Montigo, When Oranges Fall Final EP, Ling Dirovo, Hug E Lhee, Tonsom, SkyNani, Engfa/Charlotte, Beautrium, Grim Lover, DBTE, TayNew, MR Fanboy, Boucheron, TTP, Khom Khlang, and Mark Tuan; the Philippines has The Escape Begins, Orm/Montigo, Our Yesterday's Escape, BINI, A'TIN x DisneyPlusPH, Jihan, Alex Eala, Bangtan, Ling Dirovo, Thee Wave, Dog House, Leylah Fernandez, Hug E Lhee, Violeta Constantino, and Sadie; Saudi low-risk terms include Rahlat Al-Million 7, Inzaghi, Nour Al-Qamar, Al-Owais, Wood White, Bebe Alvarez, Koulibaly, contract-sports talk, and mid-month lifestyle; Turkey is heavily football-led with Leao/Fener, GORvFB, Kerem, Asensio, Irfan, Sturm Graz, Semedo, Talisca, Mert Gunok, Gardi, Jayden, Fenerbahce, Musaba, Tedesco, KSGvFB, and Ogulcan; Vietnam has Orm Drink Your Way Montigo, Lingling x Dirovo Live, When Oranges Fall, Tonsom final fan meeting, PerthSanta, JUMARKMO, SkyNani fansign, Juhoon, Suits, and JUMMO.",
     summaryRisk: "Risk watch: Indonesia has civic/institutional campaign terms plus PayBox/GoPay payment-platform watch and police/public-safety terms; the Philippines has SherwinSaySorry and save the dimaculangans controversy/social-demand watch plus SUYUIN SI SEN RISA as a political-public-figure topic; Saudi has a low-quality generic trend tag, religious charity, military/public-affairs, religious-expression, public-infrastructure, and Iran/Kuwait/Qatar/Revolutionary Guard/Egypt geopolitics; Turkey has a social/public-finance demand plus Ahmet Davutoglu and Gelecek Partisi politics; Vietnam has Beldex, Moonpay, PayBox, and BChat crypto/finance-platform risks, Privacy/Durov/Telegram platform-privacy watch, and FOMC macro-finance watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-07-31",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("percepat kesiapan nasional", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "percepat kesiapan nasional", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WEIRDO101Series", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WEIRDO101Series", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#ZeePrukSuperSunxSiamCenter", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ZeePrukSuperSunxSiamCenter", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ซอโซ่ล่ามธีร์EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ซอโซ่ล่ามธีร์EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BE MY PLAYER TWO EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EFM FANDOM WITH INNONGSA", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "EFM FANDOM WITH INNONGSA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINE MAN LIVE X TLE FIRSTONE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LINE MAN LIVE X TLE FIRSTONE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PATRICK X CR10", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PATRICK X CR10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TeeTeePor X MATTEMAX", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TeeTeePor X MATTEMAX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ATLANTA TFO BOOK EXPO26", "旅行/本地活动", "Travel / Local Event", "低", "Low", "ATLANTA TFO BOOK EXPO26", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("bs brothers x rov kol", "品牌活动/消费", "Brand / Consumer", "低", "Low", "bs brothers x rov kol", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NAMTAN LUNAR X BURGER KING", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NAMTAN LUNAR X BURGER KING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Glam Dept Q4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Glam Dept Q4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BONCHON X PEEMWASU COPPER", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BONCHON X PEEMWASU COPPER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JIMJUFORCE BIRDY EP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "JIMJUFORCE BIRDY EP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("ChaeShow x MAXNAT", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ChaeShow x MAXNAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#RVAFinaleConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RVAFinaleConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("AJAA 4ÜS OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "AJAA 4ÜS OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("نيوكاسل", "体育/赛事", "Sports / Event", "低", "Low", "نيوكاسل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#CRUSHDebut", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "CRUSHDebut", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FCMvBJK", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "FCMvBJK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("muhtemelaşk akşamshowda", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "muhtemelaşk akşamshowda", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GenelAf Sebepleri", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "GenelAf Sebepleri", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#lvsitongxamorepacific", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "lvsitongxamorepacific", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-07-30",
     title: {
