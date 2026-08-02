@@ -80,84 +80,64 @@ const reports = [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("#PeachAndMeSeriesFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#AlwayswithMarkLee", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "AlwayswithMarkLee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#CORTIS_Lollapalooza", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "CORTIS_Lollapalooza", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TEETEEPOR CHEER UP", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TEETEEPOR CHEER UP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Nyaman & Privasi Terjamin", "平台/隐私广告", "Platform / Privacy Ad", "平台/广告观察", "Platform/ad watch", "Nyaman & Privasi Terjamin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("FLOWER JIN IN NEW JERSEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOWER JIN IN NEW JERSEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("persebaya vs port fc", "体育/赛事", "Sports / Event", "低", "Low", "persebaya vs port fc", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GoPay", "金融/支付", "Finance / Payment", "金融/品牌观察", "Finance/brand watch", "GoPay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("pln 100rb", "公共服务/支付促销", "Public Utility / Payment Promo", "公共服务/金融观察", "Public-service/finance watch", "pln 100rb", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ZEENUNEW x ZON SUSU", "品牌明星合作", "Brand / Celebrity Campaign", "低", "Low", "ZEENUNEW x ZON SUSU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("KNP OHAE FULL POWER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "KNP OHAE FULL POWER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("DEW RENJI THE FIRST STAGE", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DEW RENJI THE FIRST STAGE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ADAAP HAPPY LANDING", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ADAAP HAPPY LANDING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Kehormatan Menjaga Kepercayaan", "公共治理/机构宣传", "Civic / Institutional Campaign", "公共议题", "Public-affairs watch", "Kehormatan Menjaga Kepercayaan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("beli token 100rb cuma", "支付/促销广告", "Payment / Promo Ad", "金融/广告观察", "Finance/ad watch", "beli token 100rb cuma", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LINGORM ILF EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("PAYBACK THE SERIES FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PAYBACK THE SERIES FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("KNP OHAE FULL POWER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "KNP OHAE FULL POWER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GO SongFEST", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GO SongFEST", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DEW RENJI THE FIRST STAGE", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DEW RENJI THE FIRST STAGE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
         t("#PeachAndMeSeriesFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#เติ้ลเฟิร์สวันสนามนี้มีรัก", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "เติ้ลเฟิร์สวันสนามนี้มีรัก", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TEETEEPOR CHEER UP", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TEETEEPOR CHEER UP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#เก่งน้ําปิงซู่ซ่าโอ๋เอ๋สู้สู้", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "เก่งน้ําปิงซู่ซ่าโอ๋เอ๋สู้สู้", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("KNP OHAE FULL POWER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "KNP OHAE FULL POWER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ZEENUNEW x ZON SUSU", "品牌明星合作", "Brand / Celebrity Campaign", "低", "Low", "ZEENUNEW x ZON SUSU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("THE EDGE OF HORIZON EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("THE FIRE MELTING HEART", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE FIRE MELTING HEART", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("HERE WITH CHARLOTTE02", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HERE WITH CHARLOTTE02", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ENGFA OUR HEART02", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENGFA OUR HEART02", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("FORCEBOOK MAFOX INF2026", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FORCEBOOK MAFOX INF2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ENDURING FLAME ENGLOT02", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENDURING FLAME ENGLOT02", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HERE WITH CHARLOTTE02", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HERE WITH CHARLOTTE02", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("PAYBACK THE SERIES FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PAYBACK THE SERIES FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("PP KRIT HEART OF LOVELY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PP KRIT HEART OF LOVELY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ENJOY SHINE ON GIRLS CUP", "体育/赛事", "Sports / Event", "低", "Low", "ENJOY SHINE ON GIRLS CUP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ongsa at watsons northville", "品牌明星合作", "Brand / Celebrity Campaign", "低", "Low", "ongsa at watsons northville", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("ENDURING FLAME ENGLOT02", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ENDURING FLAME ENGLOT02", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
         t("#CH3GirlsCup2026", "体育/赛事", "Sports / Event", "低", "Low", "CH3GirlsCup2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PeachAndMeSeriesFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("TEETEEPOR CHEER UP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TEETEEPOR CHEER UP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("JENNIE HEADLINES LOLLAPALOOZA", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "JENNIE HEADLINES LOLLAPALOOZA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("angels final song", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "angels final song", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ZEENUNEW x ZON SUSU", "品牌活动/消费", "Brand / Consumer", "低", "Low", "ZEENUNEW x ZON SUSU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ALL ANGUEL LEADS TO CAPEATH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ALL ANGUEL LEADS TO CAPEATH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("angels final song", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "angels final song", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("FLOWER JIN IN NEW JERSEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOWER JIN IN NEW JERSEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Naomi Osaka", "体育/赛事", "Sports / Event", "低", "Low", "Naomi Osaka", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Mark Lee", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Mark Lee", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ANG POGI MO HEATH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "ANG POGI MO HEATH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("FLOWER JIN IN NEW JERSEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FLOWER JIN IN NEW JERSEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
-        t("#الله_يعين", "宗教/生活表达", "Religion / Lifestyle Expression", "宗教表达观察", "Religious-expression watch", "الله_يعين", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#وفيات_طريق_السيل_بالطايف", "事故/死亡", "Accident / Fatality", "灾害/公共安全", "Disaster/public-safety watch", "وفيات_طريق_السيل_بالطايف", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#شراء_سكراب_في_مكه_θち748ち48ち2", "低质广告/本地交易", "Low-Quality Ad / Local Trade", "低质广告观察", "Low-quality-ad watch", "شراء_سكراب_في_مكه_θち748ち48ち2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("نيوكاسل", "体育/赛事", "Sports / Event", "低", "Low", "نيوكاسل", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("كاسيميرو", "体育/赛事", "Sports / Event", "低", "Low", "كاسيميرو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("خالد المالك", "媒体/公共人物", "Media / Public Figure", "公共人物观察", "Public-figure watch", "خالد المالك", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("مامادو باري", "体育/赛事", "Sports / Event", "低", "Low", "مامادو باري", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("دول الجوار", "地缘/公共议题", "Geopolitics / Public Affairs", "地缘/公共议题", "Geopolitical/public-affairs watch", "دول الجوار", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("علي البخيتي", "政治/公共人物", "Politics / Public Figure", "政治/公共议题", "Political/public-affairs watch", "علي البخيتي", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("روي بيدرو", "体育/赛事", "Sports / Event", "低", "Low", "روي بيدرو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("بينتو", "体育/赛事", "Sports / Event", "低", "Low", "بينتو", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
-        t("Zırtapoz Arşivi", "媒体/争议内容", "Media / Controversy", "争议观察", "Controversy watch", "Zırtapoz Arşivi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#ParalarNeredeDursunÖzbek", "体育治理/争议", "Sports Governance / Controversy", "争议/体育治理", "Controversy/sports-governance watch", "ParalarNeredeDursunÖzbek", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Zırtapoz Arşivi", "媒体/争议内容", "Media / Controversy", "争议观察", "Controversy watch", "Zırtapoz Arşivi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Aziz Yıldırım", "体育/公共人物", "Sports / Public Figure", "公共人物观察", "Public-figure watch", "Aziz Yıldırım", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#ErdoğanBaşaSenBinlerYaşa", "政治/公共人物", "Politics / Public Figure", "政治/公共议题", "Political/public-affairs watch", "ErdoğanBaşaSenBinlerYaşa", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#KademeKanunuÇıksın", "劳工/公共政策", "Labor / Public Policy", "劳工/公共政策", "Labor/public-policy watch", "KademeKanunuÇıksın", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Cem Küçük", "媒体/政治评论人物", "Media / Political Commentator", "政治/媒体观察", "Political/media watch", "Cem Küçük", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("ENHYPEN ARE NOT MACHINES", "明星/粉丝维权", "Celebrity / Fan Activism", "粉丝维权/争议观察", "Fan-activism/controversy watch", "ENHYPEN ARE NOT MACHINES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("AKP'ye", "政治/政党", "Politics / Party", "政治/公共议题", "Political/public-affairs watch", "AKP'ye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("AK Parti'ye", "政治/政党", "Politics / Party", "政治/公共议题", "Political/public-affairs watch", "AK Parti'ye", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Filistin İçin Birleş", "国际政治/社会动员", "International Politics / Social Mobilization", "政治/社会动员", "Political/social-mobilization watch", "Filistin İçin Birleş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Muhammed Salah", "体育/赛事", "Sports / Event", "低", "Low", "Muhammed Salah", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BELIFT STOP THE NEGLECT", "明星/粉丝维权", "Celebrity / Fan Activism", "粉丝维权/争议观察", "Fan-activism/controversy watch", "BELIFT STOP THE NEGLECT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Değil Cinayet", "犯罪/社会争议", "Crime / Social Controversy", "犯罪/争议", "Crime/controversy watch", "Değil Cinayet", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("DevletBahçeli ÖğrenciAffı", "政治/教育政策", "Politics / Education Policy", "政治/公共政策", "Political/public-policy watch", "DevletBahçeli ÖğrenciAffı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Ceuta", "体育/赛事", "Sports / Event", "低", "Low", "Ceuta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("Filistin İçin Birleş", "国际政治/社会动员", "International Politics / Social Mobilization", "政治/社会动员", "Political/social-mobilization watch", "Filistin İçin Birleş", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Ceuta", "体育/赛事", "Sports / Event", "低", "Low", "Ceuta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Değil Cinayet", "犯罪/社会争议", "Crime / Social Controversy", "犯罪/争议", "Crime/controversy watch", "Değil Cinayet", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("LINGORM ILF EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
@@ -165,11 +145,9 @@ const reports = [
         t("#วาดฝันวันวิวาห์EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#PeachAndMeSeriesFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PeachAndMeSeriesFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#CH3GirlsCup2026", "体育/赛事", "Sports / Event", "低", "Low", "CH3GirlsCup2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("seanshine", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "seanshine", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("aceomontop", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "aceomontop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Coldcard", "金融/硬件钱包", "Crypto / Hardware Wallet", "金融/币圈观察", "Crypto/finance watch", "Coldcard", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Sixers", "体育/赛事", "Sports / Event", "低", "Low", "Sixers", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LENAMIU GIRLS CUP CH3", "体育/赛事", "Sports / Event", "低", "Low", "LENAMIU GIRLS CUP CH3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PondPhuwin", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("KNP OHAE FULL POWER", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "KNP OHAE FULL POWER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
@@ -192,6 +170,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   {
     date: "2026-08-01",
