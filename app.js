@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-08-08 六国热点话题日报",
+    summaryTitle: "2026-08-09 六国热点话题日报",
     summaryPriority: "优先深挖：印尼以 TREASURE 周年、PYPD New York、Mens Folio、JUMAVVA、三四名争夺、Rodri、Persib vs Persebaya、PondPhuwin x Grab Bonchon、Persija vs Arema、Spider Man、Chitato、Fanta、Gawin T-Pop、KALOG、Barca、Moonshadow 等音乐体育明星品牌词为主；泰国集中在 Mens Folio、So So Lam Theer EP4、TeeTeePor、Be My Player Two、MaxkyBas、Engfa/Charlotte、Santa、PondPhuwin、Moonshadow、Under Her Rules、Fanta、Gawin、Grim Lover、Fourth、UnluckyBae 等剧集明星品牌活动；菲律宾优先 TREASURE、BINI LA、LUL/DAP、Ashtine mini album、Dustbia、BLACKPINK、Ralph、Capeath、Moonshadow、Wilbert、Jin、PondPhuwin、SB19、Bluvd、AzRalph、Originote、Alycia Parks 等音乐剧集粉丝品牌词；沙特低风险可跟进 Najran、Faisal Al-Mahlaki、Podcast 10、Hamad Broast、Frank Kessie、Power Team、Carrasco、Fabinho、Neom Club、Team Al-Abraj、Yasser Al-Qahtani 等本地娱乐体育品牌词；土耳其以 Muhtemel Aşk、FCHvBJK、Cerny、KARM6TB、Nübel、Jhon Duran、Semih Kılıçsoy、Sergen、Vincenzo Italiano、Olaitan、Serdar Ortaç、Ndidi、Tolga 等剧集体育音乐词为主；越南优先 PYPD New York、James、Juhoon、Keonho、Hogan、Ikeonic、Mens Folio、Santa、Moonshadow、OrmKorn、Janjingjing、BossNoeul、FitFlop、Lý Nhã Kỳ 等音乐明星品牌词。",
     summaryRisk: "风险观察：印尼 Sumbar 公益、Bersama Pasti Ada Jalan、fokus kerja strategis、BRIN 属公共/政治议题，BPJS 属医疗公共议题，ai untuk semua 属科技公共倡议，Roobet 与 $LESTER 分别为博彩和币圈风险；泰国 NuNew Kata Spoiler 属粉丝剧透/争议；菲律宾 Roobet 属博彩低质广告；沙特号码交易广告、Kessie 回归诉求、共同防御、胡塞/联合部队/武装部队/也门军队、土耳其总统/Erdogan、宗教祝福夜等需隔离或人工复核；土耳其 Friday 宗教表达、$FROGLET 币圈投机、劳工/社保公共政策、Hür Ağbaba/Fatih Erbakan 政治人物、Engenes/Ni-ki 粉丝维权需谨慎；越南 IDEA BANK、Koalo Village、Cashcat 属 Web3/币圈，Huấn Hoa Hồng 属争议网红，click to video full hd 属低质导流，Trung Quốc 属地缘公共议题。"
   },
@@ -63,13 +63,77 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-08-08 Six-Country Trend Brief",
+    summaryTitle: "2026-08-09 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia has TREASURE anniversary, PYPD New York, Mens Folio, JUMAVVA, third-place match, Rodri, Persib vs Persebaya, PondPhuwin x Grab Bonchon, Persija vs Arema, Spider Man, Chitato, Fanta, Gawin T-Pop, KALOG, Barca, and Moonshadow; Thailand has Mens Folio, So So Lam Theer EP4, TeeTeePor, Be My Player Two, MaxkyBas, Engfa/Charlotte, Santa, PondPhuwin, Moonshadow, Under Her Rules, Fanta, Gawin, Grim Lover, Fourth, and UnluckyBae; the Philippines has TREASURE, BINI LA, LUL/DAP, Ashtine mini album, Dustbia, BLACKPINK, Ralph, Capeath, Moonshadow, Wilbert, Jin, PondPhuwin, SB19, Bluvd, AzRalph, Originote, and Alycia Parks; Saudi has Najran, Faisal Al-Mahlaki, Podcast 10, Hamad Broast, Frank Kessie, Power Team, Carrasco, Fabinho, Neom Club, Team Al-Abraj, and Yasser Al-Qahtani; Turkey is led by Muhtemel Ask, FCHvBJK, Cerny, KARM6TB, Nubel, Jhon Duran, Semih Kilicsoy, Sergen, Vincenzo Italiano, Olaitan, Serdar Ortac, Ndidi, and Tolga; Vietnam has PYPD New York, James, Juhoon, Keonho, Hogan, Ikeonic, Mens Folio, Santa, Moonshadow, OrmKorn, Janjingjing, BossNoeul, FitFlop, and Ly Nha Ky.",
     summaryRisk: "Risk watch: Indonesia has Sumbar public-affairs, public/political slogans, BPJS medical-public-affairs, AI public initiative, Roobet gambling, and $LESTER crypto risk; Thailand has NuNew spoiler/fan controversy; the Philippines has Roobet gambling/low-quality ad risk; Saudi has number-trading ads, Kessie transfer activism, defense/Houthi/joint forces/Yemen military geopolitics, Erdogan/Turkish president politics, and religious-expression terms; Turkey has Friday religious expression, $FROGLET crypto, labor/social-security public policy, political public figures, and Engenes/Ni-ki fan activism; Vietnam has IDEA BANK, Koalo Village, and Cashcat Web3/crypto risk, Huan Hoa Hong controversy, click-to-video ad risk, and China geopolitical-public-affairs watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-08-09",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("PERTHSANTA STARLIT JOURNEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA STARLIT JOURNEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SKY X MAYBELLINE MATTE MAX", "品牌活动/消费", "Brand / Consumer", "低", "Low", "SKY X MAYBELLINE MATTE MAX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#JuniorMarkConcertD2", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "JuniorMarkConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NUNEW X WeiboGALA", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NUNEW X WeiboGALA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA STARLIT JOURNEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA STARLIT JOURNEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE FIRE GROWING CLOSER", "综合/待分类", "General / To Classify", "灾害/纪念", "Disaster / Memorial", "THE FIRE GROWING CLOSER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TRAILER MR FANBOY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TRAILER MR FANBOY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("hbd zunshine 7y", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "hbd zunshine 7y", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JANJINGJING X THE ALPHA CAMP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "JANJINGJING X THE ALPHA CAMP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KATA CONCEPT PT 1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "KATA CONCEPT PT 1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("W101 SERIES SPECIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "W101 SERIES SPECIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FAYE MAYBELLINE LIP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FAYE MAYBELLINE LIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("hotdog concert with wilbert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "hotdog concert with wilbert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA STARLIT JOURNEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA STARLIT JOURNEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("cebutiful chaos with rhenseph", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "cebutiful chaos with rhenseph", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#deprem", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "deprem", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("PERTHSANTA STARLIT JOURNEY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA STARLIT JOURNEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("W101 SERIES SPECIAL", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "W101 SERIES SPECIAL", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-08-08",
     title: {
