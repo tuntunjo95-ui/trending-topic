@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-08-15 六国热点话题日报",
+    summaryTitle: "2026-08-16 六国热点话题日报",
     summaryPriority: "优先深挖：印尼以 You Maniac Series、Jaemin 生日、Gunil、Black Card Phuwin MV、DewTee Live House、Hueningkai、EMIBONNIE、Soccer、musical fountain、Orm SWU Legacy Fashion 等剧集音乐明星体育时尚词为主；泰国集中在 You Maniac、Orm x Thai Textiles、ZeeNuNew Krabi、ซอโซ่ล่ามธีร์ EP5、Be My Player Two EP5、Duang Impact、Engfa/Charlotte、EMIBONNIE、CL AFAIR Market、Charlotte OTOP、Under Her Rules、JimJuForce、DewTee、JuniorMarkMo、Perfect Scent with Est、Gemini Concert、ForceBook、UnluckyBae、Patji 等剧集明星品牌活动；菲律宾优先 BINI Summer Sonic Osaka、You Maniac、SB19、LUL、Peemak、Chris Brown、EMIBONNIE、LENAMIU x Legacy、Paborito Liham ni Will、Orm SWU Fashion、Dralys、Gelex、JMFYang、Chaeyoung、Gunil、Penshoppe、Dean、AHOF、Phuwin MV 等音乐剧集粉丝品牌词；沙特可跟进 Rahlat Al-Million22、Al-Ahli/Al-Diriyah、Mahrez、Al-Qadsiah、Istiklol Dushanbe、Cesar、Al-Ahli win、Foot Locker、Gulf Cup、Darwin Nunez、Carlos 等体育综艺品牌词；土耳其以 Galatasaray、Muhtemel Aşk、BJKvFCH、Lucas Torreira、Djalo、Beşiktaş、Olaitan、Vincenzo Italiano、Ahmet Baran Yazgan、Leandro Trossard、Edirne、Avrupa Ligi、Sergen Yalçın、Hradec Kralove 等体育剧集人物词为主；越南优先 Orm x Thai Textiles、Unicity AOS、Helen、You Maniac、Orm Kornnaphat、Moonshadow、Trezor、You Maniac Trailer、EMIBONNIE、Seonghyeon、EFMFandomLive、Chicago 等品牌剧集音乐明星旅行词。",
     summaryRisk: "风险观察：印尼 $MOTION、Trade $ANTFUN、$WISHBONE、Robinhood Chain、TipFi 属币圈/Web3，GoPay Investasi Emas 属金融消费，pengabdian/perkuat NKRI/tolak kerusuhan/mencetak generasi 属公共治理或公共政策，James 相关为粉丝维权，amy presiden pks 属政治人物；沙特宗教表达、公共安全口号、体育转会粉丝动员、公共人物和海上防务联盟需隔离复核；土耳其 Hayırlı Cumalar/Süleymancılar 属宗教公共议题，Madenci 属劳工政策，BELIFT 属粉丝维权，Kumpas/AKP/Vekil/Jandarma 属政治公共安全，EŞİT ADALET 属法律诉求；菲律宾 Chris Brown 属争议公众人物，$MOTION 属币圈；越南 $MOTION/Trezor/roninwifhat 属币圈，link video full 属低质导流，James 相关为粉丝维权，Fidelity 属金融消费。"
   },
@@ -63,13 +63,84 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-08-15 Six-Country Trend Brief",
+    summaryTitle: "2026-08-16 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia has You Maniac Series, Jaemin birthday, Gunil, Black Card Phuwin MV, DewTee Live House, Hueningkai, EMIBONNIE, Soccer, musical fountain, and Orm SWU Legacy Fashion; Thailand has You Maniac, Orm x Thai Textiles, ZeeNuNew Krabi, So So Lam Theer EP5, Be My Player Two EP5, Duang Impact, Engfa/Charlotte, EMIBONNIE, CL AFAIR Market, Charlotte OTOP, Under Her Rules, JimJuForce, DewTee, JuniorMarkMo, Perfect Scent with Est, Gemini Concert, ForceBook, UnluckyBae, and Patji; the Philippines has BINI Summer Sonic Osaka, You Maniac, SB19, LUL, Peemak, Chris Brown, EMIBONNIE, LENAMIU x Legacy, Paborito Liham ni Will, Orm SWU Fashion, Dralys, Gelex, JMFYang, Chaeyoung, Gunil, Penshoppe, Dean, AHOF, and Phuwin MV; Saudi has Rahlat Al-Million22, Al-Ahli/Al-Diriyah, Mahrez, Al-Qadsiah, Istiklol Dushanbe, Cesar, Al-Ahli win, Foot Locker, Gulf Cup, Darwin Nunez, and Carlos; Turkey has Galatasaray, Muhtemel Ask, BJKvFCH, Lucas Torreira, Djalo, Besiktas, Olaitan, Vincenzo Italiano, Ahmet Baran Yazgan, Leandro Trossard, Edirne, Europa League, Sergen Yalcin, and Hradec Kralove; Vietnam has Orm x Thai Textiles, Unicity AOS, Helen, You Maniac, Orm Kornnaphat, Moonshadow, Trezor, You Maniac trailer, EMIBONNIE, Seonghyeon, EFMFandomLive, and Chicago.",
     summaryRisk: "Risk watch: Indonesia has crypto/Web3, finance-consumer, public-governance/policy, fan-activism, and political-public-figure terms; Saudi has religious expression, public-safety campaign, transfer fan activism, public figures, and maritime-defense geopolitics; Turkey has religious/public-affairs, labor policy, fan activism, political/public-safety terms, and legal-rights claims; the Philippines has controversial public-figure and crypto risk; Vietnam has crypto, low-quality lead-gen, fan activism, and finance-consumer watch."
   }
 };
 
 const reports = [
+  {
+    date: "2026-08-16",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#DuangConcertDay1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangConcertDay1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA LOVE CLASS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA LOVE CLASS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Trade $BANK", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $BANK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#DuangConcertDay1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangConcertDay1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DuangGoRoundConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangGoRoundConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#อรุณรุ่งEP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "อรุณรุ่งEP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE FIRE LOVE IN DOUBT", "综合/待分类", "General / To Classify", "灾害/纪念", "Disaster / Memorial", "THE FIRE LOVE IN DOUBT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TFO X NO ONE ELSE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "TFO X NO ONE ELSE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LAURIER 1S X TFO", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LAURIER 1S X TFO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMIBONNIE X THE ALPHA CAMP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "EMIBONNIE X THE ALPHA CAMP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("INNONGSA ARRIVE AFAIR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "INNONGSA ARRIVE AFAIR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TESHOWPING LOOKS AROUND BLINK", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TESHOWPING LOOKS AROUND BLINK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JUNIOR LOREAL LIP SHADES", "品牌活动/消费", "Brand / Consumer", "低", "Low", "JUNIOR LOREAL LIP SHADES", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NEX x GELBOYS2", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NEX x GELBOYS2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#DuangConcertDay1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangConcertDay1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DuangGoRoundConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "DuangGoRoundConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA LOVE CLASS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA LOVE CLASS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM THAILAND FANTOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "LINGORM THAILAND FANTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HAPPY BIRTHDAY JMIBARRA", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HAPPY BIRTHDAY JMIBARRA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#วาดฝันวันวิวาห์EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#VIDALoveLessonxPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "VIDALoveLessonxPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WEIRDO101SeriesEP1", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WEIRDO101SeriesEP1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("EMIBONNIE X THE ALPHA CAMP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "EMIBONNIE X THE ALPHA CAMP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-08-15",
     title: {
