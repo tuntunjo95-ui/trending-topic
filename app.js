@@ -30,8 +30,8 @@ const ui = {
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
     summaryTitle: "2026-08-19 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼以 You Maniac Series、Jaemin 生日、Gunil、Black Card Phuwin MV、DewTee Live House、Hueningkai、EMIBONNIE、Soccer、musical fountain、Orm SWU Legacy Fashion 等剧集音乐明星体育时尚词为主；泰国集中在 You Maniac、Orm x Thai Textiles、ZeeNuNew Krabi、ซอโซ่ล่ามธีร์ EP5、Be My Player Two EP5、Duang Impact、Engfa/Charlotte、EMIBONNIE、CL AFAIR Market、Charlotte OTOP、Under Her Rules、JimJuForce、DewTee、JuniorMarkMo、Perfect Scent with Est、Gemini Concert、ForceBook、UnluckyBae、Patji 等剧集明星品牌活动；菲律宾优先 BINI Summer Sonic Osaka、You Maniac、SB19、LUL、Peemak、Chris Brown、EMIBONNIE、LENAMIU x Legacy、Paborito Liham ni Will、Orm SWU Fashion、Dralys、Gelex、JMFYang、Chaeyoung、Gunil、Penshoppe、Dean、AHOF、Phuwin MV 等音乐剧集粉丝品牌词；沙特可跟进 Rahlat Al-Million22、Al-Ahli/Al-Diriyah、Mahrez、Al-Qadsiah、Istiklol Dushanbe、Cesar、Al-Ahli win、Foot Locker、Gulf Cup、Darwin Nunez、Carlos 等体育综艺品牌词；土耳其以 Galatasaray、Muhtemel Aşk、BJKvFCH、Lucas Torreira、Djalo、Beşiktaş、Olaitan、Vincenzo Italiano、Ahmet Baran Yazgan、Leandro Trossard、Edirne、Avrupa Ligi、Sergen Yalçın、Hradec Kralove 等体育剧集人物词为主；越南优先 Orm x Thai Textiles、Unicity AOS、Helen、You Maniac、Orm Kornnaphat、Moonshadow、Trezor、You Maniac Trailer、EMIBONNIE、Seonghyeon、EFMFandomLive、Chicago 等品牌剧集音乐明星旅行词。",
-    summaryRisk: "风险观察：印尼 $MOTION、Trade $ANTFUN、$WISHBONE、Robinhood Chain、TipFi 属币圈/Web3，GoPay Investasi Emas 属金融消费，pengabdian/perkuat NKRI/tolak kerusuhan/mencetak generasi 属公共治理或公共政策，James 相关为粉丝维权，amy presiden pks 属政治人物；沙特宗教表达、公共安全口号、体育转会粉丝动员、公共人物和海上防务联盟需隔离复核；土耳其 Hayırlı Cumalar/Süleymancılar 属宗教公共议题，Madenci 属劳工政策，BELIFT 属粉丝维权，Kumpas/AKP/Vekil/Jandarma 属政治公共安全，EŞİT ADALET 属法律诉求；菲律宾 Chris Brown 属争议公众人物，$MOTION 属币圈；越南 $MOTION/Trezor/roninwifhat 属币圈，link video full 属低质导流，James 相关为粉丝维权，Fidelity 属金融消费。"
+    summaryPriority: "优先深挖：印尼和泰国以 Mr Kill Series、PerthSanta、NCT 127、Nanineona x Spidey 等剧集、明星及品牌活动为主；菲律宾以 PerthSanta 和音乐奖项关键词为主；土耳其保留 Şeytantepe，越南保留 PerthSanta。本轮沙特前 30 条中没有筛出合格的低风险内容选题。",
+    summaryRisk: "风险观察：印尼有 $SOLCAT 币圈词；菲律宾 Tropical Depression 属气象灾害风险；土耳其出现个人资料导流话术。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -64,8 +64,8 @@ const ui = {
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
     summaryTitle: "2026-08-19 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia has You Maniac Series, Jaemin birthday, Gunil, Black Card Phuwin MV, DewTee Live House, Hueningkai, EMIBONNIE, Soccer, musical fountain, and Orm SWU Legacy Fashion; Thailand has You Maniac, Orm x Thai Textiles, ZeeNuNew Krabi, So So Lam Theer EP5, Be My Player Two EP5, Duang Impact, Engfa/Charlotte, EMIBONNIE, CL AFAIR Market, Charlotte OTOP, Under Her Rules, JimJuForce, DewTee, JuniorMarkMo, Perfect Scent with Est, Gemini Concert, ForceBook, UnluckyBae, and Patji; the Philippines has BINI Summer Sonic Osaka, You Maniac, SB19, LUL, Peemak, Chris Brown, EMIBONNIE, LENAMIU x Legacy, Paborito Liham ni Will, Orm SWU Fashion, Dralys, Gelex, JMFYang, Chaeyoung, Gunil, Penshoppe, Dean, AHOF, and Phuwin MV; Saudi has Rahlat Al-Million22, Al-Ahli/Al-Diriyah, Mahrez, Al-Qadsiah, Istiklol Dushanbe, Cesar, Al-Ahli win, Foot Locker, Gulf Cup, Darwin Nunez, and Carlos; Turkey has Galatasaray, Muhtemel Ask, BJKvFCH, Lucas Torreira, Djalo, Besiktas, Olaitan, Vincenzo Italiano, Ahmet Baran Yazgan, Leandro Trossard, Edirne, Europa League, Sergen Yalcin, and Hradec Kralove; Vietnam has Orm x Thai Textiles, Unicity AOS, Helen, You Maniac, Orm Kornnaphat, Moonshadow, Trezor, You Maniac trailer, EMIBONNIE, Seonghyeon, EFMFandomLive, and Chicago.",
-    summaryRisk: "Risk watch: Indonesia has crypto/Web3, finance-consumer, public-governance/policy, fan-activism, and political-public-figure terms; Saudi has religious expression, public-safety campaign, transfer fan activism, public figures, and maritime-defense geopolitics; Turkey has religious/public-affairs, labor policy, fan activism, political/public-safety terms, and legal-rights claims; the Philippines has controversial public-figure and crypto risk; Vietnam has crypto, low-quality lead-gen, fan activism, and finance-consumer watch."
+    summaryPriority: "Priority: Indonesia and Thailand center on Mr Kill Series, PerthSanta, NCT 127, Nanineona x Spidey and other entertainment or fandom topics; the Philippines centers on PerthSanta and music-award keywords; Turkey has Seytantepe; Vietnam has PerthSanta. No qualifying low-risk Saudi topic was found in the sampled top 30.",
+    summaryRisk: "Risk watch: Indonesia has the $SOLCAT crypto term; the Philippines has Tropical Depression weather/disaster risk; Turkey has a profile-based lead-generation phrase. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
@@ -80,7 +80,6 @@ const reports = [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("#MrKillSeriesEP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("PERTHSANTA UNVEILING XPENG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA UNVEILING XPENG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("bergerak percepat konsolidasi", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "bergerak percepat konsolidasi", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("NANINEONA PREMPAODY X SPIDEY", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NANINEONA PREMPAODY X SPIDEY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("NCT 127 Highlight Medley", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT 127 Highlight Medley", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Love Destiny EP6", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Love Destiny EP6", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
@@ -99,14 +98,12 @@ const reports = [
         t("PERTHSANTA UNVEILING XPENG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA UNVEILING XPENG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Best K-Pop", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Best K-Pop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Song of the Year", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Song of the Year", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Tropical Depression", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Tropical Depression", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
 
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
-        t("#Şeytantepe", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Şeytantepe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("PROFİLİMDE BİLGİLERİM MEVCUT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PROFİLİMDE BİLGİLERİM MEVCUT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#Şeytantepe", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Şeytantepe", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("PERTHSANTA UNVEILING XPENG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA UNVEILING XPENG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
