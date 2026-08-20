@@ -30,8 +30,8 @@ const ui = {
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
     summaryTitle: "2026-08-20 六国热点话题日报",
-    summaryPriority: "优先深挖：印尼和泰国以 Mr Kill Series、PerthSanta、NCT 127、Nanineona x Spidey 等剧集、明星及品牌活动为主；菲律宾以 PerthSanta 和音乐奖项关键词为主；土耳其保留 Şeytantepe，越南保留 PerthSanta。本轮沙特前 30 条中没有筛出合格的低风险内容选题。",
-    summaryRisk: "风险观察：印尼有 $SOLCAT 币圈词；菲律宾 Tropical Depression 属气象灾害风险；土耳其出现个人资料导流话术。TikTok 与 Threads 的结果热度仍需登录态复核。"
+    summaryPriority: "优先深挖：印尼以 Mr Kill Series、JASPER MV、PerthSanta、NCT DREAM 和 Renjun 为主；泰国集中在 Magic Lover、Moonshadow、PerthSanta、Freen x CHAGEE、GrabFood x BUS、Maybelline、Coach 和 NCT；菲律宾优先 Moonshadow、Stell 回归、PerthSanta、Freen、NCT DREAM、SEVENTEEN 和 K-pop；越南保留 Moonshadow、JASPER MV 与 PerthSanta。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
+    summaryRisk: "风险观察：印尼 Trade $PIPEDOG 与越南 $AF Token、$AXIS 属币圈投机；土耳其 EsCort 属成人/低质广告，Gazze'yi Kaybetme 与 KUDÜS'ÜN HATIRINA 属政治争议。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
   en: {
     appTitle: "Global Trend Brief",
@@ -64,8 +64,8 @@ const ui = {
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
     summaryTitle: "2026-08-20 Six-Country Trend Brief",
-    summaryPriority: "Priority: Indonesia and Thailand center on Mr Kill Series, PerthSanta, NCT 127, Nanineona x Spidey and other entertainment or fandom topics; the Philippines centers on PerthSanta and music-award keywords; Turkey has Seytantepe; Vietnam has PerthSanta. No qualifying low-risk Saudi topic was found in the sampled top 30.",
-    summaryRisk: "Risk watch: Indonesia has the $SOLCAT crypto term; the Philippines has Tropical Depression weather/disaster risk; Turkey has a profile-based lead-generation phrase. TikTok and Threads result quality still requires login-state verification."
+    summaryPriority: "Priority: Indonesia centers on Mr Kill Series, JASPER MV, PerthSanta, NCT DREAM and Renjun; Thailand on Magic Lover, Moonshadow, PerthSanta, Freen x CHAGEE, GrabFood x BUS, Maybelline, Coach and NCT; the Philippines on Moonshadow, Stell's comeback, PerthSanta, Freen, NCT DREAM, SEVENTEEN and K-pop; Vietnam keeps Moonshadow, JASPER MV and PerthSanta. No qualifying low-risk Saudi or Turkey topic was found.",
+    summaryRisk: "Risk watch: Indonesia's Trade $PIPEDOG and Vietnam's $AF Token and $AXIS are crypto speculation; Turkey's EsCort is adult/low-quality advertising, while Gazze'yi Kaybetme and KUDÜS'ÜN HATIRINA are political controversy. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
@@ -81,7 +81,6 @@ const reports = [
         t("#MrKillSeriesEP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#WishJASPERmv", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "WishJASPERmv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("cepat sigap hadir", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "cepat sigap hadir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("Trade $PIPEDOG", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $PIPEDOG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("NCT DREAM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT DREAM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("renjun", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "renjun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
@@ -108,7 +107,7 @@ const reports = [
         t("Best K-Pop", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Best K-Pop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
-        t("#matching2026", "体育/赛事", "Sports / Event", "低", "Low", "matching2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
         t("EsCort", "综合/待分类", "General / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "EsCort", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
@@ -120,7 +119,6 @@ const reports = [
         t("#MoonshadowSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#WishJASPERmv", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "WishJASPERmv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MVPs", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MVPs", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("$AXIS", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$AXIS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
