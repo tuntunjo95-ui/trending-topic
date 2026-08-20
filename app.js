@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-08-19 六国热点话题日报",
+    summaryTitle: "2026-08-20 六国热点话题日报",
     summaryPriority: "优先深挖：印尼和泰国以 Mr Kill Series、PerthSanta、NCT 127、Nanineona x Spidey 等剧集、明星及品牌活动为主；菲律宾以 PerthSanta 和音乐奖项关键词为主；土耳其保留 Şeytantepe，越南保留 PerthSanta。本轮沙特前 30 条中没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：印尼有 $SOLCAT 币圈词；菲律宾 Tropical Depression 属气象灾害风险；土耳其出现个人资料导流话术。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,87 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-08-19 Six-Country Trend Brief",
+    summaryTitle: "2026-08-20 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia and Thailand center on Mr Kill Series, PerthSanta, NCT 127, Nanineona x Spidey and other entertainment or fandom topics; the Philippines centers on PerthSanta and music-award keywords; Turkey has Seytantepe; Vietnam has PerthSanta. No qualifying low-risk Saudi topic was found in the sampled top 30.",
     summaryRisk: "Risk watch: Indonesia has the $SOLCAT crypto term; the Philippines has Tropical Depression weather/disaster risk; Turkey has a profile-based lead-generation phrase. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-08-20",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#MrKillSeriesEP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WishJASPERmv", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "WishJASPERmv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("cepat sigap hadir", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "cepat sigap hadir", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Trade $PIPEDOG", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $PIPEDOG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NCT DREAM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT DREAM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("renjun", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "renjun", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#MagicLoverSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MagicLoverSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#พ่อมดลุ้นรักSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "พ่อมดลุ้นรักSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREEN X CHAGEE EVENT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FREEN X CHAGEE EVENT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("grabfood x bus", "品牌活动/消费", "Brand / Consumer", "低", "Low", "grabfood x bus", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("AA MAYBELLINE LIP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "AA MAYBELLINE LIP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("coach play x marckris copper", "品牌活动/消费", "Brand / Consumer", "低", "Low", "coach play x marckris copper", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NCT DREAM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT DREAM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("nct 127 highlight medley", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "nct 127 highlight medley", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#MoonshadowSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#1DayTilStellComeback", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "1DayTilStellComeback", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREEN X CHAGEE EVENT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FREEN X CHAGEE EVENT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NCT DREAM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT DREAM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Who in SEVENTEEN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "Who in SEVENTEEN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Best K-Pop", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Best K-Pop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+        t("#matching2026", "体育/赛事", "Sports / Event", "低", "Low", "matching2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("EsCort", "综合/待分类", "General / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "EsCort", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Gazze'yi Kaybetme", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Gazze'yi Kaybetme", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KUDÜS'ÜN HATIRINA", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "KUDÜS'ÜN HATIRINA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("$AF Token", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$AF Token", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeriesEP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WishJASPERmv", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "WishJASPERmv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perthsanta unveiling xpeng", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta unveiling xpeng", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MVPs", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MVPs", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$AXIS", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$AXIS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-08-19",
     title: {
