@@ -79,12 +79,14 @@ const reports = [
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
         t("#10YearsWithRENJUN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "10YearsWithRENJUN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Trade $PIPEDOG", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $PIPEDOG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("D-3 NCT 127 BLINGY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "D-3 NCT 127 BLINGY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("D-3 NCT 127 BLINGY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "D-3 NCT 127 BLINGY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Trade $PIPEDOG", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "Trade $PIPEDOG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("MV TrueMoney TFO", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MV TrueMoney TFO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("#ซอโซ่ล่ามธีร์EP6", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ซอโซ่ล่ามธีร์EP6", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("BE MY PLAYER TWO EP6", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO EP6", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERMPOON DEBUT SINGLE", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "PERMPOON DEBUT SINGLE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("CTW SPECIAL LIVE X TTP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "CTW SPECIAL LIVE X TTP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("D-3 NCT 127 BLINGY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "D-3 NCT 127 BLINGY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("UNLUCKYBAE EPISODE 3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "UNLUCKYBAE EPISODE 3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
@@ -125,6 +127,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   {
     date: "2026-08-20",
