@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-08-22 六国热点话题日报",
+    summaryTitle: "2026-08-23 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 Renjun 十周年与 NCT 127 BLINGY；泰国以ซอโซ่ล่ามธีร์ EP6、Be My Player Two EP6、CTW Special Live、NCT 127 和 UnluckyBae 为主；菲律宾保留 Her in Frame 首映与 ENHYPEN 回归；越南保留 Her in Frame 和 Moonshadow。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：印尼 Trade $PIPEDOG 属币圈投机；土耳其 EsCort 属成人/低质广告，Gazze'yi Kaybetme 与 KUDÜS'ÜN HATIRINA 属政治争议。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,89 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-08-22 Six-Country Trend Brief",
+    summaryTitle: "2026-08-23 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on Renjun's tenth anniversary and NCT 127 BLINGY; Thailand on So So Lam Thee EP6, Be My Player Two EP6, CTW Special Live, NCT 127 and UnluckyBae; the Philippines keeps the Her in Frame premiere and ENHYPEN comeback; Vietnam keeps Her in Frame and Moonshadow. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: Indonesia's Trade $PIPEDOG is crypto speculation; Turkey's EsCort is adult/low-quality advertising, while Gazze'yi Kaybetme and KUDÜS'ÜN HATIRINA are political controversy. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-08-23",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#PondPhuwinConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$DEALER", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$DEALER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DUNK NAVORI AT OSMEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DUNK NAVORI AT OSMEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#LYKNReflexionConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "LYKNReflexionConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PondPhuwinConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#อรุณรุ่งEP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "อรุณรุ่งEP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE EDGE OF HORIZON EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE EDGE OF HORIZON EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE FIRE ACCEPTING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "灾害/纪念", "Disaster / Memorial", "THE FIRE ACCEPTING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MXBS X KATANYU", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MXBS X KATANYU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("mv truemoney tfo", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "mv truemoney tfo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FORCE TOMAFOX X KTOTH", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FORCE TOMAFOX X KTOTH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PEARLPEAK X FULI LIVE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PEARLPEAK X FULI LIVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Patrick Haishang Music Fest🪼", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Patrick Haishang Music Fest🪼", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINI IN F1A DUTCH GP 2026", "体育/赛事", "Sports / Event", "低", "Low", "GEMINI IN F1A DUTCH GP 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DBTE RULES EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DBTE RULES EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DICE THAILAND TOUR AT HAT YAI", "旅行/本地活动", "Travel / Local Event", "低", "Low", "DICE THAILAND TOUR AT HAT YAI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SUMMER WITH TEETEEPOR", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SUMMER WITH TEETEEPOR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#PondPhuwinConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MUTYA CONCERT DAY", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MUTYA CONCERT DAY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#วาดฝันวันวิวาห์EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Crazy Music Video", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Crazy Music Video", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$DEALER", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$DEALER", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("board show d2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "board show d2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE FIRE ACCEPTING LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "灾害/纪念", "Disaster / Memorial", "THE FIRE ACCEPTING LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("SEVEN REMAINS INSEPARABLE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SEVEN REMAINS INSEPARABLE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#วาดฝันวันวิวาห์EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "วาดฝันวันวิวาห์EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF EP10", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF EP10", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$AF Token", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$AF Token", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PondPhuwinConcertD2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$ADX", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ADX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-08-22",
     title: {
