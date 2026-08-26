@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-08-25 六国热点话题日报",
+    summaryTitle: "2026-08-26 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 NCT 127、PondPhuwin 与 TayNew；泰国以 PondPhuwin、Your Third、LINE MAN x Junior Mark、LingOrm x Royal Osha、TayNew、Edge of Horizon 和 Match Point 为主；菲律宾保留 PondPhuwin、DINO MV、Rain 球场内容与 SB19 LAWLESS；越南保留 LingOrm x Royal Osha。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：越南 $AF Token 属币圈投机。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,81 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-08-25 Six-Country Trend Brief",
+    summaryTitle: "2026-08-26 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on NCT 127, PondPhuwin and TayNew; Thailand on PondPhuwin, Your Third, LINE MAN x Junior Mark, LingOrm x Royal Osha, TayNew, Edge of Horizon and Match Point; the Philippines keeps PondPhuwin, DINO's MV, Rain's court content and SB19 LAWLESS; Vietnam keeps LingOrm x Royal Osha. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: Vietnam's $AF Token is crypto speculation. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-08-26",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#MrKillSeriesEP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#PondPhuwinSIXbySide", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinSIXbySide", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PONDPHUWIN 6 YEARS OF BLOOMING", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PONDPHUWIN 6 YEARS OF BLOOMING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#NCT127_BLINGY", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "NCT127_BLINGY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PHUWIN PERMPOON X CERAVE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PHUWIN PERMPOON X CERAVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PONDPHUWIN ETERNAL STAR", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PONDPHUWIN ETERNAL STAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#PondPhuwinSIXbySide", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PondPhuwinSIXbySide", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PONDPHUWIN 6 YEARS OF BLOOMING", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PONDPHUWIN 6 YEARS OF BLOOMING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BTS_WORLDTOUR_BANGKOK", "旅行/本地活动", "Travel / Local Event", "低", "Low", "BTS_WORLDTOUR_BANGKOK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TRAILER MR FANBOY 1M VIEWS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "TRAILER MR FANBOY 1M VIEWS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("DAOU x TikTok Live", "品牌活动/消费", "Brand / Consumer", "低", "Low", "DAOU x TikTok Live", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE SKYTUBES FILMLUNAR", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAYBELLINE SKYTUBES FILMLUNAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("UNBREAKABLE KNOT EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "UNBREAKABLE KNOT EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("YOUR THIRD MISSION EP2", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "YOUR THIRD MISSION EP2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LRC X POND NARAVIT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "LRC X POND NARAVIT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#DragRacePH", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "DragRacePH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("APASRA EVEANDBOY SONGWAT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "APASRA EVEANDBOY SONGWAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PONDPHUWIN 6 YEARS OF BLOOMING", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PONDPHUWIN 6 YEARS OF BLOOMING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE SKYTUBES FILMLUNAR", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAYBELLINE SKYTUBES FILMLUNAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Joseph Pesay", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Joseph Pesay", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("#GazaDebris", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "GazaDebris", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Gazze Enkazı", "综合/待分类", "General / To Classify", "政治/争议", "Political / Controversy", "Gazze Enkazı", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#MrKillSeriesEP8", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MrKillSeriesEP8", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$AF Token", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$AF Token", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAYBELLINE SKYTUBES FILMLUNAR", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAYBELLINE SKYTUBES FILMLUNAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("APASRA EVEANDBOY SONGWAT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "APASRA EVEANDBOY SONGWAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-08-25",
     title: {
