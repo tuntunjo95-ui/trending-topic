@@ -56,6 +56,7 @@ git push origin main
 
 ## 最新执行
 
+- 2026-08-28：已生成 `2026-08-28-六国X热点30条扩展筛选报告.md`，更新 `app.js` 首条日报数据、首页中英文摘要、`index.html` 资源版本号和 `status.json`。公开趋势源为 Trends24；重点保留印尼 PerthSanta/Gawin/Mr. Kill/GrabFood，泰国ซอโซ่ล่ามธีร์/Be My Player Two/Phuaa/PerthSanta/Mr Fanboy/ZeeNuNew/Orm/DaouOffroad/Gawin/Mr. Kill/UnluckyBae，菲律宾 Beauty Awards/PerthSanta/KaiKyle/Moonshadow/SB19，越南 ORM Beauty Awards/PerthSanta/Orm。沙特与土耳其本轮没有合格低风险选题；移除 `Nepal`、`Whitepaper` 泛词并修正 SB19 的法律关键词误判。
 - 2026-08-25：已生成 `2026-08-25-六国X热点30条扩展筛选报告.md`，更新 `app.js` 首条日报数据、首页中英文摘要、`index.html` 资源版本号和 `status.json`。公开趋势源为 Trends24；重点保留印尼 NCT 127/PondPhuwin/TayNew，泰国 PondPhuwin/Your Third/LINE MAN/LingOrm/TayNew/Edge of Horizon/Match Point，菲律宾 PondPhuwin/DINO/Rain/SB19，越南 LingOrm，并将越南 `$AF Token` 放入币圈风险观察。沙特与土耳其本轮没有合格低风险选题；另修正 `rain storms the court` 与 `SB19 LAWLESS ON DAYDAY` 的关键词误判。
 - 2026-08-21：已生成 `2026-08-21-六国X热点30条扩展筛选报告.md`，更新 `app.js` 首条日报数据、首页中英文摘要、`index.html` 资源版本号和 `status.json`。公开趋势源为 Trends24；重点保留印尼 Renjun/NCT 127，泰国ซอโซ่ล่ามธีร์/Be My Player Two/CTW/NCT 127/UnluckyBae，菲律宾 Her in Frame/ENHYPEN，越南 Her in Frame/Moonshadow，并将币圈投机、成人低质广告和政治争议词放入风险观察。沙特与土耳其本轮没有合格低风险选题。
 - 2026-08-20：已生成 `2026-08-20-六国X热点30条扩展筛选报告.md`，更新 `app.js` 首条日报数据、首页中英文摘要、`index.html` 资源版本号和 `status.json`。公开趋势源为 Trends24；重点保留印尼 Mr Kill/JASPER/PerthSanta/NCT DREAM/Renjun，泰国 Magic Lover/Moonshadow/Freen/CHAGEE/GrabFood/Maybelline/Coach/NCT，菲律宾 Moonshadow/Stell/PerthSanta/Freen/NCT/SEVENTEEN/K-pop，越南 Moonshadow/JASPER/PerthSanta，并将币圈投机、成人低质广告和政治争议词放入风险观察。沙特与土耳其本轮没有合格低风险选题。
