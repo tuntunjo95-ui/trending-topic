@@ -78,47 +78,41 @@ const reports = [
     },
     countries: [
       country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
-        t("#SFxPerthSantaDomiia", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SFxPerthSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("PERTHSANTADOMIIA DOG STARS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTADOMIIA DOG STARS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GAWIN X KILIAN AT CBA 2026", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GAWIN X KILIAN AT CBA 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MR. KILL SERIES PRESS TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "MR. KILL SERIES PRESS TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GRABFOOD TRIP X GFSNPP", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GRABFOOD TRIP X GFSNPP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#RedFlagMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RedFlagMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA HEART MADE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA HEART MADE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#รสดีเมนูพริกแกงxPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "รสดีเมนูพริกแกงxPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ENHYPEN22ndWin", "综合/待分类", "General / To Classify", "低", "Low", "ENHYPEN22ndWin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Music Bank", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "Music Bank", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
-        t("#ซอโซ่ล่ามธีร์EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ซอโซ่ล่ามธีร์EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("BE MY PLAYER TWO EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("PHUAA X EVERSENSE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PHUAA X EVERSENSE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#SFxPerthSantaDomiia", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SFxPerthSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MR FANBOY DOCU", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY DOCU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("Saming The Werebeast x BIBLE", "品牌活动/消费", "Brand / Consumer", "低", "Low", "Saming The Werebeast x BIBLE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("ZEENUNEW X WATSONS 30TH", "品牌活动/消费", "Brand / Consumer", "低", "Low", "ZEENUNEW X WATSONS 30TH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("orm x young otop", "品牌活动/消费", "Brand / Consumer", "低", "Low", "orm x young otop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GINNY CHLOE BEAUTY AWARDS26", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "GINNY CHLOE BEAUTY AWARDS26", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("DAOUOFFROAD x KANEBO 2026", "品牌活动/消费", "Brand / Consumer", "低", "Low", "DAOUOFFROAD x KANEBO 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("GAWIN X KILIAN AT CBA 2026", "品牌活动/消费", "Brand / Consumer", "低", "Low", "GAWIN X KILIAN AT CBA 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MIZUMI NO1 X INNONGSA DIWA", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MIZUMI NO1 X INNONGSA DIWA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MR. KILL SERIES PRESS TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "MR. KILL SERIES PRESS TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("MN WITH EFM FANDOM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MN WITH EFM FANDOM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("UNLUCKYBAE EPISODE 4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "UNLUCKYBAE EPISODE 4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#RedFlagMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RedFlagMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#NIPPONHAKU2026xLILLEAGUE", "体育/赛事", "Sports / Event", "低", "Low", "NIPPONHAKU2026xLILLEAGUE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA HEART MADE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA HEART MADE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PANTENE TH X WANARAT", "品牌活动/消费", "Brand / Consumer", "低", "Low", "PANTENE TH X WANARAT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("3GLUR PEPSI X GREAT MIX KAPOOK", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "3GLUR PEPSI X GREAT MIX KAPOOK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAWINERR X HBML IN HK", "品牌活动/消费", "Brand / Consumer", "低", "Low", "MAWINERR X HBML IN HK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TESHOWPING IS CALLING", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TESHOWPING IS CALLING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#รสดีเมนูพริกแกงxPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "รสดีเมนูพริกแกงxPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#WEIRDO101SeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "WEIRDO101SeriesEP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#isseymiyakeparfumsxPEEMWASU", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "isseymiyakeparfumsxPEEMWASU", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
-        t("#CentralBeautyAwards26xMiu", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "CentralBeautyAwards26xMiu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#SFxPerthSantaDomiia", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SFxPerthSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("kaikyle x lelquin soon", "品牌活动/消费", "Brand / Consumer", "低", "Low", "kaikyle x lelquin soon", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#MoonshadowSeriesEP3", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("SB19 LAWLESS AT NBAHOUSEPH", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "SB19 LAWLESS AT NBAHOUSEPH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("#CrazyLiveShowcase", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "CrazyLiveShowcase", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#RedFlagMV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RedFlagMV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA HEART MADE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA HEART MADE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#StuckOnYouSaCinePanalo", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "StuckOnYouSaCinePanalo", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
 
       ]),
       country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
-
+        t("#ÖSYMVerileriAçıkla", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "ÖSYMVerileriAçıkla", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ]),
       country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
         t("#ORMCentralBeautyAwards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "ORMCentralBeautyAwards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Nepal", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Nepal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
         t("PERTHSANTADOMIIA DOG STARS", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTADOMIIA DOG STARS", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("#SFxPerthSantaDomiia", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "SFxPerthSantaDomiia", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
-        t("orm x young otop", "品牌活动/消费", "Brand / Consumer", "低", "Low", "orm x young otop", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+        t("$af token", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$af token", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
       ])
     ],
     priorities: {
@@ -140,6 +134,8 @@ const reports = [
       ]
     }
   },
+
+  
 
   {
     date: "2026-08-27",
