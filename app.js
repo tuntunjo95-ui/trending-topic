@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-09-02 六国热点话题日报",
+    summaryTitle: "2026-09-03 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 PerthSanta、Gawin x Kilian、Mr. Kill 与 GrabFood；泰国以ซอโซ่ล่ามธีร์ EP7、Be My Player Two、Phuaa、PerthSanta、Mr Fanboy、ZeeNuNew、Orm、DaouOffroad、Gawin、Mr. Kill 和 UnluckyBae 为主；菲律宾保留 Central Beauty Awards、PerthSanta、KaiKyle、Moonshadow 与 SB19；越南保留 ORM Beauty Awards、PerthSanta 和 Orm x Young OTOP。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：本轮保留选题中没有新增政治、灾害、医疗、法律、成人或低质广告风险项。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,73 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-09-02 Six-Country Trend Brief",
+    summaryTitle: "2026-09-03 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on PerthSanta, Gawin x Kilian, Mr. Kill and GrabFood; Thailand on So So Lam Thee EP7, Be My Player Two, Phuaa, PerthSanta, Mr Fanboy, ZeeNuNew, Orm, DaouOffroad, Gawin, Mr. Kill and UnluckyBae; the Philippines keeps Central Beauty Awards, PerthSanta, KaiKyle, Moonshadow and SB19; Vietnam keeps ORM Beauty Awards, PerthSanta and Orm x Young OTOP. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: no new political, disaster, medical, legal, adult or low-quality advertising risk was retained in this run. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-09-03",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("Lawan Mafia Politik", "综合/待分类", "General / To Classify", "法律/诈骗", "Legal / Fraud", "Lawan Mafia Politik", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#TRUSTMEPP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TRUSTMEPP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREENBECKY WITH GRABFOOD", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FREENBECKY WITH GRABFOOD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#YentertainAwards2026", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "YentertainAwards2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ออฟโรดไม่รู้จักชื่อดอกไม้MV", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "ออฟโรดไม่รู้จักชื่อดอกไม้MV", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DrPONGxPONDPHUWIN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DrPONGxPONDPHUWIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#TRUSTMEPP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TRUSTMEPP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeriesEP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShowtimeMemeNatin", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ShowtimeMemeNatin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FREENBECKY WITH GRABFOOD", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FREENBECKY WITH GRABFOOD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#VPonTrial", "综合/待分类", "General / To Classify", "法律/诈骗", "Legal / Fraud", "VPonTrial", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("jungkook", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "jungkook", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("KEEP PRINTING", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "KEEP PRINTING", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("the guardian now showing", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "the guardian now showing", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("FREENBECKY WITH GRABFOOD", "品牌活动/消费", "Brand / Consumer", "低", "Low", "FREENBECKY WITH GRABFOOD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#MoonshadowSeriesEP4", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "MoonshadowSeriesEP4", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY PRESS TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "MR FANBOY PRESS TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Perceptron Network", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Perceptron Network", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-09-02",
     title: {
