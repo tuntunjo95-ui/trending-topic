@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-09-04 六国热点话题日报",
+    summaryTitle: "2026-09-05 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 PerthSanta、Gawin x Kilian、Mr. Kill 与 GrabFood；泰国以ซอโซ่ล่ามธีร์ EP7、Be My Player Two、Phuaa、PerthSanta、Mr Fanboy、ZeeNuNew、Orm、DaouOffroad、Gawin、Mr. Kill 和 UnluckyBae 为主；菲律宾保留 Central Beauty Awards、PerthSanta、KaiKyle、Moonshadow 与 SB19；越南保留 ORM Beauty Awards、PerthSanta 和 Orm x Young OTOP。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：本轮保留选题中没有新增政治、灾害、医疗、法律、成人或低质广告风险项。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,94 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-09-04 Six-Country Trend Brief",
+    summaryTitle: "2026-09-05 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on PerthSanta, Gawin x Kilian, Mr. Kill and GrabFood; Thailand on So So Lam Thee EP7, Be My Player Two, Phuaa, PerthSanta, Mr Fanboy, ZeeNuNew, Orm, DaouOffroad, Gawin, Mr. Kill and UnluckyBae; the Philippines keeps Central Beauty Awards, PerthSanta, KaiKyle, Moonshadow and SB19; Vietnam keeps ORM Beauty Awards, PerthSanta and Orm x Young OTOP. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: no new political, disaster, medical, legal, adult or low-quality advertising risk was retained in this run. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-09-05",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#GeminiConcertD1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcertD1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DaoCoffeeXPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DaoCoffeeXPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA PEAK ROMANCE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA PEAK ROMANCE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LINGORM ILF FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE DEEPENING OF LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE DEEPENING OF LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$NIUMA", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$NIUMA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA THE NEW CLINIC", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA THE NEW CLINIC", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JJ PRAEW AWARDS PARAGON", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "JJ PRAEW AWARDS PARAGON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SAWADIKA OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "SAWADIKA OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#LINGORMCONCERT", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "LINGORMCONCERT", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA PEAK ROMANCE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA PEAK ROMANCE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FORCEBOOK MAFOX FANDAY SG", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "FORCEBOOK MAFOX FANDAY SG", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE DEEPENING OF LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE DEEPENING OF LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DaoCoffeeXPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DaoCoffeeXPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BeckyConcert2026", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "BeckyConcert2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcertD2", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcertD2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#RunawayConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "RunawayConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#HalloweenMusicFestival", "旅行/本地活动", "Travel / Local Event", "低", "Low", "HalloweenMusicFestival", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("LINGORM ILF FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#ShowtimeSeptemBetQandA", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ShowtimeSeptemBetQandA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcertD1", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcertD1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HAPPY BIRTHDAY SENWIN", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HAPPY BIRTHDAY SENWIN", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FREEPP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "FREEPP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA PEAK ROMANCE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA PEAK ROMANCE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("LAWK IN SLIME", "综合/待分类", "General / To Classify", "法律/诈骗", "Legal / Fraud", "LAWK IN SLIME", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FAYEATOM PRAEW AWARDS PARAGON", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "FAYEATOM PRAEW AWARDS PARAGON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("TEETEEPOR NEW ERA WITH GUCCI", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "TEETEEPOR NEW ERA WITH GUCCI", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("RHENSEPH AFTER I DO", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "RHENSEPH AFTER I DO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE DEEPENING OF LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE DEEPENING OF LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("$CHUMP", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$CHUMP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("LINGORM ILF FINAL EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "LINGORM ILF FINAL EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#DaoCoffeeXPerthSanta", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "DaoCoffeeXPerthSanta", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA PEAK ROMANCE", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA PEAK ROMANCE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#YEntertainAwardsxLenaMiu", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "YEntertainAwardsxLenaMiu", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$ADX", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$ADX", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PERTHSANTA THE NEW CLINIC", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "PERTHSANTA THE NEW CLINIC", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("THE DEEPENING OF LOVE", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "THE DEEPENING OF LOVE", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("OOMBAM Y AWARDS 2026", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "OOMBAM Y AWARDS 2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("$LNRA", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$LNRA", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("FAYEATOM PRAEW AWARDS PARAGON", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "FAYEATOM PRAEW AWARDS PARAGON", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-09-04",
     title: {
