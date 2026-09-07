@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-09-06 六国热点话题日报",
+    summaryTitle: "2026-09-07 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 PerthSanta、Gawin x Kilian、Mr. Kill 与 GrabFood；泰国以ซอโซ่ล่ามธีร์ EP7、Be My Player Two、Phuaa、PerthSanta、Mr Fanboy、ZeeNuNew、Orm、DaouOffroad、Gawin、Mr. Kill 和 UnluckyBae 为主；菲律宾保留 Central Beauty Awards、PerthSanta、KaiKyle、Moonshadow 与 SB19；越南保留 ORM Beauty Awards、PerthSanta 和 Orm x Young OTOP。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：本轮保留选题中没有新增政治、灾害、医疗、法律、成人或低质广告风险项。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,84 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-09-06 Six-Country Trend Brief",
+    summaryTitle: "2026-09-07 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on PerthSanta, Gawin x Kilian, Mr. Kill and GrabFood; Thailand on So So Lam Thee EP7, Be My Player Two, Phuaa, PerthSanta, Mr Fanboy, ZeeNuNew, Orm, DaouOffroad, Gawin, Mr. Kill and UnluckyBae; the Philippines keeps Central Beauty Awards, PerthSanta, KaiKyle, Moonshadow and SB19; Vietnam keeps ORM Beauty Awards, PerthSanta and Orm x Young OTOP. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: no new political, disaster, medical, legal, adult or low-quality advertising risk was retained in this run. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-09-07",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#PercepatanPemulihanBencana", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PercepatanPemulihanBencana", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcertD3", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcertD3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#JossGawinFMinDC", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JossGawinFMinDC", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JEON JUNGKOOK", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JEON JUNGKOOK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOSSGAWIN IN DC R1", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JOSSGAWIN IN DC R1", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Arsenal", "综合/待分类", "General / To Classify", "低", "Low", "Arsenal", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HAPPY BIRTHDAY RM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HAPPY BIRTHDAY RM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("CANCEL THE TOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "CANCEL THE TOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("YOUR THIRD SERIES EP7", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "YOUR THIRD SERIES EP7", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#YourtuberSeries", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "YourtuberSeries", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HBD LOLO 1 YEAR", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HBD LOLO 1 YEAR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("OFFROAD IFYF PRESSTOUR", "旅行/本地活动", "Travel / Local Event", "低", "Low", "OFFROAD IFYF PRESSTOUR", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Mchoice & Mint Awards", "颁奖礼/红毯/盛典", "Awards / Red Carpet / Ceremony", "低", "Low", "Mchoice & Mint Awards", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOSSGAWIN IN DC R2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JOSSGAWIN IN DC R2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HBD BEVER PATSAPON 28TH", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HBD BEVER PATSAPON 28TH", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SERVING MATCH POINT 7TH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SERVING MATCH POINT 7TH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#7Sep2026", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "7Sep2026", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#SHAMENxTeeTeePor", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SHAMENxTeeTeePor", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("JUNGKOOK", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JUNGKOOK", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BetKoShowtime", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BetKoShowtime", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#VPonTrial", "综合/待分类", "General / To Classify", "法律/诈骗", "Legal / Fraud", "VPonTrial", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#GeminiConcertD3", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "GeminiConcertD3", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("SERVING MATCH POINT 7TH EP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "SERVING MATCH POINT 7TH EP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Sandiganbayan", "体育/赛事", "Sports / Event", "低", "Low", "Sandiganbayan", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("way back to azralph naiilangmv", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "way back to azralph naiilangmv", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("HAPPY BIRTHDAY RM", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "HAPPY BIRTHDAY RM", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("martin sealed his tour legacy", "旅行/本地活动", "Travel / Local Event", "低", "Low", "martin sealed his tour legacy", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Nhóm Leak Onlyfans", "综合/待分类", "General / To Classify", "成人/低质广告风险", "Adult / Low-Quality Ad Risk", "Nhóm Leak Onlyfans", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MR FANBOY CHAPTER 2", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "MR FANBOY CHAPTER 2", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-09-06",
     title: {
