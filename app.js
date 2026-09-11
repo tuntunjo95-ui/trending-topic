@@ -29,7 +29,7 @@ const ui = {
     copied: "已复制摘要",
     copyFailed: "复制失败，请手动选择摘要",
     reportPage: "报告网页：index.html",
-    summaryTitle: "2026-09-10 六国热点话题日报",
+    summaryTitle: "2026-09-11 六国热点话题日报",
     summaryPriority: "优先深挖：印尼聚焦 PerthSanta、Gawin x Kilian、Mr. Kill 与 GrabFood；泰国以ซอโซ่ล่ามธีร์ EP7、Be My Player Two、Phuaa、PerthSanta、Mr Fanboy、ZeeNuNew、Orm、DaouOffroad、Gawin、Mr. Kill 和 UnluckyBae 为主；菲律宾保留 Central Beauty Awards、PerthSanta、KaiKyle、Moonshadow 与 SB19；越南保留 ORM Beauty Awards、PerthSanta 和 Orm x Young OTOP。本轮沙特和土耳其没有筛出合格的低风险内容选题。",
     summaryRisk: "风险观察：本轮保留选题中没有新增政治、灾害、医疗、法律、成人或低质广告风险项。TikTok 与 Threads 的结果热度仍需登录态复核。"
   },
@@ -63,13 +63,78 @@ const ui = {
     copied: "Summary copied",
     copyFailed: "Copy failed; please select the summary manually",
     reportPage: "Report page: index.html",
-    summaryTitle: "2026-09-10 Six-Country Trend Brief",
+    summaryTitle: "2026-09-11 Six-Country Trend Brief",
     summaryPriority: "Priority: Indonesia centers on PerthSanta, Gawin x Kilian, Mr. Kill and GrabFood; Thailand on So So Lam Thee EP7, Be My Player Two, Phuaa, PerthSanta, Mr Fanboy, ZeeNuNew, Orm, DaouOffroad, Gawin, Mr. Kill and UnluckyBae; the Philippines keeps Central Beauty Awards, PerthSanta, KaiKyle, Moonshadow and SB19; Vietnam keeps ORM Beauty Awards, PerthSanta and Orm x Young OTOP. No qualifying low-risk Saudi or Turkey topic was found.",
     summaryRisk: "Risk watch: no new political, disaster, medical, legal, adult or low-quality advertising risk was retained in this run. TikTok and Threads result quality still requires login-state verification."
   }
 };
 
 const reports = [
+  {
+    date: "2026-09-11",
+    title: {
+      zh: "六国 X 热点 30 条扩展筛选",
+      en: "Six-Country X Trends: Top 30 Expanded Screening"
+    },
+    countries: [
+      country("id", "印尼", "Indonesia", "https://trends24.in/indonesia/", [
+        t("#ENHYPEN26thWin", "综合/待分类", "General / To Classify", "低", "Low", "ENHYPEN26thWin", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JOSSGAWIN OFDO IN MEXICO", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "JOSSGAWIN OFDO IN MEXICO", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("joongdunk 5th memories", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "joongdunk 5th memories", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINI RUNWAY SHOW NYFW SS27", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "GEMINI RUNWAY SHOW NYFW SS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JISOO AT TOMMY SHOW", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "JISOO AT TOMMY SHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("Beep Beep", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "Beep Beep", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("NANI X VIVIENNE WESTWOOD", "品牌活动/消费", "Brand / Consumer", "低", "Low", "NANI X VIVIENNE WESTWOOD", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("th", "泰国", "Thailand", "https://trends24.in/thailand/", [
+        t("#KLiveFestival", "旅行/本地活动", "Travel / Local Event", "低", "Low", "KLiveFestival", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#BvlgariParfum", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BvlgariParfum", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("MAGIC 3M ON SPOTIFY", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "MAGIC 3M ON SPOTIFY", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("BE MY PLAYER TWO EP9", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "BE MY PLAYER TWO EP9", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("GEMINI RUNWAY SHOW NYFW SS27", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "GEMINI RUNWAY SHOW NYFW SS27", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#FriendlyMeFairyJellyOilTint", "旅行/本地活动", "Travel / Local Event", "低", "Low", "FriendlyMeFairyJellyOilTint", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#อย่าขอพี่เจนFinalEP", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "อย่าขอพี่เจนFinalEP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#12Sepที่รักสารวัตรเธียร์", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "12Sepที่รักสารวัตรเธียร์", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#เติ้ลSpotifyเวทมนตร์3M", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "เติ้ลSpotifyเวทมนตร์3M", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("ph", "菲律宾", "Philippines", "https://trends24.in/philippines/", [
+        t("#ShowtimeGroove", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "ShowtimeGroove", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("#AlamatALXConcert", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "AlamatALXConcert", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PARUPARO OUT NOW", "音乐/演出/发布", "Music / Show / Release", "低", "Low", "PARUPARO OUT NOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("PowerhouseJMDC OnShowtime", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "PowerhouseJMDC OnShowtime", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("sa", "沙特", "Saudi Arabia", "https://trends24.in/saudi-arabia/", [
+
+      ]),
+      country("tr", "土耳其", "Turkey", "https://trends24.in/turkey/", [
+        t("$CHUMP", "金融/加密（谨慎）", "Finance / Crypto (Watch)", "投机/币圈/广告风险", "Speculation / Crypto-Shill Risk", "$CHUMP", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ]),
+      country("vn", "越南", "Vietnam", "https://trends24.in/vietnam/", [
+        t("#BvlgariParfum", "品牌活动/消费", "Brand / Consumer", "低", "Low", "BvlgariParfum", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("perthsanta 99 deals drpong", "明星/粉丝应援", "Celebrity / Fandom", "低", "Low", "perthsanta 99 deals drpong", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""}),
+        t("JISOO AT TOMMY SHOW", "剧集/综艺/娱乐", "Drama / Variety / Entertainment", "低", "Low", "JISOO AT TOMMY SHOW", {"threadsTop":[],"threadsRecent":[],"tiktokTop":[],"tiktokRecent":[],"verifiedAt":"","verifier":""})
+      ])
+    ],
+    priorities: {
+      zh: [
+        ["泰国", "娱乐/明星/品牌活动优先"],
+        ["菲律宾", "明星生日/演唱会/品牌联动优先"],
+        ["印尼", "娱乐/K-pop/品牌活动优先"],
+        ["沙特", "体育/生活方式/品牌优先"],
+        ["土耳其", "体育/音乐优先，政治法律谨慎"],
+        ["越南", "需要本地语言关键词补强"]
+      ],
+      en: [
+        ["Thailand", "Entertainment / celebrity / brand events"],
+        ["Philippines", "Celebrity / concerts / brand campaigns"],
+        ["Indonesia", "Entertainment / K-pop / brand topics"],
+        ["Saudi Arabia", "Sports / lifestyle / brand topics"],
+        ["Turkey", "Sports/music first; watch political/legal"],
+        ["Vietnam", "Needs local-language keyword enrichment"]
+      ]
+    }
+  },
+
   {
     date: "2026-09-10",
     title: {
