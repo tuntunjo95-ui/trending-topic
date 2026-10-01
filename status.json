@@ -1,6 +1,6 @@
 {
-  "ok": true,
-  "date": "2026-09-30",
-  "updatedAt": "2026-09-30T06:38:49.902Z",
-  "message": "OK"
+  "ok": false,
+  "date": "2026-10-01",
+  "updatedAt": "2026-10-01T07:09:03.694Z",
+  "message": "Fetch failed for all countries; site data not updated (see markdown for attempted sources)."
 }
